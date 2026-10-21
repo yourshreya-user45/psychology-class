@@ -50,7 +50,7 @@
     let raf = 0, visible = true, last = performance.now(), dead = false, t = 0;
     const frame = (now) => {
       if (dead) return;
-      const dt = Math.min(64, now - last);
+      const dt = Math.max(0, Math.min(64, now - last));
       last = now;
       if (visible && !document.hidden) {
         t += dt;
