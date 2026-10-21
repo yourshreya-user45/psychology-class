@@ -41,7 +41,7 @@
     const D = hero ? 130 : 110;
     const col = () => ({
       line: hero ? cssv(cv, '--accent') : cssv(cv, '--ink-3'),
-      node: hero ? cssv(cv, '--paper') : cssv(cv, '--ink-2'),
+      node: hero ? cssv(cv, '--on-deep') : cssv(cv, '--ink-2'),
       pulse: hero ? cssv(cv, '--accent') : (cssv(cv, '--lc') || cssv(cv, '--accent'))
     });
     let C = col();
