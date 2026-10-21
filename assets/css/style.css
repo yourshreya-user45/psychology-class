@@ -426,7 +426,7 @@ td:first-child { font-weight: 700; }
 .vis-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 11px 14px; border-bottom: 1px solid var(--line); }
 .vis-head .blk-label { color: var(--lc, var(--accent)); }
 .vis-stage { position: relative; padding: 14px; min-height: 120px; color: var(--ink); }
-.vis-stage svg { display: block; width: 100%; height: auto; overflow: visible; }
+.vis-stage svg[role="img"] { display: block; width: 100%; height: auto; overflow: visible; }
 .vis-stage canvas { display: block; width: 100%; }
 .vis figcaption { padding: 10px 14px 13px; font-size: .9rem; color: var(--ink-2); border-top: 1px solid var(--line); background: color-mix(in srgb, var(--surface-2) 45%, var(--surface)); }
 .vis-ctrl { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
@@ -443,9 +443,9 @@ td:first-child { font-weight: 700; }
 .draw { stroke-dasharray: var(--len, 1000); stroke-dashoffset: var(--len, 1000); animation: drawLine var(--dur, 2.4s) ease forwards var(--delay, 0s); }
 @keyframes drawLine { to { stroke-dashoffset: 0; } }
 .pop { transform-box: fill-box; transform-origin: center; animation: popIn .5s cubic-bezier(.2, 1.4, .4, 1) both var(--delay, 0s); }
-@keyframes popIn { from { transform: scale(0); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes popIn { from { transform: scale(0); opacity: 0; } }
 .fade { animation: fadeIn .6s ease both var(--delay, 0s); }
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeIn { from { opacity: 0; } }
 .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 1.6s ease-in-out infinite var(--delay, 0s); }
 @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.12); } }
 .spin { transform-box: view-box; transform-origin: center; animation: spin 18s linear infinite; }
@@ -500,6 +500,7 @@ td:first-child { font-weight: 700; }
 .lab-embed b { display: block; font-size: 1.04rem; }
 .lab-embed span { font-size: .9rem; color: var(--ink-2); }
 .lab-stage { padding: clamp(16px, 3vw, 28px); display: flex; flex-direction: column; gap: 16px; min-height: 320px; }
+.lab-stage svg[role="img"] { display: block; width: 100%; height: auto; }
 .lab-center { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 16px; min-height: 240px; }
 .big-word { font-family: var(--font-display); font-size: clamp(2.6rem, 9vw, 4.6rem); font-weight: 800; letter-spacing: .02em; user-select: none; }
 .lab-btns { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
