@@ -11,7 +11,8 @@
     visualCap: 'Har dot ek neuron jaisa hai, har line ek connection. Psychology isi network se paida hone wale thoughts, feelings aur behaviour ko samajhne ki koshish hai.',
     title: 'Psychology kya hai?',
     tag: 'Mind aur behaviour ka science: definition, goals, branches aur psychologist vs psychiatrist',
-    hook: 'Exam se pehle pet me "butterflies" kyun hoti hain? Ek hi joke par ek dost hasta hai aur doosra naraz kyun ho jaata hai? Reels scroll karte-karte 2 ghante kaise nikal jaate hain? Ye sab <b>psychology</b> ke sawaal hain, aur is course me aap inke science-based jawab seekhoge.',
+    intro: 'Welcome! Ye tumhari pehli class hai, aur sach kahun to mujhe bahut khushi hai ki tum yahan ho. Aaj hum ek seedhe se sawaal se shuru karenge: psychology asal me hai kya? Iska jawab tumhe apni roz ki zindagi, apne doston aur khud ko thoda alag nazar se dekhna sikha dega. Aaram se baitho, chai le lo, aur chalo shuru karte hain.',
+    hook: 'Exam se pehle pet me "butterflies" kyun hoti hain? Ek hi joke par ek dost hasta hai aur doosra naraz kyun ho jaata hai? Reels scroll karte-karte 2 ghante kaise nikal jaate hain? Ye sab <b>psychology</b> ke sawaal hain, aur is course me inke science-based jawab hum saath milkar dhoondhenge.',
     blocks: [
       ['h', 'Psychology ki definition'],
       ['p', '<b>Psychology mind aur behaviour ka scientific study hai.</b> Shabd Greek se aaya hai: <i>psyche</i> (aatma ya mind) + <i>logos</i> (study). Hindi me ise <b>Manovigyan</b> kehte hain: <i>man</i> (mind) + <i>vigyan</i> (science).'],
@@ -27,6 +28,7 @@
         '<b>Biology</b>: uske body me cortisol (stress hormone) badha hua hai, heart tez dhadakta hai.',
         'Psychologist in teeno ko jod kar dekhta hai. Isi ko <b>biopsychosocial</b> nazariya kehte hain: biology + psychology + social environment (parents ki expectations, competition).'
       ]],
+      ['teacher', 'Ek second ruko aur apni pichhli exam ki raat yaad karo. Tumhare saath bhi teeno level par kuch chal raha tha na: neend gayab (behaviour), dimaag me "kya hoga" (mental process), aur dil ki dhak-dhak (biology)? Yahi biopsychosocial nazariya hai, aur ye poore course me baar-baar milega.'],
       ['terms', [
         ['Psychology', 'Mind (mental processes) aur behaviour ka scientific study.'],
         ['Behaviour', 'Koi bhi observable action ya reaction jo dekha ya measure kiya ja sake.'],
@@ -47,7 +49,8 @@
       ['h', 'Common sense kaafi kyun nahi?'],
       ['p', 'Bahut log sochte hain "psychology to common sense hai". Par common sense aksar khud se hi contradict karta hai: "Door rehne se pyaar badhta hai" aur "Aankh se door, dil se door" dono kahavatein hain. Dono sach nahi ho sakti hamesha. Science batata hai <b>kab</b> kaunsi baat sach hai.'],
       ['p', 'Ek aur problem hai <b>hindsight bias</b>: kisi result ke baad hum sochte hain "ye to mujhe pehle se pata tha". Jab students ko bataya gaya ki research me "opposites attract" mila, unhone kaha obvious hai. Jab doosre group ko bataya gaya ki "similar log attract hote hain", unhone bhi kaha obvious hai. Asal me research ke hisaab se <b>similarity</b> zyada strong predictor hai.'],
-      ['myth', 'Psychologist aapka mind padh lete hain, aur aapse baat karte hi aapke saare raaz jaan jaate hain.', 'Koi mind-reading nahi hoti. Psychologist observation, conversation, standardized tests aur research par based patterns use karte hain. Wo bhi galat ho sakte hain, isliye assessment dhyan se, kai sources se kiya jaata hai.'],
+      ['teacher', 'Hindsight bias ko pakadne ki ek trick suno: kisi result ke baare me padhte hi khud se poochho, "agar ulta result aata, to kya wo bhi obvious lagta?" Agar jawab haan hai, to tumhara dimaag "pehle se pata tha" wala khel khel raha hai.'],
+      ['myth', 'Psychologist tumhara mind padh lete hain, aur tumse baat karte hi tumhare saare raaz jaan jaate hain.', 'Koi mind-reading nahi hoti. Psychologist observation, conversation, standardized tests aur research par based patterns use karte hain. Wo bhi galat ho sakte hain, isliye assessment dhyan se, kai sources se kiya jaata hai.'],
 
       ['h', 'Psychologist, Psychiatrist aur Counsellor me farak'],
       ['p', 'Ye confusion bahut common hai. India ke context me simple farak:'],
@@ -58,6 +61,7 @@
         ['Psychotherapist', 'Alag-alag training; kisi therapy approach me certification', 'Talk therapy', 'Nahi']
       ]],
       ['note', 'Kai baar best ilaaj team me hota hai: jaise depression me psychiatrist dawai deta hai aur psychologist therapy karta hai. Help lene me sharm ki koi baat nahi, jaise bukhar me doctor ke paas jaate ho.'],
+      ['teacher', 'Yahan sab confuse hote hain, isliye bas ek line yaad rakho: <b>psychiatrist doctor hai aur dawai likh sakta hai; psychologist testing aur therapy karta hai.</b> Ye sawaal exams me baar-baar aata hai.'],
 
       ['h', 'Psychology ki major branches'],
       ['table', ['Branch', 'Kya study karti hai', 'Real example'], [
@@ -93,6 +97,7 @@
         ['Psychiatrist', 'Medical doctor jo mental disorders me specialize karta hai aur dawai likh sakta hai.']
       ]]
     ],
+    outro: 'Aaj humne dekha ki psychology mind aur behaviour ka science hai, sirf common sense nahi. Ab chhota sa quiz do aur dekho kitna yaad raha. Agli class me time machine me baith kar chalenge: psychology ka itihaas, Wundt ki lab se aaj tak.',
     takeaways: [
       'Psychology = mind aur behaviour ka <b>scientific</b> study. Evidence sabse upar.',
       'Chaar goals: describe, explain, predict, change.',
@@ -121,6 +126,7 @@
     visualCap: 'Philosophy se lab tak: psychology ke bade mod ek timeline par.',
     title: 'Psychology ka itihaas aur schools of thought',
     tag: 'Wundt ki lab se neuroscience tak: kaun aaya, kya socha, aur aaj kya bacha hai',
+    intro: 'Pichhli class me humne samjha ki psychology hai kya. Aaj ek kahani sunte hain: ye science paida kaise hui, aur kaun-kaun log isme naye idea laaye. Itihaas thoda boring lag sakta hai, par yahi naam aage har chapter me aayenge, to aaj inse dosti kar lo.',
     hook: 'Psychology ek science ke roop me sirf ~145 saal purani hai, par iske sawaal hazaron saal purane hain. Upanishad, Buddha, Patanjali aur Aristotle sab mind ko samajhna chahte the. Fark ye hai ki 1879 ke baad log in sawaalon ko <b>lab me test</b> karne lage.',
     blocks: [
       ['h', 'Philosophy: jahan se sab shuru hua'],
@@ -137,6 +143,7 @@
 
       ['h', 'Functionalism: mind kya kaam karta hai?'],
       ['p', 'America me <b>William James</b> ne 1890 me <i>The Principles of Psychology</i> likhi. Darwin ki theory se prabhavit hokar unhone poocha: mind ke hisse <b>kis kaam</b> ke liye hain? Jaise attention, habit, emotion hamein survive aur adapt karne me kaise madad karte hain? James ne <b>"stream of consciousness"</b> ka idea diya: soch ek behti nadi jaisi hai, tukdon me nahi.'],
+      ['teacher', 'Ek chhoti si memory trick: <b>Structuralism = "kis cheez se bana hai" (structure), Functionalism = "kis kaam ka hai" (function)</b>. Naam me hi jawab chhupa hai.'],
 
       ['h', 'Psychoanalysis: unconscious mind'],
       ['p', 'Vienna ke doctor <b>Sigmund Freud</b> ne kaha ki hamare behaviour ka bada hissa <b>unconscious</b> (achetan) ichchhaon aur bachpan ke anubhavon se chalta hai. Sapne, slip of tongue, aur dabaye hue emotions unke mukhya topic the. Unhone <b>talk therapy</b> ki shuruaat ki.'],
@@ -145,6 +152,7 @@
       ['h', 'Behaviorism: sirf jo dikhe wahi science'],
       ['p', '1913 me <b>John B. Watson</b> ne kaha: mind ko dekh nahi sakte, to psychology ko sirf <b>observable behaviour</b> study karna chahiye. Russia me <b>Ivan Pavlov</b> ke kutton wale experiments (classical conditioning) aur baad me <b>B.F. Skinner</b> ke reward-punishment experiments (operant conditioning) ne behaviorism ko 1920 se 1960 tak psychology ka king bana diya.'],
       ['quote', 'Mujhe ek darjan swasth bachche do... main guarantee deta hoon ki kisi ko bhi random chun kar doctor, vakeel, artist ya chor bana sakta hoon.', 'John B. Watson, 1924 (behaviorism ke environment par bharose ka mashhoor, aur badha-chadha kar kiya gaya, daava)'],
+      ['teacher', 'Ye quote sun kar thoda ajeeb laga na? Socho, kya sirf mahaul ke dum par koi bhi bachcha kuch bhi ban sakta hai? Ye wahi nature vs nurture wali behas hai jo humne isi class ki shuruaat me dekhi, aur aage Level 2 me iska science wala jawab milega.'],
 
       ['h', 'Humanistic psychology: "third force"'],
       ['p', '1950-60s me <b>Abraham Maslow</b> aur <b>Carl Rogers</b> ne kaha ki psychoanalysis insaan ko sirf beemar aur behaviorism sirf machine maanta hai. Humanistic psychology ne <b>free will, personal growth</b> aur <b>self-actualization</b> (apni poori potential tak pahunchna) par focus kiya. Rogers ki <b>client-centered therapy</b> aaj bhi counselling ki neev hai.'],
@@ -164,6 +172,7 @@
         ['Humanistic', 'Growth, free will, self', 'Maslow, Rogers'],
         ['Sociocultural', 'Samaj, culture, parivaar ka asar', 'Lev Vygotsky']
       ]],
+      ['teacher', 'Yahan students aksar ek galti karte hain: sochte hain ki ek perspective sahi hai aur baaki galat. Asal me ye alag-alag khidkiyan hain. Exam anxiety samajhne ke liye biology bhi chahiye, soch bhi aur parivaar ka mahaul bhi.'],
 
       ['h', 'Woh pioneers jinhe kam yaad kiya jaata hai'],
       ['case', 'Mahila aur Bharatiya pioneers', [
@@ -187,6 +196,7 @@
         'Poori tarah nahi. Behaviorism ka "mind ko ignore karo" wala hissa chhod diya gaya, par uske learning principles aaj bhi har jagah use hote hain: autism ke liye ABA therapy, phobia ke liye exposure therapy, apps ke reward systems, aur classroom management. Psychology me purane schools mitte nahi, unke achhe hisse naye framework me mil jaate hain.'
       ]]
     ],
+    outro: 'Philosophy se Wundt ki lab, phir Freud, behaviorism, humanistic aur cognitive revolution tak, tumne psychology ka poora safar dekh liya. Quiz me dekho naam aur saal kitne yaad hain. Agli class me seekhenge ki psychologists kisi baat ko <b>saabit</b> kaise karte hain: research methods.',
     takeaways: [
       '1879 me Wundt ki Leipzig lab se psychology ek alag science bani.',
       'Structuralism (elements) aur functionalism (purpose) shuruaati schools the.',
@@ -215,7 +225,8 @@
     visualCap: 'Scientific method ek circle hai: har jawab naye sawaal paida karta hai.',
     title: 'Research methods: psychology ko science kaise banate hain',
     tag: 'Hypothesis, case study, survey, correlation, experiment, placebo aur double-blind',
-    hook: 'WhatsApp forward: <i>"Raat ko doodh peene wale bachchon ka IQ 20 points zyada hota hai, study proves!"</i> Kya aap maan loge? Is chapter ke baad aap aise claims ko khud check kar paoge ki ye <b>correlation</b> hai ya <b>causation</b>, aur study theek se hui bhi thi ya nahi.',
+    intro: 'Pichhli class me dekha ki psychology philosophy se nikal kar lab tak pahunchi. Aaj usi lab ke auzaar haath me lenge: hypothesis, survey, correlation aur experiment. Ye chapter tumhe ek chhoti si superpower dega: koi bhi WhatsApp forward ya headline padh kar pehchaan lena ki daava kitna mazboot hai.',
+    hook: 'WhatsApp forward: <i>"Raat ko doodh peene wale bachchon ka IQ 20 points zyada hota hai, study proves!"</i> Kya ispe bharosa kar lena chahiye? Is chapter ke baad tumhe aise claims khud check karna aa jaayega: ye <b>correlation</b> hai ya <b>causation</b>, aur study theek se hui bhi thi ya nahi.',
     blocks: [
       ['h', 'Scientific method ke steps'],
       ['steps', [
@@ -260,6 +271,7 @@
       ]],
       ['vis', 'correlation', 'Slider khiskao aur dekho r badalne par scatter plot kaisa dikhta hai.'],
       ['myth', 'Agar do cheezon me correlation hai, to ek doosre ka cause hai.', '<b>Correlation causation nahi hai.</b> Garmi me ice-cream ki bikri aur doobne ki ghatnayein dono badhti hain, par ice-cream doobne ka cause nahi. Dono ka asli kaaran <b>third variable</b> (garmi, log zyada tairne jaate hain) hai.'],
+      ['teacher', 'Ruko, ye line itni important hai ki ise apni copy ke pehle page par likh lo: <b>correlation causation nahi hai</b>. Jab bhi koi kahe "X se Y hota hai", khud se poochho: kahin koi teesri cheez dono ko to nahi chala rahi?'],
       ['ex', 'Screen time aur kam marks', [
         'Ek survey me mila ki zyada screen time wale students ke marks kam hain. Kya phone marks gira raha hai? Ho sakta hai. Par ye bhi ho sakta hai: (1) <b>Reverse causation</b>: padhai me struggle karne wale stress se bachne ke liye phone zyada use karte hain. (2) <b>Third variable</b>: kam neend ya kam parental supervision dono ko prabhavit karte hain.',
         'Cause pakka karne ke liye <b>experiment</b> chahiye.'
@@ -281,6 +293,7 @@
         'Students ko car accident ka video dikhaya gaya. Phir poocha: "Cars jab ek-doosre se <i>smashed</i> hui, tab speed kitni thi?" Doosre groups me shabd tha <i>collided, bumped, hit</i> ya <i>contacted</i>.',
         '<b>IV</b> = sawaal ka verb. <b>DV</b> = speed ka andaza. "Smashed" sunne walon ne average ~41 mph bataya, "contacted" walon ne ~32 mph. Ek hafte baad "smashed" group ke zyada logon ne kaha unhone toota kaanch dekha tha, jo video me tha hi nahi. Isse pata chala ki <b>leading questions memory badal sakte hain</b>.'
       ]],
+      ['teacher', 'Socho, agar ek shabd se speed ka andaza 9 mph badal sakta hai, to police ki poochhtaachh ya ghar me "tumne hi to kaha tha na?" jaise sawaal yaadon ke saath kya karte honge. Is study ko yaad rakhna, Level 3 ki memory class me ye phir milegi.'],
       ['steps', [
         ['Sawaal', 'Kya padhte waqt music sunne se yaad kam rehta hai?'],
         ['Random assignment', '60 students ko lottery se 2 groups me baanto.'],
@@ -294,6 +307,7 @@
       ['h', 'Sampling: kis par study ki?'],
       ['p', '<b>Population</b> wo poora group hai jiske baare me jaanna hai (jaise saare Indian teenagers). <b>Sample</b> uska chhota hissa hai jis par study hoti hai. Sample <b>representative</b> hona chahiye. Agar sirf Delhi ke English-medium private school ke bachchon par study ki, to result poore India par apply nahi hoga.'],
       ['p', 'Psychology ki ek badi problem: zyada tar research <b>WEIRD</b> logon par hui hai: Western, Educated, Industrialized, Rich, Democratic. Duniya ki aabadi ka ye chhota hissa hai. Isliye Indian context me research ki zaroorat badi hai.'],
+      ['teacher', 'Ye baat tumhare kaam ki hai: jab bhi koi study padho, ek nazar participants par zaroor daalo. Kaun the, kahan ke the, kitne the? Aadhi kahani wahin chhupi hoti hai.'],
       ['think', 'Ek study kehti hai: "Jo log roz yoga karte hain, wo kam stressed hain." Kya iska matlab yoga stress kam karta hai?', [
         'Ye correlation hai, experiment nahi. Ho sakta hai jinke paas pehle se time, paisa aur shaant routine hai (kam stress), wahi yoga kar paate hain (<b>self-selection</b>). Pakka karne ke liye stressed logon ko randomly yoga group aur control group me baant kar <b>randomized controlled trial</b> karna hoga. (Aise kai trials hue hain aur yoga ka stress par moderate positive asar mila hai.)'
       ]],
@@ -307,6 +321,7 @@
         ['WEIRD samples', 'Western, Educated, Industrialized, Rich, Democratic logon par zyada research hone ki problem.']
       ]]
     ],
+    outro: 'Aaj tumne seekha ki hypothesis kaise banti hai, correlation aur experiment me kya farak hai, aur achha sample kyun zaroori hai. Quiz me IV aur DV wale sawaal dhyan se padhna, sabse zyada log wahin fisalte hain. Agli class me numbers se dosti karenge: statistics, bina dar ke.',
     takeaways: [
       'Hypothesis testable honi chahiye aur har variable ki operational definition saaf honi chahiye.',
       'Case study, observation aur survey "kya" batate hain; experiment "kyun" batata hai.',
@@ -335,7 +350,8 @@
     visualCap: 'Normal distribution: ~68% log average ke 1 SD ke andar, ~95% 2 SD ke andar, aur ~99.7% 3 SD ke andar aate hain.',
     title: 'Psychology ke liye statistics (bina dar ke)',
     tag: 'Mean, median, SD, normal curve, z-score, p-value aur effect size, cricket aur marks ke examples se',
-    hook: 'Class ka average 70 hai aur aapke 75 aaye. Achha hai ya bura? Jawab depend karta hai ki baaki logon ke marks kitne <b>"phaile hue"</b> hain. Agar sabke 68 se 72 ke beech hain to aap star ho. Agar marks 20 se 100 tak bikhre hain, to 75 bas theek-thaak hai. Yahi statistics ka jaadu hai.',
+    intro: 'Maths ka naam sunte hi kai logon ka dil baith jaata hai. Ghabrao mat, aaj koi mushkil formula ratna nahi hai. Pichhli class me humne data collect karna seekha; aaj seekhenge ki us data ka matlab kaise nikalte hain, cricket score aur marks ke examples se.',
+    hook: 'Class ka average 70 hai aur tumhare 75 aaye. Achha hai ya bura? Jawab depend karta hai ki baaki logon ke marks kitne <b>"phaile hue"</b> hain. Agar sabke 68 se 72 ke beech hain to tum star ho. Agar marks 20 se 100 tak bikhre hain, to 75 bas theek-thaak hai. Yahi statistics ka jaadu hai.',
     blocks: [
       ['h', 'Statistics ke do kaam'],
       ['compare', ['Descriptive statistics', 'Data ko <b>summarize</b> karna: average kya hai, kitna spread hai, graph kaisa dikhta hai.'], ['Inferential statistics', 'Sample se <b>poori population ke baare me nateeja</b> nikalna, aur ye check karna ki result chance se to nahi aaya.']],
@@ -351,6 +367,7 @@
         '<b>Mean</b> = 60,500 ÷ 5 = <b>₹12,100</b>. Lagta hai sab ameer hain, par 5 me se 4 ko ₹3,000 ya kam milta hai!',
         '<b>Median</b> = <b>₹3,000</b>, aur <b>mode</b> bhi ₹3,000. Ek <b>outlier</b> (bahut alag value) mean ko kheench leta hai, median ko nahi. Isliye "average salary" ki khabron me median zyada imaandaar number hota hai.'
       ]],
+      ['teacher', 'Ye trick zindagi bhar kaam aayegi: jab bhi koi "average salary" ya "average income" bataye, poochho ki mean hai ya median. Ek-do bahut ameer log mean ko upar kheench lete hain.'],
 
       ['h', 'Variability: data kitna phaila hai?'],
       ['p', '<b>Range</b> = sabse bada minus sabse chhota. Simple hai par ek outlier se bigad jaata hai. Isliye psychology me <b>standard deviation (SD)</b> use hota hai: average se log aam taur par kitna door hain.'],
@@ -365,13 +382,14 @@
         ['Average square (variance)', 'Sample ke liye (n - 1) se bhaag: 28 ÷ 4 = 7.'],
         ['Square root = SD', '√7 ≈ 2.65. Matlab log aam taur par mean se ~2.6 points door hain.']
       ]],
+      ['teacher', 'Agar ye steps pehli baar me poore samajh nahi aaye, to bilkul theek hai. Bas itna pakad lo: <b>SD chhota = sab log average ke paas, SD bada = log bikhre hue</b>. Calculation calculator kar dega, matlab samajhna tumhara kaam hai.'],
 
       ['h', 'Normal distribution (bell curve)'],
       ['p', 'Bahut saari human cheezein, jaise height, IQ scores, reaction time, ek ghante jaise (bell) shape me baant-ti hain: zyada log beech me, kam log dono kinaron par. Iski khaas baat <b>68-95-99.7 rule</b> hai, jo upar ke animation me dikhaya gaya hai.'],
       ['p', '<b>z-score</b> batata hai ki koi score mean se kitne SD door hai: <mark>z = (score - mean) ÷ SD</mark>.'],
-      ['ex', 'Aapke 75 marks ka asli matlab', [
-        'Mean 70, SD 5: z = (75 - 70) ÷ 5 = <b>+1</b>. Matlab aap lagbhag <b>84th percentile</b> par ho, yaani ~84% class se aage.',
-        'Mean 70, SD 15: z = 5 ÷ 15 ≈ <b>+0.33</b>. Ab aap sirf ~63rd percentile par ho. Same marks, alag kahani.'
+      ['ex', 'Tumhare 75 marks ka asli matlab', [
+        'Mean 70, SD 5: z = (75 - 70) ÷ 5 = <b>+1</b>. Matlab tum lagbhag <b>84th percentile</b> par ho, yaani ~84% class se aage.',
+        'Mean 70, SD 15: z = 5 ÷ 15 ≈ <b>+0.33</b>. Ab tum sirf ~63rd percentile par ho. Same marks, alag kahani.'
       ]],
       ['p', 'Har data normal nahi hota. Jab ek taraf lambi poonchh ho to use <b>skewed</b> kehte hain. Income data right-skewed hota hai: zyada log kam kamate hain, kuch log bahut zyada. Skewed data me median zyada sahi picture deta hai.'],
 
@@ -379,6 +397,7 @@
       ['p', 'Maan lo ek nayi study technique wale group ne control group se 5 marks zyada laaye. Kya ye technique ka asar hai ya bas luck? Isi ke liye <b>statistical significance</b> test hota hai.'],
       ['p', '<b>p-value</b>: agar asal me koi farak na hota, to sirf chance se itna ya isse bada farak dikhne ki sambhavna kitni hai. Psychology me aam taur par <b>p &lt; .05</b> (5% se kam) ko "statistically significant" maana jaata hai.'],
       ['note', 'p = .03 ka matlab ye <b>nahi</b> ki hypothesis 97% sach hai. Matlab sirf itna hai ki "agar koi effect na hota, to aisa data milna kaafi unusual hota." p-value ko galat samajhna research ki sabse common galti hai.'],
+      ['teacher', 'Yahan bade-bade researchers bhi galti karte hain, to tum akele nahi ho. p-value sirf itna batata hai ki result "luck se aana mushkil" hai; ye nahi batata ki effect bada hai ya theory sach hai. Wo jaanne ke liye agla paragraph dekho.'],
       ['p', '<b>Effect size</b> batata hai ki farak <b>kitna bada</b> hai. Cohen\'s d ke liye rough guide: 0.2 chhota, 0.5 medium, 0.8 bada. Bahut bade sample me chhota sa bekaar farak bhi "significant" aa sakta hai. Isliye p-value aur effect size dono dekhne chahiye.'],
       ['ex', 'Significant par bekaar', 'Ek supplement company ne 20,000 logon par test karke kaha "memory me significant sudhaar!" Asal me sudhaar 100 me se sirf 0.4 points tha (p &lt; .05, par effect size bahut chhota). Statistically significant, practically almost zero. Ad me sirf pehla hissa bataya jaata hai.'],
       ['p', '<b>Confidence interval</b> ek range deta hai jisme asli value hone ki sambhavna hai, jaise "average neend 6.8 ghante (95% CI: 6.5 se 7.1)". Range jitni patli, andaza utna precise.'],
@@ -408,6 +427,7 @@
         'Kitne doctors se poochha? Kaise chune gaye? Kya sawaal tha (kya ek hi brand chunna tha ya kai brands bata sakte the)? Survey kisne fund kiya? Aise hi ek mashhoor ad par UK me sawaal uthe the kyunki doctors kai brands chun sakte the, to doosre brands ko bhi utne hi "recommend" kiya gaya tha.'
       ]]
     ],
+    outro: 'Mean, median, SD, z-score aur p-value: aaj tumne research padhne ki bhasha seekh li. Quiz me ek z-score wala sawaal hai, formula yaad karke khud try karo. Agli class me ek gambhir sawaal uthayenge: science ke naam par kya karna <b>galat</b> hai? Yaani research ethics.',
     takeaways: [
       'Outliers mean ko bigaadte hain; aise me median better hai.',
       'Standard deviation batata hai ki data kitna phaila hai; same mean, alag kahani ho sakti hai.',
@@ -418,7 +438,7 @@
     quiz: [
       ['Kisi data me ek bahut bada outlier hai. Typical value batane ke liye kya best hai?', ['Mean', 'Median', 'Range', 'Sum'], 1, 'Median beech ki value hai aur outlier se lagbhag prabhavit nahi hota.'],
       ['Normal distribution me lagbhag kitne % scores mean se ±1 SD ke andar hote hain?', ['50%', '68%', '95%', '99.7%'], 1, '68-95-99.7 rule ke hisaab se ~68%.'],
-      ['Mean 60, SD 10, aapka score 80. Aapka z-score kya hai?', ['+1', '+2', '+0.5', '-2'], 1, 'z = (80 - 60) ÷ 10 = +2.'],
+      ['Mean 60, SD 10, tumhara score 80. Tumhara z-score kya hai?', ['+1', '+2', '+0.5', '-2'], 1, 'z = (80 - 60) ÷ 10 = +2.'],
       ['Do batsman ka average same hai par ek bahut inconsistent hai. Ye kis stat me dikhega?', ['Mean', 'Mode', 'Standard deviation', 'Median'], 2, 'Standard deviation spread ya consistency ko naapta hai.'],
       ['p = .03 ka sahi matlab kya hai?', ['Hypothesis 97% sach hai', 'Agar koi effect na hota, to aisa result milna kaafi unlikely tha', 'Effect bahut bada hai', 'Study 3% galat hai'], 1, 'p-value null hypothesis maan kar data ki unusualness batata hai, hypothesis ki sachchai nahi.'],
       ['Effect size kyun zaroori hai?', ['Ye batata hai sample kitna bada tha', 'Ye batata hai farak kitna bada aur practically important hai', 'Ye p-value ka doosra naam hai', 'Ye sirf medicine me use hota hai'], 1, 'Bade sample me chhota farak bhi significant ho sakta hai; effect size uski asli importance batata hai.']
@@ -436,7 +456,8 @@
     visualCap: 'Milgram (1963): 40 me se 26 log (65%) "teacher" ke roop me sabse upar 450 volt tak gaye. Asal me koi jhatka nahi diya ja raha tha, par participants ko ye nahi pata tha.',
     title: 'Ethics: research ki seemaayein',
     tag: 'Milgram, Stanford Prison, Little Albert, aur aaj ke informed consent wale niyam',
-    hook: '1961 me Yale University me log ek "memory aur punishment" experiment ke liye aaye. Unse kaha gaya ki agle kamre me baithe ek aadmi ke har galat jawab par use bijli ka jhatka do, aur har baar volt badhao. Wo aadmi cheekha, deewar peeti, phir chup ho gaya. Lab coat pehne scientist ne kaha: <i>"Experiment ke liye zaroori hai ki aap jaari rakhein."</i> Aap kya karte?',
+    intro: 'Ab tak humne seekha ki research kaise karte hain. Aaj ek zaroori sawaal: kya kuch cheezein aisi hain jo science ke naam par bhi nahi karni chahiye? Kuch famous studies ki kahaniyan sunenge jo aaj bhi rongte khade kar deti hain, aur dekhenge ki unse kaunse niyam bane jo aaj research me hissa lene wale har insaan ki hifazat karte hain.',
+    hook: '1961 me Yale University me log ek "memory aur punishment" experiment ke liye aaye. Unse kaha gaya ki agle kamre me baithe ek aadmi ke har galat jawab par use bijli ka jhatka do, aur har baar volt badhao. Wo aadmi cheekha, deewar peeti, phir chup ho gaya. Lab coat pehne scientist ne kaha: <i>"Experiment ke liye zaroori hai ki aap jaari rakhein."</i> Socho, us kamre me tum ho. Ab aage kya?',
     blocks: [
       ['h', 'Milgram ka obedience experiment'],
       ['case', 'Stanley Milgram (1963)', [
@@ -444,6 +465,7 @@
         'Experiment se pehle psychiatrists ne andaza lagaya tha ki 1% se kam log aakhir tak jaayenge. Asal me <b>65% (40 me se 26) log 450 volt tak gaye</b>. Kai participants pasina-pasina the, kaanp rahe the, nervous hansi aa rahi thi, par authority ke kehne par chalte rahe.',
         'Ye study authority ke saamne obedience samajhne me bahut important hai (Level 5 me detail me). Par ethics ke hisaab se ye participants ko gehra stress dene, unhe <b>dhoka (deception)</b> dene, aur chhodna mushkil banane ke liye criticize hui.'
       ]],
+      ['teacher', 'Ek pal ruko aur imaandaari se socho: us kursi par tumhara faisla kya hota? Zyada tar log kehte hain "mujhse to ye kabhi na hota." Par Milgram ka data dikhata hai ki situation ki taakat hum sabko hairaan kar deti hai.'],
       ['case', 'Stanford Prison Experiment (1971)', [
         'Philip Zimbardo ne college students ko randomly "guards" aur "prisoners" banaya. 14 din ka plan tha, par 6 din me band karna pada kyunki guards cruel ho gaye aur prisoners toot gaye.',
         'Baad ki jaanch me pata chala ki guards ko "sakht" rehne ke liye encourage kiya gaya tha, aur kuch participants ne acting bhi ki. Isliye aaj ye study scientifically kamzor maani jaati hai, par ethics ke liye ek bada sabak hai: Zimbardo khud researcher aur "prison superintendent" dono the, jisse wo nishpaksh nahi reh paaye.'
@@ -452,6 +474,7 @@
         'John Watson aur Rosalie Rayner ne 9 mahine ke bachche "Albert" ko safed chuhe ke saath tez awaaz suna kar chuhe se darna sikhaya. Baad me wo safed khargosh, kutte, aur fur coat se bhi darne laga. Bachche ka dar kabhi khatam nahi kiya gaya. Aaj ye bilkul aswikaarya hai.'
       ]],
       ['p', 'Medical research me bhi aise kaand hue, jaise America ka <b>Tuskegee syphilis study (1932-1972)</b>, jisme Black purushon ko bina bataye syphilis ka ilaaj nahi diya gaya, jabki penicillin 1940s me available tha. Isi ke baad 1979 me <b>Belmont Report</b> aaya, jo aaj ke research ethics ki neev hai: respect for persons, beneficence (bhalai), aur justice.'],
+      ['teacher', 'Dhyan do, ye niyam kisi ne kitaab me baith kar nahi banaye. Har niyam ke peeche kisi asli insaan ka dard hai. Agle section ke niyam padhte waqt socho ki kaunsa niyam kis kaand ki wajah se aaya.'],
 
       ['h', 'Aaj ke ethical niyam'],
       ['p', 'Aaj kisi bhi university ya hospital me human participants par research se pehle <b>Ethics Committee</b> (US me IRB) ki approval zaroori hai. India me ICMR ki <i>National Ethical Guidelines for Biomedical and Health Research Involving Human Participants (2017)</i> lagu hoti hain, aur psychologists APA aur national professional codes follow karte hain.'],
@@ -469,11 +492,12 @@
 
       ['h', 'Therapy aur rozmarra me ethics'],
       ['list', [
-        '<b>Confidentiality aur uski seema</b>: therapist aapki baat gopniya rakhta hai, <i>sivaay</i> jab aapko ya kisi aur ko gambhir khatra ho (jaise suicide ka plan ya kisi ko nuksaan pahunchane ki dhamki), ya kanoon maange.',
+        '<b>Confidentiality aur uski seema</b>: therapist tumhari baat gopniya rakhta hai, <i>sivaay</i> jab tumhe ya kisi aur ko gambhir khatra ho (jaise suicide ka plan ya kisi ko nuksaan pahunchane ki dhamki), ya kanoon maange.',
         '<b>Dual relationships</b>: therapist apne client ka dost, business partner ya romantic partner nahi ban sakta.',
         '<b>Competence</b>: psychologist sirf wahi kaam kare jiski usne training li hai.'
       ]],
       ['ex', 'Ek "fun personality quiz" ka asli daam', 'Cambridge Analytica scandal (2018) me Facebook par ek personality quiz app ke zariye karodon users (Facebook ke hisaab se ~8.7 crore) ka data unki poori jaankari ke bina collect hua aur political ads target karne me use hone ke aarop lage. Ye dikhata hai ki <b>informed consent</b> sirf lab ki baat nahi; psychology ka data har online quiz me liya ja raha hai.'],
+      ['teacher', 'Ye tumhare phone par bhi hota hai. Agli baar "tum kaunse Bollywood character ho?" jaisa quiz khelne se pehle ek baar dekho ki wo kaunsi permissions maang raha hai. Informed consent ka matlab hai ki tumhe pata ho tum kya de rahe ho.'],
       ['think', 'Kya aaj Milgram jaisi study ho sakti hai?', [
         'Poori tarah nahi. 2009 me psychologist Jerry Burger ne safe version kiya: 150 volt par hi rok diya (jahan learner pehli baar chhodne ki maang karta hai), participants ki pehle screening ki, aur baar-baar bataya ki wo chhod sakte hain. Phir bhi ~70% log 150 volt ke aage jaane ko tayyar the, Milgram ke results ke kaafi kareeb. Matlab sawaal ka jawab ethically bhi dhoondha ja sakta hai.'
       ]],
@@ -489,6 +513,7 @@
         ['Belmont Report', '1979 ki report jisne research ethics ke teen siddhant diye: respect, beneficence, justice.']
       ]]
     ],
+    outro: 'Aaj ka sabak: science ki bhookh insaan ki izzat se badi nahi ho sakti. Quiz me consent aur debriefing ka farak dhyan se dekhna. Agli class Level 1 ki aakhri class hai, aur sabse mazedaar bhi: popular psychology myths ko science se todna.',
     takeaways: [
       'Milgram, Stanford Prison aur Little Albert jaisi studies ne dikhaya ki research participants ko nuksaan pahuncha sakti hai.',
       'Aaj informed consent, right to withdraw, confidentiality aur debriefing zaroori hain.',
@@ -517,7 +542,8 @@
     visualCap: 'Evidence ki seedhi: ek kahani (anecdote) sabse kamzor, aur kai studies ka meta-analysis sabse mazboot saboot hai.',
     title: 'Critical thinking aur psychology ke myths',
     tag: '10% brain, left-right brain, learning styles: popular myths ko science se todna',
-    hook: 'Kya aapne suna hai ki hum brain ka sirf 10% use karte hain? Ya ki "left-brained" log logical aur "right-brained" log creative hote hain? Ya ki sugar khaane se bachche hyper ho jaate hain? Ye sab baatein bahut popular hain, aur <b>sab galat hain</b>. Is chapter me aap seekhoge ki koi bhi claim kaise check karein.',
+    intro: 'Level 1 ki aakhri class me tumhara swagat hai! Ab tak tumne research methods, statistics aur ethics seekh liye. Aaj in sab ko milakar ek hathiyar banayenge: critical thinking. Iske baad WhatsApp forwards, ads aur "studies prove" wale daavon ko parakhna tumhare liye kaafi aasaan ho jaayega.',
+    hook: 'Kya tumne suna hai ki hum brain ka sirf 10% use karte hain? Ya ki "left-brained" log logical aur "right-brained" log creative hote hain? Ya ki sugar khaane se bachche hyper ho jaate hain? Ye sab baatein bahut popular hain, aur <b>sab galat hain</b>. Is chapter me hum seekhenge ki koi bhi claim kaise check karein.',
     blocks: [
       ['h', 'Critical thinking ke 6 sawaal'],
       ['steps', [
@@ -533,6 +559,7 @@
       ['myth', 'Hum apne brain ka sirf 10% use karte hain.', 'Brain imaging (fMRI, PET) dikhata hai ki din bhar me lagbhag saare brain areas active hote hain. Brain ke chhote se hisse ka nuksaan bhi (jaise stroke) badi problems paida karta hai, jo 90% "bekaar" brain me nahi hona chahiye. Aur brain body ki ~20% energy khaata hai; evolution itna mehenga bekaar organ nahi rakhta.'],
       ['myth', 'Kuch log "left-brained" (logical) aur kuch "right-brained" (creative) hote hain.', 'Haan, kuch kaam ek hemisphere me thode zyada hote hain (jaise zyada tar logon me language left side me). Par 2013 me University of Utah ki ek study ne 1,000 se zyada logon ke brain scans dekhe aur aisa koi saboot nahi mila ki koi vyakti overall "left" ya "right" brain se zyada kaam leta hai. Creativity aur logic dono me poora brain milkar kaam karta hai.'],
       ['myth', 'Har student ka ek "learning style" (visual, auditory, kinesthetic) hota hai, aur usi style me padhane se zyada seekhta hai.', 'Log apni pasand zaroor batate hain, par research reviews (jaise Pashler aur saathi, 2008) ko aisa saboot nahi mila ki "style se match" karke padhane se zyada seekha jaata hai. Asli farak content ke hisaab se method chunne se padta hai: geography ke liye map, music ke liye sunna. Aur sabke liye active recall aur spacing kaam karte hain.'],
+      ['teacher', 'Ye myth sun kar shayad thoda jhatka laga ho, kyunki school me bhi aksar yahi bataya jaata hai. Koi baat nahi, galat cheez ko chhodna bhi seekhne ka hissa hai. Tumhare liye asli takeaway: padhte waqt khud se sawaal poochho aur revision ko kuch dino me baanto.'],
       ['myth', 'Mozart sunne se bachche smart bante hain.', '1993 ki ek chhoti study me college students ka spatial task score Mozart sunne ke baad thodi der (~10-15 min) ke liye thoda badha tha. Ise media ne "Mozart babies ko smart banata hai" bana diya. Baad ki studies aur meta-analyses ko koi lasting IQ fayda nahi mila; effect zyada tar mood aur arousal ka tha.'],
       ['myth', 'Gussa aaye to takiya peeto ya cheekho, "bhadaas nikalne" se gussa kam hota hai.', 'Brad Bushman (2002) ki study me jinhone gusse me punching bag maara, wo baad me zyada aggressive the, kuch na karne walon ke mukable. "Venting" gusse ko rehearse karta hai. Better hai shaant hona: gehri saans, walk, ya baad me baat karna.'],
       ['myth', 'Sugar khaane se bachche hyperactive ho jaate hain.', 'Double-blind studies me jab na parents ko na bachchon ko pata tha ki sugar diya gaya ya sugar-free, behaviour me koi farak nahi mila. Ek study me jin maaon ko bataya gaya ki bachche ko sugar diya hai (asal me nahi diya tha), unhone apne bachche ko zyada hyper rate kiya. Ye <b>expectation</b> ka asar hai.'],
@@ -541,10 +568,11 @@
 
       ['h', 'Barnum effect: "ye to bilkul mere baare me hai!"'],
       ['case', 'Bertram Forer (1949)', [
-        'Forer ne apne students ka personality test liya aur har ek ko "personal" result diya. Asal me sabko <b>ek hi paragraph</b> mila tha, jo zyada tar ek akhbaar ke horoscope se liya gaya tha: "Aap chahte ho ki log aapko pasand karein, par aap khud ki kaafi aalochana karte ho. Aapme bahut potential hai jo abhi istemaal nahi hua..."',
-        'Students ne is description ki accuracy ko 0-5 scale par average <b>4.26</b> rate kiya. Aise vague, sab par fit hone wale statements ko sach maan lena <b>Barnum (ya Forer) effect</b> kehlata hai. Horoscope, "aapka naam kya kehta hai" wale quizzes, aur kai online personality tests isi par chalte hain.'
+        'Forer ne apne students ka personality test liya aur har ek ko "personal" result diya. Asal me sabko <b>ek hi paragraph</b> mila tha, jo zyada tar ek akhbaar ke horoscope se liya gaya tha: "Tum chahte ho ki log tumhe pasand karein, par tum khud ki kaafi aalochana karte ho. Tumme bahut potential hai jo abhi istemaal nahi hua..."',
+        'Students ne is description ki accuracy ko 0-5 scale par average <b>4.26</b> rate kiya. Aise vague, sab par fit hone wale statements ko sach maan lena <b>Barnum (ya Forer) effect</b> kehlata hai. Horoscope, "tumhara naam kya kehta hai" wale quizzes, aur kai online personality tests isi par chalte hain.'
       ]],
-      ['tip', 'Agli baar koi horoscope padho, to apni rashi ki jagah kisi aur rashi ka padho. Dekho kitna "fit" baithta hai. Aap hairan rah jaoge.'],
+      ['teacher', 'Ek baat note karo: Forer ke students padhe-likhe the, phir bhi jhaanse me aa gaye. Barnum effect se bachne ke liye intelligence nahi, ek aadat chahiye: khud se poochhna "kya ye baat kisi aur par bhi utni hi fit hogi?"'],
+      ['tip', 'Agli baar koi horoscope padho, to apni rashi ki jagah kisi aur rashi ka padho. Dekho kitna "fit" baithta hai. Tumhe khud hairani hogi.'],
 
       ['h', 'Pseudoscience ke red flags'],
       ['list', [
@@ -564,6 +592,7 @@
         '<b>Overconfidence</b>: hum apne gyaan aur andaze par zaroorat se zyada bharosa karte hain.',
         '<b>Illusory correlation</b>: do cheezon me rishta dekhna jo hai hi nahi, kyunki yaadgaar examples dimaag me chipak jaate hain.'
       ]],
+      ['teacher', 'Sach bataun? Ye biases mujhme bhi hain, tumme bhi, sabme. Farak bas itna hai ki jise inke naam pata hon, use inhe pakadna aasaan ho jaata hai. Aaj se jab koi baat "ekdum sahi" lage, ek second ruk kar socho: kahin ye sirf meri pehle ki soch se match to nahi kar rahi?'],
       ['tip', 'WhatsApp forward check karne ka <b>SIFT</b> method (Mike Caulfield): <b>S</b>top (forward karne se pehle ruko), <b>I</b>nvestigate the source (kisne likha?), <b>F</b>ind better coverage (kya bharosemand news ya fact-checkers ne bhi likha?), <b>T</b>race claims (original study tak jao).'],
       ['terms', [
         ['Critical thinking', 'Claims ko bina jaanch maane bina, saboot aur logic se parakhna.'],
@@ -575,10 +604,11 @@
         ['Illusory correlation', 'Do cheezon ke beech rishta mehsoos karna jo asal me maujood nahi.'],
         ['Meta-analysis', 'Kai studies ke data ko statistically milakar overall nateeja nikalna.']
       ]],
-      ['think', 'Aapke dost kehte hain: "Maine ye herbal tea pi aur mera sar dard 1 ghante me theek ho gaya. Ye kaam karti hai!" Kya ye saboot hai?', [
+      ['think', 'Tumhare dost kehte hain: "Maine ye herbal tea pi aur mera sar dard 1 ghante me theek ho gaya. Ye kaam karti hai!" Kya ye saboot hai?', [
         'Ye ek anecdote hai. Sar dard aksar waise bhi 1 ghante me theek ho jaata hai (natural recovery), tea peete waqt aaraam bhi mila, aur placebo effect bhi ho sakta hai. Pata karne ke liye bahut logon par controlled trial chahiye jisme kuch ko asli tea mile aur kuch ko waisi hi dikhne wali placebo tea.'
       ]]
     ],
+    outro: 'Bahut badhiya, tumne Level 1 ki saari classes poori kar li! Aaj ka mantra: har daave par poochho "saboot kya hai?" Ab is chapter ka quiz do, aur phir <b>Level 1 ka exam</b> do; 70% laao aur Level 2 unlock karo, jahan hum brain ki machine ke andar jhaankenge.',
     takeaways: [
       'Har claim par poochho: saboot kya hai, source kaun hai, aur doosra explanation kya ho sakta hai?',
       '10% brain, left/right brain personality, learning styles, Mozart effect aur sugar-hyperactivity sab myths hain.',

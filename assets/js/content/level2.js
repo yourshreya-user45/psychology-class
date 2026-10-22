@@ -11,7 +11,8 @@
     visualCap: 'Signal dendrites se aata hai, axon par electrical pulse (action potential) daudta hai, aur synapse par chemical messengers (neurotransmitters) agle neuron tak jaate hain. "Fire" dabao aur khud chalao.',
     title: 'Neurons aur neurotransmitters',
     tag: 'Brain ki wiring: action potential, synapse, dopamine-serotonin, aur chai ka caffeine kaise kaam karta hai',
-    hook: 'Abhi jab aap ye line padh rahe ho, aapke brain ke lagbhag <b>86 arab (billion) neurons</b> me se karodon ek-doosre ko signals bhej rahe hain. Har thought, har yaad, har emotion asal me in chhoti cells ki baatcheet hai. Chalo is baatcheet ki bhasha seekhte hain.',
+    intro: 'Level 2 me tumhara swagat hai! Level 1 me humne dekha ki psychology science kaise banti hai. Ab us machine ke andar chalte hain jo ye sab chalati hai: tumhara brain. Aaj sabse chhoti unit se shuru karenge, yaani neuron, kyunki har soch aur har feeling isi ki baatcheet se banti hai.',
+    hook: 'Abhi, is line ko padhte-padhte, tumhare brain ke lagbhag <b>86 arab (billion) neurons</b> me se karodon ek-doosre ko signals bhej rahe hain. Har thought, har yaad, har emotion asal me in chhoti cells ki baatcheet hai. Chalo is baatcheet ki bhasha seekhte hain.',
     blocks: [
       ['h', 'Neuron ki banawat'],
       ['p', '<b>Neuron</b> nervous system ki basic cell hai jo information receive, process aur aage bhejti hai. Iske hisse ek post office jaise samjho:'],
@@ -41,6 +42,7 @@
         'Phir tez dard aur halke dard me farak kaise? <b>Firing ki frequency</b> se: tez stimulus = zyada baar fire, aur zyada neurons ek saath.',
         '<b>Refractory period</b>: fire ke turant baad thodi der neuron dobara fire nahi kar sakta, jaise flush tank ko bharne me time lagta hai.'
       ]],
+      ['teacher', 'Is poore process ko ek line me yaad kar lo: <b>-70 par aaram, -55 par trigger, Na⁺ andar, K⁺ bahar</b>. Action potential ka poora drama bas itna hi hai, aur exam me ye sequence bahut poochha jaata hai.'],
 
       ['h', 'Synapse: jahan chemistry shuru hoti hai'],
       ['p', 'Ek neuron doosre ko chhoota nahi. Beech me ek bahut patla gap hota hai: <b>synaptic cleft</b>. Jab action potential axon terminal par pahunchta hai, to chhoti theliyan (vesicles) <b>neurotransmitters</b> naam ke chemicals gap me chhod deti hain. Ye agle neuron ke <b>receptors</b> par aise fit hote hain jaise taale me chaabi.'],
@@ -65,13 +67,15 @@
       ['compare', ['Agonist', 'Neurotransmitter ki <b>nakal</b> karta hai ya uska asar <b>badhata</b> hai. Morphine endorphin receptors par fit hota hai; nicotine acetylcholine receptors ko activate karta hai; cocaine dopamine ki reuptake rok kar use synapse me zyada der rakhta hai.'], ['Antagonist', 'Receptor ko <b>block</b> kar deta hai, jaise taale me galat chaabi phansa dena. Curare (zehreele teer ka zeher) acetylcholine receptors block karke muscles ko lakwa maar deta hai. Caffeine adenosine receptors block karta hai.']],
       ['ex', 'Subah ki chai aur caffeine crash', [
         'Din bhar jaagne par brain me <b>adenosine</b> jama hota hai jo neend ka dabaav banata hai. Chai-coffee ka caffeine adenosine receptors par baith kar unhe <b>block</b> karta hai (antagonist), isliye neend nahi aati.',
-        'Par adenosine banta rehta hai. Jab caffeine ka asar utarta hai, saara jama adenosine ek saath receptors par aata hai: "crash". Caffeine ki half-life lagbhag 5 ghante hai, to shaam 6 baje ki coffee ka aadha caffeine raat 11 baje bhi aapke body me hota hai.'
+        'Par adenosine banta rehta hai. Jab caffeine ka asar utarta hai, saara jama adenosine ek saath receptors par aata hai: "crash". Caffeine ki half-life lagbhag 5 ghante hai, to shaam 6 baje ki coffee ka aadha caffeine raat 11 baje bhi tumhare body me hota hai.'
       ]],
+      ['teacher', 'Apni chai-coffee ki aadat par socho: tumhara aakhri cup kitne baje hota hai? Agar neend der se aati hai, to ek hafte ke liye aakhri cup dopahar 2 baje tak le aao aur farak khud dekho.'],
       ['lab', 'reaction'],
 
       ['h', 'Neuroplasticity: brain badalta rehta hai'],
-      ['p', 'Psychologist Donald Hebb (1949) ka idea: <b>"Neurons that fire together, wire together."</b> Jab do neurons baar-baar ek saath active hote hain, unka connection mazboot ho jaata hai. Yahi learning ka biological aadhaar hai. Har baar jab aap koi skill practice karte ho, aap apne brain ki wiring badal rahe ho.'],
+      ['p', 'Psychologist Donald Hebb (1949) ka idea: <b>"Neurons that fire together, wire together."</b> Jab do neurons baar-baar ek saath active hote hain, unka connection mazboot ho jaata hai. Yahi learning ka biological aadhaar hai. Har practice session ke saath tumhare brain ki wiring thodi badal jaati hai.'],
       ['case', 'London ke taxi drivers (Maguire, 2000)', 'London me taxi license ke liye shahar ki hazaron galiyan yaad karni padti hain ("The Knowledge"). MRI scans me experienced taxi drivers ka <b>posterior hippocampus</b> (spatial memory se juda) doosron se bada tha, aur jitne zyada saal driving, utna bada. Ye dikhata hai ki adult brain bhi experience se physically badalta hai.'],
+      ['teacher', 'Ye study tumhare liye achhi khabar hai. Jo skill aaj mushkil lag rahi hai, chahe English bolna ho ya maths, practice se uske liye brain me sach me naye raaste bante hain. "Mujhse nahi hoga" biology ke hisaab se galat baat hai.'],
       ['terms', [
         ['Neuron', 'Nervous system ki cell jo electrical aur chemical signals se information bhejti hai.'],
         ['Dendrite', 'Neuron ki shakhayein jo doosre neurons se signal receive karti hain.'],
@@ -90,6 +94,7 @@
         ['Neuroplasticity', 'Experience aur learning se brain ke connections aur structure ka badalna.']
       ]]
     ],
+    outro: 'Aaj tumne dekha ki neuron fire kaise karta hai aur synapse par chemicals kaise baat karte hain. Quiz me caffeine aur GABA wale sawaal tumhara intezaar kar rahe hain. Agli class me in neurons ka poora network dekhenge: nervous system aur hormones, aur ye ki darr ke waqt body me kya hota hai.',
     takeaways: [
       'Neuron = dendrites (receive) + cell body + axon (send) + terminals; myelin signal tez karta hai.',
       'Action potential all-or-none hai; intensity firing frequency se pata chalti hai.',
@@ -119,15 +124,17 @@
     visualCap: 'Nervous system ka parivaar: CNS (brain + spinal cord) aur PNS, jiska autonomic hissa fight-or-flight aur rest-and-digest sambhalta hai.',
     title: 'Nervous system aur hormones',
     tag: 'Fight-or-flight, rest-and-digest, cortisol, thyroid aur melatonin: body ka communication network',
-    hook: 'Raat ko sunsaan gali me peeche kadmon ki awaaz. Dil zor se dhadakne laga, saans tez, muh sookh gaya, aankhein phail gayi... phir pata chala padosi ka kutta hai. Is 3 second ke drame me aapke <b>nervous system</b> aur <b>hormones</b> ne milkar poora body "emergency mode" me daal diya tha.',
+    intro: 'Pichhli class me humne ek akele neuron ko samjha. Aaj dekhenge ki karodon neurons aur hormones milkar poore body ko kaise chalate hain. Isse tumhe samajh aayega ki exam hall me haath kyun kaanpte hain, aur unhe shaant kaise karte hain.',
+    hook: 'Raat ko sunsaan gali me peeche kadmon ki awaaz. Dil zor se dhadakne laga, saans tez, muh sookh gaya, aankhein phail gayi... phir pata chala padosi ka kutta hai. Is 3 second ke drame me tumhare <b>nervous system</b> aur <b>hormones</b> ne milkar poora body "emergency mode" me daal diya tha.',
     blocks: [
       ['h', 'Nervous system ka naksha'],
       ['list', [
         '<b>Central Nervous System (CNS)</b>: brain + spinal cord. Ye "headquarters" hai jahan faisle hote hain.',
         '<b>Peripheral Nervous System (PNS)</b>: CNS ke bahar ki saari nerves jo body ke har hisse ko headquarters se jodti hain.',
-        'PNS ke do hisse: <b>Somatic</b> (aapki marzi wali muscles aur senses, jaise mobile uthana) aur <b>Autonomic</b> (apne aap chalne wale kaam: dhadkan, digestion, pasina).',
+        'PNS ke do hisse: <b>Somatic</b> (tumhari marzi wali muscles aur senses, jaise mobile uthana) aur <b>Autonomic</b> (apne aap chalne wale kaam: dhadkan, digestion, pasina).',
         'Autonomic ke do hisse: <b>Sympathetic</b> (fight-or-flight, accelerator) aur <b>Parasympathetic</b> (rest-and-digest, brake).'
       ]],
+      ['teacher', 'Ye naksha pehli baar me ulajh sakta hai, to ek trick suno: <b>Sympathetic = "S" for Stress</b>, <b>Parasympathetic = "P" for Peace</b>. Itna yaad raha to aadha chapter pakka.'],
       ['p', '<b>Spinal cord</b> brain aur body ke beech information highway hai, aur reflexes ka centre bhi. Isliye reedh ki haddi ki chot me kai baar chot ke neeche ka hissa mehsoos karna aur hilana band ho jaata hai: highway kat gaya.'],
 
       ['h', 'Fight-or-flight vs rest-and-digest'],
@@ -142,10 +149,11 @@
         ['Pasina', 'Badhta hai', 'Normal']
       ]],
       ['ex', 'Stage fright ka science', [
-        'Class presentation se pehle muh sookhna, haath kaanpna, pet me gadbad, dil tez: ye sab <b>sympathetic</b> activation hai. Body ko lagta hai aapko sher se bhaagna hai, jabki aapko bas 5 slides bolni hain.',
-        'Achhi khabar: aap brake daba sakte ho. <b>Dheemi saans, khaas kar lamba exhale</b> (jaise 4 second andar, 6 second bahar), <b>vagus nerve</b> ke zariye parasympathetic system ko activate karti hai aur dil dheema hone lagta hai.'
+        'Class presentation se pehle muh sookhna, haath kaanpna, pet me gadbad, dil tez: ye sab <b>sympathetic</b> activation hai. Body ko lagta hai tumhe sher se bhaagna hai, jabki tumhe bas 5 slides bolni hain.',
+        'Achhi khabar: brake tumhare haath me bhi hai. <b>Dheemi saans, khaas kar lamba exhale</b> (jaise 4 second andar, 6 second bahar), <b>vagus nerve</b> ke zariye parasympathetic system ko activate karti hai aur dil dheema hone lagta hai.'
       ]],
       ['tip', 'Abhi try karo: 4 second naak se saans andar, 6 second muh se dheere bahar. 5 baar. Dhyan do ki shoulders aur jaw dheele ho rahe hain ya nahi. Exam hall me bhi ye bina kisi ko pata chale kar sakte ho.'],
+      ['teacher', 'Sach me try kiya? Agar haan, to tumne abhi apne parasympathetic system ko khud on kiya. Ye chhoti si skill presentation, interview ya kisi bhi ghabrahat wale pal me kaam aayegi.'],
 
       ['h', 'Endocrine system: body ki "postal service"'],
       ['p', 'Nervous system SMS jaisa hai: tez, seedha, turant khatam. <b>Endocrine system</b> posted letter jaisa hai: <b>glands</b> khoon me <b>hormones</b> chhodti hain jo dheere pahunchte hain par asar der tak rehta hai. Isliye darr khatam hone ke baad bhi kuch der tak haath kaanpte rehte hain.'],
@@ -159,6 +167,7 @@
         ['Gonads (testes/ovaries)', 'Testosterone, estrogen, progesterone', 'Puberty, sex drive, aur menstrual cycle ke saath mood ke badlav.']
       ]],
       ['ex', 'Udaasi jo asal me thyroid thi', 'Priya (34) mahino se thaki, udaas aur bhulakkad mehsoos kar rahi thi. Sabne kaha "depression hai". Doctor ne blood test karwaya to <b>hypothyroidism</b> nikla. Thyroid ki dawai ke kuch hafton baad energy aur mood dono laut aaye. Isliye psychologists aur psychiatrists mental symptoms ke physical kaaran (thyroid, anaemia, vitamin B12 ki kami) pehle check karwate hain.'],
+      ['teacher', 'Ye baat dil me rakh lo: mann ki takleef ka kaaran hamesha sirf "mann" me nahi hota. Agar kabhi tumhe ya ghar me kisi ko lambi thakaan aur udaasi ho, to ek blood test bhi checklist me rakhna.'],
 
       ['h', 'HPA axis: stress ka hormone highway'],
       ['steps', [
@@ -188,10 +197,11 @@
         ['Oxytocin', 'Bonding, labour aur breastfeeding se juda hormone.'],
         ['HPA axis', 'Hypothalamus-pituitary-adrenal ki chain jo cortisol stress response chalati hai.']
       ]],
-      ['think', 'Interview se pehle aapke haath thande aur geele kyun ho jaate hain?', [
-        'Sympathetic system khoon ko haath-pair ki skin se hata kar badi muscles aur dil ki taraf bhejta hai (bhaagne ya ladne ke liye), isliye haath thande. Saath hi pasina badhta hai. Ye "aap kamzor ho" ka sign nahi, balki body ka purana survival program hai.'
+      ['think', 'Interview se pehle tumhare haath thande aur geele kyun ho jaate hain?', [
+        'Sympathetic system khoon ko haath-pair ki skin se hata kar badi muscles aur dil ki taraf bhejta hai (bhaagne ya ladne ke liye), isliye haath thande. Saath hi pasina badhta hai. Ye "tum kamzor ho" ka sign nahi, balki body ka purana survival program hai.'
       ]]
     ],
+    outro: 'Aaj ka saar: nervous system SMS hai, hormones posted letter, aur HPA axis stress ka highway. Quiz do, aur 4-6 wali saans ek baar phir try karna. Agli class me brain ka poora naksha kholenge: kaunsa hissa kya karta hai.',
     takeaways: [
       'CNS = brain + spinal cord; PNS = baaki saari nerves (somatic + autonomic).',
       'Sympathetic = fight-or-flight accelerator; parasympathetic = rest-and-digest brake.',
@@ -220,7 +230,8 @@
     visualCap: 'Brain ke kisi bhi hisse par tap karo: uska kaam, aur ek real example jab wo hissa damage hota hai.',
     title: 'Brain ka naksha: kaunsa hissa kya karta hai',
     tag: 'Brainstem se prefrontal cortex tak, H.M. aur split-brain patients ki kahaniyan, aur scooter chalate brain ka tour',
-    hook: 'Lagbhag <b>1.3-1.4 kilo</b> ka ye organ, tofu jitna naram, aapki har yaad, har sapne aur har faisle ka ghar hai. Body ke weight ka sirf ~2%, par energy ~20% khaata hai. Aaiye iska naksha banate hain: neeche se upar, purane hisson se naye hisson tak.',
+    intro: 'Pichhli do classes me humne neurons aur nerves dekhe. Aaj ek kadam aage chalte hain: ye sab milkar poora brain kaise banate hain, aur kaunsa hissa kis kaam ka hai. Padhte waqt ek baar apna sir chhoo kar socho, andar ye sab abhi isi waqt ho raha hai.',
+    hook: 'Lagbhag <b>1.3-1.4 kilo</b> ka ye organ, tofu jitna naram, tumhari har yaad, har sapne aur har faisle ka ghar hai. Body ke weight ka sirf ~2%, par energy ~20% khaata hai. Chalo iska naksha banate hain: neeche se upar, purane hisson se naye hisson tak.',
     blocks: [
       ['h', 'Brain ko kaise "dekhte" hain?'],
       ['table', ['Method', 'Kya dikhata hai', 'Khaasiyat'], [
@@ -237,7 +248,7 @@
       ['list', [
         '<b>Medulla</b>: dhadkan aur saans jaise life-support kaam. Yahan chot jaanleva ho sakti hai.',
         '<b>Pons</b>: neend, saans aur brain ke hisson ke beech signals ka pul.',
-        '<b>Reticular formation</b>: alertness aur arousal. Ye tay karta hai ki aap jaage ho ya so rahe ho, aur kaunsi awaaz par dhyan dena hai.',
+        '<b>Reticular formation</b>: alertness aur arousal. Ye tay karta hai ki tumhara brain jaaga hua hai ya so raha hai, aur kaunsi awaaz par dhyan dena hai.',
         '<b>Cerebellum ("chhota brain")</b>: balance, coordination aur motor skills seekhna (cycle chalana, typing). Sharaab sabse pehle cerebellum ko prabhavit karti hai; isliye police "seedhi line par chalo" test karti hai.'
       ]],
 
@@ -248,6 +259,7 @@
         '<b>Amygdala</b>: badam jaisa hissa jo khatra pehchaanta aur <b>darr</b> paida karta hai. Emotional yaadon ko gehra karta hai.',
         '<b>Hippocampus</b>: <b>nayi yaadein</b> banana aur spatial navigation (raasta yaad rakhna).'
       ]],
+      ['teacher', 'Amygdala aur hippocampus aksar mix ho jaate hain. Trick: <b>Amygdala = Alarm</b> (dono "A" se), aur <b>hippocampus = nayi yaadon ki hard disk</b>. Ab agle case me dekho ki hard disk na ho to kya hota hai.'],
       ['case', 'H.M. (Henry Molaison): wo aadmi jo naya kuch yaad nahi rakh sakta tha', [
         '1953 me gambhir epilepsy ke ilaaj ke liye H.M. ke dono taraf ke hippocampus ka bada hissa surgery se nikaal diya gaya. Seizures kam hue, par ek ajeeb nateeja aaya: wo <b>nayi long-term yaadein bana hi nahi pata tha</b>. Wo kisi se mil kar baat karta, aur 10 minute baad use bilkul yaad nahi hota ki wo kabhi mila tha.',
         'Hairani ki baat: wo <b>mirror drawing</b> jaisi motor skills me har din behtar hota gaya, bina yaad rakhe ki usne kabhi practice ki thi. Isse pata chala ki <b>"kya yaad hai" (facts) aur "kaise karna hai" (skills) wali memories brain me alag systems me rehti hain</b>. Level 3 me ise detail me padhenge.'
@@ -264,6 +276,7 @@
         ['Occipital', 'Dekhna (<b>visual cortex</b>)', 'Aankhein theek hone par bhi andhapan ya dekhi cheez pehchaan na paana']
       ]],
       ['p', '<b>Prefrontal cortex</b> (frontal lobe ka aage wala hissa) planning, impulse control aur consequences sochne ka centre hai. Ye <b>mid-20s tak develop hota rehta hai</b>. Isliye teenagers ka emotional "accelerator" (limbic system) jaldi taiyaar hota hai, par "brake" (prefrontal) baad me: risk lena, peer pressure me jhukna, aur "abhi ka maza" chunna is umar me zyada hota hai.'],
+      ['teacher', 'Agar tum abhi teens ya early 20s me ho, to ye baat seedhe tumhare baare me hai. Iska matlab ye nahi ki har faisla galat hoga; matlab ye hai ki bade faislon se pehle thoda ruk kar sochna, ya kisi bharosemand insaan se baat karna, tumhare brain ke brake ki madad karta hai.'],
       ['ex', 'Indian traffic me scooter chalate brain ka tour', [
         '<b>Occipital</b>: aage ka truck, signal, gaddha dekhna. <b>Parietal</b>: kaun kitna paas hai, apne haath-pair kahan hain. <b>Temporal</b>: peeche se horn ki awaaz pehchaanna. <b>Frontal</b>: "overtake karun ya nahi?" ka faisla. <b>Motor cortex + cerebellum</b>: handle aur brake ka smooth control, balance.',
         'Achanak ek kutta saamne aaya: <b>amygdala</b> ne alarm bajaya, <b>sympathetic system</b> ne dil tez kiya, <b>brainstem</b> ne saans sambhali. Aur ghar pahunch kar ye kissa yaad rakhne ka kaam <b>hippocampus</b> ka. Ek seedhi si sawaari, poora brain kaam par.'
@@ -275,6 +288,7 @@
         'Gambhir epilepsy me kuch patients ka corpus callosum kaat diya gaya taaki seizure ek side se doosri side na faile. Roger Sperry (Nobel Prize 1981) aur Michael Gazzaniga ne dekha: agar ek object sirf <b>left visual field</b> me dikhaya jaaye (jo right hemisphere me jaata hai), to patient uska <b>naam nahi bata paata</b>, kyunki zyada tar logon me language left hemisphere me hai. Par wo <b>left haath se us object ko utha leta</b> tha!',
         'Ye dikhata hai ki hemispheres me kuch kaam baante hue hain (lateralization). Par dhyan do: normal logon me dono hemispheres lagataar milkar kaam karte hain. "Left-brain/right-brain personality" myth hai (Chapter 1.6).'
       ]],
+      ['teacher', 'Ye study pehli baar padhne par dimaag ghuma deti hai, to raasta ek baar dhyan se follow karo: left visual field, phir right hemisphere, phir left haath. Naam batane wala language centre left me hai, isliye wo chup rehta hai. Ek chhota sa diagram bana lo, turant clear ho jaayega.'],
 
       ['h', 'Plasticity: brain khud ko theek bhi karta hai'],
       ['p', 'Stroke ke baad physiotherapy aur speech therapy se log aksar khoye hue kaam dobara seekh lete hain, kyunki brain ke doosre hisse kaam sambhal lete hain. Bachchon ka brain zyada plastic hota hai: kuch bachche jinke ek poore hemisphere ko surgery se nikaalna pada (hemispherectomy), wo bhi chalna, bolna aur padhna seekh gaye.'],
@@ -305,6 +319,7 @@
         ['EEG', 'Scalp par electrodes se brain ki electrical activity record karna.']
       ]]
     ],
+    outro: 'Aaj tumne brain ka poora tour kar liya: brainstem se prefrontal cortex tak, aur H.M. aur split-brain jaise yaadgaar cases. Quiz me lobes wale sawaal par dhyan dena. Agli class me ek purana sawaal uthayenge: hum jaise hain, wo genes ki wajah se hain ya parvarish ki?',
     takeaways: [
       'Brainstem life support, cerebellum balance aur coordination sambhalta hai.',
       'Amygdala darr, hippocampus nayi yaadein; H.M. ka case memory systems ka sabse famous saboot hai.',
@@ -334,14 +349,15 @@
     visualCap: 'Twin studies se nikle heritability ke andaze (approximate). Dhyan do: ye population me farak ka hissa batata hai, kisi ek insaan ki kismat nahi.',
     title: 'Genes, evolution aur behaviour',
     tag: 'Nature vs nurture ka asli jawab: twins, heritability, epigenetics aur jalebi ki craving ka evolutionary raaz',
-    hook: 'Papa jaisi naak, mummy jaisi hansi... par kya aapka gussa, aapki shyness, ya maths me achha hona bhi genes se aaya hai? Ya parvarish se? Psychology ka jawab hai: <b>"dono, aur dono ek-doosre ko badalte hain."</b> Chaliye dekhte hain kaise.',
+    intro: 'Pichhli class me humne brain ki banawat dekhi. Par ye brain bana kaise, aur har insaan ka thoda alag kyun hai? Aaj genes, twins aur evolution ki baat karenge. Iske baad "ye to khaandaani hai" jaisi baatein tumhe ek naye nazariye se samajh aayengi.',
+    hook: 'Papa jaisi naak, mummy jaisi hansi... par kya tumhara gussa, tumhari shyness, ya maths me achha hona bhi genes se aaya hai? Ya parvarish se? Psychology ka jawab hai: <b>"dono, aur dono ek-doosre ko badalte hain."</b> Chalo dekhte hain kaise.',
     blocks: [
       ['h', 'Genes ki basic bhasha'],
       ['list', [
         '<b>DNA</b>: ek lambi molecule jisme body banane aur chalane ke instructions hain.',
         '<b>Chromosomes</b>: DNA ke bandal. Insaan me <b>23 jode</b> (46), aadhe maa se aadhe papa se.',
         '<b>Genes</b>: DNA ke hisse jo proteins banane ka code rakhte hain; insaan me lagbhag 20,000 protein-coding genes hain.',
-        '<b>Genotype</b> = aapka genetic code. <b>Phenotype</b> = jo asal me dikhta ya hota hai (genes + environment ka nateeja).'
+        '<b>Genotype</b> = tumhara genetic code. <b>Phenotype</b> = jo asal me dikhta ya hota hai (genes + environment ka nateeja).'
       ]],
       ['p', 'Sabse important baat: psychological traits jaise intelligence, personality ya depression ka risk <b>polygenic</b> hain, yaani hazaron genes, har ek ka bahut chhota asar. Koi ek "intelligence gene" ya "gusse ka gene" nahi hota.'],
 
@@ -359,16 +375,18 @@
       ['h', 'Heritability: sabse zyada galat samjha jaane wala number'],
       ['p', '<b>Heritability</b> batati hai ki <b>ek population me</b> kisi trait me logon ke beech jo <b>farak</b> hai, uska kitna hissa genetic farak se samjhaya ja sakta hai. Upar ka chart kuch traits ke andaze dikhata hai.'],
       ['list', [
-        'Height ki heritability ~80% ka matlab ye <b>nahi</b> ki aapki 80% height genes se aur 20% khane se aayi. Ye ek <b>population-level</b> statistic hai, individual ke baare me nahi.',
+        'Height ki heritability ~80% ka matlab ye <b>nahi</b> ki tumhari 80% height genes se aur 20% khane se aayi. Ye ek <b>population-level</b> statistic hai, individual ke baare me nahi.',
         'Heritability <b>fixed nahi</b>. Agar sabko barabar achha khana mile, to height ke farak ka zyada hissa genes se aayega aur heritability badh jaayegi. Jahan kuch logon ko bhar pet khana na mile, wahan environment ka role bada dikhega.',
         'High heritability ka matlab "badla nahi ja sakta" nahi. Eyesight (myopia) heritable hai, phir bhi chashma use poori tarah theek kar deta hai.'
       ]],
+      ['teacher', 'Ruko, yahan sab confuse hote hain, to ek example lo: agar ek class me sabko bilkul same khana, same school aur same ghar mile, to height ka saara farak genes se hi aayega aur heritability badh jaayegi. Matlab heritability sirf genes ki taakat nahi, balki ye bhi dikhati hai ki mahaul kitna barabar hai.'],
       ['ex', 'Genes same, height alag', 'World War 2 ke baad Japan me poshan behtar hua to kuch hi dashakon me logon ki average height kaafi badh gayi. Itne kam samay me genes nahi badalte; khana badla. Isi tarah India me bhi bachchon ki growth aur poshan (stunting) ke aankde dikhate hain ki environment kitna bada role nibhata hai.'],
 
       ['h', 'Gene × environment: dono milkar'],
       ['case', 'PKU: genetic bimari, environmental ilaaj', 'Phenylketonuria (PKU) ek genetic condition hai jisme body phenylalanine (protein me milne wala amino acid) tod nahi paati. Ilaaj na ho to ye jama hokar gambhir intellectual disability kar deta hai. Lekin agar janam ke turant baad pata chal jaaye (newborn screening) aur khaas diet di jaaye, to bachcha normal develop karta hai. <b>Genetic hone ka matlab "badla nahi ja sakta" nahi hota.</b>'],
+      ['teacher', 'Ye case mujhe bahut pasand hai, kyunki ye "genes = kismat" wali soch ko ek jhatke me tod deta hai. Jab bhi koi kahe "hamare khaandaan me sab aise hi hain, kuch nahi ho sakta", to PKU yaad karna.'],
       ['p', '<b>Diathesis-stress model</b>: genes ek "jhukaav" (vulnerability) dete hain, aur environment ka stress tay karta hai ki wo trait ya bimari saamne aayegi ya nahi. Jaise depression ka genetic risk wale vyakti me lambe stress ke baad depression ka chance zyada hota hai. Level 6 me ise detail me dekhenge.'],
-      ['p', '<b>Epigenetics</b>: environment genes ko "on" ya "off" kar sakta hai, bina DNA ka code badle (jaise DNA par chemical tags, methylation). Dutch Hunger Winter (1944-45) me jo bachche akaal ke dauraan garbh me the, unme dashakon baad kuch genes par alag epigenetic marks aur alag health outcomes mile. Ye field naya hai, isliye media ke "aap apne genes badal sakte ho!" jaise daavon se savdhaan raho.'],
+      ['p', '<b>Epigenetics</b>: environment genes ko "on" ya "off" kar sakta hai, bina DNA ka code badle (jaise DNA par chemical tags, methylation). Dutch Hunger Winter (1944-45) me jo bachche akaal ke dauraan garbh me the, unme dashakon baad kuch genes par alag epigenetic marks aur alag health outcomes mile. Ye field naya hai, isliye media ke "tum apne genes badal sakte ho!" jaise daavon se savdhaan raho.'],
 
       ['h', 'Evolutionary psychology'],
       ['p', 'Darwin ki <b>natural selection</b>: jo traits survival aur bachche paida karne me madad karte the, wo peedhi dar peedhi aage badhe. Evolutionary psychology poochhti hai: hamare kaunse <b>mental tendencies</b> isi tarah bane?'],
@@ -378,6 +396,7 @@
         '<b>Social belonging</b>: group se nikal diya jaana pehle maut ke barabar tha; isliye rejection ka dard itna gehra lagta hai.'
       ]],
       ['ex', 'Jalebi ki craving aur "mismatch"', 'Hamare purvajon ke liye meetha phal milna rare aur keemti tha, isliye brain meethe ko bahut zyada reward deta hai. Aaj har gali me mithai ki dukaan hai, par brain ka program wahi purana hai. Isi ko <b>evolutionary mismatch</b> kehte hain: purane mahaul ke liye bane traits naye mahaul me problem (jaise obesity, diabetes) paida karte hain.'],
+      ['teacher', 'Apni kisi raat ki craving yaad karo, jab pet bhara tha phir bhi kuch meetha chahiye tha. Wo tumhari kamzori nahi, hazaron saal purana program hai. Ise jaan lena hi control ki pehli seedhi hai: mithai ghar me kam rakho, program apne aap kam chalega.'],
       ['note', 'Evolutionary explanations ki aalochana: kai baar ye "just-so stories" ban jaati hain, yaani baad me bani kahani jo kisi bhi behaviour ko "evolution ki wajah se" bata de, par test na ki ja sake. Achhi evolutionary psychology testable predictions deti hai aur cultures ke beech check karti hai.'],
       ['myth', 'Agar koi trait genetic hai to wo badal nahi sakta, aur environment bekaar hai.', 'Genes "destiny" nahi, "probability" hain. PKU, myopia aur height ke examples dikhate hain ki genetic traits par bhi environment ka bada asar hota hai. Aur zyada tar psychological traits me heritability 30-60% ke aas-paas hai, matlab environment ka role bhi utna hi bada.'],
       ['terms', [
@@ -397,10 +416,11 @@
         ['Evolutionary mismatch', 'Purane mahaul ke liye bane traits ka aaj ke mahaul me nuksaan karna.'],
         ['Prepared learning', 'Kuch associations (jaise saanp ka darr) ko jaldi seekhne ki evolutionary taiyaari.']
       ]],
-      ['think', 'Agar ek trait ki heritability 50% hai, to kya aapka aadha trait genes se aaya hai?', [
-        'Nahi. Heritability individual par apply hi nahi hoti. Iska matlab sirf itna hai ki <b>us population me</b> us trait ke farak ka lagbhag aadha hissa genetic farak se juda hai. Aapke andar genes aur environment itne ghule-mile hain ki unhe percent me baantna mumkin nahi, jaise ye poochhna ki cake ka kitna swaad aate se aaya aur kitna cheeni se.'
+      ['think', 'Agar ek trait ki heritability 50% hai, to kya tumhara aadha trait genes se aaya hai?', [
+        'Nahi. Heritability individual par apply hi nahi hoti. Iska matlab sirf itna hai ki <b>us population me</b> us trait ke farak ka lagbhag aadha hissa genetic farak se juda hai. Tumhare andar genes aur environment itne ghule-mile hain ki unhe percent me baantna mumkin nahi, jaise ye poochhna ki cake ka kitna swaad aate se aaya aur kitna cheeni se.'
       ]]
     ],
+    outro: 'Aaj ka saar: genes "destiny" nahi, "probability" hain, aur environment unke saath milkar kaam karta hai. Quiz me heritability wala sawaal dhyan se padhna. Agli class me dekhenge ki brain duniya ko kaise dekhta aur sunta hai: sensation aur perception, illusions ke saath.',
     takeaways: [
       'Psychological traits polygenic hote hain: koi ek "gene for X" nahi.',
       'Twin aur adoption studies genes aur environment ke asar ko alag karne me madad karti hain.',
@@ -429,7 +449,8 @@
     visualCap: 'Gestalt principles: brain bikhre hue tukdon ko apne aap groups aur shapes me jod deta hai.',
     title: 'Sensation aur perception',
     tag: 'Aankh dekhti nahi, brain dekhta hai: thresholds, illusions, depth, attention aur rassi-saanp ka bhram',
-    hook: 'Aapki aankh ke retina par duniya ki image <b>ulti</b> banti hai, aur har aankh me ek <b>blind spot</b> hai jahan koi light receptor hi nahi. Phir bhi duniya seedhi aur poori dikhti hai. Kyun? Kyunki aankh sirf data bhejti hai; <b>dekhne ka asli kaam brain karta hai</b>. Aur brain kabhi-kabhi galti bhi karta hai.',
+    intro: 'Ab tak humne brain ki banawat aur uski jadein dekhi. Aaj dekhenge ki ye brain bahar ki duniya ko kaise pakadta aur samajhta hai. Taiyaar raho, aaj kuch illusions tumhari aankhon ko dhoka denge, aur tumhe pata chalega ki "dekhna" asal me brain ka kaam hai.',
+    hook: 'Tumhari aankh ke retina par duniya ki image <b>ulti</b> banti hai, aur har aankh me ek <b>blind spot</b> hai jahan koi light receptor hi nahi. Phir bhi duniya seedhi aur poori dikhti hai. Kyun? Kyunki aankh sirf data bhejti hai; <b>dekhne ka asli kaam brain karta hai</b>. Aur brain kabhi-kabhi galti bhi karta hai.',
     blocks: [
       ['h', 'Sensation vs perception'],
       ['compare', ['Sensation', 'Sense organs ke <b>receptors</b> energy (light, sound waves, chemicals, pressure) ko pakad kar use neural signals me badalte hain. Is badalne ko <b>transduction</b> kehte hain. Ye <b>bottom-up</b> process hai: data neeche se upar.'], ['Perception', 'Brain un signals ko <b>organize aur interpret</b> karta hai: "ye mera dost hai", "ye gaana purana hai". Isme hamari expectations, yaadein aur context bhi shaamil hote hain: <b>top-down</b> processing.']],
@@ -444,6 +465,7 @@
       ['p', '<b>Signal detection theory</b> kehti hai ki detect karna sirf senses ki sharpness (<b>sensitivity</b>) par nahi, hamare <b>criterion</b> (kitna sure hone par "haan" bolein) par bhi depend karta hai. Chaar results: hit, miss, false alarm, correct rejection.'],
       ['ex', 'Phantom vibration', 'Kai log jeb me phone vibrate hota mehsoos karte hain jabki koi call ya message nahi aaya. Important message ka intezaar criterion ko neeche kar deta hai, aur brain kapde ki halki ragad ko bhi "vibration" maan leta hai: ek <b>false alarm</b>. Airport security aur X-ray dekhne wale doctors ke liye bhi yahi trade-off hai: zyada sensitive = zyada false alarms.'],
       ['p', '<b>Sensory adaptation</b>: lagataar same stimulus par receptors response kam kar dete hain. Apna perfume 10 minute baad khud ko nahi aata, thande paani me utarne ke 1 minute baad paani theek lagta hai. Brain badlav par dhyan deta hai, constant cheezon par nahi.'],
+      ['teacher', 'Ek chhota sa experiment: abhi apne aas-paas ki koi lagataar awaaz pehchaano, jaise pankha ya fridge. Ab tak wo sunai hi nahi de rahi thi na? Yahi sensory adaptation hai, jo hamesha background me chal raha hota hai.'],
 
       ['h', 'Vision: aankh se brain tak'],
       ['steps', [
@@ -457,6 +479,7 @@
         '<b>Afterimage</b>: kisi laal cheez ko 30 second ghoor kar safed deewar dekho; hara rang dikhega. Ye <b>opponent-process theory</b> ka saboot hai.'
       ]],
       ['p', 'Rang ki do theories milkar kaam karti hain: <b>Trichromatic theory</b> (retina me teen tarah ke cones: laal, hara, neela light ke liye sensitive) aur <b>opponent-process theory</b> (aage ke cells laal-hara, neela-peela, kaala-safed ke jodon me kaam karte hain). Red-green colour blindness purushon me zyada common hai (kuch populations me ~8% tak), kyunki iske genes X chromosome par hote hain.'],
+      ['teacher', 'Ruko, dono theories me jhagda mat dhoondho. Simple tarike se: <b>trichromatic retina ke level par</b> kaam karti hai, aur <b>opponent-process uske baad</b> ke cells me. Pehle teen cones, phir jodiyan. Dono sahi hain, bas alag station par.'],
 
       ['h', 'Hearing aur baaki senses'],
       ['p', 'Sound waves kaan ke parde (eardrum) ko hilati hain → teen chhoti haddiyan (ossicles) → <b>cochlea</b> (ghonghe jaisa, paani bhara) me <b>hair cells</b> mudti hain aur signal auditory nerve se brain jaata hai. Tez awaaz hair cells ko hamesha ke liye nuksaan pahuncha sakti hai; 85 decibel se upar lambe samay tak sunna khatarnak hai. Earphones par <b>60/60 rule</b> rakho: max 60% volume, ek baar me 60 minute.'],
@@ -499,6 +522,7 @@
       ['h', 'Attention: hum sab kuch nahi dekhte'],
       ['p', '<b>Selective attention</b>: hum ek waqt me thodi si cheezon par dhyan dete hain. <b>Cocktail party effect</b>: shaadi ke shor me bhi apna naam sunte hi dhyan us taraf chala jaata hai.'],
       ['case', 'Invisible gorilla (Simons aur Chabris, 1999)', 'Logon ko ek video dikhaya gaya jisme safed t-shirt wale players ke passes ginne the. Beech me gorilla costume pehne ek vyakti beech me aakar chhaati peet kar chala gaya. Lagbhag <b>aadhe logon ne gorilla dekha hi nahi</b>. Ise <b>inattentional blindness</b> kehte hain. Isi wajah se gaadi chalate waqt phone par baat karne wale aksar saamne ki cheezein "dekh kar bhi nahi dekhte".'],
+      ['teacher', 'Kitni baar aisa hua hai ki ghar me chaabi dhoondhte waqt wo saamne hi padi thi aur dikhi nahi? Ye laaparwahi nahi, inattentional blindness hai. Isiliye gaadi chalate waqt phone wala niyam itna sakht hai.'],
       ['lab', 'visualsearch'],
       ['terms', [
         ['Sensation', 'Sense receptors dwara physical energy ko pakadna aur neural signal banana.'],
@@ -532,6 +556,7 @@
         ['Change blindness', 'Scene me badlav ko notice na kar paana.']
       ]]
     ],
+    outro: 'Aaj tumne dekha ki aankh aur kaan sirf data bhejte hain, asli kahani brain banata hai, kabhi-kabhi galtiyon ke saath. Quiz do, aur agli baar andhere me rassi saanp lage to muskura dena. Agli class Level 2 ki aakhri hai: consciousness, neend aur sapne.',
     takeaways: [
       'Sensation = data pakadna (bottom-up); perception = matlab nikalna (top-down bhi).',
       'Weber\'s law: farak percentage me mehsoos hota hai; signal detection me criterion bhi matter karta hai.',
@@ -561,12 +586,13 @@
     visualCap: 'Ek raat ki neend: ~90 minute ke 4-6 cycles. Shuru ki raat me deep sleep (N3) zyada, subah ki taraf REM (sapne) lamba hota jaata hai.',
     title: 'Consciousness, neend aur sapne',
     tag: 'Circadian rhythm, sleep stages, all-nighter ka nuksaan, sleep paralysis ka "bhoot", aur drugs ka brain par asar',
-    hook: 'Agar aap 75 saal jeeoge, to lagbhag <b>25 saal so kar bitaoge</b>. Phir bhi hum neend ko "time waste" samajhte hain aur exam se pehle sabse pehle usi ko kaat dete hain. Science kehta hai ye bahut mehengi galti hai. Chaliye dekhte hain kyun.',
+    intro: 'Level 2 ki aakhri class me tumhara swagat! Ab tak humne brain ko jaagte hue kaam karte dekha. Aaj dekhenge ki jab ye "off" lagta hai tab kya hota hai: neend, sapne aur consciousness ke alag levels. Ye class tumhari exam strategy bhi badal sakti hai, kyunki neend padhai ki dushman nahi, saathi hai.',
+    hook: 'Agar zindagi 75 saal ki ho, to usme se lagbhag <b>25 saal neend me guzarte hain</b>. Phir bhi hum neend ko "time waste" samajhte hain aur exam se pehle sabse pehle usi ko kaat dete hain. Science kehta hai ye bahut mehengi galti hai. Chalo dekhte hain kyun.',
     blocks: [
       ['h', 'Consciousness kya hai?'],
       ['p', '<b>Consciousness</b> apne aap aur apne aas-paas ke baare me jaagrukta (awareness) hai: abhi ye padhna, peeth par kursi ka dabaav mehsoos karna, kal ki chinta. Ye ek "on/off" switch nahi, balki levels me hota hai: poori alertness, din me sapne dekhna, neend, anaesthesia, coma.'],
       ['compare', ['Controlled processing', 'Dhyan maangta hai, dheema, ek waqt me ek kaam. Jaise naya route dhoondhte hue gaadi chalana ya maths ka sawaal.'], ['Automatic processing', 'Bina dhyan ke, tez, ek saath kai kaam. Jaise roz ka raasta, apni bhasha padhna. Itna automatic ki rokna mushkil.']],
-      ['p', 'Automatic processing kitni powerful hai, ye <b>Stroop effect</b> dikhata hai: shabd "LAAL" agar neele rang me likha ho aur aapko <i>rang</i> batana ho, to aap atak jaate ho, kyunki padhna automatic hai aur rokna padta hai.'],
+      ['p', 'Automatic processing kitni powerful hai, ye <b>Stroop effect</b> dikhata hai: shabd "LAAL" agar neele rang me likha ho aur tumhe <i>rang</i> batana ho, to zubaan atak jaati hai, kyunki padhna automatic hai aur rokna padta hai.'],
       ['lab', 'stroop'],
 
       ['h', 'Circadian rhythm: body ki andar ki ghadi'],
@@ -586,6 +612,7 @@
         ['REM', 'Aankhein tezi se hilti hain, brain jaagne jaisa active, par body ki muscles lagbhag paralyzed', 'Sabse vivid sapne; "paradoxical sleep"']
       ]],
       ['p', 'Raat ke pehle hisse me <b>N3 (deep sleep)</b> zyada hoti hai, aur subah ki taraf <b>REM</b> periods lambe hote jaate hain. Isliye subah 5 baje ka alarm aakhri, sabse lambe REM ko kaat deta hai, jo emotional processing aur kuch tarah ki learning ke liye important hai.'],
+      ['teacher', 'Ek trick: raat ka <b>pehla hissa body ke liye</b> (deep sleep, repair) aur <b>aakhri hissa mann ke liye</b> (REM, sapne, emotions). Isliye kam neend ka nuksaan seedha hisaab nahi: subah jaldi uthne se aakhri REM wala hissa poora kat jaata hai.'],
 
       ['h', 'Neend kyun zaroori hai?'],
       ['list', [
@@ -599,6 +626,7 @@
         'Raat bhar jaag kar 12 chapters "kar liye". Agle din paper me aadhe yaad hi nahi aaye. Kyun? Kyunki <b>neend hi wo process hai jo padhai ko memory me pakka karti hai</b>. Bina neend ke cramming aisa hai jaise file save kiye bina laptop band kar dena.',
         'Behtar plan: kam se kam 6-7 ghante neend, aur subah 1 ghanta <b>active recall</b> (khud se sawaal poochhna). Level 3 me memory techniques detail me hain.'
       ]],
+      ['teacher', 'Apni pichhli exam ki raat yaad karo. Kitne ghante ki neend mili thi? Agar 5 se kam, to agli baar ek experiment karo: padhai thodi jaldi khatam karke poori neend lo, aur dekho paper me kitna zyada yaad aata hai.'],
 
       ['h', 'Sleep disorders'],
       ['table', ['Disorder', 'Kya hai', 'Kya karein'], [
@@ -608,7 +636,8 @@
         ['Sleepwalking, night terrors', 'Deep sleep (N3) me; bachchon me zyada', 'Aksar umar ke saath kam; safety ka dhyan'],
         ['Sleep paralysis', 'Jaagte waqt REM ka paralysis bacha rehta hai; hil nahi paate, kabhi darawne hallucinations', 'Aam taur par harmless; neend regular karna']
       ]],
-      ['ex', 'Chhaati par baitha "bhoot"', 'Kai cultures me kahaniyan hain ki raat ko koi bhoot chhaati par baith jaata hai aur aap hil nahi paate. Psychology iska explanation deti hai: <b>sleep paralysis</b>. Aap REM se jaag gaye par body ka REM wala paralysis abhi khatam nahi hua, aur sapne wala brain darawni shakal bhi dikha deta hai. Jaankari hone se ye anubhav bahut kam darawna ho jaata hai.'],
+      ['ex', 'Chhaati par baitha "bhoot"', 'Kai cultures me kahaniyan hain ki raat ko koi bhoot chhaati par baith jaata hai aur hila hi nahi jaata. Psychology iska explanation deti hai: <b>sleep paralysis</b>. Dimaag REM se jaag gaya par body ka REM wala paralysis abhi khatam nahi hua, aur sapne wala brain darawni shakal bhi dikha deta hai. Jaankari hone se ye anubhav bahut kam darawna ho jaata hai.'],
+      ['teacher', 'Agar tumhare saath kabhi aisa hua hai, to ab tumhe pata hai ki ye koi bhoot nahi, bas brain aur body ka alag-alag time par jaagna hai. Kam neend aur ulti-seedhi routine me ye zyada hota hai, isliye neeche wali checklist kaam ki hai.'],
       ['tip', [
         '<b>Sleep hygiene checklist</b>:',
         '1) Roz ek hi time uthna (weekend par bhi kareeb-kareeb). 2) Subah 10-15 minute dhoop. 3) Sone se ~8 ghante pehle caffeine band. 4) Kamra andhera, thanda, shant. 5) Sone se 30-60 minute pehle screens band. 6) Bistar sirf sone ke liye (padhai/scrolling nahi). 7) 20 minute me neend na aaye to uth kar kuch boring karo, phir lauto.'
@@ -633,7 +662,7 @@
         ['Hallucinogens', 'Perception badalte hain', 'LSD, psilocybin; cannabis ke bhi kuch aise asar']
       ]],
       ['p', 'Baar-baar use se <b>tolerance</b> (same asar ke liye zyada dose), aur rokne par <b>withdrawal</b> (bechaini, tremors, craving) hota hai. Teenage brain abhi develop ho raha hota hai, isliye early use ka risk zyada hai; jaise kuch vulnerable teens me cannabis ka bhaari use psychosis ke risk se juda paaya gaya hai.'],
-      ['note', 'Agar aap ya koi jaanne wala nashe ki aadat se jooj raha hai, to madad lena takat ki nishaani hai. India me <b>Tele-MANAS: 14416</b> (24x7, free) par baat kar sakte ho.'],
+      ['note', 'Agar tum ya koi jaanne wala nashe ki aadat se jooj raha hai, to madad lena takat ki nishaani hai. India me <b>Tele-MANAS: 14416</b> (24x7, free) par baat kar sakte ho.'],
       ['terms', [
         ['Consciousness', 'Apne aap aur mahaul ki jaagrukta.'],
         ['Automatic processing', 'Bina conscious effort ke hone wali tez processing.'],
@@ -662,6 +691,7 @@
         ['Withdrawal', 'Drug rokne par hone wale takleefdeh symptoms.']
       ]]
     ],
+    outro: 'Aaj ka saar: neend time waste nahi, brain ka maintenance hai, aur sapne aaj bhi science ki ek khuli paheli hain. Ab is chapter ka quiz do, phir <b>Level 2 ka exam</b> do; 70% laao aur Level 3 unlock karo, jahan learning aur memory ke raaz khulenge.',
     takeaways: [
       'Circadian rhythm SCN se chalta hai aur roshni se reset hota hai; teens ki body clock naturally der wali hoti hai.',
       'Neend ~90 minute ke cycles me: N1, N2, N3 (deep) aur REM (sapne).',
