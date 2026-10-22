@@ -13,7 +13,7 @@
         { type: 'Free textbook', title: 'NCERT Psychology (Class 11 aur 12)', by: 'NCERT', why: 'Hindi aur English dono me free PDF. Indian examples ke saath basics: perfect pehli kitaab, aur board/CUET ke liye bhi.', level: 'Beginner', url: 'https://ncert.nic.in/textbook.php', cta: 'NCERT site kholo' },
         { type: 'Free textbook', title: 'OpenStax Psychology 2e', by: 'Rice University (OpenStax)', why: 'Poori college-level intro textbook, free online aur PDF. Is course ke kai chapters isi ke structure se mel khaate hain.', level: 'Beginner', url: 'https://openstax.org/details/books/psychology-2e', cta: 'Free padho' },
         { type: 'Video series', title: 'Crash Course Psychology', by: 'Hank Green', why: '40 chhote, mazedaar videos jo poori intro psychology cover karte hain. Har chapter ke baad ek video dekhna bahut achha revision hai.', level: 'Beginner', url: 'https://www.youtube.com/playlist?list=PL8dPuuaLjXtOPRKzVLY0jJY-uHOH9KVU6', cta: 'Playlist kholo' },
-        { type: 'Free modules', title: 'Noba Project', by: 'Diener Education Fund', why: 'Experts ke likhe free, chhote modules: har topic alag se padh sakte ho, quizzes ke saath.', level: 'Beginner', url: 'https://nobaproject.com', cta: 'Modules dekho' }
+        { type: 'Free modules', title: 'Noba Project', by: 'Diener Education Fund', why: 'Experts ke likhe free, chhote modules: jo topic chaho alag se padho, quizzes ke saath.', level: 'Beginner', url: 'https://nobaproject.com', cta: 'Modules dekho' }
       ]
     },
     {
@@ -21,7 +21,7 @@
       desc: 'Duniya ki top universities ke lectures, ghar baithe.',
       items: [
         { type: 'Course', title: 'Introduction to Psychology (PSYC 110)', by: 'Paul Bloom, Yale Open Courses', why: 'Yale ka poora semester course: videos, transcripts aur readings, bilkul free. Bloom ka andaaz bahut engaging hai.', level: 'Beginner', url: 'https://oyc.yale.edu/psychology/psyc-110', cta: 'Course kholo' },
-        { type: 'Course', title: 'Introduction to Psychology (Coursera)', by: 'Yale University', why: 'Certificate optional hai; "audit" karke free padh sakte ho.', level: 'Beginner', url: 'https://www.coursera.org/learn/introduction-psychology', cta: 'Coursera par dekho' },
+        { type: 'Course', title: 'Introduction to Psychology (Coursera)', by: 'Yale University', why: 'Certificate optional hai; "audit" karke free me padho.', level: 'Beginner', url: 'https://www.coursera.org/learn/introduction-psychology', cta: 'Coursera par dekho' },
         { type: 'Course', title: '9.00SC Introduction to Psychology', by: 'MIT OpenCourseWare', why: 'MIT ka self-paced course: lecture videos, notes aur exams solutions ke saath.', level: 'Beginner', url: 'https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/', cta: 'MIT OCW kholo' },
         { type: 'Lectures', title: 'Human Behavioral Biology', by: 'Robert Sapolsky, Stanford', why: 'Biology aur behaviour par duniya ki sabse mashhoor lecture series me se ek (YouTube par free).', level: 'Intermediate', url: YT('Robert Sapolsky Human Behavioral Biology Stanford lecture'), cta: 'YouTube par dekho' },
         { type: 'Course', title: 'Learning How to Learn', by: 'Barbara Oakley & Terrence Sejnowski', why: 'Memory aur learning science ko apni padhai me lagane ka sabse popular course (Coursera, free audit).', level: 'Beginner', url: 'https://www.coursera.org/learn/learning-how-to-learn', cta: 'Course dekho' },
@@ -147,7 +147,7 @@
     },
     {
       title: 'Madad aur helplines',
-      desc: 'Seekhna ek taraf, par agar aap ya koi apna mushkil me hai to ye numbers sabse zaroori hain.',
+      desc: 'Seekhna ek taraf, par agar tum ya koi apna mushkil me hai to ye numbers sabse zaroori hain.',
       helpline: {
         title: 'Turant madad (India)',
         text: 'Ye numbers free ya kam kharch ke hain. Number kabhi-kabhi badal sakte hain, isliye official website par latest check karte raho. Turant jaan ka khatra ho to 112 par call karo.',

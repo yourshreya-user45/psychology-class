@@ -63,7 +63,7 @@
       const cells = [
         ['Positive reinforcement', '+ Achhi cheez add', '↑ behaviour', 'var(--good)', 'Report card me achhe marks par mummy ne pasandida dish banayi. Agli baar bhi mehnat ka mann. Office me target poora karne par bonus. Post par likes.'],
         ['Positive punishment', '+ Buri cheez add', '↓ behaviour', 'var(--bad)', 'Signal todne par ₹1,000 ka challan. Class me baat karne par teacher ki daant. Garam stove chhoone par jalna (natural consequence).'],
-        ['Negative reinforcement', '− Buri cheez hatao', '↑ behaviour', 'var(--good)', 'Sar dard me goli li, dard gaya: agli baar bhi goli loge. Seat belt lagaya, beep band. Kamra saaf kiya to mummy ki tok-tok band. (Avoidance bhi isi se chalta hai.)'],
+        ['Negative reinforcement', '− Buri cheez hatao', '↑ behaviour', 'var(--good)', 'Sar dard me goli li, dard gaya: agli baar bhi goli lene ka mann karega. Seat belt lagaya, beep band. Kamra saaf kiya to mummy ki tok-tok band. (Avoidance bhi isi se chalta hai.)'],
         ['Negative punishment', '− Achhi cheez hatao', '↓ behaviour', 'var(--bad)', 'Bhai se ladne par ek din cartoon band. Der se aane par phone jamaa. Cricket me galat behaviour par player ki match fee kati.']
       ];
       const html = `<div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:8px;align-items:stretch;font-size:.9rem">
@@ -350,7 +350,7 @@
         const lx = cx + Math.cos(rad) * 158, ly = cy + Math.sin(rad) * 158;
         inner += `<g class="hot gd" data-i="${i}" tabindex="0" role="button" aria-label="${n}"><g transform="rotate(${a} ${cx} ${cy})"><ellipse class="pop gd-p" cx="${cx}" cy="${cy - 72}" rx="30" ry="62" style="fill:${cols[i]};opacity:.5;--delay:${(i * .12).toFixed(2)}s"/></g><text class="svg-label fade" x="${lx}" y="${ly + 4}" text-anchor="middle" style="font-weight:700;font-size:12px;--delay:${(i * .12 + .3).toFixed(2)}s">${n}</text></g>`;
       });
-      inner += `<circle cx="${cx}" cy="${cy}" r="34" class="pop" style="fill:var(--ink)"/><text x="${cx}" y="${cy + 5}" text-anchor="middle" class="svg-title" style="fill:var(--paper);font-size:14px">Aap</text>`;
+      inner += `<circle cx="${cx}" cy="${cy}" r="34" class="pop" style="fill:var(--ink)"/><text x="${cx}" y="${cy + 5}" text-anchor="middle" class="svg-title" style="fill:var(--paper);font-size:14px">Tum</text>`;
       stage.innerHTML = u.svg(W, Hh, inner, 'aria-label="Gardner multiple intelligences flower" style="max-width:520px;margin:0 auto"');
       const svg = stage.firstChild;
       let cur = 0;

@@ -11,8 +11,8 @@
   /* ---------- Stroop ---------- */
   L('stroop', {
     title: 'Stroop test', icon: 'eye', level: 2, chapter: 'consciousness-sleep', mins: 3,
-    short: 'Shabd ka rang batao, shabd nahi. Dekho automatic reading aapko kitna dheema karti hai.',
-    intro: 'Screen par rang ke naam aayenge, kisi rang me likhe hue. Aapko <b>shabd ka RANG</b> chunna hai, jo likha hai wo nahi. Pehle 8 aasaan (match) trials, phir 8 mushkil (mismatch).',
+    short: 'Shabd ka rang batao, shabd nahi. Dekho automatic reading tumhe kitna dheema karti hai.',
+    intro: 'Chalo ek chhota experiment karte hain. Screen par rang ke naam aayenge, kisi rang me likhe hue, aur tumhe <b>shabd ka RANG</b> chunna hai, jo likha hai wo nahi. Pehle 8 aasaan (match) trials, phir 8 mushkil (mismatch).',
     about: ['John Ridley Stroop ne 1935 me ye effect dikhaya. Padhna itna <b>automatic</b> ho chuka hai ki rang batate waqt bhi brain shabd padh leta hai, aur jab dono match nahi karte to ek <b>conflict</b> hota hai jise suljhane me time lagta hai.', 'Is conflict ko sambhalne ka kaam brain ka <b>anterior cingulate cortex</b> aur prefrontal cortex karte hain. Stroop test aaj bhi attention aur executive function naapne me use hota hai, jaise ADHD aur brain injury research me.'],
     render(stage, done) {
       const C = [['LAAL', '#e03131'], ['HARA', '#2b8a3e'], ['NEELA', '#1c7ed6'], ['BAINGANI', '#7048e8']];
@@ -50,7 +50,7 @@
       document.addEventListener('keydown', key);
       const finish = () => {
         const a = avg(res.con), b = avg(res.inc);
-        stage.innerHTML = `<div class="lab-center" style="gap:18px"><h3>Aapka Stroop effect: ${ms(b - a)}</h3>${resCards([[ms(a), 'Match (aasaan) average'], [ms(b), 'Mismatch (mushkil) average'], [res.err, 'Galtiyan']])}<p class="muted" style="max-width:56ch">${b > a ? 'Mismatch trials me aap dheeme the, kyunki brain ne shabd automatically padh liya aur use rokna pada.' : 'Wah! Is baar farak kam aaya. Dobara try karke dekho; aam taur par mismatch me 50-150 ms zyada lagta hai.'}</p><button class="btn ghost" id="again">${icon('replay')}Dobara karo</button></div>`;
+        stage.innerHTML = `<div class="lab-center" style="gap:18px"><h3>Tumhara Stroop effect: ${ms(b - a)}</h3>${resCards([[ms(a), 'Match (aasaan) average'], [ms(b), 'Mismatch (mushkil) average'], [res.err, 'Galtiyan']])}<p class="muted" style="max-width:56ch">${b > a ? 'Dekha? Mismatch trials me tumhe zyada time laga, kyunki brain ne shabd automatically padh liya aur use rokna pada.' : 'Wah! Is baar farak kam aaya. Dobara try karke dekho; aam taur par mismatch me 50-150 ms zyada lagta hai.'}</p><button class="btn ghost" id="again">${icon('replay')}Dobara karo</button></div>`;
         u.$('#again', stage).onclick = intro;
         done();
       };
@@ -63,7 +63,7 @@
   L('reaction', {
     title: 'Reaction time test', icon: 'timer', level: 2, chapter: 'neurons', mins: 2,
     short: 'Rang hara hote hi tap karo. Aankh se ungli tak signal kitni der me pahunchta hai?',
-    intro: 'Box laal hoga. Jaise hi <b>hara</b> ho, turant tap karo (ya Space dabao). 5 rounds. Pehle tap kiya to round dobara hoga.',
+    intro: 'Chalo dekhte hain tumhare reflexes kitne tez hain. Box laal hoga; jaise hi <b>hara</b> ho, turant tap karo (ya Space dabao). 5 rounds hain, aur hara hone se pehle tap kiya to wo round dobara hoga.',
     about: ['Ek simple visual reaction me signal ka raasta: aankh (retina) → optic nerve → thalamus → occipital lobe → frontal/motor cortex → spinal cord → motor neuron → ungli ki muscles. Ye sab aam taur par <b>200-300 ms</b> me ho jaata hai.', 'Neend ki kami, thakaan, sharaab aur phone par dhyan bantne se reaction time badh jaata hai. Isliye gaadi chalate waqt ek second ki der bhi kai meter ka farak bana deti hai.'],
     render(stage, done) {
       let times = [], state = 'idle', t0 = 0, timer = 0;
@@ -75,7 +75,7 @@
       const go = () => { state = 'go'; paint('#2b8a3e', 'TAP!'); t0 = performance.now(); };
       const showRes = () => {
         const a = avg(times);
-        out.innerHTML = `<div style="margin-top:16px;display:flex;flex-direction:column;gap:12px">${resCards([[ms(a), 'Aapka average'], [ms(Math.min(...times)), 'Sabse tez'], ['~250 ms', 'Aam vyakti ka average']])}<p class="muted">${a < 250 ? 'Bahut tez! Aapke neurons aur attention dono sharp hain.' : a < 350 ? 'Normal range me. Neend aur focus se thoda aur tez ho sakta hai.' : 'Thoda dheema. Thakaan, neend ki kami ya device ka lag bhi wajah ho sakta hai.'}</p><button class="btn ghost" id="again" style="align-self:start">${icon('replay')}Dobara karo</button></div>`;
+        out.innerHTML = `<div style="margin-top:16px;display:flex;flex-direction:column;gap:12px">${resCards([[ms(a), 'Tumhara average'], [ms(Math.min(...times)), 'Sabse tez'], ['~250 ms', 'Aam vyakti ka average']])}<p class="muted">${a < 250 ? 'Bahut tez! Tumhare neurons aur attention dono sharp hain.' : a < 350 ? 'Normal range me. Neend aur focus se thoda aur tez ho sakta hai.' : 'Thoda dheema. Thakaan, neend ki kami ya device ka lag bhi wajah ho sakta hai.'}</p><button class="btn ghost" id="again" style="align-self:start">${icon('replay')}Dobara karo</button></div>`;
         u.$('#again', out).onclick = () => { times = []; out.innerHTML = ''; idle(); };
       };
       const press = () => {
@@ -102,9 +102,9 @@
   /* ---------- Digit span ---------- */
   L('digitspan', {
     title: 'Digit span: working memory test', icon: 'grid', level: 3, chapter: 'memory', mins: 4,
-    short: 'Ek-ek karke numbers dikhenge. Kitne lambe sequence yaad rakh paoge?',
-    intro: 'Numbers ek-ek karke flash honge. Khatam hone par unhe usi order me type karo. Har sahi jawab par sequence 1 lamba hoga. Ek hi length par 2 baar galat hua to test khatam.',
-    about: ['George Miller (1956) ne mashhoor paper me kaha ki short-term memory me lagbhag <b>7 ± 2</b> items aate hain. Baad ki research (jaise Nelson Cowan) ke hisaab se asli capacity lagbhag <b>4 "chunks"</b> hai, aur digit span me hum numbers ko chhote groups me jod kar (chunking) zyada yaad rakh lete hain.', 'Tip: agli baar 3-3 ya 2-2 digits ke groups me "bolkar" yaad karo (jaise phone number). Aapka score badh sakta hai. Yahi chunking hai.'],
+    short: 'Ek-ek karke numbers dikhenge. Dekhte hain kitna lamba sequence tumhe yaad rehta hai.',
+    intro: 'Chalo tumhari working memory ko thoda stretch karte hain. Numbers ek-ek karke flash honge. Khatam hone par unhe usi order me type karo. Har sahi jawab par sequence 1 lamba hoga. Ek hi length par 2 baar galat hua to test khatam.',
+    about: ['George Miller (1956) ne mashhoor paper me kaha ki short-term memory me lagbhag <b>7 ± 2</b> items aate hain. Baad ki research (jaise Nelson Cowan) ke hisaab se asli capacity lagbhag <b>4 "chunks"</b> hai, aur digit span me hum numbers ko chhote groups me jod kar (chunking) zyada yaad rakh lete hain.', 'Tip: agli baar 3-3 ya 2-2 digits ke groups me "bolkar" yaad karo (jaise phone number). Tumhara score badh sakta hai. Yahi chunking hai.'],
     render(stage, done) {
       let len = 3, fails = 0, best = 0, seq = [], tmr = [];
       const clear = () => { tmr.forEach(clearTimeout); tmr = []; };
@@ -140,7 +140,7 @@
         tmr.push(setTimeout(show, 1300));
       };
       const finish = () => {
-        stage.innerHTML = `<div class="lab-center"><h3>Aapka digit span: ${best || 'below 3'}</h3>${resCards([[best, 'Sabse lamba sahi sequence'], ['5 se 9', 'Aam adults ki range (forward span)']])}<p class="muted" style="max-width:54ch">${best >= 8 ? 'Zabardast! Shayad aap chunking use kar rahe the.' : best >= 6 ? 'Bilkul normal se achha. Chunking try karke dekho.' : 'Koi baat nahi, thakaan aur distraction score ghatate hain. Digits ko 2-3 ke groups me bolkar try karo.'}</p><button class="btn ghost" id="again">${icon('replay')}Dobara karo</button></div>`;
+        stage.innerHTML = `<div class="lab-center"><h3>Tumhara digit span: ${best || 'below 3'}</h3>${resCards([[best, 'Sabse lamba sahi sequence'], ['5 se 9', 'Aam adults ki range (forward span)']])}<p class="muted" style="max-width:54ch">${best >= 8 ? 'Zabardast! Lagta hai tumne chunking use ki.' : best >= 6 ? 'Bilkul normal se achha. Chunking try karke dekho.' : 'Koi baat nahi, thakaan aur distraction score ghatate hain. Digits ko 2-3 ke groups me bolkar try karo.'}</p><button class="btn ghost" id="again">${icon('replay')}Dobara karo</button></div>`;
         u.$('#again', stage).onclick = intro;
         done();
       };
@@ -152,8 +152,8 @@
   /* ---------- Müller-Lyer ---------- */
   L('mullerlyer', {
     title: 'Müller-Lyer illusion', icon: 'eye', level: 2, chapter: 'sensation-perception', mins: 2,
-    short: 'Neeche wali line ko upar wali ke barabar karo. Aapki aankh kitna dhoka khaati hai?',
-    intro: 'Upar wali line fixed hai. Slider se neeche wali line ki lambai badlo jab tak dono <b>barabar lambi</b> na lagein. Phir "Check karo" dabao.',
+    short: 'Neeche wali line ko upar wali ke barabar karo. Tumhari aankh kitna dhoka khaati hai?',
+    intro: 'Ek mazedaar illusion try karte hain. Upar wali line fixed hai. Slider se neeche wali line ki lambai badlo jab tak dono <b>barabar lambi</b> na lagein. Phir "Check karo" dabao.',
     about: ['1889 me Franz Müller-Lyer ne ye illusion banaya. Bahar ki taraf khule "fins" wali line lambi aur andar ki taraf teer wali line chhoti lagti hai, jabki dono barabar ho sakti hain.', 'Ek explanation: hum 3D duniya me rehte hain, aur ye fins deewar ke kono jaise lagte hain: bahar khule fins door ke kone jaise (isliye brain line ko lamba "scale" karta hai) aur teer paas ke kone jaise. Kuch cross-cultural studies me kam seedhe-kono wale (carpentered) mahaul me rehne wale log is illusion se kam prabhavit paaye gaye.'],
     render(stage, done) {
       const STD = 220;
@@ -175,7 +175,7 @@
       u.$('#chk', stage).onclick = () => {
         revealed = true; draw();
         const err = ((val - STD) / STD * 100);
-        u.$('#mlres', stage).innerHTML = `<div class="vis-info"><b>Upar: ${STD} px · Aapki neeche wali: ${val} px</b> (${err >= 0 ? '+' : ''}${err.toFixed(0)}%). ${err < -3 ? 'Aapne neeche wali line ko <b>chhota</b> rakha, kyunki bahar khule fins use lamba dikhate hain. Yahi illusion hai!' : err > 3 ? 'Dilchasp! Aapne line ko lamba rakha. Kai log ulta karte hain; dobara try karke dekho.' : 'Wah, kaafi sahi! Ab dashed lines ke bina dobara try karke dekho.'}</div>`;
+        u.$('#mlres', stage).innerHTML = `<div class="vis-info"><b>Upar: ${STD} px · Tumhari neeche wali: ${val} px</b> (${err >= 0 ? '+' : ''}${err.toFixed(0)}%). ${err < -3 ? 'Tumne neeche wali line ko <b>chhota</b> rakha, kyunki bahar khule fins use lamba dikhate hain. Yahi illusion hai!' : err > 3 ? 'Dilchasp! Tumne line ko lamba rakha. Kai log ulta karte hain; dobara try karke dekho.' : 'Wah, kaafi sahi! Ab dashed lines ke bina dobara try karke dekho.'}</div>`;
         done();
       };
       u.$('#nofin', stage).onclick = () => {
@@ -191,7 +191,7 @@
   L('visualsearch', {
     title: 'Visual search: pop-out vs dhoondhna', icon: 'search', level: 2, chapter: 'sensation-perception', mins: 3,
     short: 'Naarangi gola dhoondo. Kabhi wo turant "pop" hota hai, kabhi ek-ek karke dhoondhna padta hai.',
-    intro: 'Har round me ek <b>naarangi gola</b> chhupa hai. Jitna jaldi ho sake us par tap karo. 8 rounds: kuch me baaki sab neele gole honge, kuch me naarangi squares bhi.',
+    intro: 'Chalo dekhte hain tumhari aankh cheezein kaise dhoondhti hai. Har round me ek <b>naarangi gola</b> chhupa hai. Jitna jaldi ho sake us par tap karo. 8 rounds: kuch me baaki sab neele gole honge, kuch me naarangi squares bhi.',
     about: ['Anne Treisman ki <b>Feature Integration Theory</b> (1980): jab target sirf ek feature (rang) se alag ho, to wo <b>pop-out</b> karta hai aur items badhne par bhi search time lagbhag same rehta hai, kyunki brain parallel me sab dekhta hai.', 'Jab target do features ke combination (naarangi + gol) se pehchaana jaaye, to attention ko ek-ek item par jaana padta hai (<b>serial search</b>), isliye items badhne par time badhta hai. Isi wajah se bheed me dost ko dhoondhna mushkil hai, par laal kapdon wala turant dikh jaata hai.'],
     render(stage, done) {
       const plan = u.shuffle([['feature', 8], ['feature', 24], ['conj', 8], ['conj', 24], ['feature', 8], ['feature', 24], ['conj', 8], ['conj', 24]]);
@@ -234,7 +234,7 @@
       };
       const finish = () => {
         const f8 = avg(R.feature[8]), f24 = avg(R.feature[24]), c8 = avg(R.conj[8]), c24 = avg(R.conj[24]);
-        stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><h3>Aapke results</h3><div class="table-wrap"><table><thead><tr><th>Search type</th><th>8 items</th><th>24 items</th><th>Farak</th></tr></thead><tbody><tr><td>Feature (sirf rang)</td><td>${ms(f8)}</td><td>${ms(f24)}</td><td>${ms(f24 - f8)}</td></tr><tr><td>Conjunction (rang + shape)</td><td>${ms(c8)}</td><td>${ms(c24)}</td><td>${ms(c24 - c8)}</td></tr></tbody></table></div><p class="muted">Theory ke hisaab se feature search me items badhne par farak chhota hona chahiye (pop-out), aur conjunction search me bada. Kya aapke data me aisa hua?</p><button class="btn ghost" id="again" style="align-self:start">${icon('replay')}Dobara karo</button></div>`;
+        stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><h3>Tumhare results</h3><div class="table-wrap"><table><thead><tr><th>Search type</th><th>8 items</th><th>24 items</th><th>Farak</th></tr></thead><tbody><tr><td>Feature (sirf rang)</td><td>${ms(f8)}</td><td>${ms(f24)}</td><td>${ms(f24 - f8)}</td></tr><tr><td>Conjunction (rang + shape)</td><td>${ms(c8)}</td><td>${ms(c24)}</td><td>${ms(c24 - c8)}</td></tr></tbody></table></div><p class="muted">Theory ke hisaab se feature search me items badhne par farak chhota hona chahiye (pop-out), aur conjunction search me bada. Kya tumhare data me aisa hua? Dhyan se dekho.</p><button class="btn ghost" id="again" style="align-self:start">${icon('replay')}Dobara karo</button></div>`;
         u.$('#again', stage).onclick = intro;
         done();
       };
@@ -246,7 +246,7 @@
   L('serial', {
     title: 'Serial position effect', icon: 'cards', level: 3, chapter: 'memory', mins: 3,
     short: '15 shabd dekho aur jitne yaad hon likho. Shuru aur aakhir wale zyada yaad kyun rehte hain?',
-    intro: '15 shabd ek-ek karke dikhenge (har ek ~1.5 second). Phir jitne bhi yaad hon, kisi bhi order me likho.',
+    intro: 'Ek chhota memory game khelte hain. 15 shabd ek-ek karke dikhenge (har ek ~1.5 second). Phir jitne bhi yaad hon, kisi bhi order me likho.',
     about: ['Murdock (1962) jaisi studies me list ke <b>shuru</b> ke shabd (primacy effect) aur <b>aakhir</b> ke shabd (recency effect) beech walon se zyada yaad rahe: ek U-shaped curve.', '<b>Primacy</b>: shuru ke shabdon ko rehearse karne ka zyada time milta hai, to wo long-term memory me chale jaate hain. <b>Recency</b>: aakhri shabd abhi short-term memory me taaze hain. Isliye interview me pehle aur aakhri candidate zyada yaad rehte hain, aur presentation ka shuru aur ant sabse important hota hai.'],
     render(stage, done) {
       const WORDS = ['Kitaab', 'Nadi', 'Chai', 'Bandar', 'Kursi', 'Baadal', 'Patang', 'Aam', 'Ghadi', 'Cycle', 'Mandir', 'Joota', 'Tota', 'Chaabi', 'Samosa'];
@@ -282,7 +282,7 @@
         hit.forEach((h, k) => { inner += `<rect x="${x0 + k * bw + 3}" y="${h ? 30 : 176}" width="${bw - 6}" height="${h ? 150 : 4}" rx="3" style="fill:${h ? 'var(--lc)' : 'var(--surface-3)'}"/><text class="svg-mono" x="${x0 + k * bw + bw / 2}" y="198" text-anchor="middle">${k + 1}</text>`; });
         inner += `<path d="${typical.map((p, k) => (k ? 'L' : 'M') + (x0 + k * bw + bw / 2) + ',' + (180 - p * 150)).join('')}" style="fill:none;stroke:var(--ink);stroke-width:2.5;stroke-dasharray:6 4"/>`;
         inner += `<text class="svg-small" x="${x0}" y="214">List me position →</text>`;
-        stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><h3>Aapko ${hit.filter(Boolean).length}/15 shabd yaad rahe</h3><div class="muted">Bars = aapke yaad kiye shabd (list ki position ke hisaab se). Dashed line = research me milne wala typical U-shaped pattern (illustrative).</div>${u.svg(W, 220, inner, 'aria-label="Your recall by list position"')}<p class="muted">List ka order tha: ${list.map((w, k) => `<span style="${hit[k] ? 'color:var(--good);font-weight:700' : ''}">${w}</span>`).join(', ')}</p><button class="btn ghost" id="again" style="align-self:start">${icon('replay')}Dobara karo</button></div>`;
+        stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><h3>Tumhe ${hit.filter(Boolean).length}/15 shabd yaad rahe</h3><div class="muted">Bars = tumhare yaad kiye shabd (list ki position ke hisaab se). Dashed line = research me milne wala typical U-shaped pattern (illustrative).</div>${u.svg(W, 220, inner, 'aria-label="Your recall by list position"')}<p class="muted">List ka order tha: ${list.map((w, k) => `<span style="${hit[k] ? 'color:var(--good);font-weight:700' : ''}">${w}</span>`).join(', ')}</p><button class="btn ghost" id="again" style="align-self:start">${icon('replay')}Dobara karo</button></div>`;
         u.$('#again', stage).onclick = intro;
         done();
       };
@@ -295,7 +295,7 @@
   L('pavlovsim', {
     title: 'Pavlov ka kutta: conditioning simulator', icon: 'bulb', level: 3, chapter: 'classical-conditioning', mins: 3,
     short: 'Ghanti aur khane ko jodo, phir sirf ghanti bajao. Dekho association kaise banti aur mitti hai.',
-    intro: 'Buttons dabao aur graph dekho. Model simple hai (Rescorla-Wagner jaisa): har "Ghanti + Khana" trial association badhata hai, har "Sirf Ghanti" trial use ghatata hai.',
+    intro: 'Aaj lab me Pavlov ki jagah tum ho. Buttons dabao aur graph dekho. Model simple hai (Rescorla-Wagner jaisa): har "Ghanti + Khana" trial association badhata hai, har "Sirf Ghanti" trial use ghatata hai.',
     about: ['Ivan Pavlov ne 1890s-1900s me dekha ki kutte khane ki awaaz ya assistant ke kadmon se hi laar tapkane lagte the. Unhone ghanti (neutral stimulus) ko khane (unconditioned stimulus) ke saath baar-baar joda. Kuch trials baad sirf ghanti se laar aane lagi: <b>conditioned response</b>.', 'Is simulator ka graph <b>Rescorla-Wagner model</b> (1972) ka simple roop hai: shuru me har trial se bahut seekhte hain, phir seekhna dheema hota jaata hai (learning curve). Sirf ghanti bajane par <b>extinction</b> hota hai, par association poori tarah mitti nahi; kuch samay baad <b>spontaneous recovery</b> dikhti hai.'],
     render(stage, done) {
       let V = 0, hist = [0], maxBefore = 0, count = 0;
@@ -340,8 +340,8 @@
   L('crt', {
     title: 'Cognitive Reflection Test', icon: 'brain', level: 3, chapter: 'thinking-decisions', mins: 3,
     short: '3 chhote sawaal jinka "turant wala" jawab galat hai. System 1 vs System 2 ka live demo.',
-    intro: 'Teen sawaal. Har ek ka ek jawab turant dimaag me aayega. Rukiye aur check kariye.',
-    about: ['Shane Frederick (2005) ka Cognitive Reflection Test naapta hai ki aap pehle intuitive jawab (System 1) ko rok kar dhyan se check (System 2) karte ho ya nahi. Top universities ke students me bhi bahut se log 3 me se 0-1 sahi kar paaye.', 'Ye intelligence ka test kam, aur "ruk kar sochne" ki aadat ka test zyada hai. Aur haan, ab aapne ye sawaal dekh liye, to agli baar ye kaam nahi karenge. Psychology research me isliye naye versions banaye jaate hain.'],
+    intro: 'Teen chhote sawaal. Har ek ka ek jawab turant dimaag me aayega. Bas ek pal ruko, check karo, phir jawab do.',
+    about: ['Shane Frederick (2005) ka Cognitive Reflection Test naapta hai ki tumhara dimaag pehle intuitive jawab (System 1) ko rok kar dhyan se check (System 2) karta hai ya nahi. Top universities ke students me bhi bahut se log 3 me se 0-1 sahi kar paaye.', 'Ye intelligence ka test kam, aur "ruk kar sochne" ki aadat ka test zyada hai. Aur haan, ab tumne ye sawaal dekh liye, to agli baar ye kaam nahi karenge. Psychology research me isliye naye versions banaye jaate hain.'],
     render(stage, done) {
       const Q = [
         ['Ek bat aur ek ball milkar ₹110 ke hain. Bat, ball se ₹100 mehenga hai. Ball kitne rupaye ka hai?', 5, 10, 'Agar ball ₹10 ka ho to bat ₹110 ka, aur total ₹120. Sahi: ball ₹5, bat ₹105, total ₹110.'],
@@ -379,7 +379,7 @@
   L('wason', {
     title: 'Wason selection task', icon: 'cards', level: 3, chapter: 'thinking-decisions', mins: 3,
     short: 'Ek rule test karne ke liye kaunse cards palatne zaroori hain? Zyada tar log galat chunte hain.',
-    intro: 'Har card ke ek taraf letter aur doosri taraf number hai. Rule check karne ke liye <b>sirf zaroori</b> cards chuno.',
+    intro: 'Ye ek logic puzzle hai, aaram se socho. Har card ke ek taraf letter aur doosri taraf number hai. Rule check karne ke liye <b>sirf zaroori</b> cards chuno.',
     about: ['Peter Wason (1966) ka ye task dikhata hai ki hum rules ko <b>confirm</b> karne wale cards (E aur 4) chunte hain, jabki rule ko <b>galat saabit</b> kar sakne wale cards (E aur 7) chunne chahiye. Abstract version me ~10% log hi sahi karte hain.', 'Par jab wahi logic ek <b>social rule</b> me ho (jaise license aur gaadi), to zyada log sahi kar lete hain. Leda Cosmides jaise researchers ne kaha ki hamara dimaag "cheaters pakadne" me khaas taur par achha hai. Ye <b>confirmation bias</b> aur context-dependent reasoning ka classic example hai.'],
     render(stage, done) {
       const parts = [
@@ -401,7 +401,7 @@
         };
       };
       const finish = () => {
-        stage.innerHTML = `<div class="lab-center"><h3>Abstract: ${results[0] ? 'Sahi' : 'Galat'} · Social: ${results[1] ? 'Sahi' : 'Galat'}</h3><p class="muted" style="max-width:56ch">Logic dono me same tha. Agar social wala aasaan laga, to aapne khud dekh liya ki context reasoning ko kaise badalta hai.</p><button class="btn ghost" id="again">${icon('replay')}Dobara</button></div>`;
+        stage.innerHTML = `<div class="lab-center"><h3>Abstract: ${results[0] ? 'Sahi' : 'Galat'} · Social: ${results[1] ? 'Sahi' : 'Galat'}</h3><p class="muted" style="max-width:56ch">Logic dono me same tha. Agar social wala aasaan laga, to tumne khud dekh liya ki context reasoning ko kaise badalta hai.</p><button class="btn ghost" id="again">${icon('replay')}Dobara</button></div>`;
         u.$('#again', stage).onclick = () => { p = 0; results = []; show(); };
         done();
       };
@@ -413,7 +413,7 @@
   L('bigfive', {
     title: 'Mini Big Five personality check', icon: 'user', level: 4, chapter: 'personality-traits', mins: 3,
     short: '10 sawaal, 5 traits (OCEAN). Apna personality profile radar chart par dekho.',
-    intro: 'Har statement par batao ki ye aap par kitna lagu hota hai. Sahi ya galat jawab nahi hai. Ye sirf seekhne ke liye ek chhota sa demo hai, diagnosis nahi.',
+    intro: 'Har statement par batao ki ye tum par kitna lagu hota hai. Sahi ya galat jawab nahi hai, bas imaandaari se chuno. Ye sirf seekhne ke liye ek chhota sa demo hai, diagnosis nahi.',
     about: ['Big Five (OCEAN) personality research ka sabse zyada support wala model hai: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism. Ye traits continuum hain; har koi har trait me kahin beech me hota hai.', 'Ye 10-item version bahut chhota hai, isliye score sirf andaza hai. Gehra aur zyada reliable test ke liye IPIP (International Personality Item Pool) ke free, research-based tests dekho (Resources page par link hai).'],
     render(stage, done) {
       const items = [
@@ -473,7 +473,7 @@
   L('breathing', {
     title: 'Guided breathing', icon: 'wind', level: 4, chapter: 'stress-coping', mins: 2,
     short: 'Circle ke saath saans lo. 90 second me body ka brake (parasympathetic) on karo.',
-    intro: 'Circle bada ho to saans andar, ruke to roko, chhota ho to dheere bahar. Kandhe aur jaw dheele rakho.',
+    intro: 'Aao, do minute sirf apne liye nikalte hain. Circle bada ho to saans andar, ruke to roko, chhota ho to dheere bahar. Kandhe aur jaw dheele rakho.',
     about: ['Dheemi saans, khaas kar <b>exhale ko inhale se lamba</b> rakhna, vagus nerve ke zariye parasympathetic system ko activate karti hai. Kai studies me slow breathing (lagbhag 6 saans per minute) se heart rate kam aur stress ki feeling ghatti dikhi hai.', '<b>Box breathing</b> (4-4-4-4) kuch army aur emergency professionals use karte hain. Ye koi jaadu nahi, par panic ke pehle ya exam se pehle ek simple, free tool hai jo kahin bhi chupchaap kiya ja sakta hai.'],
     render(stage, done) {
       const patterns = [['Calm 4-6', [['Saans andar', 4, 1.35], ['Dheere bahar', 6, .75]]], ['Box 4-4-4-4', [['Saans andar', 4, 1.35], ['Roko', 4, 1.35], ['Dheere bahar', 4, .75], ['Roko', 4, .75]]]];
@@ -505,8 +505,8 @@
   /* ---------- Anchoring ---------- */
   L('anchoring', {
     title: 'Anchoring bias experiment', icon: 'target', level: 7, chapter: 'cognitive-biases', mins: 2,
-    short: 'Ek "random" number aapke andaze ko kitna kheench leta hai? Ek classic study dohrao.',
-    intro: 'Pehle ek random number generate hoga. Phir do sawaal. Bas imaandaari se andaza lagao, Google mat karo!',
+    short: 'Ek "random" number tumhare andaze ko kitna kheench leta hai? Ek classic study dohrao.',
+    intro: 'Chalo ek classic study tum par try karte hain. Pehle ek random number generate hoga. Phir do sawaal. Bas imaandaari se andaza lagao, Google mat karo!',
     about: ['Strack aur Mussweiler (1997) ne logon se poocha: "Kya Gandhi ji 9 saal se pehle gaye ya baad me?" ya "140 saal se pehle ya baad me?" Dono sawaal bewakoofi bhare the, par jinhe 9 mila unka average andaza ~50 saal aur jinhe 140 mila unka ~67 saal tha.', 'Pehla number ek <b>anchor</b> ban jaata hai aur hum usse thoda adjust karte hain, par kaafi nahi. Isliye shops "MRP ₹2,999, aaj sirf ₹999" dikhati hain, aur salary negotiation me pehla number bolna fayde ka hota hai.'],
     render(stage, done) {
       const anchor = Math.random() < .5 ? 9 : 140;
@@ -518,11 +518,11 @@
         stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><p class="lab-q">1) Kya Mahatma Gandhi ki mrityu <b>${anchor} saal</b> ki umar se pehle hui ya baad me?</p><div class="row"><button class="btn ghost" data-q="pehle">Pehle</button><button class="btn ghost" data-q="baad">Baad me</button></div><div id="q2"></div></div>`;
         u.$$('[data-q]', stage).forEach((b) => b.addEventListener('click', () => {
           u.$$('[data-q]', stage).forEach((x) => { x.disabled = true; });
-          u.$('#q2', stage).innerHTML = `<p class="lab-q">2) Aapke hisaab se unki umar exactly kitni thi?</p><div class="row"><input id="est" type="number" style="max-width:140px;font-size:1.2rem" aria-label="Umar ka andaza"><button class="btn lc" id="ok">Submit</button></div>`;
+          u.$('#q2', stage).innerHTML = `<p class="lab-q">2) Tumhare hisaab se unki umar exactly kitni thi?</p><div class="row"><input id="est" type="number" style="max-width:140px;font-size:1.2rem" aria-label="Umar ka andaza"><button class="btn lc" id="ok">Submit</button></div>`;
           const go = () => {
             const v = +u.$('#est', stage).value;
             if (!v) return;
-            stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><h3>Sahi jawab: 78 saal (1869-1948)</h3>${resCards([[anchor, 'Aapka anchor'], [v, 'Aapka andaza'], [anchor === 9 ? '~50' : '~67', 'Study me is anchor wala average']])}<p>Original study me <b>9</b> wale group ka average andaza ~50 aur <b>140</b> wale ka ~67 tha. Aapko <b>${anchor}</b> mila tha. ${anchor === 9 ? (v < 78 ? 'Aapka andaza bhi neeche ki taraf kheencha gaya lagta hai.' : 'Aap anchor se kaafi bach gaye!') : (v > 78 ? 'Aapka andaza upar ki taraf kheencha gaya lagta hai.' : 'Aap anchor se kaafi bach gaye!')}</p><p class="muted">Ek insaan ke data se kuch saabit nahi hota, par bade groups me ye effect baar-baar milta hai. Dosto par try karo: aadhe ko 9, aadhe ko 140 do.</p></div>`;
+            stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><h3>Sahi jawab: 78 saal (1869-1948)</h3>${resCards([[anchor, 'Tumhara anchor'], [v, 'Tumhara andaza'], [anchor === 9 ? '~50' : '~67', 'Study me is anchor wala average']])}<p>Original study me <b>9</b> wale group ka average andaza ~50 aur <b>140</b> wale ka ~67 tha. Tumhe <b>${anchor}</b> mila tha. ${anchor === 9 ? (v < 78 ? 'Tumhara andaza bhi neeche ki taraf kheencha gaya lagta hai.' : 'Wah, tum par anchor ka asar kaafi kam dikha!') : (v > 78 ? 'Tumhara andaza upar ki taraf kheencha gaya lagta hai.' : 'Wah, tum par anchor ka asar kaafi kam dikha!')}</p><p class="muted">Ek insaan ke data se kuch saabit nahi hota, par bade groups me ye effect baar-baar milta hai. Dosto par try karo: aadhe ko 9, aadhe ko 140 do.</p></div>`;
             done();
           };
           u.$('#ok', stage).onclick = go;
@@ -537,18 +537,18 @@
   /* ---------- Framing ---------- */
   L('framing', {
     title: 'Framing effect: bachenge ya marenge?', icon: 'shuffle', level: 7, chapter: 'cognitive-biases', mins: 2,
-    short: 'Same numbers, alag shabd. Kya shabd badalne se aapka faisla badal jaata hai?',
-    intro: 'Ek mushkil faisla. Do options me se ek chuno.',
+    short: 'Same numbers, alag shabd. Kya shabd badalne se tumhara faisla badal jaata hai?',
+    intro: 'Socho ek mushkil faisla tumhare haath me hai. Dhyan se padho, phir do options me se ek chuno.',
     about: ['Tversky aur Kahneman (1981) ke "Asian disease problem" me jab options "kitne <b>bachenge</b>" ke roop me diye gaye, 72% logon ne pakka option (A) chuna. Jab bilkul wahi options "kitne <b>marenge</b>" ke roop me diye gaye, 78% logon ne risky option (D) chuna.', 'Gain frame me hum risk se bachte hain, loss frame me risk lete hain: ye <b>prospect theory</b> ka hissa hai. Isliye "95% fat-free" "5% fat" se achha lagta hai, aur doctors "90% survival" bolein to log surgery zyada chunte hain bajaye "10% mortality" ke.'],
     render(stage, done) {
       const gain = Math.random() < .5;
       const opts = gain ? [['A', 'Program A: <b>200 log bachenge</b>.'], ['B', 'Program B: 1/3 chance hai ki <b>sab 600 bachenge</b>, aur 2/3 chance ki <b>koi nahi bachega</b>.']] : [['C', 'Program C: <b>400 log marenge</b>.'], ['D', 'Program D: 1/3 chance hai ki <b>koi nahi marega</b>, aur 2/3 chance ki <b>sab 600 marenge</b>.']];
-      stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><p class="lab-q">Ek naye virus se <b>600 logon</b> ki jaan ko khatra hai. Health department ke paas do programs hain. Aap kaunsa chunoge?</p>${opts.map(([k, t]) => `<button class="opt" data-k="${k}"><span class="k">${k}</span><span>${t}</span></button>`).join('')}<div id="fb"></div></div>`;
+      stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px"><p class="lab-q">Ek naye virus se <b>600 logon</b> ki jaan ko khatra hai. Health department ke paas do programs hain. Tumhari choice kya hogi?</p>${opts.map(([k, t]) => `<button class="opt" data-k="${k}"><span class="k">${k}</span><span>${t}</span></button>`).join('')}<div id="fb"></div></div>`;
       u.$$('.opt', stage).forEach((b) => b.addEventListener('click', () => {
         u.$$('.opt', stage).forEach((x) => { x.style.pointerEvents = 'none'; x.classList.toggle('ok', x === b); });
         const k = b.dataset.k;
         const sure = k === 'A' || k === 'C';
-        u.$('#fb', stage).innerHTML = `<div class="explain">Aapne <b>${sure ? 'pakka' : 'risky'}</b> option chuna. Aapko <b>${gain ? '"bachenge" (gain)' : '"marenge" (loss)'}</b> frame mila tha. Doosre logon ko ye dikhaya gaya:<br><br>${gain ? '<b>C</b>: 400 log marenge. <b>D</b>: 1/3 chance koi nahi marega, 2/3 chance sab 600 marenge.' : '<b>A</b>: 200 log bachenge. <b>B</b>: 1/3 chance sab 600 bachenge, 2/3 chance koi nahi bachega.'}<br><br>Dhyan se dekho: <b>A aur C bilkul same hain</b> (600 me se 200 bachenge = 400 marenge), aur <b>B aur D bhi same</b>. Original study me gain frame me 72% ne pakka option chuna, loss frame me 78% ne risky. Sirf shabd badle, faisle palat gaye.</div>`;
+        u.$('#fb', stage).innerHTML = `<div class="explain">Tumne <b>${sure ? 'pakka' : 'risky'}</b> option chuna. Tumhe <b>${gain ? '"bachenge" (gain)' : '"marenge" (loss)'}</b> frame mila tha. Doosre logon ko ye dikhaya gaya:<br><br>${gain ? '<b>C</b>: 400 log marenge. <b>D</b>: 1/3 chance koi nahi marega, 2/3 chance sab 600 marenge.' : '<b>A</b>: 200 log bachenge. <b>B</b>: 1/3 chance sab 600 bachenge, 2/3 chance koi nahi bachega.'}<br><br>Dhyan se dekho: <b>A aur C bilkul same hain</b> (600 me se 200 bachenge = 400 marenge), aur <b>B aur D bhi same</b>. Original study me gain frame me 72% ne pakka option chuna, loss frame me 78% ne risky. Sirf shabd badle, faisle palat gaye.</div>`;
         done();
       }));
     }
@@ -558,7 +558,7 @@
   L('thoughtrecord', {
     title: 'CBT thought record', icon: 'pen', level: 6, chapter: 'therapies', mins: 6,
     short: 'Ek pareshaan karne wale vichaar ko CBT ke steps se jaancho aur balanced thought banao.',
-    intro: 'CBT ka sabse common worksheet. Ek haal ki situation lo jisne aapko pareshaan kiya. Aap chaho to pehle example dekh sakte ho. Jo likhoge wo kahin save ya bheja nahi jaata.',
+    intro: 'Ye CBT ka sabse common worksheet hai, chalo saath me bharte hain. Ek haal ki situation lo jisne tumhe pareshaan kiya; chaho to pehle example dekh lo. Yahan likha kuch bhi kahin save ya bheja nahi jaata.',
     about: ['Aaron Beck ki <b>Cognitive Behavioral Therapy</b> ka core idea: situation khud nahi, uske baare me hamare <b>automatic thoughts</b> emotions paida karte hain. Thought record un vichaaron ko pakadne, unme <b>cognitive distortions</b> pehchaanne aur saboot ke saath ek balanced vichaar banane ki practice hai.', 'Research me CBT depression, anxiety aur kai doosri problems ke liye sabse zyada tested therapies me se hai. Par ye worksheet therapy ka replacement nahi. Agar udaasi ya chinta lambe samay se hai ya rozmarra rok rahi hai, to kisi professional se baat karo (Tele-MANAS: 14416).'],
     render(stage, done) {
       const D = ['All-or-nothing', 'Catastrophizing', 'Mind reading', 'Fortune telling', 'Overgeneralization', 'Labeling', 'Should statements', 'Personalization', 'Emotional reasoning', 'Mental filter'];

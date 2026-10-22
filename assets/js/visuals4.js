@@ -215,7 +215,7 @@
     render(stage) {
       const W = 600, Hh = 360, water = 110;
       const info = [
-        ['Conscious', 'Jo abhi aapke dhyan me hai: ye shabd, kursi ka ehsaas, kal ki chinta. Iceberg ka chhota sa sira.'],
+        ['Conscious', 'Jo abhi tumhare dhyan me hai: ye shabd, kursi ka ehsaas, kal ki chinta. Iceberg ka chhota sa sira.'],
         ['Preconscious', 'Abhi dhyan me nahi par aasaani se yaad aa sakta hai: apna pin code, kal raat ka khana.'],
         ['Unconscious', 'Sabse bada hissa: dabi ichchhayein, darr, purane anubhav. Seedhe pahunch me nahi, par Freud ke hisaab se behaviour ko chalata hai.'],
         ['Id', 'Poori tarah unconscious. Turant khushi chahta hai (pleasure principle).'],
@@ -263,7 +263,7 @@
         const cx = w / 2;
         const seeds = Array.from({ length: 7 }, () => ({ x: u.rand(cx * .25, cx * .98), y: u.rand(h * .15, h * .85), vx: u.rand(-.6, .6), vy: u.rand(-.6, .6), r: u.rand(6, 22) }));
         let n = 0;
-        H.info(stage, `Dekhte raho... aapko kya dikh raha hai? ${u.pick(answers)} Rorschach test me jawab se zyada <b>kaise</b> dekha (poora blot, chhota hissa, rang, movement) score kiya jaata hai.`);
+        H.info(stage, `Dekhte raho... tumhe kya dikh raha hai? ${u.pick(answers)} Rorschach test me jawab se zyada <b>kaise</b> dekha (poora blot, chhota hissa, rang, movement) score kiya jaata hai.`);
         const step = () => {
           ctx.fillStyle = ink;
           ctx.globalAlpha = .9;

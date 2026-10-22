@@ -71,7 +71,7 @@
   V('perma', {
     title: 'PERMA',
     render(stage) {
-      const P = [['P', 'Positive emotion', 'Raat ko 3 achhi baatein likho; ek achhe pal ko jaanbujh kar 20 second "savor" karo.'], ['E', 'Engagement', 'Aisa kaam chuno jisme aap kho jaate ho (flow): music, coding, khel. Phone door rakho.'], ['R', 'Relationships', 'Hafte me ek purane dost ko call; khane par phone-free baatcheet.'], ['M', 'Meaning', 'Apne top 3 values likho; mahine me ek baar kisi ki madad ya volunteering.'], ['A', 'Accomplishment', 'Hafte ka ek chhota, specific goal; poora hone par usse note karo.']];
+      const P = [['P', 'Positive emotion', 'Raat ko 3 achhi baatein likho; ek achhe pal ko jaanbujh kar 20 second "savor" karo.'], ['E', 'Engagement', 'Aisa kaam chuno jisme waqt ka pata hi na chale (flow): music, coding, khel. Phone door rakho.'], ['R', 'Relationships', 'Hafte me ek purane dost ko call; khane par phone-free baatcheet.'], ['M', 'Meaning', 'Apne top 3 values likho; mahine me ek baar kisi ki madad ya volunteering.'], ['A', 'Accomplishment', 'Hafte ka ek chhota, specific goal; poora hone par usse note karo.']];
       const cols = ['var(--l4)', 'var(--l2)', 'var(--l1)', 'var(--l5)', 'var(--l7)'];
       const cx = 280, cy = 170, R = 78;
       let inner = '';
@@ -139,7 +139,7 @@
 
   /* ---------- Fish tank (holistic vs analytic) ---------- */
   V('fishTank', {
-    title: 'Fish tank: aap kya dekhte ho?',
+    title: 'Fish tank: tumhe kya dikhta hai?',
     render(stage) {
       const W = 620, Hh = 300;
       const fishShape = (s, c) => `<g transform="scale(${s})"><path d="M0 0 q30 -22 60 0 q-30 22 -60 0 z" style="fill:${c}"/><path d="M58 0 l18 -12 v24 z" style="fill:${c}"/><circle cx="12" cy="-4" r="3" style="fill:var(--surface)"/></g>`;

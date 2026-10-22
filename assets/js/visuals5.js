@@ -16,9 +16,9 @@
     title: 'Kaaran: insaan ya halaat?',
     render(stage) {
       const S = [
-        ['Ek bike wale ne aapko overtake karke achanak cut kiya.', 'Kitna badtameez aur laaparwah hai!', 'Mujhe hospital pahunchna tha, isliye jaldi me tha.'],
-        ['Class ke ek student ke exam me kam marks aaye.', 'Padhai nahi karta, aalsi hai.', 'Paper me out-of-syllabus sawaal the aur main beemar tha.'],
-        ['Ek dost ne 2 din tak message ka jawab nahi diya.', 'Ghamandi ho gaya hai, ignore kar raha hai.', 'Itna busy tha ki phone dekh hi nahi paaya.']
+        ['Ek bike wale ne tumhe overtake karke achanak cut kiya.', 'Kitna badtameez aur laaparwah hai!', 'Mujhe hospital pahunchna tha, isliye bahut jaldi thi.'],
+        ['Class ke ek student ke exam me kam marks aaye.', 'Padhai nahi karta, aalsi hai.', 'Paper me out-of-syllabus sawaal the aur meri tabiyat kharab thi.'],
+        ['Ek dost ne 2 din tak message ka jawab nahi diya.', 'Ghamandi ho gaya hai, ignore kar raha hai.', 'Itna kaam tha ki phone dekhne ka time hi nahi mila.']
       ];
       stage.innerHTML = `<div style="display:flex;flex-direction:column;gap:14px">
         <div class="card" style="padding:14px 16px;background:var(--surface-2);border:0"><div class="eyebrow">Situation</div><p id="at-s" style="font-weight:700;margin-top:4px"></p></div>
@@ -29,7 +29,7 @@
       const ctrl = H.ctrl(stage);
       let sc = 0, me = 0;
       const draw = () => {
-        u.$('#at-s', stage).textContent = me ? S[sc][0].replace('Ek bike wale ne aapko', 'Aapne kisi ko').replace('Class ke ek student ke', 'Aapke').replace('Ek dost ne', 'Aapne ek dost ko').replace('jawab nahi diya', 'jawab nahi diya') : S[sc][0];
+        u.$('#at-s', stage).textContent = me ? S[sc][0].replace('Ek bike wale ne tumhe', 'Tumne kisi ko').replace('Class ke ek student ke', 'Tumhare').replace('Ek dost ne', 'Tumne ek dost ko').replace('jawab nahi diya', 'jawab nahi diya') : S[sc][0];
         u.$('#at-who', stage).textContent = me ? 'Main' : 'Woh';
         u.$('#at-bub', stage).textContent = '"' + S[sc][me ? 2 : 1] + '"';
         u.$('#at-bub', stage).style.borderColor = me ? 'var(--good)' : 'var(--bad)';
@@ -138,7 +138,7 @@
 
   /* ---------- Asch (interactive) ---------- */
   V('asch', {
-    title: 'Asch ka experiment: aapki baari',
+    title: 'Asch ka experiment: tumhari baari',
     render(stage) {
       const rounds = [{ std: 120, opts: [90, 120, 155], correct: 1, wrong: null }, { std: 100, opts: [100, 70, 130], correct: 0, wrong: 2 }, { std: 140, opts: [110, 175, 140], correct: 2, wrong: 0 }];
       let r = 0, ally = false, tm = [], log = [];
@@ -151,7 +151,7 @@
         inner += `<line x1="100" y1="${160 - R.std * 0.8}" x2="100" y2="160" style="stroke:var(--ink);stroke-width:7;stroke-linecap:round"/>`;
         R.opts.forEach((len, i) => { const x = 330 + i * 90; inner += `<line x1="${x}" y1="${160 - len * 0.8}" x2="${x}" y2="160" style="stroke:var(--ink);stroke-width:7;stroke-linecap:round"/><text class="svg-title" x="${x}" y="178" text-anchor="middle" style="font-size:14px">${'ABC'[i]}</text>`; });
         names.forEach((n, i) => { const x = 60 + i * 85; inner += `<circle cx="${x}" cy="260" r="24" style="fill:var(--surface-2);stroke:var(--ink-3);stroke-width:2"/><text class="svg-small" x="${x}" y="300" text-anchor="middle" style="fill:var(--ink)">${n}</text><g class="as-b" data-i="${i}" style="opacity:0;transition:opacity .3s"><rect x="${x - 20}" y="198" width="40" height="30" rx="10" style="fill:var(--ink)"/><text class="as-t svg-title" x="${x}" y="219" text-anchor="middle" style="fill:var(--paper);font-size:15px"></text></g>`; });
-        inner += `<circle cx="570" cy="260" r="26" style="fill:${LC}"/><text class="svg-title" x="570" y="265" text-anchor="middle" style="fill:var(--surface);font-size:13px">Aap</text>`;
+        inner += `<circle cx="570" cy="260" r="26" style="fill:${LC}"/><text class="svg-title" x="570" y="265" text-anchor="middle" style="fill:var(--surface);font-size:13px">Tum</text>`;
         stage.innerHTML = u.svg(W, Hh, inner, 'aria-label="Asch line judgement task with group answers"') + `<div class="vis-ctrl" id="as-ctrl"></div>`;
         const svg = stage.firstChild;
         const ctrl = u.$('#as-ctrl', stage);
@@ -165,7 +165,7 @@
           }, u.reduced() ? 0 : 500 + i * 650));
         });
         tm.push(setTimeout(() => {
-          H.info(stage, `Ab <b>aapki baari</b>. Sabne <b>"${'ABC'[answers[0]]}"</b> kaha${ally && R.wrong !== null ? ' (sirf Meera ne alag)' : ''}. Aapka jawab?`);
+          H.info(stage, `Ab <b>tumhari baari</b>. Sabne <b>"${'ABC'[answers[0]]}"</b> kaha${ally && R.wrong !== null ? ' (sirf Meera ne alag)' : ''}. Tumhara jawab?`);
           ctrl.innerHTML = [0, 1, 2].map((i) => `<button class="btn small ${i === answers[0] ? 'lc' : 'ghost'}" data-a="${i}" style="min-width:64px">${'ABC'[i]}</button>`).join('');
           u.$$('[data-a]', ctrl).forEach((b) => b.addEventListener('click', () => answer(+b.dataset.a, answers[0])));
         }, u.reduced() ? 0 : 500 + names.length * 650 + 200));
@@ -175,14 +175,14 @@
         const critical = R.wrong !== null;
         log.push({ critical, conformed: critical && a === groupAns && a !== R.correct, right: a === R.correct });
         const ctrl = u.$('#as-ctrl', stage);
-        let msg = a === R.correct ? (critical ? 'Aapne <b>sahi</b> jawab diya, group ke khilaf! Real lab me 6 asli logon ke saamne, chehre dekhte hue, ye kaafi mushkil hota hai.' : 'Sahi. Pehle round me group ne bhi sahi kaha, taaki aapka group par bharosa bane.') : (critical && a === groupAns ? 'Aapne <b>group ka saath</b> diya, jabki line ' + 'ABC'[R.correct] + ' sahi thi. Yahi normative influence hai.' : 'Ye jawab sahi nahi tha.');
+        let msg = a === R.correct ? (critical ? 'Tumne <b>sahi</b> jawab diya, group ke khilaf! Shabaash. Real lab me 6 asli logon ke saamne, chehre dekhte hue, ye kaafi mushkil hota hai.' : 'Sahi. Pehle round me group ne bhi sahi kaha, taaki tumhe group par bharosa ho jaaye.') : (critical && a === groupAns ? 'Tumne <b>group ka saath</b> diya, jabki line ' + 'ABC'[R.correct] + ' sahi thi. Yahi normative influence hai, aur ye bilkul insaani hai.' : 'Ye jawab sahi nahi tha.');
         if (r < rounds.length - 1) {
           H.info(stage, msg);
           ctrl.innerHTML = `<button class="btn small" id="as-n">Agla round ${PSY.icon('right')}</button>`;
           u.$('#as-n', ctrl).onclick = () => { r++; draw(); };
         } else {
           const conf = log.filter((x) => x.conformed).length, crit = log.filter((x) => x.critical).length;
-          H.info(stage, `${msg}<br><br><b>Result</b>: critical rounds me aapne ${conf}/${crit} baar group ka galat jawab chuna. Asch ki studies me ~37% critical jawab conform hue, ~75% logon ne kam se kam ek baar conform kiya. Aur jab group me sirf <b>ek saathi</b> sahi jawab deta tha, conformity bahut gir jaati thi.`);
+          H.info(stage, `${msg}<br><br><b>Result</b>: critical rounds me tumne ${conf}/${crit} baar group ka galat jawab chuna. Asch ki studies me ~37% critical jawab conform hue, ~75% logon ne kam se kam ek baar conform kiya. Aur jab group me sirf <b>ek saathi</b> sahi jawab deta tha, conformity bahut gir jaati thi.`);
           ctrl.innerHTML = `<button class="btn small ghost" id="as-a">${PSY.icon('replay')}Dobara</button><button class="btn small ghost" id="as-b">${ally ? 'Bina saathi ke' : 'Ek saathi ke saath'} try karo</button>`;
           u.$('#as-a', ctrl).onclick = () => { r = 0; log = []; draw(); };
           u.$('#as-b', ctrl).onclick = () => { ally = !ally; r = 0; log = []; draw(); };
@@ -311,7 +311,7 @@
     title: 'Bheed aur madad',
     render(stage) {
       const sets = [
-        ['Seizure study (1968)', [['Sirf aap', 85, 0], ['Aap + 1', 62, 1], ['Aap + 4', 31, 4]], 'Darley aur Latané: seizure khatam hone se pehle kitne % ne madad ki. Zyada log = zimmedari bat gayi (diffusion of responsibility).'],
+        ['Seizure study (1968)', [['Sirf tum', 85, 0], ['Tum + 1', 62, 1], ['Tum + 4', 31, 4]], 'Darley aur Latané: seizure khatam hone se pehle kitne % ne madad ki. Zyada log = zimmedari bat gayi (diffusion of responsibility).'],
         ['Dhuen wala kamra (1968)', [['Akele', 75, 0], ['2 shaant logon ke saath', 10, 2]], 'Latané aur Darley: kitne % ne dhuan report kiya. Doosre shaant baithe the, to logon ne maan liya ki emergency nahi hai (pluralistic ignorance).']
       ];
       const holder = u.el('<div></div>');
