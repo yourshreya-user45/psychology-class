@@ -11,6 +11,7 @@
     visualCap: 'Schizophrenia ke symptoms teen groups me: positive (kuch "juda"), negative (kuch "ghata") aur cognitive. Kisi bhi card par tap karo.',
     title: 'Schizophrenia, personality aur doosre disorders',
     tag: 'Psychosis ka sach (split personality nahi), dopamine, family ka role, personality disorder clusters, eating disorders aur Dhat syndrome',
+    intro: 'Pichhle chapter me mood disorders dekhe. Aaj un conditions ki baat jinke baare me sabse zyada darr aur galatfahmiyan hain: schizophrenia, dissociation, personality aur eating disorders. Filmon ne inki jo tasveer banayi hai, use thodi der ke liye side me rakh do. Aaj ka lakshya hai label ke peeche insaan ko dekhna.',
     hook: 'Filmon me "split personality" ko aksar schizophrenia bata diya jaata hai. Ye sabse common galatfahmi hai. Schizophrenia me personality "do tukdon" me nahi batti; balki <b>reality se rishta</b> kamzor padta hai. Aur sahi ilaaj aur parivaar ke saath bahut se log achhi zindagi jeete hain.',
     blocks: [
       ['h', 'Schizophrenia kya hai?'],
@@ -20,6 +21,7 @@
         ['Negative symptoms', 'Normal kaamon me kuch <b>ghata</b>', 'Chehre par emotion kam (flat affect), motivation ki kami (avolition), bahut kam bolna, khushi na mehsoos hona, logon se katna'],
         ['Cognitive symptoms', 'Soch ki kshamta me kami', 'Dhyan, working memory, planning me dikkat; ye rozmarra aur naukri ko sabse zyada prabhavit karte hain']
       ]],
+      ['teacher', 'Ruko, "positive" aur "negative" shabdon par sab atakte hain. Yahan positive ka matlab "achha" nahi, "kuch juda hua" hai (jaise awaazein), aur negative ka matlab "kuch ghat gaya" (jaise emotion ya motivation). Plus aur minus socho, achha-bura nahi.'],
       ['myth', 'Schizophrenia ka matlab "split personality" (do alag log) hai, aur aise log khatarnak hote hain.', '"Split" ka matlab soch aur reality ke beech dooriyan hai, do personalities nahi (wo dissociative identity disorder hai, jo bilkul alag aur rare hai). Schizophrenia wale zyada tar log violent nahi hote; wo khud violence aur shoshan ke shikaar zyada hote hain. Risk tab badhta hai jab ilaaj na ho aur nasha saath ho.'],
 
       ['h', 'Kaaran: genes, dopamine aur mahaul'],
@@ -34,6 +36,7 @@
       ['p', '<b>Antipsychotic dawaiyan</b> mukhya ilaaj hain. Purani (jaise haloperidol) me muscle stiffness aur <b>tardive dyskinesia</b> (anchahe movements) jaise side effects zyada the; nayi (jaise risperidone, olanzapine) me weight badhna aur sugar jaise side effects ka dhyan rakhna padta hai. <b>Clozapine</b> un logon me kaam aa sakti hai jinpar doosri dawaiyan kaam nahi karti.'],
       ['p', 'Dawai ke saath <b>psychosocial ilaaj</b> zaroori hai: family psychoeducation (parivaar ko beemari samjhana), CBT for psychosis, social skills training aur supported employment. Research me paaya gaya hai ki ghar me bahut zyada criticism, gussa ya over-involvement (<b>high expressed emotion</b>) relapse ka risk badhata hai, aur shaant, supportive parivaar relapse ghatata hai.'],
       ['ex', 'India me parivaar ki taakat', 'WHO ki 1970s se 1990s tak ki international studies me India jaise kuch deshon me schizophrenia ke kuch outcomes Western deshon se behtar dikhe. Ek sambhavit kaaran maana gaya parivaar ka saath rehna aur care me shaamil hona. (Is finding par baad me bahas bhi hui.) Chennai ki SCARF jaisi sansthaon ne Indian context me community aur family-based care par mahatvapurn kaam kiya hai. Parivaar ko sahi jaankari aur support mile, to wo ilaaj ka sabse bada hissa ban sakta hai.'],
+      ['teacher', 'Ilaaj sirf dawai ki goli nahi; ghar ka shaant, samajhdaar mahaul bhi dawai jaisa kaam karta hai. Kabhi kisi parivaar me aisi beemari dikhe, to taane ki jagah saath dena hi sabse badi madad hai.'],
 
       ['h', 'Dissociative disorders'],
       ['p', 'Dissociation me consciousness, memory, identity ya perception ke normal jodd me tootan hota hai. <b>Depersonalization/derealization</b> (khud ko ya duniya ko anreal ya sapne jaisa mehsoos karna), <b>dissociative amnesia</b> (zaroori personal yaadein, aksar trauma se judi, bhool jaana) aur bahut rare <b>dissociative identity disorder (DID)</b>, jise pehle "multiple personality" kehte the aur jo gambhir bachpan ke trauma se juda maana jaata hai. DSM me "possession" jaisi cultural expressions ka bhi zikr hai; India me kai baar aise anubhavon ko pehle dharmik nazar se dekha jaata hai.'],
@@ -45,6 +48,7 @@
         ['B: dramatic / emotional', 'Tez emotions, impulsivity, rishton me tufaan', 'Antisocial (doosron ke adhikaaron ki parwah nahi, kanoon todna), borderline (emotional instability, chhod diye jaane ka darr, self-harm), histrionic (attention ki tez zaroorat), narcissistic (ghamand, taareef ki bhookh, empathy kam)'],
         ['C: anxious / fearful', 'Chinta aur darr', 'Avoidant (rejection ke darr se katna), dependent (doosron par had se zyada nirbharta), obsessive-compulsive personality (perfectionism aur control; OCD se alag)']
       ]],
+      ['teacher', 'Clusters yaad rakhne ki trick: A = Ajeeb (odd), B = Bold aur dramatic, C = Chinta (anxious). Aur ek baat: doston ko mazaak me "narcissist" ya "psycho" bolna in gambhir conditions ko halka kar deta hai.'],
       ['p', '<b>Borderline personality disorder</b> ke liye Marsha Linehan ki <b>Dialectical Behaviour Therapy (DBT)</b> research me effective paayi gayi hai (agle chapter me). "Psychopath" shabd aam bolchaal me bahut use hota hai; clinically ye antisocial personality se juda par alag concept hai (jaise kam empathy, kam guilt, charm ke saath manipulation), jise Robert Hare ki checklist se naapa jaata hai.'],
 
       ['h', 'Eating disorders aur culture se jude syndromes'],
@@ -76,6 +80,7 @@
         ['Cultural concept of distress', 'Culture-specific tareeke jisse takleef anubhav aur vyakt ki jaati hai (jaise Dhat syndrome).']
       ]]
     ],
+    outro: 'Aaj ka saar: schizophrenia split personality nahi, aur sahi ilaaj aur parivaar ke saath recovery sambhav hai; personality disorders ke teen clusters hain, aur culture takleef ke roop ko shape karta hai. Quiz try karo. Agle chapter me "Taare Zameen Par" ki duniya: ADHD, autism aur learning disabilities.',
     takeaways: [
       'Schizophrenia = positive, negative aur cognitive symptoms; split personality nahi.',
       'Genes, dopamine/glutamate, brain development aur environment (jaise teenage cannabis) milkar risk banate hain.',
@@ -104,6 +109,7 @@
     visualCap: 'Autism ek seedhi line ("thoda" se "bahut") nahi hai. Har autistic vyakti ka profile alag hota hai. Alag logon ke profile dekho.',
     title: 'ADHD, autism aur learning disabilities',
     tag: '"Taare Zameen Par" se aage: neurodevelopmental disorders, myths vs facts, aur school-ghar me sahi support',
+    intro: 'Pichhle chapter me zyada tar adult life me dikhne wale disorders dekhe; aaj un conditions ki baat jo bachpan se brain ke develop hone ke tareeke se judi hain. Shayad tumhari class me bhi koi tha jise sab "aalsi" ya "shaitaan" kehte the. Aaj samjhenge ki asal me kya ho raha ho sakta hai, aur sahi support kitna farak laata hai.',
     hook: '2007 ki film <b>"Taare Zameen Par"</b> ke Ishaan ko sab "aalsi", "badtameez" aur "bewakoof" samajhte the. Asal me use <b>dyslexia</b> tha. Is film ne lakhon Indian parents aur teachers ko pehli baar learning disabilities ke baare me sochne par majboor kiya. Is chapter me un conditions ko samjhenge jo brain ke develop hone ke tareeke se judi hain.',
     blocks: [
       ['h', 'Neurodevelopmental disorders kya hain?'],
@@ -114,6 +120,7 @@
       ['compare', ['Inattention', 'Dhyan jaldi bhatakna, careless galtiyan, cheezein kho dena, instructions follow na kar paana, lambe mental effort wale kaam se bachna, bhoolna.'], ['Hyperactivity-impulsivity', 'Baith na paana, hath-pair hilaate rehna, bahut bolna, baari ka intezaar na kar paana, beech me bolna, bina soche karna.']],
       ['p', 'Teen presentations: mostly inattentive, mostly hyperactive-impulsive, ya combined. Duniya me lagbhag <b>5-7% bachchon</b> me ADHD paaya jaata hai, aur kai logon me ye adulthood tak chalta hai. Heritability lagbhag 70-80%. Brain ke executive function aur reward/dopamine systems me farak se juda hai.'],
       ['myth', 'ADHD buri parenting, zyada sugar, ya bas "aalsi" hone se hota hai; bachcha chahe to dhyan de sakta hai.', 'ADHD ek strongly genetic neurodevelopmental condition hai. Sugar ka koi saboot nahi (Chapter 1.6). ADHD wale log interesting cheezon par ghanton focus kar sakte hain (hyperfocus), par "boring par zaroori" kaam me dhyan lagana unke liye sach me mushkil hai: problem willpower nahi, dimaag ka attention regulation hai.'],
+      ['teacher', 'Yahan sab confuse hote hain: "Game me to ghanton dhyan lagta hai, padhai me kyun nahi?" Jawab hai hyperfocus. ADHD me dhyan ki kami nahi, dhyan ko control karne ki dikkat hai: interesting cheez par atak jaata hai, boring par tikta nahi.'],
       ['p', '<b>Ilaaj</b>: chhote bachchon (6 saal se kam) me pehle <b>behavioural parent training</b>; bade bachchon aur adults me <b>stimulant dawaiyan</b> (jaise methylphenidate) research me effective hain, doctor ki nigrani me. Saath me school accommodations, organization skills training aur adults ke liye CBT.'],
       ['tip', 'ADHD wale student ke liye: kaam ko 15-20 minute ke chhote blocks me baanto (beech me movement break), checklist aur visual timer, phone doosre kamre me, ek kaam ek waqt me, aur kaam poora hone par turant chhota reward. Class me aage baithna aur written instructions bhi madad karte hain.'],
 
@@ -135,6 +142,7 @@
       ]],
       ['p', 'Ye aam taur par school-age bachchon me 5-15% tak paaye jaate hain. India me <b>Rights of Persons with Disabilities Act, 2016</b> specific learning disabilities ko disability ke roop me maanta hai, aur boards (jaise CBSE) eligible students ko extra time, scribe ya kuch subjects me chhoot jaisi suvidhayein dete hain. Jitni jaldi pehchaan aur sahi teaching (structured, multisensory), utna achha.'],
       ['ex', 'Ishaan aur Nikumbh sir', 'Film me art teacher Ram Shankar Nikumbh ne Ishaan ko "kamzor" ki jagah alag tareeke se seekhne wala bachcha dekha: reet par ungli se akshar banwana, clay se letters, aur uski painting ki shakti ko pehchaanna. Research ke hisaab se dyslexia ke liye <b>structured phonics</b> aur multisensory teaching sach me madad karti hai. Aur sabse bada farak padta hai jab bachche ko "bewakoof" ki jagah "tum alag tareeke se seekhte ho" ka message milta hai.'],
+      ['teacher', 'Yaad karo, kisi teacher ki ek baat ne kabhi tumhara bharosa badhaya ya toda tha? Shabdon ki yahi taakat har us bachche par bhi kaam karti hai jo alag tareeke se seekhta hai.'],
 
       ['h', 'Support kaise karein?'],
       ['list', [
@@ -159,6 +167,7 @@
         ['RPwD Act 2016', 'India ka disability adhikaar kanoon jo specific learning disabilities ko bhi shaamil karta hai.']
       ]]
     ],
+    outro: 'Aaj ka saar: ADHD, autism aur learning disabilities dimaag ke kaam karne ke alag tareeke hain, kisi ki galti nahi, aur jaldi pehchaan plus sahi support bahut farak laata hai. Quiz karke myths aur facts ka farak pakka karo. Agle chapter me dekhenge ki therapy asal me kaise kaam karti hai.',
     takeaways: [
       'Neurodevelopmental disorders brain development ke farak hain; challenges ke saath strengths bhi.',
       'ADHD genetic hai, buri parenting ya sugar se nahi; behaviour therapy aur dawaiyan effective.',
@@ -187,6 +196,7 @@
     visualCap: 'CBT ka cognitive triangle: thoughts, feelings aur behaviours ek-doosre ko chalate hain. Ek ko badlo, baaki bhi badalte hain.',
     title: 'Therapy kaise kaam karti hai',
     tag: 'Psychodynamic, humanistic, behaviour therapy, CBT, DBT, ACT, dawaiyan, ECT, aur India me lay counsellors ka kamaal',
+    intro: 'Ab tak humne kai disorders dekhe; ab sabse ummeed bhara sawaal: ilaaj kaise hota hai? "Therapy me bas baatein hoti hain" wali soch tumne bhi suni hogi. Aaj dekhenge ki alag therapies kya karti hain, kitna kaam karti hain, aur India me lay counsellors ne kaise kamaal kiya.',
     hook: '"Therapy to pagalon ke liye hoti hai" ya "bas baatein hi to karni hain, dost se kar lunga": ye soch India me karodon logon ko madad lene se rokti hai. Asal me therapy ek <b>skill-based, research-tested process</b> hai, jaise physiotherapy body ke liye. Is chapter me dekhenge ki alag therapies kya karti hain, aur kitna kaam karti hain.',
     blocks: [
       ['h', 'Do bade raaste'],
@@ -199,7 +209,7 @@
       ['p', 'Carl Rogers ki therapy me therapist "expert" nahi, balki ek garam, sachcha saathi hai jo client ko khud apne jawab dhoondhne me madad karta hai. Teen core conditions: <b>genuineness</b>, <b>unconditional positive regard</b> aur <b>empathy</b>. Mukhya technique <b>active listening</b> aur reflection hai.'],
       ['ex', 'Reflection kaisa sunai deta hai', [
         '<b>Client</b>: "Ghar me sab kehte hain bas engineering karo, par mujhe lagta hai main kuch aur ke liye bana hoon. Main confused hoon."',
-        '<b>Therapist (reflection)</b>: "Lagta hai aap parivaar ki ummeedon aur apni andar ki awaaz ke beech khinchav mehsoos kar rahe ho, aur ye confusion bhaari lag raha hai."',
+        '<b>Therapist (reflection)</b>: "Lagta hai parivaar ki ummeedon aur apni andar ki awaaz ke beech ek khinchav hai, aur ye confusion bhaari lag raha hai."',
         'Na salah, na judgement: bas itna samajhna ki client khud ko suna hua mehsoos kare. Yahi har achhi counselling ki neev hai.'
       ]],
 
@@ -220,6 +230,7 @@
         ['Kutte wale kamre me rehna', 'Darr 70/100.'],
         ['Shaant kutte ko chhoona', 'Darr 90/100 se shuru, phir dheere-dheere kam. Har step tab, jab pichhla aasaan lagne lage.']
       ]],
+      ['teacher', 'Dhyan do, har step tab aata hai jab pichhla aasaan lagne lage. Exposure ka matlab kisi ko darr me dhakelna nahi, balki dheere-dheere, uski marzi se, darr ki seedhi chadhna hai.'],
 
       ['h', 'Cognitive therapies aur CBT'],
       ['p', '<b>Albert Ellis</b> ki <b>REBT</b> ka <b>ABC model</b>: <b>A</b>ctivating event (exam me fail) khud <b>C</b>onsequence (depression) paida nahi karta; beech me <b>B</b>elief hai ("mujhe har cheez me perfect hona <i>chahiye</i>, warna main bekaar hoon"). Irrational "musts" ko challenge karna therapy hai. <b>Aaron Beck</b> ki cognitive therapy <b>automatic thoughts</b> aur <b>cognitive distortions</b> ko pakadne aur saboot se jaanchne par focus karti hai. Aaj ka <b>CBT</b> cognitive aur behavioural techniques ka mel hai, aur depression, anxiety, OCD, insomnia, eating disorders jaise kai problems ke liye sabse zyada tested therapy hai.'],
@@ -235,6 +246,7 @@
         ['Emotional reasoning', '"Mujhe darr lag raha hai, matlab khatra zaroor hai."'],
         ['Mental filter', '10 taareefon me se 1 aalochana par hi atak jaana.']
       ]],
+      ['teacher', 'Is list ko apni pichhli exam ki raat se milao. "Ek sawaal galat, sab barbaad" ya "sab mujhe bewakoof samjhenge" jaisa kuch mann me aaya tha? Distortion ko naam dena hi use kamzor karne ka pehla kadam hai; neeche ke thought record me khud try karo.'],
       ['lab', 'thoughtrecord'],
 
       ['h', 'Third-wave therapies'],
@@ -259,6 +271,7 @@
 
       ['h', 'Kya therapy sach me kaam karti hai?'],
       ['p', '1977 me Smith aur Glass ke mashhoor <b>meta-analysis</b> (375 studies) aur 1980 ke bade follow-up me paaya gaya ki therapy lene wala average vyakti ilaaj na lene wale <b>lagbhag 75-80% logon se behtar</b> tha. Alag therapies ke beech farak aksar chhota hota hai; sabse bada common factor hai <b>therapeutic alliance</b>: client aur therapist ke beech bharosa aur saath kaam karne ka rishta. Saath hi ummeed, empathy aur ek saaf plan.'],
+      ['teacher', 'Ye point yaad rakhna: therapist ke saath bharosa utna hi zaroori hai jitni technique. Isliye agar pehla therapist sahi na lage, to doosra dhoondhna haar nahi, samajhdaari hai.'],
       ['case', 'Goa ke lay counsellors (Sangath: MANAS aur PREMIUM trials)', 'India me psychologists bahut kam hain. Vikram Patel aur Sangath ki team ne community ke aam logon ko (bina psychology degree ke) training di ki wo depression aur anxiety ke liye seedha structured counselling dein. Goa ke primary health centres me hue bade trials (MANAS, 2010; aur Healthy Activity Program, 2017) me in <b>lay counsellors</b> ka ilaaj effective paaya gaya aur sasta bhi. Is "task-sharing" model ko ab duniya ke kai deshon me apnaya ja raha hai.'],
       ['terms', [
         ['Psychotherapy', 'Trained professional ke saath psychological techniques se ilaaj.'],
@@ -281,6 +294,7 @@
         ['rTMS', 'Repetitive transcranial magnetic stimulation; magnetic pulses se brain stimulation.']
       ]]
     ],
+    outro: 'Aaj ka saar: therapies alag raaste leti hain, par research saaf kehti hai ki therapy kaam karti hai, aur bharose ka rishta sabse bada factor hai. Quiz se ABC model aur distortions pakke karo. Agle chapter me Level 6 ka aakhri aur shayad sabse practical sabak: madad kab, kahan aur kaise lein, apne liye bhi aur doston ke liye bhi.',
     takeaways: [
       'Psychodynamic insight par, humanistic acceptance par, behaviour therapy naye learning par, aur CBT soch-behaviour badalne par focus karti hai.',
       'Exposure (dheere-dheere saamna) phobias, OCD aur PTSD ka sabse powerful tool hai.',
@@ -310,7 +324,8 @@
     visualCap: 'Mental Health First Aid ka ALGEE action plan: koi bhi seekh sakta hai, jaise CPR.',
     title: 'Madad kab, kahan aur kaise',
     tag: 'Professional help kab lein, India me kahan milegi, therapist kaise chunein, dost ki madad (ALGEE), aur suicide prevention',
-    hook: 'Agar aapka dost raat 1 baje message kare, <i>"yaar, sab kuch bekaar lagta hai, kuch samajh nahi aa raha"</i>, to aap kya likhoge? Zyada tar log ya to ghabra jaate hain ya "chill kar, sab theek ho jaayega" likh dete hain. Is chapter me wo simple skills hain jo kisi ki zindagi me sach me farak la sakti hain, shayad bacha bhi sakti hain.',
+    intro: 'Level 6 ka ye aakhri chapter hai, aur shayad sabse kaam ka. Pichhle chapter me dekha ki therapy kaam karti hai; aaj seekhenge ki madad tak pahunchein kaise, aur kisi dost ke mushkil waqt me kya kahein. Ye skills CPR ki tarah hain: ummeed hai kabhi zaroorat na pade, par aani zaroor chahiye.',
+    hook: 'Socho, tumhara dost raat 1 baje message kare, <i>"yaar, sab kuch bekaar lagta hai, kuch samajh nahi aa raha"</i>, to tumhara jawab kya hoga? Zyada tar log ya to ghabra jaate hain ya "chill kar, sab theek ho jaayega" likh dete hain. Is chapter me wo simple skills hain jo kisi ki zindagi me sach me farak la sakti hain, shayad bacha bhi sakti hain.',
     blocks: [
       ['h', 'Professional madad kab lein?'],
       ['list', [
@@ -322,6 +337,7 @@
         'Koi bada trauma ya nuksaan hua ho aur sambhalna mushkil lag raha ho.'
       ]],
       ['p', 'Yaad rakho: madad lene ke liye "bahut bura" hone ka intezaar zaroori nahi. Jaise dant dard me jaldi dentist jaana behtar hai, waise hi jaldi ki madad chhoti problem ko badi banne se rokti hai.'],
+      ['teacher', 'Ek baat seedhe tumse: agar ye list padhte hue kuch apna sa laga ho, to iska matlab ye nahi ki tumhare saath kuch "galat" hai. Bas itna hai ki kisi se baat karne ka sahi waqt aa gaya hai, aur madad maangna kamzori nahi, himmat hai.'],
 
       ['h', 'India me madad kahan milegi?'],
       ['table', ['Kahan', 'Kya milta hai'], [
@@ -336,9 +352,9 @@
       ['h', 'Achha therapist kaise chunein?'],
       ['list', [
         '<b>Qualification</b> poochho: kis degree aur training ke saath practice karte hain? Clinical psychologist ke liye RCI registration.',
-        '<b>Approach</b>: CBT, psychodynamic, etc. Aapki problem ke liye kaunsa evidence-based hai?',
+        '<b>Approach</b>: CBT, psychodynamic, etc. Tumhari problem ke liye kaunsa evidence-based hai?',
         '<b>Comfort</b>: 2-3 sessions me agar bharosa aur samajh mehsoos na ho, to doosra therapist dhoondhna bilkul theek hai. Therapeutic alliance hi sabse bada factor hai.',
-        '<b>Red flags</b>: ek session me "poora ilaaj" ka vaada, confidentiality ki parwah na karna, shaming ya judgement, aapki marzi ke bina dharmik/personal vichaar thopna, ya professional seema todna (dosti, paison ka len-den, romantic interest).'
+        '<b>Red flags</b>: ek session me "poora ilaaj" ka vaada, confidentiality ki parwah na karna, shaming ya judgement, tumhari marzi ke bina dharmik/personal vichaar thopna, ya professional seema todna (dosti, paison ka len-den, romantic interest).'
       ]],
 
       ['h', 'Dost ki madad: ALGEE'],
@@ -357,6 +373,7 @@
         ['"Kya tum khud ko nuksaan pahunchane ke baare me soch rahe ho?"', '"Aisa mat socho, ye paap hai / log kya kahenge."'],
         ['"Main kal phir check karunga."', '"Positive socho, yoga karo, sab theek."']
       ]],
+      ['teacher', 'Notice karo, achhe jawabon me koi "solution" nahi hai, sirf saath hai. Hum aksar turant theek karne ki jaldi me hote hain, jabki saamne wale ko pehle bas suna jaana chahiye.'],
 
       ['h', 'Suicide ke khatre me kya karein'],
       ['p', 'Agar koi suicide ke vichaar bata raha hai ya warning signs dikh rahe hain (Chapter 6.3):'],
@@ -366,13 +383,14 @@
         '<b>Khatarnak cheezon</b> ko pahunch se door karo (dawaiyan, zehreele padarth, dhaar wali cheezein), jahan safe ho.',
         '<b>Madad se jodo</b>: Tele-MANAS 14416, ya turant khatre me 112 ya nazdeeki emergency.',
         '<b>Raaz mat rakho</b>: jaan bachane ke liye kisi bharosemand bade ya professional ko batana dosti todna nahi hai.',
-        '<b>Khud ka bhi khayal rakho</b>: kisi ko support karna bhaari ho sakta hai; aap bhi kisi se baat karo.'
+        '<b>Khud ka bhi khayal rakho</b>: kisi ko support karna bhaari ho sakta hai; tum bhi kisi se baat karo.'
       ]],
       ['note', [
         '<b>Helplines (India)</b>:',
         'Tele-MANAS: <b>14416</b> ya <b>1-800-891-4416</b> (24x7, free, sarkari) · Emergency: <b>112</b> · iCall (TISS): <b>9152987821</b> (din ke samay, Mon-Sat) · Vandrevala Foundation: <b>+91 9999 666 555</b> (24x7).',
         'Numbers kabhi badal sakte hain; Resources page par list hai aur official websites par latest jaankari dekho.'
       ]],
+      ['teacher', 'Ek chhota kaam abhi kar lo: Tele-MANAS ka number apne phone me save kar lo. Mushkil ghadi me dhoondhna nahi padega, na tumhe, na kisi dost ko.'],
 
       ['h', 'Rozmarra ki mental fitness'],
       ['p', 'Self-care ilaaj ka replacement nahi, par neev zaroor hai. Research-supported basic aadatein:'],
@@ -384,7 +402,7 @@
         '<b>Meaning aur kaam</b>: chhote lakshya, kisi ki madad, shauk.',
         '<b>Digital boundaries</b>: notifications kam, sone se pehle screen band, comparison wale content se doori.'
       ]],
-      ['p', '<b>Aapke adhikaar</b> (Mental Healthcare Act 2017): confidentiality, dignity, sarkari facilities me sasti ya muft care, ilaaj ke baare me jaankari paane ka adhikaar, advance directive aur nominated representative, aur zanjeer ya amaanveeya vyavhaar se suraksha.'],
+      ['p', '<b>Tumhare adhikaar</b> (Mental Healthcare Act 2017): confidentiality, dignity, sarkari facilities me sasti ya muft care, ilaaj ke baare me jaankari paane ka adhikaar, advance directive aur nominated representative, aur zanjeer ya amaanveeya vyavhaar se suraksha.'],
       ['terms', [
         ['Mental Health First Aid', 'Mental health crisis me pehli madad dene ki training (aam logon ke liye).'],
         ['ALGEE', 'Approach, Listen, Give support, Encourage professional help, Encourage other supports.'],
@@ -396,6 +414,7 @@
         ['Means restriction', 'Khud ko nuksaan pahunchane ke saadhano tak pahunch kam karna; suicide prevention ka proven tareeka.']
       ]]
     ],
+    outro: 'Aaj ka saar: madad jaldi lena samajhdaari hai, ALGEE se koi bhi pehli madad de sakta hai, aur suicide ke khatre me seedha poochhna aur saath rehna jaan bacha sakta hai. Is chapter ka quiz karo, aur phir Level 6 ka exam do: poore level ko ek saath dohraane ka sabse achha mauka. Tumne ek mushkil par bahut zaroori level poora kiya hai, shabaash.',
     takeaways: [
       '2 hafte se zyada takleef, rozmarra me rukawat, ya khud ko nuksaan ke vichaar: professional madad lo.',
       'India me Tele-MANAS (14416), sarkari psychiatry OPD, RCI-registered psychologists aur NGOs madad dete hain.',

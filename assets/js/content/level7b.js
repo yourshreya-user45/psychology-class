@@ -10,7 +10,8 @@
     visualCap: 'Masuda aur Nisbett (2001) ka fish tank: analytic nazar beech ki badi machhli par jaati hai, holistic nazar poore scene aur rishton par. Toggle karke dono tarah se dekho.',
     title: 'Culture aur psychology',
     tag: 'WEIRD problem, individualism-collectivism, holistic vs analytic soch, tight-loose cultures, Indian psychology aur acculturation',
-    hook: 'Ek American student se poochho "aap kaun ho?" Jawab: "Main creative hoon, ambitious hoon, music pasand hai." Ek gaon ki Indian dadi se poochho. Jawab: "Main Sharma ji ki patni hoon, teen bachchon ki maa, is gaon ki bahu." <b>Dono sahi hain.</b> Culture tay karta hai ki "self" ka matlab kya hai, aur psychology ke kai "universal" niyam asal me kitne universal hain.',
+    intro: 'Pichhle chapter me psychology ko kaam aur khel me dekha. Aaj ek kadam peeche hat kar poochhenge: jo kuch humne poore course me padha, wo kitna "universal" hai? Tumhara self, tumhari soch, aur takleef kehne ka tareeka, sab culture se rang lete hain. Aaj ye rang pehchaanna seekhenge.',
+    hook: 'Ek American student se poochho "tum kaun ho?" Jawab: "Main creative hoon, ambitious hoon, music pasand hai." Ek gaon ki Indian dadi se poochho. Jawab: "Main Sharma ji ki patni hoon, teen bachchon ki maa, is gaon ki bahu." <b>Dono sahi hain.</b> Culture tay karta hai ki "self" ka matlab kya hai, aur psychology ke kai "universal" niyam asal me kitne universal hain.',
     blocks: [
       ['h', 'WEIRD problem'],
       ['p', '2010 me Joseph Henrich, Steven Heine aur Ara Norenzayan ne ek mashhoor paper me dikhaya ki top psychology journals ke lagbhag <b>96%</b> participants un deshon se the jahan duniya ki sirf <b>~12%</b> aabadi rehti hai. Zyada tar American college students. Unhone in samples ko <b>WEIRD</b> kaha: Western, Educated, Industrialized, Rich, Democratic. Aur kai experiments me WEIRD log duniya ke baaki logon se <b>alag</b> nikle (jaise visual illusions, fairness games, self-concept). Matlab "insaan aise hote hain" kehne se pehle poochhna chahiye: <b>kaun se insaan?</b>'],
@@ -18,9 +19,11 @@
       ['h', 'Individualism aur collectivism'],
       ['compare', ['Individualism', 'Vyakti pehle: apne lakshya, uniqueness, independence. "Main" ki bhasha. Self ko personal traits se describe karna. Zyada US, Western Europe, Australia me.'], ['Collectivism', 'Group pehle: parivaar, samudaay, harmony, zimmedari. "Hum" ki bhasha. Self ko rishton aur roles se describe karna. Zyada East aur South Asia, Africa, Latin America me.']],
       ['p', 'Harry Triandis ne isme <b>vertical</b> (hierarchy maanna) aur <b>horizontal</b> (barabari) ka farak joda. India ke baare me Durganand Sinha aur R.C. Tripathi ne dikhaya ki yahan dono tendencies <b>saath-saath</b> rehti hain (Chapter 4.7): career me personal ambition aur shaadi-tyohaar me parivaar ki raay. Aur shehar-gaon, umar aur varg ke hisaab se bhi bahut farak hai. Culture ek <b>average tendency</b> hai, har vyakti ka label nahi.'],
+      ['teacher', 'Khud par try karo: "main kaun hoon?" ke 5 jawab likho. Kitne traits hain (creative, shy) aur kitne rishte ya roles (beta/beti, dost, student)? Zyada tar Indians me dono ka mix milta hai, bilkul jaisa Sinha aur Tripathi ne kaha.'],
 
       ['h', 'Holistic vs analytic soch'],
       ['case', 'Fish tank (Masuda aur Nisbett, 2001)', 'Japanese aur American students ko underwater scenes ke animated clips dikhaye gaye: beech me badi, tez machhliyan aur aas-paas paudhe, pathar, chhote jeev. Baad me jo yaad tha bataane ko kaha gaya. Americans ne zyada tar <b>badi machhli</b> se shuru kiya ("ek badi machhli baayein taraf ja rahi thi"). Japanese participants ne aksar <b>context</b> se shuru kiya ("ek talaab jaisa tha") aur background ke baare me lagbhag <b>60% zyada</b> statements diye. Jab wahi machhli naye background me dikhayi gayi, Japanese use pehchaanne me zyada atke: unke liye machhli aur uska mahaul jude hue the.'],
+      ['teacher', 'Ruko, isse ye nateeja mat nikaalna ki "Japanese aise hote hain, Americans waise". Ye average tendencies hain; har group ke andar bahut variety hai. Stereotype aur research finding me yahi farak hai.'],
       ['p', 'Richard Nisbett ki book <i>The Geography of Thought</i> ke hisaab se East Asian cultures zyada <b>holistic</b> (rishte, context, change, beech ka raasta) aur Western cultures zyada <b>analytic</b> (object, categories, rules, logic) soch ki taraf jhukte hain. Ye attribution ke farak se bhi juda hai (Chapter 5.1 me Joan Miller ki India-US study).'],
 
       ['h', 'Tight aur loose cultures'],
@@ -54,6 +57,7 @@
         ['Marginalization', 'Nahi', 'Nahi', 'Na purani se jude, na nayi se: aksar sabse zyada stress']
       ]],
       ['p', 'Research me <b>integration</b> aam taur par sabse achhe psychological adjustment se juda paaya gaya hai, par ye tabhi sambhav hai jab naya samaaj bhi swagat karne wala ho.'],
+      ['teacher', 'Tumne ya tumhare kisi jaanne wale ne kabhi naye shehar ya hostel me shift kiya hai? Ghar ka khana aur nayi jagah ke dost, dono ko saath rakhna hi integration hai.'],
 
       ['h', 'Evolution aur culture saath-saath'],
       ['p', 'David Buss (1989) ki 37 cultures ki study me purushon ne partner me youth aur attractiveness ko, aur mahilaon ne resources aur ambition ko zyada weight diya; par <b>dono</b> ne <b>kindness aur intelligence</b> ko sabse upar rakha. Baad ki research (Alice Eagly aur Wendy Wood) ne dikhaya ki jin samaajon me gender barabari zyada hai, wahan ye farak kam ho jaate hain. Matlab evolution tendencies deta hai, aur culture unhe badhata ya ghatata hai.'],
@@ -74,6 +78,7 @@
         ['Integration', 'Apni culture rakhte hue nayi culture se judne ki strategy.']
       ]]
     ],
+    outro: 'Aaj ka saar: zyada tar research WEIRD logon par hui hai, culture soch, self aur takleef ki bhasha ko shape karta hai, aur integration aam taur par sabse achha raasta hai. Quiz karo. Agle chapter me research ki gehraai me utrenge: psychometrics, replication crisis aur open science.',
     takeaways: [
       'Zyada tar research WEIRD samples par hui; "universal" daavon se pehle poochho: kaun se log?',
       'Individualism-collectivism average tendencies hain; India me dono saath dikhte hain.',
@@ -102,6 +107,7 @@
     visualCap: 'Reliability vs validity, dartboard ki tarah: reliable matlab baar-baar ek hi jagah, valid matlab sahi jagah (bullseye). Reliable hona zaroori hai, par kaafi nahi.',
     title: 'Advanced research, psychometrics aur replication crisis',
     tag: 'Reliability, validity, research designs, statistics ki jhalak, meta-analysis, replication crisis, open science aur research paper kaise padhein',
+    intro: 'Pichhle chapter me humne poocha "kaun se log?"; aaj poochhenge "kitna pakka?". Is course me tumne bahut si studies padhi hain; aaj seekhenge ki unhe parkhein kaise: test reliable hai ya nahi, design kya keh sakta hai, aur kuch famous findings dohraane par kyun gayab ho gayi. Ye chapter tumhe ek samajhdaar reader banata hai, sirf believer nahi.',
     hook: '2015 me 270 scientists ki ek team ne psychology ki top journals ki <b>100 published studies</b> ko dobara kiya. Original studies me se 97% me significant result tha; dobara karne par sirf <b>~36%</b> me. Kya iska matlab psychology "fake" hai? Nahi. Ye science ka <b>khud ko pakadna aur sudharna</b> hai, aur isse psychology pehle se kahin zyada mazboot bani hai.',
     blocks: [
       ['h', 'Psychometrics: naapne ka science'],
@@ -117,7 +123,8 @@
         ['Criterion validity', 'Asli outcome se rishta: abhi ke (concurrent) ya bhavishya ke (predictive), jaise entrance test aur college performance'],
         ['Construct validity', 'Sach me wahi theoretical concept naap raha hai: milte-julte tests se correlate (convergent), alag cheezon se nahi (discriminant)']
       ]],
-      ['ex', 'Tuti hui weighing machine', 'Ek machine roz aapka weight 5 kilo zyada batati hai: <b>reliable</b> (har baar same) par <b>valid nahi</b> (galat). Ek doosri machine har baar alag number deti hai: na reliable, na valid. Isliye reliability <b>zaroori</b> hai par <b>kaafi nahi</b>. Upar ka dartboard yahi dikhata hai.'],
+      ['ex', 'Tuti hui weighing machine', 'Ek machine roz tumhara weight 5 kilo zyada batati hai: <b>reliable</b> (har baar same) par <b>valid nahi</b> (galat). Ek doosri machine har baar alag number deti hai: na reliable, na valid. Isliye reliability <b>zaroori</b> hai par <b>kaafi nahi</b>. Upar ka dartboard yahi dikhata hai.'],
+      ['teacher', 'Ek trick: reliability = "har baar same", validity = "sahi jagah". Dartboard par tight group bullseye se door ho, to reliable par invalid. Quiz me ye sawaal zaroor milega.'],
 
       ['h', 'Research designs ki gehrai'],
       ['list', [
@@ -142,6 +149,7 @@
         '<b>Statistical power</b>: asli effect ko pakadne ka chance (aam taur par 80% ka target). Chhote samples ki power kam hoti hai, aur unme mile "significant" results zyada galat hone ka chance rakhte hain.',
         'Effect size aur confidence intervals report karna p-value se zyada informative hai (Chapter 1.4). Kai researchers ab <b>Bayesian statistics</b> bhi use karte hain jo evidence ki taakat ko seedhe naapta hai.'
       ]],
+      ['teacher', 'Yahan sab confuse hote hain, isliye ek example: fire alarm bina aag ke baje = Type I (false alarm). Aag lagi par alarm chup = Type II (miss). Dono galtiyan hain, bas alag tarah ki.'],
 
       ['h', 'Meta-analysis aur publication bias'],
       ['p', '<b>Systematic review</b> ek sawaal par saari relevant studies ko tay tareeke se dhoondhta hai; <b>meta-analysis</b> unke results ko statistically milata hai (forest plot me har study ka effect aur overall average). Par ek problem hai: <b>publication bias</b> (file drawer problem). "Significant" results journals me zyada chhapte hain aur "koi effect nahi" wale draaz me pade rehte hain. Isse literature me effects asal se bade dikhte hain. Funnel plots jaise tools is bias ko pakadne ki koshish karte hain.'],
@@ -155,6 +163,7 @@
         '<b>Fraud</b> rare hai par hua hai: Dutch social psychologist Diederik Stapel ne data gadha tha; unke dazanon papers retract hue.'
       ]],
       ['p', '<b>Kaaran kya the?</b> Chhote samples, <b>p-hacking</b> (analysis ko tab tak badalte rehna jab tak p &lt; .05 na aa jaaye), <b>HARKing</b> (Hypothesizing After Results are Known: result dekh kar hypothesis banana aur dikhana ki pehle se thi), flexible analysis ke kai raaste ("garden of forking paths"), publication bias, aur "naye, chaunkane wale" results ko inaam dene wala system.'],
+      ['teacher', 'School ke kisi practical me result ko "jaisa hona chahiye" waisa dikhane ka mann kabhi hua tha? Wahi chhota sa khinchav jab poori field me hota hai, to replication crisis banti hai. Imaandaar process, chahe result boring ho, science ki asli taaqat hai.'],
       ['h', 'Open science: sudhaar'],
       ['list', [
         '<b>Preregistration</b>: data lene se pehle hypothesis aur analysis plan public platform (jaise OSF) par register karna.',
@@ -202,6 +211,7 @@
         ['Open science', 'Data, materials aur methods ko khula rakhne ka movement.']
       ]]
     ],
+    outro: 'Aaj ka saar: achha measure reliable aur valid dono hota hai, aur replication crisis ne psychology ko kamzor nahi, zyada imaandaar banaya. Quiz karo. Agle chapter me Level 7 ka aakhri sawaal: psychology me career kaise banayein, aur ye safar aage kaise chalta rahe.',
     takeaways: [
       'Reliability = consistency, validity = sahi cheez naapna; reliability zaroori par kaafi nahi.',
       'Design choices (within/between, factorial, quasi) tay karte hain ki kis tarah ka nateeja nikal sakta hai.',
@@ -231,7 +241,8 @@
     visualCap: 'India me psychology ka career map: Class 12 se alag-alag raaste. Kisi bhi box par tap karke dekho kya karna padta hai.',
     title: 'Psychology me career (India)',
     tag: 'BA se licensed clinical psychologist tak, RCI, NET, aur HR, UX, sports, forensic, research jaise raaste; skills, internships aur aage kaise seekhte rahein',
-    hook: '"Psychology padh ke kya karoge? Pagalon ka ilaaj?" Ye sawaal har psychology student kabhi na kabhi sunta hai. Asal me insaani mann aur behaviour ki samajh <b>har jagah</b> chahiye: hospital, school, company, startup, adalat, khel ka maidan, aur policy banane wale offices. Ye course khatam karke aage kaise badhein, chaliye dekhte hain.',
+    intro: 'Level 7 ka ye aakhri chapter hai, aur ab tak tumne psychology ka ek bada naksha dekh liya hai. Aaj baat tumhare aage ke raaste ki: padhai, license, alag-alag careers, aur wo skills jo sach me kaam aati hain. Psychology ko profession na bhi banana ho, to bhi ye chapter dikhayega ki ye samajh har field me kaise kaam aati hai.',
+    hook: '"Psychology padh ke kya karoge? Pagalon ka ilaaj?" Ye sawaal har psychology student kabhi na kabhi sunta hai. Asal me insaani mann aur behaviour ki samajh <b>har jagah</b> chahiye: hospital, school, company, startup, adalat, khel ka maidan, aur policy banane wale offices. Ye course khatam karke aage kaise badhein, chalo dekhte hain.',
     blocks: [
       ['h', 'Padhai ka raasta'],
       ['steps', [
@@ -240,7 +251,8 @@
         ['MA / MSc', 'Specialization: Clinical, Counselling, Industrial-Organizational, Health, Forensic, Sports, Developmental, Applied, Neuropsychology, etc. Entrance: CUET-PG ya university tests.'],
         ['Professional ya research training', 'Licensed clinical/rehabilitation psychologist ke liye <b>RCI-approved</b> professional program (pehle M.Phil Clinical Psychology; NEP ke baad isme badlav ho rahe hain, isliye RCI website par latest check karo). Research aur teaching ke liye <b>PhD</b>; college lecturer ke liye <b>UGC-NET</b> (aur JRF se fellowship).']
       ]],
-      ['note', 'India me "clinical psychologist" title aur psychological assessment/therapy ke kuch kaam ke liye <b>Rehabilitation Council of India (RCI)</b> me registration zaroori hai. Sirf online certificate ya short course se aap licensed therapist nahi bante. Kisi se therapy lene se pehle bhi unka RCI registration ya qualification check karo.'],
+      ['note', 'India me "clinical psychologist" title aur psychological assessment/therapy ke kuch kaam ke liye <b>Rehabilitation Council of India (RCI)</b> me registration zaroori hai. Sirf online certificate ya short course se koi licensed therapist nahi ban jaata. Kisi se therapy lene se pehle bhi unka RCI registration ya qualification check karo.'],
+      ['teacher', 'Ye note ek baar aur padh lo. Instagram par "certified therapist in 30 days" jaise ads bahut dikhte hain. Sahi training lambi hoti hai, kyunki kisi ke mann ki zimmedari chhoti cheez nahi.'],
 
       ['h', 'Career options'],
       ['table', ['Career', 'Kya karte hain', 'Typical qualification'], [
@@ -257,8 +269,9 @@
         ['Public health / NGO / policy', 'Community mental health, behaviour change campaigns, behavioural insights', 'MA/MPH, field experience'],
         ['Data / behavioural science', 'Statistics, experiments, product aur policy decisions', 'Psychology + strong stats/programming (R, Python)']
       ]],
+      ['teacher', 'Is table me ek row dhoondho jise padhte hi mann me "haan, ye!" aaya. Abhi faisla zaroori nahi; bas us row ko note kar lo, aur neeche wale 30 din ke plan me usi par ek kadam rakho.'],
 
-      ['h', 'Skills jo aapko alag banayengi'],
+      ['h', 'Skills jo tumhe alag banayengi'],
       ['list', [
         '<b>Research aur statistics</b>: JASP/jamovi se shuru, phir R ya Python. Ye har field me kaam aata hai.',
         '<b>Likhna</b>: saaf reports, case notes, research papers (APA style).',
@@ -280,6 +293,7 @@
 
       ['h', 'Psychologist ki apni mental health'],
       ['p', 'Doosron ki takleef sunna emotionally bhaari hota hai. Achhe professionals <b>supervision</b> lete hain (senior ke saath cases discuss karna), apni <b>boundaries</b> rakhte hain, khud bhi therapy lete hain jab zaroorat ho, aur <b>burnout</b> ke signs (thakaan, cynicism, doori) ko pehchaante hain. "Healer ko bhi healing chahiye" koi kamzori nahi, professional zimmedari hai.'],
+      ['teacher', 'Ye baat sirf psychologists ke liye nahi. Jo bhi doosron ka khayal rakhta hai, use apna khayal bhi rakhna padta hai: khaali cup se chai nahi daali ja sakti.'],
 
       ['h', 'Is course ke baad: agla kadam'],
       ['tip', [
@@ -299,6 +313,7 @@
         ['Informational interview', 'Kisi professional se unke career ke baare me seekhne ke liye baatcheet.']
       ]]
     ],
+    outro: 'Aaj ka saar: psychology ka raasta lamba hai par bahut khula hai, aur sahi training, ethics aur self-care har kadam par zaroori hain. Quiz karo, aur phir Level 7 ka exam do. Uske baad ek aakhri, khaas Level 8 tumhara intezaar kar raha hai: dark psychology aur manipulation, yaani unhe pehchaanna aur unse apna bachav karna.',
     takeaways: [
       'Raasta: BA/BSc → MA/MSc specialization → (RCI-approved professional training ya PhD/NET).',
       'Licensed clinical psychologist ke liye RCI registration zaroori; short online courses kaafi nahi.',

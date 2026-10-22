@@ -11,7 +11,8 @@
     visualCap: 'Prospect theory ka value function: ₹1,000 khone ka dukh, ₹1,000 milne ki khushi se lagbhag double mehsoos hota hai. Curve loss ki taraf zyada steep hai.',
     title: 'Cognitive biases aur behavioural economics',
     tag: 'Anchoring, framing, loss aversion, sunk cost, defaults aur nudges: dimaag ke shortcuts jo paisa, sehat aur faisle badal dete hain',
-    hook: 'Ek shirt par tag: <s>₹2,999</s> <b>₹999 sirf aaj!</b> Aapko lagta hai ₹2,000 bacha liye. Par kya wo shirt kabhi ₹2,999 ki thi bhi? Aapka dimaag ek <b>anchor</b> ke jaal me phansa. Nobel Prize jeetne wali psychology research batati hai ki hum "rational" faisle kam aur predictable galtiyan zyada karte hain.',
+    intro: 'Level 7, Expert Zone me tumhara swagat hai! Ab tak ki saari neev par ab hum advanced aur applied psychology ki imaarat banayenge. Shuruaat dimaag ke shortcuts se: wo biases jo sale ke tag se lekar career ke faislon tak tumhare choices chupchaap modte hain. Aaj ke baad shopping mall thoda alag dikhega.',
+    hook: 'Ek shirt par tag: <s>₹2,999</s> <b>₹999 sirf aaj!</b> Tumhe lagta hai ₹2,000 bacha liye. Par kya wo shirt kabhi ₹2,999 ki thi bhi? Tumhara dimaag ek <b>anchor</b> ke jaal me phansa. Nobel Prize jeetne wali psychology research batati hai ki hum "rational" faisle kam aur predictable galtiyan zyada karte hain.',
     blocks: [
       ['h', 'Rational insaan ka myth'],
       ['p', 'Classical economics maanti thi ki insaan <b>rational</b> hai: saari information tolta hai aur apna sabse bada fayda chunta hai. Herbert Simon ne kaha hamari rationality <b>bounded</b> (seemit) hai: time, information aur dimaag ki capacity seemit hai. Phir Amos Tversky aur Daniel Kahneman ne dikhaya ki hamari galtiyan random nahi, <b>systematic</b> hain (biases). Kahneman ko 2002 me aur Richard Thaler ko 2017 me Economics ka Nobel mila. Is mel se bani field: <b>behavioural economics</b>.'],
@@ -24,6 +25,7 @@
         '<b>Salary negotiation</b>: pehle bola gaya number poori baat-cheet ko shape karta hai.',
         '<b>Adalat</b>: Englich aur saathiyon (2006) ki German study me <b>experienced judges</b> ne bhi, jinhe ek case ke liye pehle <b>dice</b> se aaya random number (zyada ya kam) dikhaya gaya, uske hisaab se zyada ya kam saza ka suggestion diya.'
       ]],
+      ['teacher', 'Socho, judges jinka kaam hi soch-samajh kar faisla karna hai, wo bhi dice ke number se khinch gaye. Matlab biases "bewakoofon" ki problem nahi, har dimaag ki wiring hai: tumhari bhi, aur meri bhi.'],
 
       ['h', 'Framing'],
       ['p', 'Same information, alag shabd, alag faisla. "95% fat-free" "5% fat" se achha lagta hai. McNeil aur saathiyon (1982) ki study me doctors aur patients ne bhi surgery ko zyada chuna jab use "90% survival" ke roop me bataya gaya, bajay "10% mortality" ke.'],
@@ -32,7 +34,8 @@
       ['h', 'Prospect theory aur loss aversion'],
       ['p', 'Kahneman aur Tversky ki <b>prospect theory</b> (1979) ke teen core ideas: (1) hum cheezon ko <b>reference point</b> se gain ya loss ki tarah dekhte hain, kul daulat ki tarah nahi; (2) <b>loss aversion</b>: nuksaan ka dard same size ke fayde ki khushi se lagbhag <b>2 guna</b>; (3) gain me hum risk se bachte hain, loss me risk lete hain.'],
       ['case', 'Coffee mug experiment (Kahneman, Knetsch aur Thaler, 1990)', 'Aadhe students ko ek university coffee mug de diya gaya. Jinke paas mug tha, unse poocha kitne me bechoge; jinke paas nahi tha, unse poocha kitne me kharidoge. Bechne wale lagbhag <b>double</b> keemat maang rahe the (~$7) jitna kharidne wale dene ko taiyaar the (~$3). Kuch minute pehle mila mug bhi "apna" ho gaya, aur use chhodna "loss" lagne laga: <b>endowment effect</b>.'],
-      ['ex', 'Purana phone jo bechna mushkil lagta hai', 'OLX par apne 3 saal purane phone ka daam aap market se zyada rakhte ho ("itna achha condition hai!"), aur koi kam bole to bura lagta hai. Isi tarah "free trial" ke baad subscription cancel karna mushkil lagta hai: ab wo cheez "apni" hai aur use khona loss hai. Companies isi loss aversion ka fayda uthati hain.'],
+      ['ex', 'Purana phone jo bechna mushkil lagta hai', 'OLX par apne 3 saal purane phone ka daam tumne bhi shayad market se zyada rakha hoga ("itna achha condition hai!"), aur koi kam bole to bura laga hoga. Isi tarah "free trial" ke baad subscription cancel karna mushkil lagta hai: ab wo cheez "apni" hai aur use khona loss hai. Companies isi loss aversion ka fayda uthati hain.'],
+      ['teacher', 'Loss aversion pakadne ki trick: jab bhi koi offer "miss mat karo!" ya "sirf aaj!" chillaye, samjho wo tumhare nuksaan ke darr se baat kar raha hai, fayde se nahi. Ek pal ruko aur poochho: kya ye cheez mujhe waise bhi chahiye thi?'],
 
       ['h', 'Aur bhi biases jo roz dikhte hain'],
       ['table', ['Bias', 'Kya hai', 'Example'], [
@@ -51,9 +54,10 @@
       ['h', 'Defaults aur nudges'],
       ['p', 'Hum aksar <b>default</b> (pehle se chuna hua option) ke saath chalte hain, kyunki badalna mehnat hai aur default "recommended" lagta hai.'],
       ['vis', 'nudge', 'Organ donor registration: "opt-in" (khud form bharo) vs "opt-out" (sab donor hain jab tak mana na karo) desh. Sirf default badalne ka farak.'],
-      ['p', 'Richard Thaler aur Cass Sunstein ki book <i>Nudge</i> (2008) ne <b>choice architecture</b> ka idea diya: options ko aise design karna ki log apne hi fayde ke faisle aasaani se lein, bina choice chheene. Examples: pension me automatic enrolment (US ki ek company me participation ~37% se ~86% ho gayi jab enrolment default bana diya gaya; Madrian aur Shea, 2001), canteen me fruits aankhon ke level par, "aapke padosi aapse kam bijli use karte hain" wale bills.'],
-      ['ex', '"Give It Up" campaign (India, 2015)', 'Sarkar ne LPG subsidy chhodne ki apeal ki aur chhodne walon ke naam publicly dikhaye, saath me message ki aapki subsidy kisi garib parivaar ko gas connection degi. Ek saal ke andar <b>1 crore se zyada</b> logon ne subsidy chhod di. Social norms ("doosre bhi kar rahe hain"), identity ("main achha nagrik hoon") aur concrete fayde ka mel: ek classic nudge. NITI Aayog ne 2019 me behavioural insights par kaam ke liye ek unit bhi banayi.'],
+      ['p', 'Richard Thaler aur Cass Sunstein ki book <i>Nudge</i> (2008) ne <b>choice architecture</b> ka idea diya: options ko aise design karna ki log apne hi fayde ke faisle aasaani se lein, bina choice chheene. Examples: pension me automatic enrolment (US ki ek company me participation ~37% se ~86% ho gayi jab enrolment default bana diya gaya; Madrian aur Shea, 2001), canteen me fruits aankhon ke level par, "tumhare padosi tumse kam bijli use karte hain" wale bills.'],
+      ['ex', '"Give It Up" campaign (India, 2015)', 'Sarkar ne LPG subsidy chhodne ki apeal ki aur chhodne walon ke naam publicly dikhaye, saath me message ki tumhari subsidy kisi garib parivaar ko gas connection degi. Ek saal ke andar <b>1 crore se zyada</b> logon ne subsidy chhod di. Social norms ("doosre bhi kar rahe hain"), identity ("main achha nagrik hoon") aur concrete fayde ka mel: ek classic nudge. NITI Aayog ne 2019 me behavioural insights par kaam ke liye ek unit bhi banayi.'],
       ['note', 'Nudges jaadu nahi. Badi reviews me publication bias ko adjust karne par kai nudges ka average asar chhota nikla. Aur nudge tab galat hai jab wo logon ko unke hi khilaf dhakele (jaise chhupi fees ya cancel karna jaanbujh kar mushkil banana, jinhe "dark patterns" kehte hain).'],
+      ['teacher', 'Yaad rakhna, nudge aur manipulation me farak irade ka hai: nudge tumhare fayde ke liye raasta aasaan karta hai, dark pattern kisi aur ke fayde ke liye tumhe phansaata hai. Is farak par course ke aakhir me aur gehraai se baat hogi.'],
 
       ['h', 'Biases se kaise bachein (debiasing)'],
       ['list', [
@@ -89,6 +93,7 @@
         ['Dark patterns', 'Users ko unke hi khilaf faisle karwane wale manipulative design.']
       ]]
     ],
+    outro: 'Aaj ka saar: hamari galtiyan random nahi, predictable hain, aur isliye unse bacha bhi ja sakta hai. Quiz karo, aur aaj hi kisi faisle par ek chhota pre-mortem try karo. Agle chapter me sawaal ulta karenge: kya galat hai ke bajay, zindagi ko achha kya banata hai? Yaani positive psychology.',
     takeaways: [
       'Hamari galtiyan systematic hain: biases predictable hain, isliye unse bacha bhi ja sakta hai.',
       'Anchoring aur framing faislon ko chupchaap modte hain (judges bhi bachte nahi).',
@@ -118,6 +123,7 @@
     visualCap: 'Seligman ka PERMA model: well-being ke paanch stambh. Har petal par tap karo aur ek practical activity dekho.',
     title: 'Positive psychology aur well-being',
     tag: 'PERMA, flow, khushi ke asli predictors, gratitude, character strengths, growth mindset aur grit ka sach',
+    intro: 'Pichhle chapter me dimaag ki galtiyan dekhi; aaj uski taaqat ki baat. Psychology ne lambe samay tak problems par dhyan diya, par ek sawaal utna hi zaroori hai: zindagi ko jeene layak kya banata hai? Aaj flow, khushi ke asli predictors aur kuch tested exercises dekhenge, aur ye bhi ki kaunsa "motivational" gyaan research par khara nahi utarta.',
     hook: 'Psychology ne lagbhag 100 saal ye samajhne me lagaye ki <b>kya galat hai</b>: depression, anxiety, trauma. 1998 me American Psychological Association ke president <b>Martin Seligman</b> ne ek naya sawaal poochha: <b>"Kya cheez zindagi ko jeene layak banati hai?"</b> Isse <b>positive psychology</b> shuru hui.',
     blocks: [
       ['h', 'Well-being ke do nazariye'],
@@ -137,6 +143,7 @@
       ['p', 'Hungarian-American psychologist <b>Mihaly Csikszentmihalyi</b> ne artists, athletes aur surgeons se poochha ki unke best pal kaise hote hain. Jawab: ek aisi sthiti jisme <b>challenge aur skill barabar</b> hote hain, lakshya saaf hota hai, turant feedback milta hai, apne aap ka dhyan gayab ho jaata hai aur samay ka ehsaas badal jaata hai. Unhone ise <b>flow</b> kaha.'],
       ['vis', 'flowChannel', 'Challenge bahut zyada = anxiety, bahut kam = boredom. Flow beech ki patti me hai, aur skill badhne ke saath challenge bhi badhana padta hai.'],
       ['ex', 'Riyaz, cricket aur coding', 'Ek sitar player ghanton riyaz karta hai aur use pata hi nahi chalta kab shaam ho gayi. Batsman kehta hai "ball football jitni badi dikh rahi thi". Programmer ek bug theek karte hue khana bhool jaata hai. Teeno flow me hain. Flow ke liye kaam ko thoda mushkil banao (par itna nahi ki ghabrahat ho), distractions hatao, aur saaf mini-goals rakho.'],
+      ['teacher', 'Yaad karo, aakhri baar kab samay ka pata hi nahi chala tha? Cricket, drawing, gaming, ya koi mushkil sawaal? Wahi tumhara flow tha. Uske ingredients pehchaan lo, to use dobara bulaana aasaan ho jaata hai.'],
 
       ['h', 'Khushi ko kya predict karta hai?'],
       ['list', [
@@ -146,7 +153,8 @@
         '<b>Doosron par kharch</b>: Elizabeth Dunn aur saathiyon (2008) ki study me logon ko paise diye gaye; jinhone doosron par kharch kiye, wo khud par kharch karne walon se zyada khush the.',
         '<b>Paisa</b>: garibi se nikalna bahut farak laata hai; uske baad bhi badhti income ke saath khushi badhti hai par dheere-dheere.'
       ]],
-      ['p', 'Khushi ka kuch hissa genes se juda hai (heritability lagbhag 30-50%), aur hum badi ghatnaon ke baad bhi apne "set point" ki taraf laut-te hain (hedonic adaptation). Ek mashhoor pie chart ("50% genes, 10% halaat, 40% aapke actions") ko baad me researchers ne galat statistics par based bataya; matlab intentional activities matter karti hain, par itna exact formula nahi hai.'],
+      ['p', 'Khushi ka kuch hissa genes se juda hai (heritability lagbhag 30-50%), aur hum badi ghatnaon ke baad bhi apne "set point" ki taraf laut-te hain (hedonic adaptation). Ek mashhoor pie chart ("50% genes, 10% halaat, 40% tumhare actions") ko baad me researchers ne galat statistics par based bataya; matlab intentional activities matter karti hain, par itna exact formula nahi hai.'],
+      ['teacher', 'Ruko, yahan ek common galti hoti hai: "khushi genes me hai, to kuch kar nahi sakte". Genes ek range dete hain, kaid nahi. Rishte, neend aur meaningful kaam us range ke andar bahut farak laate hain.'],
 
       ['h', 'Tested positive interventions'],
       ['list', [
@@ -156,6 +164,7 @@
         '<b>Character strengths</b>: VIA classification me 24 strengths (jaise curiosity, kindness, humour, perseverance, gratitude) jo 6 virtues (wisdom, courage, humanity, justice, temperance, transcendence) me baante gaye. Apni "signature strengths" ko naye tareekon se use karna well-being badha sakta hai.'
       ]],
       ['note', 'In interventions ka asar aam taur par <b>chhota se medium</b> hota hai, aur ye depression jaisi beemari ka ilaaj nahi. "Bas positive socho" kehna (<b>toxic positivity</b>) kisi ki asli takleef ko nakar sakta hai. Achhi positive psychology dukh ko jagah deti hai, use dabati nahi.'],
+      ['teacher', 'Is note ko dil se padhna. Kisi dost ke bure din me "bas positive socho" kehne se pehle "kya hua, batao" kehna zyada kaam aata hai. Dukh ko jagah dena bhi well-being ka hissa hai.'],
 
       ['h', 'Growth mindset aur grit: hype vs saboot'],
       ['p', 'Carol <b>Dweck</b> ka <b>growth mindset</b>: ye vishwas ki kshamtayein mehnat aur sahi strategy se badh sakti hain (fixed mindset ke ulat). Ye idea schools me bahut popular hua. Research kya kehti hai? Kuch meta-analyses me overall asar bahut chhota mila. Par 2019 ki ek badi, carefully designed US study (Yeager aur saathi) me ek ghante ke online program ne kamzor performance wale students ke grades thode sudhaare. Matlab: mindset matter karta hai, par ye "jaadu ki chhadi" nahi, aur sahi mahaul (achhe teachers, support) ke saath hi kaam karta hai.'],
@@ -180,6 +189,7 @@
         ['Ideal affect', 'Wo emotional states jinhe koi culture "ideal" maanta hai (Tsai).']
       ]]
     ],
+    outro: 'Aaj ka saar: well-being khushi aur arth dono hai, flow challenge aur skill ke santulan se aata hai, aur rishte khushi ka sabse bada predictor hain. Quiz karo, aur aaj raat se "3 achhi baatein" wala experiment shuru karo. Agle chapter me psychology ko kaam, khel, kanoon aur classroom me utarte dekhenge.',
     takeaways: [
       'Well-being hedonic (khushi) aur eudaimonic (arth) dono hai; PERMA paanch stambh deta hai.',
       'Flow tab aata hai jab challenge aur skill barabar hon.',
@@ -208,7 +218,8 @@
     visualCap: 'Naukri ke liye kaunsa selection tareeka asli job performance ko kitna predict karta hai (Schmidt aur Hunter, 1998 ke validity estimates). Handwriting analysis lagbhag zero!',
     title: 'Applied psychology: kaam, khel, kanoon aur classroom',
     tag: 'I/O psychology, UX, health psychology, forensic (narco-analysis par Supreme Court), sports psychology, SSB tests aur educational psychology',
-    hook: 'Psychology sirf therapy room me nahi rehti. Job interview, cricket ground, adalat, classroom, hospital, aur aapke phone ke app ka design: har jagah psychology ke principles kaam kar rahe hain, aur har field me psychologists ki zaroorat hai.',
+    intro: 'Pichhle do chapters me biases aur well-being dekhe; aaj dekhenge ki psychology asli duniya me kahan-kahan kaam karti hai. Naukri ke interview se lekar cricket ground, adalat aur SSB tak, har jagah ye principles chupchaap chal rahe hain. Padhte waqt socho: inme se kaunsi field tumhe sabse zyada kheenchti hai?',
+    hook: 'Psychology sirf therapy room me nahi rehti. Job interview, cricket ground, adalat, classroom, hospital, aur tumhare phone ke app ka design: har jagah psychology ke principles kaam kar rahe hain, aur har field me psychologists ki zaroorat hai.',
     blocks: [
       ['h', 'Industrial-Organizational (I/O) psychology'],
       ['p', 'I/O psychology kaam ki jagah par insaani behaviour ko study karti hai: sahi log kaise chunein, unhe kaise train karein, motivated aur khush kaise rakhein, aur teams aur leaders ko effective kaise banayein.'],
@@ -221,6 +232,7 @@
         '<b>Graphology</b> (handwriting se personality) lagbhag zero, phir bhi kuch companies use karti hain!'
       ]],
       ['note', '2022 me Sackett aur saathiyon ke re-analysis me in numbers ko thoda neeche revise kiya gaya, aur structured interviews sabse upar ke predictors me aaye. Lesson wahi hai: tay structure aur job se jude tasks gut feeling se kahin behtar hain.'],
+      ['teacher', 'Agli baar koi interview sirf "apne baare me batao" par chale, to tumhe pata hoga ki ye kamzor tareeka hai. Aur jab kabhi tumhe khud hiring karni pade, to har candidate se same sawaal aur tay scoring rakhna: ye sabse sasta upgrade hai.'],
       ['list', [
         '<b>Job characteristics model</b> (Hackman aur Oldham): skill variety, task identity (poora kaam dikhna), task significance, autonomy aur feedback wala kaam zyada motivating hota hai.',
         '<b>Psychological safety</b> (Amy Edmondson): team me bina darr ke sawaal poochhne, galti maanne aur idea dene ka mahaul. Google ki "Project Aristotle" research me ye effective teams ka sabse important factor nikla.',
@@ -241,6 +253,7 @@
         ['Maintenance', 'Lambe samay tak tikaana; relapse hone par wapas pichhle step par jaana normal hai.']
       ]],
       ['p', 'Ye <b>transtheoretical (stages of change) model</b> (Prochaska aur DiClemente) hai. Saath hi <b>Health Belief Model</b> (khatra kitna gambhir lagta hai, fayde vs rukawatein) aur <b>Theory of Planned Behaviour</b> (attitude + social norms + control ka ehsaas → irada → behaviour) health campaigns design karne me use hote hain: jaise India ke tobacco cessation programs, diabetes self-management aur vaccination campaigns.'],
+      ['teacher', 'Apni koi aadat socho jo badalni hai, jaise raat ko der tak phone ya junk food. Tum abhi kis stage par ho? Aur yaad rakho, relapse fail hona nahi, process ka hissa hai.'],
 
       ['h', 'Forensic psychology'],
       ['list', [
@@ -249,6 +262,7 @@
         '<b>Risk assessment</b>, adalat me mental competence ki jaanch, aur victims ke liye support.'
       ]],
       ['case', 'Narco-analysis aur Supreme Court (Selvi vs State of Karnataka, 2010)', 'India me kai saalon tak jaanch agencies narco-analysis ("truth serum"), polygraph aur brain mapping (BEAP) tests use karti thi. 2010 me Supreme Court ne faisla diya ki kisi vyakti par ye tests <b>uski marzi ke bina</b> karna Article 20(3) (khud ke khilaf gawahi na dene ka adhikaar) aur Article 21 ka ullanghan hai. Psychology research bhi batati hai ki in tests ki scientific reliability kamzor hai: polygraph arousal naapta hai, jhooth nahi (Chapter 1.6), aur nashe ki haalat me di gayi baatein bharosemand nahi hoti.'],
+      ['teacher', 'Ye case yaad rakhne layak hai, kyunki filmon me "truth serum" ko jaadu ki tarah dikhaya jaata hai. Science aur kanoon dono keh rahe hain: jhooth pakadne wali koi machine nahi hai, bas arousal naapne wali machines hain.'],
 
       ['h', 'Sports psychology'],
       ['list', [
@@ -284,6 +298,7 @@
         ['Formative assessment', 'Seekhte waqt progress jaanchne wale chhote assessments.']
       ]]
     ],
+    outro: 'Aaj ka saar: structured tareeke gut feeling se behtar hain, behaviour stages me badalta hai, aur science aur kanoon dono narco tests par sawaal uthate hain. Quiz karo. Agle chapter me ek bada sawaal: kya psychology ke niyam har culture me sach hain?',
     takeaways: [
       'Hiring me structured interviews aur work samples gut feeling se kahin behtar; graphology bekaar.',
       'Psychological safety team effectiveness ka bada factor hai.',

@@ -11,6 +11,7 @@
     visualCap: 'Stress bucket model: har kisi ki "balti" (vulnerability) alag size ki hai. Stress bharta hai, coping ka nal use khaali karta hai. Balti chhalke to symptoms. Sliders khiskao.',
     title: 'Psychological disorders ko samajhna',
     tag: '"Normal" kya hai, DSM-5-TR aur ICD-11, biopsychosocial model, India ka mental health survey, stigma aur Mental Healthcare Act 2017',
+    intro: 'Level 6 me tumhara swagat hai. Ab tak humne dekha ki mann aur dimaag kaise kaam karte hain; ab baat karenge ki jab mann thak jaata hai ya ladkhada jaata hai, tab kya hota hai. Ek baat shuru me hi: ye level kisi ko label karne ke liye nahi, samajhne aur himmat dene ke liye hai. Padhte waqt kuch apna sa lage to ghabrana mat; khud ko diagnose karne ke bajay bas dhyan se padho, aur kisi se baat karne ka mann ho to wo hamesha theek hai.',
     hook: 'Har insaan kabhi udaas hota hai, kabhi ghabrata hai, kabhi ajeeb vichaar aate hain. To <b>"normal"</b> aur <b>"disorder"</b> ke beech line kahan hai? Aur kyun India me 10 me se 1 se zyada logon ko kisi mental health problem ke bawajood zyada tar ko kabhi ilaaj nahi milta?',
     blocks: [
       ['h', 'Disorder kab kehte hain?'],
@@ -22,6 +23,7 @@
         ['Danger', 'Khud ko ya doosron ko khatra', 'Self-harm, khatarnak laaparwahi. (Zyada tar disorders me khatra nahi hota)']
       ]],
       ['p', 'DSM-5-TR ki definition ka saar: <b>soch, emotion ya behaviour me clinically significant gadbad</b>, jo andar ki psychological, biological ya developmental process me dysfunction ko dikhaye, aur aam taur par <b>significant distress ya disability</b> se judi ho. Kisi apne ki maut par shok, ya kisi culture me accepted dharmik anubhav, apne aap disorder nahi hain.'],
+      ['teacher', 'Ruko, yahan ek common galti hoti hai: koi ek D dekh kar "disorder" keh dena. Exam se pehle ki ghabrahat distress hai, par dysfunction nahi. Charon ko milakar, culture ke context me dekho, tabhi tasveer poori banti hai.'],
 
       ['h', 'Itihaas: zanjeeron se ilaaj tak'],
       ['list', [
@@ -36,10 +38,12 @@
       ['compare', ['DSM-5-TR (2022)', 'American Psychiatric Association ka <b>Diagnostic and Statistical Manual</b>. Har disorder ke liye specific criteria (kitne symptoms, kitne samay se). Research aur bahut se countries me use.'], ['ICD-11 (2022 se lagu)', 'WHO ki <b>International Classification of Diseases</b>, jisme saari beemariyan hain, mental disorders bhi. India sahit zyada tar desh official records me ICD use karte hain.']],
       ['p', '<b>Fayde</b>: professionals ek bhasha bolte hain, sahi ilaaj chunne aur research me madad, insurance aur disability benefits. <b>Khatre</b>: label stigma ban sakta hai ("wo to schizophrenic hai"), aur kabhi aam takleefon ko "beemari" bana diya jaata hai. Achhi practice: <b>vyakti pehle, disorder baad me</b>: "schizophrenia wala vyakti", "schizophrenic" nahi.'],
       ['case', 'Rosenhan ki "pagalkhane me sane log" study (1973)', 'David Rosenhan ne likha ki 8 swasth log hospitals me gaye aur bas kaha ki unhe ek awaaz "thud" kehti sunai deti hai. Sabko admit kar liya gaya aur zyada tar ko schizophrenia diagnose hua; admit hone ke baad normal behave karne par bhi hafton tak rakhe gaye. Is study ne diagnosis aur labels ki taakat par bada sawaal uthaya. Par 2019 me journalist Susannah Cahalan ki jaanch me study ke data aur participants par gambhir sawaal uthe; kuch hisse shayad badha-chadha kar ya gadhe gaye the. Ye ek reminder hai ki famous studies ko bhi critically padhna chahiye.'],
+      ['teacher', 'Is case se ek bada sabak lo: famous hona aur sahi hona alag baatein hain. Course me aage bhi jab koi chaunkane wali study dikhe, khud se poochho: data kitna mazboot hai?'],
 
       ['h', 'Kaaran: ek nahi, kai'],
       ['p', 'Aaj ka mukhya nazariya <b>biopsychosocial model</b> hai: <b>biology</b> (genes, brain chemistry, hormones, beemari), <b>psychology</b> (soch ke patterns, coping, trauma, personality) aur <b>social</b> (garibi, bhedbhaav, rishte, culture, support) milkar disorder ka risk banate hain.'],
       ['p', '<b>Diathesis-stress (vulnerability-stress) model</b>: har insaan ke paas kuch had tak vulnerability (diathesis) hai: genes, bachpan ke anubhav, personality. Jab stress us vyakti ki seema se zyada ho jaata hai, symptoms aate hain. Zyada vulnerability wale ko kam stress me bhi problem ho sakti hai, aur bahut zyada stress me koi bhi tootne lagta hai. Upar ka "stress bucket" animation yahi dikhata hai, aur ye bhi ki <b>coping aur support</b> balti ko khaali karne ka nal hain.'],
+      ['teacher', 'Ek pal apni balti ke baare me socho: kaunsi cheezein tumhara stress bharti hain, aur kaunsi use khaali karti hain (dost, neend, khel, music)? Ye balti har kisi ki hoti hai, isliye kisi ki takleef ko "kamzori" kehna galat hai.'],
 
       ['h', 'Kitna common hai?'],
       ['list', [
@@ -76,6 +80,7 @@
         ['Advance directive', 'Pehle se likha nirdesh ki beemari ke dauraan ilaaj kaise ho.']
       ]]
     ],
+    outro: 'Aaj humne dekha ki disorder ek label nahi, kai factors ka mel hai, aur madad maangna samajhdaari hai. Quiz try karo aur dekho ki 4 D aur stress bucket kitne yaad rahe. Agle chapter me anxiety, OCD aur trauma ko kareeb se samjhenge: wo cheezein jo aksar "bas tension hai" keh kar taal di jaati hain.',
     takeaways: [
       'Disorder ka faisla deviance, distress, dysfunction aur danger ko milakar, culture ke context me hota hai.',
       'DSM-5-TR aur ICD-11 diagnosis ki common bhasha dete hain; vyakti pehle, label baad me.',
@@ -104,6 +109,7 @@
     visualCap: 'Panic attack ka chakra: ek body sensation → khatarnak interpretation → aur darr → aur sensations. CBT isi chakra ko "interpretation" wale point par todti hai.',
     title: 'Anxiety, OCD aur trauma',
     tag: 'GAD, panic, phobias, social anxiety, OCD (jo "safai pasand" hona nahi hai), PTSD, kaaran aur kaam karne wale ilaaj',
+    intro: 'Pichhle chapter me humne disorder ki line samjhi aur stress bucket dekhi. Aaj sabse common mental health problems ki baat: anxiety, panic, OCD aur trauma. Exam hall me dil ki dhadkan tez hona tumne bhi mehsoos kiya hoga; aaj samjhenge ki ye alarm kab madad karta hai aur kab khud problem ban jaata hai. Achhi khabar pehle hi sun lo: ye sabse zyada ilaaj-yogya problems me se hain.',
     hook: 'Exam ya interview se pehle ghabrahat <b>normal</b> hai, balki faidemand bhi. Par agar ghabrahat har din, har cheez par ho; ya achanak bina wajah lage ki dil band ho jaayega; ya ek hi vichaar baar-baar aaye aur haath dhote-dhote ghante beet jaayein, tab ye <b>anxiety disorder</b> ho sakta hai. Achhi baat: ye sabse zyada ilaaj-yogya mental disorders me se hain.',
     blocks: [
       ['h', 'Normal anxiety vs anxiety disorder'],
@@ -123,6 +129,7 @@
         '<b>5-4-3-2-1 grounding</b> (anxiety ya panic ke waqt): <b>5</b> cheezein jo dikh rahi hain, <b>4</b> jinhe chhoo sakte ho, <b>3</b> awaazein jo sun rahe ho, <b>2</b> khushbuein, <b>1</b> swaad. Ye dhyan ko "agar-magar" se hata kar abhi aur yahan laata hai.',
         'Saath me dheemi saans (lamba exhale). Aur khud se kaho: "Ye panic hai. Ye darawna hai par khatarnak nahi. Ye guzar jaayega."'
       ]],
+      ['teacher', 'Ye grounding trick abhi ek baar try karo, jab tum shaant ho. Jo cheez aaraam ke waqt practice ki ho, wahi ghabrahat ke waqt yaad aati hai, bilkul fire drill ki tarah.'],
 
       ['h', 'OCD: "safai pasand" hona nahi'],
       ['p', '<b>Obsessive-compulsive disorder (OCD)</b> me do cheezein hoti hain:'],
@@ -131,7 +138,8 @@
         '<b>Compulsions</b>: wo baar-baar ke kaam ya mann ke rituals jo obsession ki bechaini kam karne ke liye kiye jaate hain: haath dhona, lock 20 baar check karna, ginti, cheezein seedhi karna, mann me prayer dohraana.',
         'Ye <b>din me ek ghante se zyada</b> le sakte hain ya bahut takleef dete hain. Duniya me lagbhag 1-2% logon ko OCD hota hai.'
       ]],
-      ['myth', '"Main thoda OCD hoon, mujhe apni desk saaf pasand hai."', 'Saaf-safai pasand karna ek preference hai aur aapko khushi deta hai. OCD me vichaar <b>anchahe aur darawne</b> hote hain, aur rituals khushi ke liye nahi, bechaini se bachne ke liye majboori me kiye jaate hain. OCD wale log aksar khud jaante hain ki ye bekaar hai, par ruk nahi paate. Casual "OCD" bolna is gambhir takleef ko halka kar deta hai.'],
+      ['myth', '"Main thoda OCD hoon, mujhe apni desk saaf pasand hai."', 'Saaf-safai pasand karna ek preference hai aur tumhe khushi deta hai. OCD me vichaar <b>anchahe aur darawne</b> hote hain, aur rituals khushi ke liye nahi, bechaini se bachne ke liye majboori me kiye jaate hain. OCD wale log aksar khud jaante hain ki ye bekaar hai, par ruk nahi paate. Casual "OCD" bolna is gambhir takleef ko halka kar deta hai.'],
+      ['teacher', 'Agli baar koi dost mazaak me "main to OCD hoon" kahe, to bas itna socho: saaf-safai use khushi deti hai ya majboori lagti hai? Preference aur disorder ka asli farak yahi hai.'],
       ['p', 'OCD ka sabse effective psychological ilaaj <b>Exposure and Response Prevention (ERP)</b> hai: dheere-dheere darr wali situation ka saamna (jaise darwaze ka handle chhoona) aur compulsion <b>na karna</b> (haath na dhona), jab tak bechaini apne aap kam na ho. Saath me SSRIs bhi madad karti hain.'],
 
       ['h', 'Trauma aur PTSD'],
@@ -152,6 +160,7 @@
         '<b>Evolution</b>: saanp, oonchai, ajnabi jaise purane khatron ka darr jaldi seekhna (prepared learning).'
       ]],
       ['ex', 'Avoidance ka jaal', 'Ananya ko class me bolne se darr lagta hai. Wo presentation ke din "beemar" ho jaati hai; turant rahat. Agli baar darr aur bada, kyunki usne kabhi dekha hi nahi ki bolna sambhav tha. Har avoidance darr ko thoda aur mazboot karta hai. Ilaaj ulta raasta hai: chhote, sahne layak steps me saamna (pehle dost ke saamne 1 minute, phir chhote group ke saamne...).'],
+      ['teacher', 'Ek line yaad rakho: "Jis cheez se bhaago, wo peechha karti hai." Har baar bachne se mili rahat darr ko agli baar ke liye aur mazboot karti hai. Chhote, sahne layak steps hi raasta hain.'],
       ['terms', [
         ['Anxiety disorder', 'Aisi anxiety jo zyada, lambi aur zindagi me rukawat daalne wali ho.'],
         ['Generalized anxiety disorder', 'Kai cheezon ki lagataar, mushkil se control hone wali chinta (6+ mahine).'],
@@ -171,6 +180,7 @@
         ['Grounding', 'Dhyan ko vartamaan ke senses par laakar anxiety kam karne ki technique.']
       ]]
     ],
+    outro: 'Aaj ka saar: anxiety ek alarm hai, avoidance us alarm ko zinda rakhta hai, aur dheere-dheere saamna use shaant karta hai. Quiz karke dekho ki GAD, panic, OCD aur PTSD ka farak saaf hua ya nahi. Agle chapter me mood ki baat: udaasi aur depression me farak, aur bipolar disorder.',
     takeaways: [
       'Anxiety tab disorder hai jab zyada, lambi aur rukawat daalne wali ho; ye sabse common aur sabse treatable disorders me hain.',
       'Panic attack darawna par aam taur par khatarnak nahi; seene ke dard me pehle heart check zaroor.',
@@ -199,6 +209,7 @@
     visualCap: 'Mood ke patterns: aam utaar-chadhav, depression ka lamba gehra dip, aur bipolar me depression ke saath mania ya hypomania. Har pattern par tap karo.',
     title: 'Depression aur bipolar disorder',
     tag: 'Udaasi vs depression, symptoms, bipolar I/II, Beck ka triad, rumination, ilaaj, aur suicide prevention ki zaroori baatein',
+    intro: 'Pichhle chapter me darr aur chinta ki baat hui; aaj mood ki. Har kisi ke kuch din bure jaate hain, aur ye bilkul normal hai. Aaj samjhenge ki udaasi kab depression ban jaati hai, bipolar me kya hota hai, aur kisi apne ki madad kaise karein. Ye chapter thoda bhaari lag sakta hai, isliye aaram se padho; beech me break lena bhi bilkul theek hai.',
     hook: 'Udaasi aur depression me utna hi farak hai jitna <b>baarish aur baadh</b> me. Udaasi zindagi ka hissa hai aur guzar jaati hai. Depression ek beemari hai jo hafton-mahino tak soch, neend, bhookh, energy aur ummeed sab ko dubo deti hai. Duniya me lagbhag <b>28 crore</b> log depression ke saath jee rahe hain.',
     blocks: [
       ['h', 'Major depressive disorder'],
@@ -215,6 +226,7 @@
         'Maut ya suicide ke baare me baar-baar vichaar'
       ]],
       ['p', 'Depression mahilaon me purushon se lagbhag <b>do guna</b> zyada diagnose hota hai (purush aksar kam batate hain aur nashe me chhupate hain). India jaise deshon me depression aksar <b>shareerik shikayaton</b> ke roop me bhi aata hai: "poore badan me dard", "kamzori", "ghabrahat", "neend nahi aati". Isliye kai log saalon tak sirf vitamin aur painkiller lete rehte hain.'],
+      ['teacher', 'Socho, tumhare ghar ya mohalle me koi hai jo saalon se "kamzori" ya "badan dard" ki shikayat karta hai aur reports normal aati hain? Har baar ye depression nahi hota, par ye sawaal poochhna zaroori hai. Yahi samajh kisi ka ilaaj saalon pehle shuru karwa sakti hai.'],
       ['p', '<b>Persistent depressive disorder (dysthymia)</b>: kam gehra par lambe samay (adults me 2 saal ya zyada) tak rehne wala depressed mood. <b>Postpartum depression</b>: bachche ke janm ke baad (aksar pehle kuch hafton-mahino me), jo sirf "baby blues" se zyada gehra aur lamba hota hai; ise bhi ilaaj chahiye.'],
 
       ['h', 'Bipolar disorder: do dhruv'],
@@ -234,6 +246,7 @@
         '<b>Attribution style</b>: buri ghatnaon ko internal ("meri galti"), stable ("hamesha aisa hoga") aur global ("har cheez kharab hai") maanna; hopelessness.',
         '<b>Life events aur social factors</b>: kisi apne ko khona, naukri jaana, garibi, bhedbhaav, rishton me hinsa, akelapan.'
       ]],
+      ['teacher', 'Beck ka triad yaad rakhne ki trick: "main, duniya, kal". Jab mann kahe "main bekaar", "sab kharab", "kuch nahi badlega", to samjho soch par ek kaala chashma chadh gaya hai. Chashma utaarna seekha ja sakta hai, aur yahi CBT karti hai.'],
 
       ['h', 'Ilaaj kaam karta hai'],
       ['list', [
@@ -253,8 +266,9 @@
         '<b>Khatarnak cheezon tak pahunch hatao</b> (dawaiyan, zehreele padarth) jahan sambhav ho.',
         '<b>Madad se jodo</b>: helpline, doctor, bharosemand bade.'
       ]],
-      ['note', 'Agar aap khud aise vichaar mehsoos kar rahe ho, to aap akele nahi ho aur madad maujood hai. <b>Tele-MANAS: 14416</b> ya <b>1-800-891-4416</b> (24x7, free, kai bhashaon me). Turant khatre me <b>112</b> par call karo ya nazdeeki hospital emergency jao. Kisi bharosemand vyakti ko abhi batao.'],
+      ['note', 'Agar tumhe khud aise vichaar aa rahe hain, to ye yaad rakho: is mushkil me tumhara saath dene wale log hain aur madad maujood hai. <b>Tele-MANAS: 14416</b> ya <b>1-800-891-4416</b> (24x7, free, kai bhashaon me). Turant khatre me <b>112</b> par call karo ya nazdeeki hospital emergency jao. Kisi bharosemand vyakti ko abhi batao.'],
       ['myth', 'Jo suicide ki baat karte hain wo sach me kuch nahi karte; ye bas attention ke liye hai.', 'Suicide se marne wale bahut se log pehle kisi na kisi tarah apni takleef zahir karte hain. Har aisi baat ko gambhirta se lena chahiye. "Attention" maangna bhi asal me <b>madad</b> maangna hai.'],
+      ['teacher', 'Ye hissa padhna aasaan nahi tha, aur agar thoda bhaari laga ho to ye bilkul normal hai. Ek baat dil me rakh lo: madad maangna kamzori nahi, himmat hai, chahe wo tumhare liye ho ya kisi dost ke liye.'],
       ['terms', [
         ['Major depressive disorder', 'Kam se kam 2 hafte tak udaas mood ya anhedonia aur doosre symptoms.'],
         ['Anhedonia', 'Pehle khushi dene wali cheezon me khushi ya interest khatam hona.'],
@@ -272,6 +286,7 @@
         ['ECT', 'Anaesthesia me di jaane wali electroconvulsive therapy; gambhir depression me effective.']
       ]]
     ],
+    outro: 'Aaj humne dekha ki depression ek ilaaj-yogya beemari hai, aalas ya kamzori nahi, aur suicide roka ja sakta hai. Quiz se apni samajh check karo. Agle chapter me schizophrenia aur personality disorders ka sach dekhenge, filmon wali galatfahmiyon se door.',
     takeaways: [
       'Depression = kam se kam 2 hafte, 5+ symptoms (udaas mood ya anhedonia sahit); India me aksar shareerik shikayaton ke roop me.',
       'Bipolar I me mania, bipolar II me hypomania + depression; sahi diagnosis zaroori.',
