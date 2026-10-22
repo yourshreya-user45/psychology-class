@@ -11,6 +11,7 @@
     visualCap: 'Maslow ka pyramid neeche se upar banta hai. Har level par tap karke real example dekho. (Aaj ka research kehta hai needs itni sakht seedhi me nahi chalti, par framework upyogi hai.)',
     title: 'Motivation: hum kyun karte hain jo karte hain',
     tag: 'Drives, arousal, Maslow, self-determination theory, bhookh ka science aur goals jo sach me poore hon',
+    intro: '<b>Level 4 me swagat hai!</b> Level 3 me humne dimaag ki soch dekhi; ab dil ki baari hai: kya cheez humein chalati hai, hum kya mehsoos karte hain, aur zindagi bhar kaise badalte hain. Shuruaat motivation se, yaani wo sawaal jo har subah ka alarm poochhta hai: "uthein ya nahi?" Aaj ke aakhir tak tumhare paas ek aisa plan hoga jo goals ko sach me poora karne me madad kare.',
     hook: 'Ek hi class me ek student raat 2 baje tak coding seekhta hai bina kisi ke kahe, aur doosra marks ke darr se bhi kitaab nahi kholta. Ek hi insaan subah gym jaane ka plan banata hai aur alarm band karke so jaata hai. <b>Kya cheez humein chalati hai, aur kya rokti hai?</b>',
     blocks: [
       ['h', 'Motivation kya hai?'],
@@ -27,6 +28,7 @@
       ['vis', 'yerkes', 'Slider khiskao: arousal badhne par performance kaise badalti hai? Aasaan aur mushkil kaam ke liye curve alag hai.'],
       ['ex', 'Penalty shootout aur board exam', 'Practice me 10 me se 9 penalty goal karne wala player World Cup final me miss kar deta hai. Board exam me jo sawaal ghar par aate the, hall me "blank" ho jaate hain. Bahut zyada arousal working memory ko overload kar deti hai. Isliye exam se pehle ki raat jaagna (thakaan) aur 5 cup chai (over-arousal) dono nuksaan karte hain.'],
 
+      ['teacher', 'Iska seedha upyog: exam se pehle ki ghabrahat ko zero karne ki koshish mat karo, bas use "medium" par lao. Thodi tension tumhe alert rakhti hai; problem sirf bahut zyada tension hai.'],
       ['h', 'Maslow ki hierarchy of needs (1943)'],
       ['steps', [
         ['Physiological', 'Khana, paani, neend, garmi. Bhookha insaan philosophy nahi sochta.'],
@@ -40,13 +42,14 @@
       ['h', 'Self-determination theory: andar ki aag'],
       ['p', 'Edward Deci aur Richard Ryan ki <b>self-determination theory (SDT)</b> kehti hai ki hamari teen buniyadi psychological needs hain. Jab ye poori hoti hain, <b>intrinsic motivation</b> (kaam ka khud ka maza) badhta hai:'],
       ['list', [
-        '<b>Autonomy</b>: ye mehsoos karna ki main apni marzi se kar raha hoon, majboori me nahi.',
-        '<b>Competence</b>: ye mehsoos karna ki main isme achha ho raha hoon.',
+        '<b>Autonomy</b>: ye mehsoos karna ki kaam apni marzi se chuna hai, majboori me nahi.',
+        '<b>Competence</b>: ye mehsoos karna ki is kaam me pakad badh rahi hai.',
         '<b>Relatedness</b>: doosron se juda hona, unki parwah aur unse parwah milna.'
       ]],
-      ['compare', ['Intrinsic motivation', 'Kaam khud me mazedaar ya meaningful hai. Bachcha khud se drawing karta hai; aap shauk se guitar seekhte ho. Zyada creativity, zyada lagan.'], ['Extrinsic motivation', 'Bahar ke reward ya punishment ke liye. Marks, paisa, taareef, saza ka darr. Upyogi, par reward hatte hi behaviour aksar ruk jaata hai.']],
-      ['case', 'Overjustification effect (Lepper, Greene aur Nisbett, 1973)', 'Nursery ke jo bachche markers se drawing karna pasand karte the, unhe teen groups me baanta gaya. Ek group ko pehle se bataya ki drawing par "Good Player" certificate milega. Kuch hafton baad free time me <b>certificate wale group ne kam drawing ki</b>, baakiyon ke mukable. Jab pasandida kaam ke liye <b>controlling reward</b> diya jaata hai, to dimaag sochne lagta hai "main ye inaam ke liye kar raha tha", aur andar ki khushi ghat sakti hai.'],
-      ['ex', 'Har kitaab padhne par ₹50?', 'Agar bachcha pehle se kahaniyan pasand karta hai aur aap har kitaab par paise dena shuru karo, to padhna "naukri" ban sakta hai. Behtar: specific, informational taareef ("Tumne Tenali Raman ki kahani kitne mazedaar tareeke se sunayi!"), choice dena (kaunsi kitaab padhni hai), aur saath padhna (relatedness). Jo kaam pehle se boring hai, uske liye chhota reward shuru karne me madad kar sakta hai.'],
+      ['compare', ['Intrinsic motivation', 'Kaam khud me mazedaar ya meaningful hai. Bachcha khud se drawing karta hai; tumhe guitar seekhne me shauk se maza aata hai. Zyada creativity, zyada lagan.'], ['Extrinsic motivation', 'Bahar ke reward ya punishment ke liye. Marks, paisa, taareef, saza ka darr. Upyogi, par reward hatte hi behaviour aksar ruk jaata hai.']],
+      ['case', 'Overjustification effect (Lepper, Greene aur Nisbett, 1973)', 'Nursery ke jo bachche markers se drawing karna pasand karte the, unhe teen groups me baanta gaya. Ek group ko pehle se bataya ki drawing par "Good Player" certificate milega. Kuch hafton baad free time me <b>certificate wale group ne kam drawing ki</b>, baakiyon ke mukable. Jab pasandida kaam ke liye <b>controlling reward</b> diya jaata hai, to dimaag sochne lagta hai "ye to inaam ke liye tha", aur andar ki khushi ghat sakti hai.'],
+      ['teacher', 'Apne baare me socho: koi aisa shauk tha jo tuition, competition ya marks se judne ke baad bojh lagne laga? Agar haan, to overjustification effect tumne khud jee kar dekha hai.'],
+      ['ex', 'Har kitaab padhne par ₹50?', 'Agar bachcha pehle se kahaniyan pasand karta hai aur tum har kitaab par paise dena shuru karo, to padhna "naukri" ban sakta hai. Behtar: specific, informational taareef ("Tumne Tenali Raman ki kahani kitne mazedaar tareeke se sunayi!"), choice dena (kaunsi kitaab padhni hai), aur saath padhna (relatedness). Jo kaam pehle se boring hai, uske liye chhota reward shuru karne me madad kar sakta hai.'],
 
       ['h', 'Bhookh: sirf pet ki baat nahi'],
       ['list', [
@@ -60,9 +63,10 @@
       ['h', 'Goals jo sach me poore hon'],
       ['p', 'Locke aur Latham ki <b>goal-setting theory</b> ke hisaab se <b>specific aur challenging</b> goals ("roz 30 minute, 20 maths sawaal") vague goals ("achhe se padhunga") se kahin behtar kaam karte hain, khaas kar feedback ke saath. David McClelland ne <b>need for achievement</b> ko ek alag motive bataya: kuch logon ko mushkil kaam me excellence ka khud ka maza aata hai.'],
       ['tip', [
-        '<b>WOOP method</b> (Gabriele Oettingen, research-based): <b>W</b>ish (kya chahiye?), <b>O</b>utcome (poora hone par kaisa lagega?), <b>O</b>bstacle (mere andar ki sabse badi rukawat kya hai?), <b>P</b>lan ("Agar ___ hua, to main ___ karunga").',
-        'Example: Wish: roz subah 30 minute padhai. Obstacle: alarm ke baad phone uthana. Plan: "Agar alarm baje, to main phone uthaye bina seedha table par baith jaunga; phone raat ko doosre kamre me charge hoga." Ye <b>implementation intentions</b> (Peter Gollwitzer) kai studies me goals poore karne ka chance badhate hain.'
+        '<b>WOOP method</b> (Gabriele Oettingen, research-based): <b>W</b>ish (kya chahiye?), <b>O</b>utcome (poora hone par kaisa lagega?), <b>O</b>bstacle (mere andar ki sabse badi rukawat kya hai?), <b>P</b>lan ("Agar ___ hua, to ___ karna hai").',
+        'Example: Wish: roz subah 30 minute padhai. Obstacle: alarm ke baad phone uthana. Plan: "Agar alarm baje, to phone uthaye bina seedha table par baithna hai; phone raat ko doosre kamre me charge hoga." Ye <b>implementation intentions</b> (Peter Gollwitzer) kai studies me goals poore karne ka chance badhate hain.'
       ]],
+      ['teacher', 'Abhi 2 minute do aur apna ek WOOP likh daalo; sirf padhne se kaam nahi chalega. Obstacle wala hissa sabse zaroori hai, wahan poori imaandari rakhna.'],
       ['p', '<b>Sexual motivation</b> bhi biology (hormones), psychology aur culture ka mix hai. Psychology aur medicine ki mainstream samajh ye hai ki <b>sexual orientation</b> chunne ki cheez nahi aur koi disorder nahi; iske peeche biological aur environmental factors ka complex mel hai. India me Supreme Court ne 2018 me (Navtej Singh Johar case) consensual same-sex relationships ko apraadh ki shreni se bahar kiya.'],
       ['terms', [
         ['Motivation', 'Behaviour ko shuru karne, disha dene aur tikaaye rakhne wali process.'],
@@ -82,9 +86,10 @@
         ['Leptin', 'Fat cells ka hormone jo pet bharne (satiety) ka signal deta hai.'],
         ['Set point', 'Wo weight range jise body defend karne ki koshish karti hai.'],
         ['Need for achievement', 'Mushkil kaam me excellence paane ki khwahish (McClelland).'],
-        ['Implementation intention', '"Agar X, to main Y karunga" jaisa specific plan.']
+        ['Implementation intention', '"Agar X, to Y karna hai" jaisa specific plan.']
       ]]
     ],
+    outro: 'Saar: motivation andar aur bahar dono se aati hai, aur autonomy, competence aur relatedness milein to andar ki aag tiki rehti hai. Quiz do, aur apna WOOP plan kal subah hi test karo. Agle chapter me motivation ke saathi, emotions, ki baat: darr pehle aata hai ya dil ki dhadkan?',
     takeaways: [
       'Motivation behaviour ko shuru, disha aur tikaav deti hai.',
       'Yerkes-Dodson: medium arousal best; mushkil kaam me kam arousal behtar.',
@@ -99,7 +104,7 @@
       ['Self-determination theory ki teen needs kaunsi hain?', ['Khana, paani, neend', 'Autonomy, competence, relatedness', 'Paisa, power, fame', 'Id, ego, superego'], 1, 'Deci aur Ryan ke hisaab se ye teen needs intrinsic motivation ko poshit karti hain.'],
       ['Drawing pasand karne wale bachchon ko certificate dene ke baad unhone kam drawing ki. Ye kya hai?', ['Overjustification effect', 'Learned helplessness', 'Drive reduction', 'Homeostasis'], 0, 'Controlling external reward ne intrinsic motivation ghata di.'],
       ['Kaunsa hormone bhookh badhata hai?', ['Leptin', 'Ghrelin', 'Melatonin', 'Oxytocin'], 1, 'Ghrelin pet se nikal kar bhookh ka signal deta hai; leptin satiety ka.'],
-      ['"Agar alarm baje, to main seedha table par baithunga" jaisa plan kya kehlata hai?', ['Implementation intention', 'Drive', 'Incentive', 'Self-actualization'], 0, 'Specific "agar-to" plan implementation intention hai.']
+      ['"Agar alarm baje, to seedha table par baithna hai" jaisa plan kya kehlata hai?', ['Implementation intention', 'Drive', 'Incentive', 'Self-actualization'], 0, 'Specific "agar-to" plan implementation intention hai.']
     ],
     more: [
       ['OpenStax Psychology 2e · Chapter 10: Emotion and Motivation', OS(10), 'book'],
@@ -114,7 +119,8 @@
     visualCap: 'Emotion ki chaar mukhya theories, ek hi situation (trek par saanp) par. Har tab par tap karke dekho ki kram kaise badalta hai.',
     title: 'Emotion: dil ki baat ka science',
     tag: 'James-Lange se appraisal tak, universal expressions, rasa theory, aur emotions ko sambhalne ke tested tareeke',
-    hook: 'Trek par achanak saanp dikha. Dil dhadakne laga, aap ruk gaye, aur darr laga. Par <b>pehle kya hua</b>? Darr laga isliye dil dhadka, ya dil dhadka isliye darr laga? Ye sawaal 130 saal se psychologists ko pareshaan kar raha hai.',
+    intro: 'Pichhle chapter me dekha ki hum kyun karte hain jo karte hain; aaj dekhenge ki hum <b>kya mehsoos</b> karte hain aur kyun. Gussa, darr, khushi, jalan: ye sab roz tumhare andar aate-jaate hain, par inka science kam log jaante hain. Aaj ke aakhir tak emotions sambhalne ke do-teen tested tareeke tumhari jeb me honge.',
+    hook: 'Trek par achanak saanp dikha. Dil dhadakne laga, pair wahin jam gaye, aur darr laga. Par <b>pehle kya hua</b>? Darr laga isliye dil dhadka, ya dil dhadka isliye darr laga? Ye sawaal 130 saal se psychologists ko pareshaan kar raha hai.',
     blocks: [
       ['h', 'Emotion ke teen hisse'],
       ['list', [
@@ -129,6 +135,7 @@
         ['Schachter-Singer two-factor (1962)', 'Saanp → arousal + "ye khatra hai" label → darr', 'Emotion = arousal + cognitive label. Same arousal alag label se alag emotion.'],
         ['Lazarus appraisal', 'Saanp → "kya ye khatarnak hai?" (appraisal) → darr + arousal', 'Situation ka matlab nikalna emotion ko tay karta hai, aksar pal bhar me, bina jaane.']
       ]],
+      ['teacher', 'Ruko, chaar theories ek saath confuse karti hain, to ek trick suno: <b>James-Lange</b> = body pehle, <b>Cannon-Bard</b> = ek saath, <b>Schachter-Singer</b> = body + label, <b>Lazarus</b> = matlab pehle. Har theory par saanp wala example chala kar dekho, kram apne aap baith jaayega.'],
       ['case', 'Adrenaline ka experiment (Schachter aur Singer, 1962)', [
         'Participants ko "vitamin" bata kar adrenaline ka injection diya gaya (dil tez, haath kaanpna). Kuch ko sach bataya gaya ki ye side effects honge, kuch ko nahi. Phir unhe ek actor ke saath waiting room me bithaya gaya jo ya to bahut khush ("euphoric") tha ya gusse me.',
         'Jinhe side effects ka pata nahi tha, wo apni arousal ko actor ke mood ke hisaab se label karne lage: khush actor ke saath zyada khush, gussail ke saath zyada gussail. Jinhe pata tha, unhone arousal ko injection ka asar maana. (Baad ki replications me results utne saaf nahi aaye, par "arousal ko label karna" ka idea bahut influential raha.)'
@@ -139,6 +146,7 @@
       ['h', 'Kya chehre ke expressions universal hain?'],
       ['p', 'Psychologist <b>Paul Ekman</b> ne Papua New Guinea ke Fore logon par research ki jo bahar ki duniya, films ya photos se lagbhag anjaan the. Wo khushi, dukh, gussa, darr, hairani aur ghin (disgust) ke chehre pehchaan paaye. Isse <b>6 basic emotions</b> ka idea aaya jo cultures ke paar pehchaane jaate hain. (Aaj kuch researchers kehte hain ki pehchaan utni universal nahi jitni pehle sochi gayi, aur context bahut matter karta hai.)'],
       ['p', 'Par <b>display rules</b> culture ke hisaab se alag hain: kab, kahan aur kitna emotion dikhana theek hai. Ekman aur Friesen ki ek study me Japanese students ne akele me Americans jaise hi expressions dikhaye, par ek authority figure ke saamne negative expressions ko muskaan se chhupa liya. India me bhi bado ke saamne gussa dikhana ya ladkon ka rona aksar "theek nahi" maana jaata hai.'],
+      ['teacher', 'Apne ghar ke display rules socho: kaunsa emotion dikhane par daant padti thi, aur kaunsa dikhane par taareef milti thi? Ye niyam hum sab bina likhe seekh lete hain.'],
       ['ex', 'Natya Shastra ke nau rasa', 'Lagbhag do hazaar saal purane <b>Natya Shastra</b> (Bharata Muni) me natak ke liye emotions ka classification hai: shringar (prem), hasya (hasi), karuna (dukh), raudra (krodh), veer (utsaah), bhayanak (bhay), bibhatsa (ghin), adbhut (vismay), aur baad me joda gaya shaant. Ekman ki list (khushi, dukh, gussa, darr, ghin, hairani) se iska mel dilchasp hai. Ye dikhata hai ki emotions ko samjhane ki koshish bahut purani aur cross-cultural hai.'],
       ['p', '<b>Facial feedback hypothesis</b>: chehre ka expression feeling ko thoda badal sakta hai. 1988 ki mashhoor "daanton me pen" study (muskaan jaisa chehra → cartoons zyada funny) ko 2016 me 17 labs ne dohraya aur effect nahi mila. Phir 2022 me "Many Smiles Collaboration" ne 19 deshon me chhota sa effect paaya. Ye <b>replication</b> ki achhi kahani hai: science dheere-dheere sahi jawab ki taraf jaata hai.'],
 
@@ -156,6 +164,7 @@
         '<b>Name it to tame it</b>: emotion ko shabd dena ("mujhe abhi gussa aur thodi sharam mehsoos ho rahi hai"). UCLA ki research (Lieberman aur saathi, 2007) me emotion ko label karne se amygdala ki activity kam dikhi. Jitna specific shabd (sirf "bura" ki jagah "nirasha" ya "jalan"), utna behtar.',
         '<b>Ghabrahat ko excitement bolo</b>: Alison Wood Brooks (2014) ki studies me presentation ya gaane se pehle "I am excited" bolne walon ne "calm down" ki koshish karne walon se behtar perform kiya. Dono me body ki arousal same hai; label alag hai.'
       ]],
+      ['teacher', 'Aaj raat ek chhota experiment: din ka sabse bada emotion ek specific shabd me likho. "Bura laga" nahi, balki "insult jaisa laga" ya "akelapan". Ye chhoti aadat bahut door tak jaati hai.'],
       ['myth', 'Emotions ya to "achhe" hote hain ya "bure"; bure emotions ko dabana hi theek hai.', 'Har emotion ka kaam hai: darr khatre se bachata hai, gussa nainsaafi ki taraf dhyan dilata hai, dukh hamein madad maangne aur sochne ko kehta hai. Problem emotion nahi, uski intensity, duration aur hum uske saath kya karte hain, wo hai. Dabane ki jagah samajhna aur reappraise karna zyada kaam karta hai.'],
       ['terms', [
         ['Emotion', 'Physiological arousal, expressive behaviour aur conscious experience ka mel.'],
@@ -178,6 +187,7 @@
         'Two-factor aur appraisal theories ke hisaab se farak <b>interpretation</b> me hai. Ek ne arousal ko "thrill" label kiya, doosre ne "khatra". Pichhle anubhav, control ka ehsaas, aur personality (sensation seeking) is label ko shape karte hain.'
       ]]
     ],
+    outro: 'Saar: emotion body, expression aur samajh ka mel hai, aur label badalne se feeling bhi badal sakti hai. Quiz do, phir agle chapter me chalte hain us haalat me jab emotions lambe samay tak "alarm mode" me atak jaate hain: stress.',
     takeaways: [
       'Emotion = body ka arousal + expression + conscious experience.',
       'James-Lange (body pehle), Cannon-Bard (ek saath), two-factor (arousal + label), appraisal (matlab pehle).',
@@ -206,6 +216,7 @@
     visualCap: 'Selye ka General Adaptation Syndrome: alarm (jhatka), resistance (jhoojhna), aur agar stress khatam na ho to exhaustion (thakaan, beemari).',
     title: 'Stress, health aur coping',
     tag: 'Stressors, appraisal, GAS, immune system par asar, burnout, aur science-backed coping toolkit',
+    intro: 'Pichhle chapter me emotions ko samjha; aaj unka sabse thakaane wala roop dekhte hain: stress. Exam, deadline, ghar ki tension, inme se kuch na kuch tumne bhi jhela hoga. Aaj ka goal stress ko khatam karna nahi, balki use samajhna aur apni ek coping toolkit banana hai.',
     hook: 'Exam, traffic, EMI, ghar me jhagda, deadline, notifications. Stress ko hum dushman maante hain, par thoda stress hi humein subah uthata aur deadline par kaam karwata hai. Problem tab hai jab <b>alarm kabhi band hi na ho</b>.',
     blocks: [
       ['h', 'Stress kya hai?'],
@@ -219,6 +230,7 @@
       ['h', 'Appraisal: khatra ya challenge?'],
       ['p', 'Richard Lazarus ke hisaab se hum do sawaal poochhte hain: <b>Primary appraisal</b>: "Kya ye mere liye khatra hai, challenge hai, ya koi farak nahi padta?" <b>Secondary appraisal</b>: "Kya mere paas iska saamna karne ke resources hain?" Ek hi presentation ek ke liye "mauka" (challenge) aur doosre ke liye "barbaadi" (threat) ho sakti hai. Challenge appraisal me body ka response zyada healthy hota hai (dil efficiently pump karta hai), threat me zyada nuksaandeh.'],
 
+      ['teacher', 'Ek baat note karo: stressor hamesha badla nahi ja sakta, par appraisal ko thoda badalna mumkin hai. "Ye mera imtihaan hai" ki jagah "ye meri practice hai" kehna chhota lagta hai, par body ka response sach me badalta hai.'],
       ['h', 'Body ka stress response'],
       ['p', 'Walter Cannon ne <b>fight-or-flight</b> naam diya (Chapter 2.2). Hans Selye ne chooho par research karke dekha ki alag-alag stressors (thand, zehar, chot) body me ek jaisa pattern paida karte hain, jise unhone <b>General Adaptation Syndrome (GAS)</b> kaha:'],
       ['steps', [
@@ -237,6 +249,7 @@
         'Lamba stress neend, digestion (acidity, IBS), blood pressure aur mental health sab par asar daalta hai.'
       ]],
 
+      ['teacher', 'Apni pichhli exam ki raat yaad karo: kya exam ke theek baad zukaam ya bukhaar pakad liya tha? Kai students ke saath hota hai, aur ab tumhe pata hai kyun.'],
       ['h', 'Coping: stress se kaise niptein'],
       ['compare', ['Problem-focused coping', 'Problem ko hi badalna: study plan banana, boss se baat karna, budget banana. Tab best jab situation par kuch control ho.'], ['Emotion-focused coping', 'Apne emotional response ko sambhalna: dost se baat, exercise, meditation, reappraisal. Tab zaroori jab situation badal na sake (kisi ki maut, beemari ka result).']],
       ['table', ['Strategy', 'Kyun kaam karti hai'], [
@@ -256,6 +269,7 @@
         '<b>Appraisal badlo</b>: "Ye exam meri poori zindagi tay karega" → "Ye ek important exam hai; mere paas aage bhi raaste hain." Sach bhi yahi hai.'
       ]],
 
+      ['teacher', 'Ab ise apne liye bharo: abhi tumhara sabse bada stressor kya hai, aur uske liye ek problem-focused aur ek emotion-focused kadam kya hoga? Likh lo; sirf dimaag me rakhne se kaam nahi chalega.'],
       ['h', 'Resilience aur burnout'],
       ['p', '<b>Resilience</b> mushkil se ubharne ki kshamta hai. Psychologist Ann Masten ise "ordinary magic" kehti hain: ye koi rare superpower nahi, balki aam cheezon se banti hai: ek bharosemand rishta, problem-solving skills, apne upar kuch control ka ehsaas, aur ummeed. Kai log mushkil ke baad <b>post-traumatic growth</b> bhi bataate hain: rishton aur zindagi ki nayi qadar.'],
       ['p', '<b>Burnout</b> ko WHO ki ICD-11 me ek "occupational phenomenon" maana gaya hai (beemari nahi): lagataar workplace stress se (1) gehri thakaan, (2) kaam se mental doori ya cynicism, aur (3) kam efficiency ka ehsaas. Students me bhi "academic burnout" dikhta hai, khaas kar lambi coaching aur competitive exam culture me.'],
@@ -278,6 +292,7 @@
         ['Burnout', 'Lambe workplace stress se thakaan, cynicism aur kam efficiency.']
       ]]
     ],
+    outro: 'Saar: stress = stressor + hamari samajh; lamba stress body ko thakata hai, par coping aur support use kaafi had tak sambhal lete hain. Quiz do, aur yaad rakhna, madad maangna kamzori nahi, samajhdari hai. Agle chapter me safar bilkul shuru se shuru karenge: ek bachcha kaise bada hota hai, yaani child development.',
     takeaways: [
       'Stress = stressor + hamari appraisal; chhote daily hassles bhi sehat par bada asar daalte hain.',
       'GAS: alarm, resistance, exhaustion; lamba stress body ko thaka deta hai.',

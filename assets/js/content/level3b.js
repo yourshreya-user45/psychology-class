@@ -11,14 +11,15 @@
     visualCap: 'Ebbinghaus ka forgetting curve: seekhne ke baad pehle kuch ghanton me sabse tez bhoolna. Toggle karo aur dekho har review ke baad curve kaise dheemi hoti jaati hai (spaced repetition).',
     title: 'Bhoolna, jhoothi yaadein aur padhne ka sahi tareeka',
     tag: 'Forgetting curve, interference, false memory, aur science-backed study techniques: active recall, spacing, interleaving',
-    hook: 'Kal raat padha chapter aaj subah aadha gayab? Ye aapki kamzori nahi, ye memory ka natural behaviour hai. Achhi khabar: psychology ke paas iska ilaaj hai, aur wo "zyada ghante" nahi, <b>"smart tareeka"</b> hai.',
+    intro: 'Pichhle chapter me yaadein banana dekha; aaj dekhenge ki wo gayab kyun hoti hain, aur kabhi-kabhi badal kyun jaati hain. Sach kahun to ye is level ka sabse "kaam ka" chapter hai, kyunki iske aakhir me padhne ka ek science-backed tareeka milega. Apni pichhli exam ki taiyaari yaad rakhna, beech me compare karenge.',
+    hook: 'Kal raat padha chapter aaj subah aadha gayab? Ye tumhari kamzori nahi, ye memory ka natural behaviour hai. Achhi khabar: psychology ke paas iska ilaaj hai, aur wo "zyada ghante" nahi, <b>"smart tareeka"</b> hai.',
     blocks: [
       ['h', 'Ebbinghaus ka forgetting curve'],
       ['p', 'German psychologist <b>Hermann Ebbinghaus</b> (1885) ne khud par experiment kiya. Unhone "DAX, BUP, ZOL" jaise bekaar syllables ki list yaad ki aur alag-alag samay baad check kiya kitna yaad hai. Result: <b>seekhne ke baad pehle ghante aur pehle din me sabse tez bhoolna</b>, phir rate dheema. Unhone ye bhi dekha ki dobara seekhne me kam time lagta tha (<b>savings</b>), matlab bhooli cheez bhi poori tarah mitti nahi.'],
 
       ['h', 'Hum bhoolte kyun hain?'],
       ['list', [
-        '<b>Encoding failure</b>: cheez kabhi theek se andar gayi hi nahi. Kya aap bata sakte ho ₹10 ke sikke par kya-kya bana hai? Saalon se dekhte ho, par dhyan kabhi nahi diya. (Nickerson aur Adams, 1979 ne yahi penny ke saath dikhaya.)',
+        '<b>Encoding failure</b>: cheez kabhi theek se andar gayi hi nahi. Zara batao, ₹10 ke sikke par kya-kya bana hai? Saalon se dekha hai, par dhyan kabhi nahi diya. (Nickerson aur Adams, 1979 ne yahi penny ke saath dikhaya.)',
         '<b>Decay</b>: use na karne se memory trace dheere-dheere kamzor.',
         '<b>Proactive interference</b>: purani yaad nayi ko rokti hai. Naya phone number yaad karte waqt purana hi muh se nikalna.',
         '<b>Retroactive interference</b>: nayi yaad purani ko dhundhla karti hai. Nayi bhasha seekhne ke baad school ki doosri bhasha ke shabd bhoolna.',
@@ -30,6 +31,7 @@
       ['h', 'Memory reconstruct hoti hai: jhoothi yaadein'],
       ['p', '1932 me <b>Frederic Bartlett</b> ne logon ko ek anjaani lok-katha ("The War of the Ghosts") sunayi aur baad me dohrane ko kaha. Log kahani ko apne culture ke hisaab se badal dete the: anjaane hisse gayab, jaani-pehchaani cheezein jud jaati. Bartlett ne kaha memory <b>reconstruction</b> hai, recording nahi, aur hamare <b>schemas</b> (mental frameworks) yaadon ko shape karte hain.'],
       ['case', '"Lost in the mall" (Loftus aur Pickrell, 1995)', 'Participants ko unke bachpan ki 4 kahaniyan di gayi, parivaar se poochh kar. Teen sach thi, ek jhoothi: 5 saal ki umar me shopping mall me kho jaana aur ek buzurg ka madad karna. Interviews ke baad lagbhag <b>25% logon ne is jhoothi ghatna ko "yaad" kar liya</b>, kuch ne details ke saath. Elizabeth Loftus ka kaam dikhata hai ki <b>suggestion aur leading questions se poori jhoothi yaadein ban sakti hain</b>.'],
+      ['teacher', 'Ruko, yahan ek baat dil par mat lena: jhoothi yaad ka matlab jhooth bolna nahi hai. Jise wo yaad hai, use poora yakeen hota hai ki aisa sach me hua tha. Yahi is research ko itna serious banata hai.'],
       ['p', 'Real duniya me iska bada asar hai. US ke Innocence Project ke hisaab se DNA saboot se bekasoor saabit hue logon ke lagbhag 70% cases me <b>galat eyewitness identification</b> ek kaaran tha. Isliye police lineups aur interviews ke tareeke (non-leading questions, double-blind lineups) psychology research se sudhaare ja rahe hain.'],
       ['myth', 'Kuch logon ki "photographic memory" hoti hai jo har cheez camera ki tarah save karti hai.', 'Kuch bachchon me thodi der ki <b>eidetic imagery</b> dekhi gayi hai, par adults me verified photographic memory ka saboot lagbhag nahi hai. Memory championships jeetne wale log khaas techniques (memory palace, chunking) use karte hain, aur unki normal memory aam logon jaisi hi hoti hai.'],
 
@@ -46,10 +48,11 @@
         ['Rereading', 'Baar-baar padhna', 'Low', 'Familiarity ka dhoka deta hai: "ye to pata hai"']
       ]],
       ['p', 'Highlighting aur rereading "kaam" lagte hain kyunki text <b>familiar</b> lagne lagta hai. Par familiarity aur recall alag hain. Exam me recall chahiye, isliye practice bhi recall ki honi chahiye. Is effect ko <b>testing effect</b> ya <b>retrieval practice</b> kehte hain: yaad <b>nikalne</b> ki koshish hi yaad ko mazboot karti hai, chahe us waqt galat ho.'],
+      ['teacher', 'Ab imaandari se batao: tumhara favourite tareeka is table me kahan hai? Agar highlighter aur rereading hai to ghabrao mat, zyada tar students ka yahi haal hai. Aaj se bas ek badlaav: har topic ke baad kitaab band karke 2 minute recall.'],
       ['tip', [
         '<b>Ek science-backed study plan</b>:',
         '1) Padho aur samjho (deep encoding, apne examples). 2) Kitaab band karke jo yaad hai likho ya bolo (active recall). 3) Galtiyan check karo. 4) Agle din, phir 3 din baad, phir 1 hafte baad, phir 2 hafte baad yahi karo (spacing). 5) Maths/physics me sawaal mix karo (interleaving). 6) Raat ko poori neend lo (consolidation).',
-        '<b>Feynman technique</b>: concept ko aise samjhao jaise 12 saal ke bachche ko samjha rahe ho. Jahan atko, wahi gap hai.'
+        '<b>Feynman technique</b>: concept ko aise samjhao jaise kisi 12 saal ke bachche ko samjhana ho. Jahan atko, wahi gap hai.'
       ]],
 
       ['h', 'Mnemonics: yaad rakhne ke jugaad'],
@@ -60,6 +63,7 @@
         '<b>Story method</b>: list ke items ko ek ajeeb kahani me jodna. Jitni ajeeb, utni yaadgaar.'
       ]],
       ['ex', 'Memory palace se grocery list', 'List: doodh, bread, ande, tamatar, sabun. Ghar ke darwaze par doodh ki nadi beh rahi hai; sofa par bread ka takiya hai; TV par ande nach rahe hain; kitchen me tamatar cricket khel rahe hain; bathroom me sabun gaana ga raha hai. Ab dukaan par mann me ghar ka chakkar lagao. Ajeeb images hi raaz hain.'],
+      ['teacher', 'Abhi try karo: is chapter ke 5 keywords (Ebbinghaus, interference, Loftus, spacing, loci) apne ghar ke 5 kamron me rakh do. Kal subah check karna kitne bache.'],
       ['terms', [
         ['Forgetting curve', 'Seekhne ke baad samay ke saath memory ka girna; shuru me sabse tez (Ebbinghaus).'],
         ['Savings', 'Dobara seekhne me pehli baar se kam time lagna.'],
@@ -79,10 +83,11 @@
         ['Mnemonic', 'Yaad rakhne me madad karne wali technique (acronym, memory palace).'],
         ['Method of loci', 'Cheezon ko jaani-pehchaani jagah ke alag hisson se jodkar yaad rakhna.']
       ]],
-      ['think', 'Aapke dost kehte hain: "Maine notes 4 baar padh liye, sab yaad hai." Kya ye pakka hai?', [
+      ['think', 'Tumhare dost kehte hain: "Maine notes 4 baar padh liye, sab yaad hai." Kya ye pakka hai?', [
         'Shayad nahi. Baar-baar padhne se text <b>familiar</b> lagta hai (illusion of competence), par bina dekhe recall alag skill hai. Test: notes band karke ek blank page par jo yaad hai likho. Jo nahi likh paaye, wahi asli revision ka target hai.'
       ]]
     ],
+    outro: 'Saar: bhoolna normal hai, active recall aur spacing se curve dheema hota hai, aur yaadein kitni bhi pakki lagein, badal sakti hain. Quiz bina notes dekhe karo, wo khud ek active recall session hai. Agle chapter me dekhenge ki dimaag faisle kaise leta hai, aur uske shortcuts kahan dhoka dete hain.',
     takeaways: [
       'Bhoolna shuru me sabse tez hota hai; spaced reviews curve ko dheema karte hain.',
       'Encoding failure, interference aur retrieval failure bhoolne ke mukhya kaaran hain.',
@@ -111,7 +116,8 @@
     visualCap: 'System 1 tez, automatic aur intuitive hai; System 2 dheema, mehnati aur logical. Dono hamare andar chalte hain.',
     title: 'Thinking, problem solving aur decision making',
     tag: 'Concepts, heuristics, System 1 vs System 2, functional fixedness, aur dimaag ke shortcuts ki galtiyan',
-    hook: 'Chai ya coffee, kaunsa route, kis message ka reply pehle: aap din bhar faisle lete ho, aur zyada tar bina soche. Dimaag ke ye <b>shortcuts</b> aapka bahut time bachate hain, par kabhi-kabhi bilkul galat raaste par bhi le jaate hain. Is chapter me dono dekhenge.',
+    intro: 'Memory ke baad ab baari soch ki hai: jo yaad hai, uska use karke hum problems kaise solve karte hain aur faisle kaise lete hain. Aaj kai puzzles aayenge, to pehle khud try karna, phir jawab padhna. Galat jawab par sharmana mat; wahi to asli seekh hai.',
+    hook: 'Chai ya coffee, kaunsa route, kis message ka reply pehle: din bhar tumhe faisle lene padte hain, aur zyada tar bina soche. Dimaag ke ye <b>shortcuts</b> tumhara bahut time bachate hain, par kabhi-kabhi bilkul galat raaste par bhi le jaate hain. Is chapter me dono dekhenge.',
     blocks: [
       ['h', 'Concepts aur prototypes'],
       ['p', 'Dimaag duniya ko <b>concepts</b> (categories) me baantta hai: "phal", "dost", "khatra". Har concept ka ek <b>prototype</b> hota hai, yaani sabse typical example. Eleanor Rosch ki research me "bird" ke liye log gauraiya ya kabootar ko penguin ya shuturmurg se jaldi "bird" maante hain. Isliye "Kya penguin bird hai?" ka jawab dene me thoda zyada time lagta hai.'],
@@ -128,11 +134,13 @@
         '<b>Functional fixedness</b>: cheezon ko sirf unke usual kaam ke roop me dekhna.',
         '<b>Confirmation bias</b>: sirf wo saboot dhoondhna jo apni pehli soch ko sahi saabit kare.'
       ]],
-      ['case', 'Duncker ka candle problem (1945)', 'Aapko ek mombatti, maachis ki dibbi aur thumbtacks (pin) ka dabba diya jaata hai. Mombatti ko deewar par aise lagao ki jalne par mom neeche table par na gire. Zyada tar log mombatti ko seedhe deewar par pin karne ya mom se chipkane ki koshish karte hain. Jawab: <b>pin ke dabbe ko khaali karo, use deewar par pin karo aur shelf ki tarah use karo</b>. Mushkil isliye lagta hai kyunki dabba "dabba" dikhta hai, shelf nahi: <b>functional fixedness</b>. Jab dabba pehle se khaali diya gaya, logon ne jaldi solve kiya.'],
+      ['case', 'Duncker ka candle problem (1945)', 'Tumhe ek mombatti, maachis ki dibbi aur thumbtacks (pin) ka dabba diya jaata hai. Mombatti ko deewar par aise lagao ki jalne par mom neeche table par na gire. Zyada tar log mombatti ko seedhe deewar par pin karne ya mom se chipkane ki koshish karte hain. Jawab: <b>pin ke dabbe ko khaali karo, use deewar par pin karo aur shelf ki tarah use karo</b>. Mushkil isliye lagta hai kyunki dabba "dabba" dikhta hai, shelf nahi: <b>functional fixedness</b>. Jab dabba pehle se khaali diya gaya, logon ne jaldi solve kiya.'],
 
+      ['teacher', 'Socho, tumhare ghar me kaunsi cheez apne "asli kaam" ke alawa kisi aur kaam aati hai? Purana dabba gamla ban gaya, bottle me money plant... Desi jugaad asal me functional fixedness todne ka hi doosra naam hai!'],
       ['h', 'System 1 aur System 2'],
       ['p', 'Nobel winner <b>Daniel Kahneman</b> ne apni book <i>Thinking, Fast and Slow</i> me do tarah ki soch ko popular banaya:'],
       ['compare', ['System 1 (tez)', ['Automatic, intuitive, bina mehnat. "2 + 2 = ?", chehre ka gussa pehchaanna, khali sadak par gaadi chalana.', 'Fayda: tez, energy bachata hai. Nuksaan: biases aur jaldbazi ki galtiyan.']], ['System 2 (dheema)', ['Conscious, mehnati, logical. "17 × 24 = ?", form bharna, naye sheher me raasta dhoondhna.', 'Fayda: sahi, flexible. Nuksaan: thaka deta hai, aalsi hai, aksar System 1 ki baat bina check kiye maan leta hai.']]],
+      ['teacher', 'Neeche wale lab me jawab dene se pehle 5 second ruk kar System 2 ko jagana. Jaldbazi wala pehla jawab hi aksar trap hota hai.'],
       ['lab', 'crt'],
 
       ['h', 'Heuristics: shortcuts jo dhoka dete hain'],
@@ -145,6 +153,7 @@
       ['ex', 'Plane crash ka darr, sadak ka nahi', 'Plane crash ki khabar din bhar TV par chalti hai, isliye flying darawni lagti hai (availability). Par asli khatra sadak par hai: India me 2022 me sadak haadson me <b>1.68 lakh se zyada</b> log maare gaye (MoRTH report), yaani har ghante lagbhag 19. Phir bhi helmet na pehenne ka darr kam aur flight ka darr zyada lagta hai, kyunki rozmarra ke haadse "khabar" nahi bante.'],
       ['case', 'Linda problem (Tversky aur Kahneman, 1983)', '"Linda 31 saal ki hai, seedhi baat karti hai, bahut smart hai. Student life me wo bhedbhaav aur social justice ke muddon par active thi." Ab batao zyada probable kya hai: (A) Linda bank teller hai, ya (B) Linda bank teller hai <b>aur</b> feminist movement me active hai? Original study me lagbhag <b>85%</b> logon ne B chuna. Par do cheezon ka ek saath sach hona, ek cheez ke sach hone se <b>zyada probable ho hi nahi sakta</b>. Ise <b>conjunction fallacy</b> kehte hain: description "typical feminist" jaisi lagi (representativeness), aur logic peeche reh gaya.'],
 
+      ['teacher', 'Agar tumne bhi B socha tha, to chinta mat karo, zyada tar logon ne yahi kiya. Trick yaad rakho: jitni zyada sharten judti hain, probability utni hi <b>kam</b> hoti hai, badhti kabhi nahi.'],
       ['h', 'Reasoning: logic aur uski seemayein'],
       ['compare', ['Deductive reasoning', 'General rule se specific nateeja. "Saare insaan mortal hain; Socrates insaan hai; isliye Socrates mortal hai." Agar premises sach hain to nateeja pakka.'], ['Inductive reasoning', 'Specific examples se general rule. "Maine jitne kauve dekhe sab kaale the, isliye saare kauve kaale hain." Upyogi, par galat ho sakta hai.']],
       ['p', '<b>Belief bias</b>: agar nateeja hamari maanyata se mel khaata hai, to hum galat logic ko bhi sahi maan lete hain. "Saari khane ki cheezein healthy hain; samosa khane ki cheez hai; isliye samosa healthy hai" ko log galat bolte hain (premise galat hai), par logic ka structure valid hai. Logic aur sachchai alag hain.'],
@@ -187,6 +196,7 @@
         'System 1 ₹110 ko ₹100 + ₹10 me tod deta hai kyunki ye pattern aasaan hai. System 2 check kare to dikhega ki ₹10 ki ball ke saath bat ₹110 ka hoga aur total ₹120. Sahi jawab ₹5 hai. Galti intelligence ki kami nahi, balki <b>check na karne</b> ki hai.'
       ]]
     ],
+    outro: 'Saar: dimaag shortcuts se tez chalta hai, par mushkil faislon par System 2 ko jagana padta hai. Quiz me bhi pehla instinct ek baar check karke hi click karna. Agle chapter me us cheez ko dekhenge jisme ye saari soch kapde pehen kar bahar aati hai: bhasha.',
     takeaways: [
       'Dimaag concepts aur prototypes se duniya ko organize karta hai.',
       'Algorithms pakke par dheeme; heuristics tez par galti-prone.',
@@ -215,6 +225,7 @@
     visualCap: 'Rona se poore sentences tak: bachche ka language development kaafi tay kram me hota hai, chahe bhasha koi bhi ho.',
     title: 'Language: hum bolna kaise seekhte hain',
     tag: 'Phonemes se pragmatics tak, Chomsky vs Skinner, critical period, bilingual dimaag aur kya bhasha soch badalti hai',
+    intro: 'Pichhle chapter me soch dekhi; aaj us tool ko dekhte hain jisse soch doosron tak pahunchti hai: bhasha. Hum me se zyada tar log roz do-teen bhashayein mila kar bolte hain, bilkul is course ki Hinglish ki tarah. Aaj samjhenge ki bachche ye kamaal kaise seekhte hain, aur kya bhasha soch ko badalti hai.',
     hook: 'Ek 3 saal ka bachcha bina kisi grammar class ke "Mummy, maine khana kha liya, ab khelne jaun?" bol leta hai, jabki adults ko nayi bhasha seekhne me saalon lag jaate hain. Bachche ye kamaal kaise karte hain? Aur kya Hindi bolne wala dimaag duniya ko English bolne wale se alag dekhta hai?',
     blocks: [
       ['h', 'Bhasha ki parten'],
@@ -226,6 +237,7 @@
         ['Pragmatics', 'Context me bhasha ka use', '"Bahut achha kiya!" taareef bhi ho sakti hai aur taana bhi, tone par depend']
       ]],
 
+      ['teacher', 'Ek trick: in parton ko chhote se bade ki taraf socho. Awaaz (phoneme), phir matlab wala tukda (morpheme), phir sentence ke niyam (syntax), phir matlab (semantics), aur sabse upar context (pragmatics). Exam me order yaad rakhne ke liye apna khud ka mazedaar acronym bana lo.'],
       ['h', 'Language development ke stages'],
       ['steps', [
         ['Rona aur cooing (~0-4 mahine)', '"Ooo", "aaa" jaisi awaazein. Bachche janam se hi apni maa ki bhasha ki lay pehchaante hain.'],
@@ -236,6 +248,7 @@
         ['Complex speech (4-5 saal+)', 'Lambe sentences, kahaniyan, jokes, aur pragmatics ki samajh.']
       ]],
 
+      ['teacher', 'Agar ghar me koi chhota bachcha hai to agli baar uski "galtiyan" dhyan se suno. Wo mazaak nahi, saboot hain ki ek chhota sa dimaag khud niyam bana raha hai.'],
       ['h', 'Theories: nakal ya andar se?'],
       ['list', [
         '<b>Skinner (behaviorist)</b>: bachche imitation aur reinforcement se seekhte hain ("mama" bolne par maa ki khushi). Par ye overgeneralization ("goed", jo kisi ne sikhaya nahi) aur bachchon ki tezi ko samjha nahi paata.',
@@ -261,6 +274,7 @@
       ]],
       ['ex', 'Chacha, mama, tau, fufa vs "uncle"', 'Hindi me papa ke chhote bhai (chacha), bade bhai (tau), maa ke bhai (mama), aur bua ke pati (fufa) ke alag shabd hain. English me sab "uncle". Hindi bolne wale bachche in rishton ka farak jaldi aur saaf seekhte hain, kyunki bhasha unhe har baar ye farak yaad dilati hai. Bhasha soch ko "kaid" nahi karti, par kuch cheezon ko <b>highlight</b> zaroor karti hai.'],
 
+      ['teacher', 'Tumhari ghar ki bhasha me aisa koi shabd hai jiska English me seedha anuvaad nahi milta? Ek baar socho, wo shabd tumhari duniya ka kaunsa farak highlight karta hai.'],
       ['h', 'Kya janwar bhasha bolte hain?'],
       ['p', 'Madhumakkhiyan "waggle dance" se khane ki disha aur doori batati hain; chimpanzee Washoe ne ~100+ sign language signs seekhe; bonobo Kanzi symbols (lexigrams) se baat karta tha aur bole hue English sentences samajh leta tha. Par kya ye "bhasha" hai? Zyada tar researchers ka kehna hai ki janwar shabd jod sakte hain, par insaanon jaisi <b>naye sentences banane wali grammar (syntax)</b> ka saboot kamzor hai.'],
       ['terms', [
@@ -280,6 +294,7 @@
         ['Bilingualism', 'Do bhashaon ka upyog karne ki kshamta.']
       ]]
     ],
+    outro: 'Saar: bhasha parton me bani hai, bachche use niyam pakad kar seekhte hain, aur bhasha soch ko kaid nahi karti par kuch farakon ko roshan zaroor karti hai. Quiz do, phir chalo Level 3 ke aakhri chapter ki taraf: intelligence, yaani smart hone ka asli matlab.',
     takeaways: [
       'Bhasha ki parten: phonemes, morphemes, syntax, semantics, pragmatics.',
       'Bachche ek tay kram me seekhte hain: cooing, babbling, pehla shabd, telegraphic speech, sentences.',
@@ -308,13 +323,14 @@
     visualCap: 'Howard Gardner ki 8 intelligences. Har petal par tap karo. (Dhyan do: ye model popular hai par research support mixed hai.)',
     title: 'Intelligence: smart hone ka asli matlab',
     tag: 'g factor, Gardner, Sternberg, emotional intelligence, IQ tests (Indian tests bhi), Flynn effect aur iodine ka kamaal',
-    hook: 'Sachin Tendulkar, A.R. Rahman, Kalpana Chawla, aur ek kisaan jo aasmaan dekh kar baarish bata deta hai: inme se "intelligent" kaun hai? Jawab depend karta hai ki aap intelligence ki definition kya maante ho. Psychology me ye sabse garma-garam bahas wale topics me se ek hai.',
+    intro: 'Level 3 ka aakhri chapter! Ab tak humne seekhna, yaad rakhna, sochna aur bolna dekha; aaj sawaal hai ki inme koi "zyada achha" kaise hota hai, yaani intelligence. Padhte waqt apne kisi aise dost ko yaad rakhna jo marks me average tha par kisi aur cheez me kamaal.',
+    hook: 'Sachin Tendulkar, A.R. Rahman, Kalpana Chawla, aur ek kisaan jo aasmaan dekh kar baarish bata deta hai: inme se "intelligent" kaun hai? Jawab depend karta hai ki intelligence ki tumhari definition kya hai. Psychology me ye sabse garma-garam bahas wale topics me se ek hai.',
     blocks: [
       ['h', 'Intelligence kya hai?'],
       ['p', 'Zyada tar psychologists maante hain ki intelligence <b>anubhav se seekhne, problems solve karne aur nayi situations me adapt karne</b> ki kshamta hai. Par ye ek cheez hai ya kai?'],
       ['h', 'Ek general intelligence: g factor'],
       ['p', '1904 me <b>Charles Spearman</b> ne dekha ki jo bachche ek tarah ke test me achhe hain (jaise vocabulary), wo aksar doosre tests me bhi achhe hote hain (jaise maths, puzzles). Is "positive manifold" se unhone <b>g (general intelligence)</b> ka idea diya: ek common mental kshamta jo sab tests ke peeche hai, plus har test ki apni specific kshamta (s).'],
-      ['p', '<b>Raymond Cattell</b> ne do hisse kiye: <b>fluid intelligence (Gf)</b>, yaani naye problems solve karna aur patterns pakadna, jo 20s me peak karke dheere ghatti hai; aur <b>crystallized intelligence (Gc)</b>, yaani jama kiya gyaan aur vocabulary, jo umar ke saath badhti rehti hai. Isliye dadaji crossword me aapko hara dete hain, par naye smartphone me aap aage ho. Aaj ka sabse accepted model, <b>CHC model</b>, g ke neeche kai broad abilities rakhta hai.'],
+      ['p', '<b>Raymond Cattell</b> ne do hisse kiye: <b>fluid intelligence (Gf)</b>, yaani naye problems solve karna aur patterns pakadna, jo 20s me peak karke dheere ghatti hai; aur <b>crystallized intelligence (Gc)</b>, yaani jama kiya gyaan aur vocabulary, jo umar ke saath badhti rehti hai. Isliye dadaji crossword me tumhe hara dete hain, par naye smartphone me tum aage ho. Aaj ka sabse accepted model, <b>CHC model</b>, g ke neeche kai broad abilities rakhta hai.'],
 
       ['h', 'Multiple intelligences: Gardner'],
       ['p', '<b>Howard Gardner</b> (1983) ne kaha ki ek IQ number bahut kuch chhod deta hai. Unhone 8 alag intelligences batayi:'],
@@ -330,6 +346,7 @@
       ]],
       ['note', 'Gardner ka model schools me bahut popular hai aur ye yaad dilata hai ki har bachche me alag talent hai. Par research ko ye saboot kam mila ki ye 8 sach me <b>alag-alag</b> "intelligences" hain; kai psychologists inhe talents ya abilities kehna behtar samajhte hain. Aur ye "learning styles" myth (Chapter 1.6) ke saath confuse nahi karna chahiye.'],
 
+      ['teacher', 'Ruko, yahan sab confuse hote hain: multiple intelligences aur "learning styles" alag cheezein hain. Gardner kehte hain log alag-alag cheezon me achhe hote hain; learning styles ka daava (ki "visual learner" sirf picture se hi seekhega) research me fail ho chuka hai.'],
       ['h', 'Sternberg aur emotional intelligence'],
       ['p', '<b>Robert Sternberg</b> ki <b>triarchic theory</b>: (1) <b>Analytical</b>: problems ko analyze karna, school wali smartness. (2) <b>Creative</b>: naye situations me naye ideas. (3) <b>Practical</b>: rozmarra me cheezein sambhal lena, "street smart". Ek dukandaar jo mann me hisaab aur graahak ka mood dono padh leta hai, practical intelligence ka example hai.'],
       ['p', '<b>Emotional intelligence (EI)</b>, jo Salovey aur Mayer (1990) ne diya aur Daniel Goleman ki book ne mashhoor kiya: apne aur doosron ke emotions ko <b>pehchaanna, samajhna, use karna aur manage karna</b>. EI rishton aur leadership me upyogi hai, par "IQ se zyada important" jaise daave badha-chadha kar kiye gaye hain, aur EI ko naapne ke tareekon par bahas hai.'],
@@ -338,10 +355,11 @@
       ['steps', [
         ['Binet aur Simon (1905), France', 'School me extra madad wale bachchon ko pehchaanne ke liye pehla practical test. "<b>Mental age</b>" ka idea: 8 saal ka bachcha agar 10 saal walon jaisa perform kare to mental age 10.'],
         ['Terman (1916), Stanford-Binet', 'IQ = (mental age ÷ chronological age) × 100. 10 ÷ 8 × 100 = 125.'],
-        ['Wechsler (WAIS, WISC)', 'Aaj ka standard: <b>deviation IQ</b>, jisme aapka score apni umar walon se compare hota hai. Mean 100, SD 15 (yaad karo bell curve, Chapter 1.4).'],
+        ['Wechsler (WAIS, WISC)', 'Aaj ka standard: <b>deviation IQ</b>, jisme tumhara score apni umar walon se compare hota hai. Mean 100, SD 15 (yaad karo bell curve, Chapter 1.4).'],
         ['India me', 'Binet ka Indian adaptation <b>Binet-Kamat Test</b> (V.V. Kamat, 1930s), <b>Malin\'s Intelligence Scale for Indian Children (MISIC)</b> jo Wechsler par based hai, aur <b>Bhatia\'s Battery</b> jaise tests clinical aur educational settings me use hote hain.']
       ]],
       ['vis', 'bellCurve', '"IQ" button dabao: ~68% logon ka IQ 85-115 ke beech hota hai.'],
+      ['teacher', 'Ek chhota hisaab khud karo: IQ 130 mean se kitne SD upar hai? (Jawab: 2 SD, kyunki SD 15 hai.) Bell curve ka ye logic Level 7 me bhi kaam aayega.'],
       ['p', 'Achhe test ke liye teen cheezein zaroori hain: <b>standardization</b> (sabke liye same procedure aur bade representative group ke norms), <b>reliability</b> (baar-baar dene par similar score), aur <b>validity</b> (jo naapne ka daava hai wahi naape). Level 7 me ye detail me.'],
       ['p', '<b>Flynn effect</b>: 20th century me kai deshon me IQ scores har dashak lagbhag ~3 points badhe. Itni jaldi genes nahi badalte, to kaaran environment hai: behtar poshan, zyada padhai, chhote parivaar, complex mahaul. Kuch deshon me haal ke saalon me ye trend ruk ya ulat bhi raha hai.'],
 
@@ -358,6 +376,7 @@
         '<b>Garibi aur stress</b>: kam resources, kam stimulation aur zyada stress development par asar daalte hain.'
       ]],
       ['ex', 'Iodine wala namak: ek chammach me IQ', 'WHO ke hisaab se iodine ki kami duniya me <b>roke ja sakne wale</b> brain damage ka ek bada kaaran hai, khaas kar garbh ke dauraan. India ne iodized namak ko badhawa dene ka rashtriya program chalaya (National Iodine Deficiency Disorders Control Programme). Ek sasta badlaav karodon bachchon ke cognitive development ko bachata hai: <b>"genetic" trait par environment ka asar</b> ka shayad sabse achha example.'],
+      ['teacher', 'Agli baar ghar me namak ka packet dekho to "iodized" likha dhoondhna. Psychology ka ek bada nateeja tumhari rasoi me rakha hai!'],
       ['p', 'Groups ke beech average IQ ke farak (desh, varg) aksar <b>environment</b> (padhai, poshan, test ki bhasha aur culture se jaan-pehchaan) se samjhaye ja sakte hain. Test agar shehri, English-medium culture par bana ho, to gaon ke bachche ke saath nainsaafi ho sakti hai (<b>cultural bias</b>). Aur <b>stereotype threat</b> (Level 5): jab kisi ko yaad dilaya jaaye ki "tumhara group is cheez me kamzor maana jaata hai", to uska performance gir sakta hai.'],
       ['myth', 'IQ janam se fixed hai aur zindagi me kitna safal hoge ye wahi tay karta hai.', 'IQ kaafi stable hota hai par fixed nahi: padhai, poshan aur mahaul usse badalte hain. Aur IQ success ka sirf ek hissa samjhata hai; mehnat (conscientiousness), social skills, mauke aur kismat bhi bade factors hain.'],
       ['terms', [
@@ -377,6 +396,7 @@
         ['Binet-Kamat Test', 'Binet test ka Indian adaptation (V.V. Kamat).']
       ]]
     ],
+    outro: 'Saar: intelligence ek number se kahin badi cheez hai, aur genes ke saath mahaul bhi use shape karta hai. Pehle is chapter ka quiz do, phir <b>Level 3 ka exam</b> tumhara intezaar kar raha hai, to conditioning se intelligence tak sab ek baar revise kar lena. Bahut lamba safar tay ho gaya hai, shabash!',
     takeaways: [
       'Intelligence = seekhna, problem solve karna aur adapt karna; g factor aur kai specific abilities.',
       'Fluid intelligence umar ke saath ghatti, crystallized badhti hai.',

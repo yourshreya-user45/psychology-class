@@ -9,9 +9,10 @@
   C({
     id: 'classical-conditioning', level: 3, mins: 16, visual: 'pavlov',
     visualCap: 'Classical conditioning ke teen phase: pehle ghanti neutral hai, phir ghanti + khana saath aate hain, aur aakhir me sirf ghanti se laar aane lagti hai.',
-    title: 'Classical conditioning: Pavlov ka kutta aur aap',
+    title: 'Classical conditioning: Pavlov ka kutta aur tum',
     tag: 'Pressure cooker ki seeti, dentist ka drill, aur ads: dimaag cheezon ko jodna kaise seekhta hai',
-    hook: 'Phone ki notification tone sunte hi bina dekhe dil me halki si khushi ya ghabrahat? Dentist ke drill ki awaaz se hi daant me sihran? Pressure cooker ki seeti sunte hi bhookh? Ye sab aapke dimaag ne bilkul <b>Pavlov ke kutton</b> ki tarah seekha hai.',
+    intro: 'Level 3 me swagat hai! Level 2 me humne dekha ki brain kaise bana hai aur kaise chalta hai; ab dekhenge ki ye brain <b>seekhta</b> kaise hai. Aaj ka topic sabse simple learning hai: do cheezon ko aapas me jod lena. Padhte waqt apni koi ek "ajeeb" aadat yaad rakhna, jaise kisi gaane se mood badal jaana, aur dekhna kya wo bhi isi tarah bani.',
+    hook: 'Phone ki notification tone sunte hi bina dekhe dil me halki si khushi ya ghabrahat? Dentist ke drill ki awaaz se hi daant me sihran? Pressure cooker ki seeti sunte hi bhookh? Ye sab tumhare dimaag ne bilkul <b>Pavlov ke kutton</b> ki tarah seekha hai.',
     blocks: [
       ['h', 'Ek galti se mili khoj'],
       ['p', 'Russian scientist <b>Ivan Pavlov</b> 1890s me kutton ke digestion par research kar rahe the (iske liye unhe 1904 me Nobel Prize mila). Unhone ek ajeeb cheez notice ki: kutte khana muh me aane se <b>pehle</b> hi laar tapkane lagte the, jaise khana laane wale assistant ke kadmon ki awaaz sunkar. Pavlov samajh gaye ki kutton ne kuch <b>seekha</b> hai. Isse psychology ki sabse buniyadi learning theory nikli.'],
@@ -28,8 +29,9 @@
         ['Dauraan (during)', 'Ghanti bajao, turant khana do. Kai baar dohrao. Ghanti (NS) + Khana (UCS) → laar (UCR).'],
         ['Baad me (after)', 'Sirf ghanti (ab CS) → laar (ab CR). Kutte ne seekh liya ki ghanti = khana aane wala hai.']
       ]],
+      ['teacher', 'Ruko, yahan sab confuse hote hain: ghanti hi pehle NS thi aur wahi baad me CS ban gayi. Cheez same, bas naam naya. Trick: "U" matlab Un-learned (bina seekha), "C" matlab Conditioned (seekha hua).'],
       ['ex', 'Pressure cooker ki seeti', [
-        'Bachpan se aapne dekha ki seeti bajne ke kuch der baad garam khana milta hai. Seeti (pehle neutral) baar-baar khane (UCS) ke saath aayi. Ab sirf seeti (CS) sunkar bhookh aur muh me paani (CR) aa jaata hai, chahe aap padosi ke ghar me hon!',
+        'Bachpan se tumne dekha ki seeti bajne ke kuch der baad garam khana milta hai. Seeti (pehle neutral) baar-baar khane (UCS) ke saath aayi. Ab sirf seeti (CS) sunkar bhookh aur muh me paani (CR) aa jaata hai, chahe tum padosi ke ghar me ho!',
         'School ki lunch bell, Zomato ki notification tone, mummy ka "khaana lag gaya" bolna: sab isi tarah conditioned stimulus ban jaate hain.'
       ]],
 
@@ -49,10 +51,12 @@
       ['case', 'Little Albert (Watson aur Rayner, 1920)', '9 mahine ke Albert ko safed chuha dikhaya gaya: pehle wo usse khelta tha (NS). Phir har baar chuhe ke saath peeche se lohe ki rod par zor ka hathauda maara gaya (UCS → darr UCR). Kuch hi pairings ke baad Albert chuhe (CS) se rone aur bhaagne laga (CR), aur ye darr safed khargosh, kutte aur fur coat tak <b>generalize</b> ho gaya. Ye dikhata hai ki phobias seekhi ja sakti hain. (Ethics ke liye ye study aaj unacceptable hai; Chapter 1.5 dekho.)'],
       ['case', 'Peter aur khargosh (Mary Cover Jones, 1924)', 'Watson ki student Mary Cover Jones ne ulta kaam kiya. Peter naam ka bachcha khargosh se bahut darta tha. Jones ne Peter ko uska pasandida khana diya aur khargosh ko <b>door</b> se dikhaya, phir har din thoda paas. Kuch hafton me Peter khargosh ko god me lekar khelne laga. Ise <b>counterconditioning</b> kehte hain, aur ye aage chal kar <b>systematic desensitization</b> aur <b>exposure therapy</b> ki neev bani (Level 6).'],
 
+      ['teacher', 'Ek baat note karo: Albert ka darr seekha gaya aur Peter ka darr bhulaya gaya, dono ek hi rule se. Matlab jo darr seekha gaya hai, wo badla bhi ja sakta hai. Ye umeed wali baat Level 6 me therapy padhte waqt bahut kaam aayegi.'],
       ['h', 'Taste aversion: ek baar me seekhna'],
       ['p', 'Aam taur par conditioning ke liye kai pairings chahiye. Par <b>taste aversion</b> me ek baar kaafi hai, aur khana aur beemari ke beech ghanton ka gap ho tab bhi seekh ho jaati hai. <b>John Garcia</b> (1966) ke experiments me chuhe ek khaas swaad ko beemari (nausea) se jod lete the, par light ya awaaz ko nahi. Matlab hamara dimaag kuch associations (khana → pet kharab) ke liye <b>biologically prepared</b> hai, kyunki zehreela khana dobara na khaana survival ke liye zaroori tha.'],
       ['ex', 'Pani puri jo phir kabhi achhi nahi lagi', 'Ek baar street pani puri khane ke kuch ghante baad tez pet kharab hua. Saalon tak pani puri dekhte hi ji machalta hai, chahe dimaag jaanta hai ki galti shayad paani ki thi ya kisi aur cheez ki. Chemotherapy ke patients me bhi kai baar therapy se pehle khaye khane se aversion ho jaata hai; isliye doctors kabhi-kabhi therapy se pehle koi "scapegoat" naya swaad dene ki salah dete hain.'],
 
+      ['teacher', 'Apni zindagi me socho: koi aisa khana hai jo ek bure anubhav ke baad tumhe kabhi achha nahi laga? Maine dekha hai ki lagbhag har class me kisi na kisi ke paas aisi ek kahani zaroor hoti hai.'],
       ['h', 'Rozmarra me classical conditioning'],
       ['list', [
         '<b>Advertising</b>: product (NS) ko khush chehron, pasandida celebrity, catchy music (UCS → achhi feeling) ke saath baar-baar dikhaya jaata hai. Kuch samay baad sirf product ya logo achhi feeling deta hai (<b>evaluative conditioning</b>).',
@@ -62,7 +66,7 @@
         '<b>Immune system</b>: animal studies me immune response ko bhi kisi swaad ke saath condition kiya gaya hai.'
       ]],
       ['myth', 'Conditioning sirf janwaron par kaam karta hai; insaan to soch-samajh kar faisle lete hain.', 'Classical conditioning hamare emotions aur body responses ko lagataar shape karta hai, aksar bina humein pata chale: ads, darr, cravings, aur yahan tak ki body ki dawai ke prati reaction. Socha-samjha faisla bhi in seekhe hue emotions se prabhavit hota hai.'],
-      ['think', 'Har baar phone vibrate hone par aapke pet me halki si ghabrahat kyun hoti hai?', [
+      ['think', 'Har baar phone vibrate hone par tumhare pet me halki si ghabrahat kyun hoti hai?', [
         'Agar pichhle kuch mahino me kai baar vibration ke baad stressful message aaye (boss, exam result, jhagda), to vibration (pehle neutral) stress (UCS) ke saath jud gayi aur ab khud anxiety (CR) paida karti hai. Achhi khabar: kuch din notifications ko batch me dekhna ya tone badalna is association ko kamzor kar sakta hai.'
       ]],
       ['terms', [
@@ -79,6 +83,7 @@
         ['Evaluative conditioning', 'Kisi cheez ko achhi ya buri feeling wale stimulus ke saath jodkar uske prati pasand badalna.']
       ]]
     ],
+    outro: 'Aaj ka saar: jo cheezein baar-baar saath aati hain, dimaag unhe jod deta hai, aur ye jod chupchaap hamare emotions chalata hai. Ab quiz se check karo ki NS, UCS aur CS pakke hue ya nahi. Agle chapter me sawaal ulta hoga: jab hum <b>khud kuch karte hain</b> aur uska nateeja milta hai, tab kya seekhte hain?',
     takeaways: [
       'NS + UCS baar-baar saath aayein to NS ban jaata hai CS, aur CR paida karta hai.',
       'Extinction se response kamzor hota hai, par spontaneous recovery dikhati hai ki association mita nahi.',
@@ -107,6 +112,7 @@
     visualCap: 'Operant conditioning ke chaar raaste: kuch add karo ya hatao, aur behaviour badhao ya ghatao. Har box par tap karke example dekho.',
     title: 'Operant conditioning: reward, punishment aur Instagram',
     tag: 'Skinner box, reinforcement schedules, shaping, aur kyun "kabhi-kabhi milne wala reward" sabse addictive hai',
+    intro: 'Pichhle chapter me seekhna "apne aap" ho raha tha: ghanti baji, laar aayi. Aaj us learning ki baat hai jisme pehle action hota hai, phir nateeja, aur wahi nateeja tay karta hai ki action dobara hoga ya nahi. Reels, marks, mummy ki daant, sab isme aayenge. Is chapter ke baad apni phone wali aadat ek nayi nazar se dikhegi.',
     hook: 'Instagram ya YouTube chhodna itna mushkil kyun hai? Kyunki har baar refresh karne par <b>kabhi</b> kuch mazedaar milta hai, <b>kabhi</b> nahi. Ye "kabhi-kabhi" wala reward hi sabse powerful hai, aur iska science 80 saal pehle ek chuhe aur kabootar par khoja gaya tha.',
     blocks: [
       ['h', 'Thorndike ki billi aur law of effect'],
@@ -121,11 +127,12 @@
         ['Kuch ADD karo (+)', '<b>Positive reinforcement</b>: achha kaam karne par chocolate, taareef, salary, likes.', '<b>Positive punishment</b>: galat kaam par daant, challan, extra homework.'],
         ['Kuch REMOVE karo (−)', '<b>Negative reinforcement</b>: seat belt lagate hi beep band; sar dard me goli lene se dard gayab.', '<b>Negative punishment</b>: der se ghar aane par phone chheen lena; foul par player ko bahar karna.']
       ]],
-      ['myth', 'Negative reinforcement ka matlab punishment hai.', 'Bilkul nahi. "Negative" ka matlab hai <b>kuch hataana</b>, aur "reinforcement" ka matlab hai behaviour <b>badhna</b>. Jab aap alarm ka snooze dabate ho aur irritating awaaz band hoti hai, to snooze dabane ka behaviour <b>badhta</b> hai: ye negative reinforcement hai. Avoidance (jaise exam ki tension se bachne ke liye padhai taalna) bhi negative reinforcement se hi chalta hai.'],
+      ['teacher', 'Ek chhota test khud ka lo: mummy ne kaha "kamra saaf kiya to aaj bartan nahi dhone padenge". Ye chaaron me se kaunsa hai? Pehle socho, phir aage padho. (Jawab: bartan ka kaam <b>hataya</b> gaya aur kamra saaf karna <b>badhega</b>, to negative reinforcement.)'],
+      ['myth', 'Negative reinforcement ka matlab punishment hai.', 'Bilkul nahi. "Negative" ka matlab hai <b>kuch hataana</b>, aur "reinforcement" ka matlab hai behaviour <b>badhna</b>. Socho: alarm ka snooze dabaya aur irritating awaaz band ho gayi. Ab snooze dabane ka behaviour <b>badhta</b> hai: ye negative reinforcement hai. Avoidance (jaise exam ki tension se bachne ke liye padhai taalna) bhi negative reinforcement se hi chalta hai.'],
       ['p', '<b>Primary reinforcers</b> natural hote hain (khana, paani, garmi). <b>Secondary (conditioned) reinforcers</b> seekhe hue hote hain kyunki wo primary se jude hain: paisa, marks, medals, likes, XP points. Hospitals aur schools me <b>token economy</b> use hoti hai: achhe behaviour par tokens jo baad me inaam me badle ja sakte hain.'],
 
       ['h', 'Shaping: chhote-chhote kadmon se'],
-      ['p', 'Ek kabootar ko table tennis khelna kaise sikhaoge? Wo khud to karega nahi. Skinner ne <b>shaping</b> use ki: target behaviour ke <b>kareeb-kareeb</b> wale behaviour ko step by step reward karna (successive approximations). Pehle ball ki taraf dekhne par khana, phir paas jaane par, phir chonch se chhoone par, phir dhakelne par. Skinner ne sach me kabootaron ko ping-pong khelna sikhaya tha!'],
+      ['p', 'Ek kabootar ko table tennis khelna kaise sikhaya jaaye? Wo khud to karega nahi. Skinner ne <b>shaping</b> use ki: target behaviour ke <b>kareeb-kareeb</b> wale behaviour ko step by step reward karna (successive approximations). Pehle ball ki taraf dekhne par khana, phir paas jaane par, phir chonch se chhoone par, phir dhakelne par. Skinner ne sach me kabootaron ko ping-pong khelna sikhaya tha!'],
       ['ex', 'Bachche ko khud padhna sikhana', 'Pehle din kitaab kholne par taareef. Phir ek page dekhne par. Phir ek line padhne par. Phir poora page. Har step par reward, aur dheere-dheere reward ki sharat badhti hai. Yahi tareeka dog training, physiotherapy, aur autism ke liye ABA (Applied Behaviour Analysis) programs me use hota hai.'],
 
       ['h', 'Reinforcement schedules: kab reward dein?'],
@@ -142,6 +149,7 @@
         'Iske khilaf tareeke: app ko home screen se hatao (response cost badhao), notifications band karo, aur time limit lagao. Behaviour ko uske triggers aur rewards badal kar hi badla ja sakta hai, sirf willpower se nahi.'
       ]],
 
+      ['teacher', 'Ab apna screen-time kholo. Kaunsi app tumhe sabse zyada "bas ek aur" wale loop me phansati hai? Usi par aaj ek chhota badlaav try karo, aur dekho ki willpower se zyada setup kaam karta hai.'],
       ['h', 'Punishment kaam karti hai? Kab nahi?'],
       ['p', 'Punishment behaviour ko <b>thodi der</b> ke liye rok sakti hai, khaas kar agar turant aur har baar ho. Par iske nuksaan bhi hain:'],
       ['list', [
@@ -151,7 +159,7 @@
         'India me Right to Education Act (2009) school me bachchon ki physical punishment aur mental harassment par rok lagata hai.'
       ]],
       ['tip', 'Behaviour badalne ka better formula: <b>jo chahiye use turant aur specifically reinforce karo</b> ("Tumne aaj khud homework shuru kiya, bahut badhiya!"), aur galat behaviour ke liye <b>negative punishment</b> (thodi der screen band) ya natural consequences. <b>Premack principle</b> ("Dadi ka rule"): pasand ka kaam (TV) na-pasand kaam (homework) ke baad do: "pehle homework, phir cartoon".'],
-      ['ex', 'Is website me bhi operant conditioning hai', 'XP points (secondary reinforcer), badges, streaks aur level unlock: ye sab positive reinforcement hai. Streak toot jaane ka darr negative reinforcement jaisa kaam karta hai (roz aao taaki streak ka nuksaan na ho). Duolingo aur fitness apps bhi yahi karte hain. Jaankar use karo to ye tools aapke favour me kaam karte hain.'],
+      ['ex', 'Is website me bhi operant conditioning hai', 'XP points (secondary reinforcer), badges, streaks aur level unlock: ye sab positive reinforcement hai. Streak toot jaane ka darr negative reinforcement jaisa kaam karta hai (roz aao taaki streak ka nuksaan na ho). Duolingo aur fitness apps bhi yahi karte hain. Jaankar use karo to ye tools tumhare favour me kaam karte hain.'],
       ['think', 'Ek bachcha supermarket me chocolate ke liye rota hai, aur maa chup karane ke liye chocolate de deti hai. Kaun kise condition kar raha hai?', [
         'Dono ek-doosre ko! Bachche ka rona <b>positively reinforce</b> ho raha hai (rone par chocolate mili), to wo agli baar aur roega. Maa ka chocolate dena <b>negatively reinforce</b> ho raha hai (chocolate dene se irritating rona band hua), to wo agli baar bhi degi. Ye cycle todne ke liye rone par reward band karna padega, aur shuru me rona badhega (<b>extinction burst</b>) phir kam hoga.'
       ]],
@@ -178,6 +186,7 @@
         ['Extinction burst', 'Reward band hone par extinction se pehle behaviour ka thodi der ke liye badh jaana.']
       ]]
     ],
+    outro: 'Saar: jis behaviour ke baad achha nateeja aata hai wo badhta hai, aur "kabhi-kabhi" wala reward sabse zyada pakadta hai. Quiz me chaaron boxes (positive/negative, reinforcement/punishment) ka asli test hoga, dhyan se karna. Agle chapter me dekhenge ki bina khud kiye, sirf <b>dekh kar</b> bhi kaise seekha jaata hai.',
     takeaways: [
       'Operant conditioning = behaviour + consequence. Reinforcement badhata hai, punishment ghatata hai.',
       'Positive = kuch add, negative = kuch remove. Negative reinforcement punishment nahi hai.',
@@ -207,7 +216,8 @@
     visualCap: 'Bandura ke hisaab se dekh kar seekhne ke 4 steps: Attention, Retention, Reproduction, Motivation. Ek bhi kadi tooti to imitation nahi hogi.',
     title: 'Observational aur cognitive learning',
     tag: 'Bobo doll, latent learning, insight, learned helplessness aur self-efficacy',
-    hook: 'Kisi ne aapko chopsticks pakadna, cricket me cover drive, ya mummy jaisa tadka lagana reward dekar step by step nahi sikhaya. Aapne <b>dekh kar</b> seekha. Insaan ki sabse badi superpower shayad yahi hai: doosron ke anubhav se seekh lena, bina khud har galti kiye.',
+    intro: 'Ab tak humne conditioning se seekhna dekha: jod kar, ya nateeja dekh kar. Par cricket ka cover drive ya mummy wala tadka kisi ne reward de-de kar nahi sikhaya. Aaj ka chapter <b>dekh kar</b> aur <b>soch kar</b> seekhne ka hai, aur ye tumhare apne confidence se bhi juda hai.',
+    hook: 'Kisi ne tumhe chopsticks pakadna, cricket me cover drive, ya mummy jaisa tadka lagana reward dekar step by step nahi sikhaya. Tumne <b>dekh kar</b> seekha. Insaan ki sabse badi superpower shayad yahi hai: doosron ke anubhav se seekh lena, bina khud har galti kiye.',
     blocks: [
       ['h', 'Bandura ka Bobo doll experiment'],
       ['case', 'Albert Bandura (1961)', [
@@ -221,8 +231,9 @@
         ['Reproduction', 'Use karne ki physical aur mental capability honi chahiye. Virat Kohli ko dekh kar cover drive samajhna aur khud maarna alag baat hai.'],
         ['Motivation', 'Karne ki wajah: model ko reward milte dekhna (<b>vicarious reinforcement</b>) ya khud reward ki ummeed.']
       ]],
-      ['ex', 'Bachche wahi karte hain jo aap karte ho, wo nahi jo aap kehte ho', 'Papa kehte hain "phone kam use karo" par khud dinner table par scroll karte hain. Research dikhati hai ki jab model ki baat aur kaam alag hon, to bachche aksar <b>kaam</b> ki nakal karte hain. Parents, teachers aur bade bhai-behen sabse powerful models hain.'],
+      ['ex', 'Bachche wahi karte hain jo bade karte hain, wo nahi jo bade kehte hain', 'Papa kehte hain "phone kam use karo" par khud dinner table par scroll karte hain. Research dikhati hai ki jab model ki baat aur kaam alag hon, to bachche aksar <b>kaam</b> ki nakal karte hain. Parents, teachers aur bade bhai-behen sabse powerful models hain.'],
 
+      ['teacher', 'Ek trick yaad rakho: Bobo doll study ka sabse bada sabak "bachche nakal karte hain" se aage hai. <b>Seekhna</b> aur <b>karna</b> alag cheezein hain: kisi ne kuch kiya nahi, iska matlab ye nahi ki usne seekha nahi.'],
       ['h', 'Media, models aur "entertainment-education"'],
       ['p', 'Agar dekh kar aggression seekha ja sakta hai, to achha behaviour bhi. 1984 me Doordarshan ka serial <b>"Hum Log"</b> India ke shuruaati "entertainment-education" serials me tha, jisme kahani ke zariye family planning aur mahilaon ke adhikaar jaise sandesh diye gaye. Aage chalkar "Main Kuch Bhi Kar Sakti Hoon" (2014) jaise shows ne health aur gender par yahi approach apnaya. Ye Bandura ki social learning theory ka seedha upyog hai.'],
       ['p', 'Media violence aur bachchon ke aggression par research me ek chhota-medium rishta milta hai, par kitna causal hai aur real-world violence se kitna juda, is par experts me bahas hai. Context, parents ki baatcheet aur bachche ki personality bhi role nibhate hain.'],
@@ -233,10 +244,10 @@
         'Edward Tolman ne chuhon ke teen group ek maze me chhode. Group 1 ko har baar end par khana mila, group 2 ko kabhi nahi, aur group 3 ko 11ve din se khana milna shuru hua.',
         'Group 3 ne 11ve din ke baad <b>achanak</b> utna hi achha (balki behtar) perform kiya jitna group 1. Matlab wo pehle din se maze ka <b>"cognitive map"</b> bana rahe the, bas dikhane ki zaroorat nahi thi. Ise <b>latent learning</b> kehte hain: seekhna jo tab tak chhupa rehta hai jab tak zaroorat ya reward na ho.'
       ]],
-      ['ex', 'Roz ka raasta', 'Aap saalon se kisi ki gaadi me peeche baith kar office ya college jaate ho, kabhi dhyan se raasta yaad nahi kiya. Ek din khud jaana pada, aur aap aaraam se pahunch gaye. Ye latent learning hai: cognitive map bina koshish ke ban raha tha.'],
+      ['ex', 'Roz ka raasta', 'Saalon se roz kisi ki gaadi me peeche baith kar college ya office jaana hua, par tumne kabhi dhyan se raasta yaad nahi kiya. Ek din khud jaana pada, aur raasta aaraam se mil gaya. Ye latent learning hai: cognitive map bina koshish ke ban raha tha.'],
 
       ['h', 'Insight learning: "Aha!" moment'],
-      ['p', 'German psychologist <b>Wolfgang Köhler</b> ne 1910s me Tenerife me chimpanzees par kaam kiya. Sultan naam ke chimp ke pinjre ke bahar kela tha jo ek chhadi se pahuncha nahi ja sakta tha. Kuch der koshish ke baad Sultan ruka, phir achanak do chhadiyon ko jodkar lambi chhadi banayi aur kela kheench liya. Ye trial-and-error nahi tha; problem ka <b>sudden restructuring</b> tha, jise <b>insight</b> kehte hain. Aapke saath bhi hota hai: nahate waqt achanak sawaal ka jawab sujh jaana.'],
+      ['p', 'German psychologist <b>Wolfgang Köhler</b> ne 1910s me Tenerife me chimpanzees par kaam kiya. Sultan naam ke chimp ke pinjre ke bahar kela tha jo ek chhadi se pahuncha nahi ja sakta tha. Kuch der koshish ke baad Sultan ruka, phir achanak do chhadiyon ko jodkar lambi chhadi banayi aur kela kheench liya. Ye trial-and-error nahi tha; problem ka <b>sudden restructuring</b> tha, jise <b>insight</b> kehte hain. Tumhare saath bhi hota hai: nahate waqt achanak sawaal ka jawab sujh jaana.'],
 
       ['h', 'Learned helplessness'],
       ['case', 'Seligman aur Maier (1967)', [
@@ -245,12 +256,13 @@
       ]],
       ['ex', '"Main maths me kabhi achha nahi ho sakta"', 'Rohan ko class 6 se maths me baar-baar kam marks mile, chahe usne koshish ki ho ya nahi. Ab class 10 me wo maths ki kitaab kholta hi nahi: "Kya fayda?" Ye learned helplessness jaisa pattern hai. Ilaaj: chhote, jeetne layak targets (pehle 5 aasaan sawaal), progress dikhana, aur effort ko results se jodna, taaki control ka ehsaas wapas aaye.'],
 
-      ['h', 'Self-efficacy: "Main kar sakta hoon"'],
-      ['p', 'Bandura ka ek aur bada concept <b>self-efficacy</b> hai: kisi khaas kaam ko kar paane me apni kshamta par vishwas. Ye confidence se zyada specific hai: aapki maths self-efficacy high aur public speaking self-efficacy low ho sakti hai. Research me high self-efficacy behtar persistence, kam anxiety aur behtar performance se judi hai.'],
+      ['teacher', 'Ek pal ruk kar socho: kya koi subject ya kaam hai jiske baare me tumne bhi "kya fayda" bol diya tha? Agar haan, to aaj usme sabse chhota, pakka jeetne wala kadam kya ho sakta hai?'],
+      ['h', 'Self-efficacy: "Mujhse ho jaayega"'],
+      ['p', 'Bandura ka ek aur bada concept <b>self-efficacy</b> hai: kisi khaas kaam ko kar paane me apni kshamta par vishwas. Ye confidence se zyada specific hai: tumhari maths self-efficacy high aur public speaking self-efficacy low ho sakti hai. Research me high self-efficacy behtar persistence, kam anxiety aur behtar performance se judi hai.'],
       ['list', [
         '<b>Mastery experiences</b> (sabse powerful): khud chhoti-chhoti safaltaayein.',
         '<b>Vicarious experience</b>: apne jaise kisi ko safal hote dekhna ("agar wo kar sakti hai to main bhi").',
-        '<b>Verbal persuasion</b>: kisi bharosemand vyakti ka kehna "tum kar sakte ho".',
+        '<b>Verbal persuasion</b>: kisi bharosemand vyakti ka kehna "tumse ho jaayega".',
         '<b>Physiological state</b>: ghabrahat ko "excitement" ki tarah interpret karna.'
       ]],
       ['tip', 'Kisi naye skill (coding, guitar, English speaking) ke liye aaj ka target itna chhota rakho ki fail hona mushkil ho: 10 minute, ek chhota exercise. Har din ki chhoti jeet self-efficacy banati hai, jo aage bade targets ka fuel hai.'],
@@ -269,6 +281,7 @@
         ['Entertainment-education', 'Kahaniyon aur media ke zariye socially faydemand behaviour sikhane ka tareeka.']
       ]]
     ],
+    outro: 'Saar: hum dekh kar seekhte hain, bina reward ke bhi seekhte hain, aur khud par bharosa chhoti-chhoti jeeton se banta hai. Quiz do aur ek chhoti jeet abhi pakki karo! Agle chapter me memory ki machine kholenge: jo seekha, wo dimaag me rakha kahan jaata hai?',
     takeaways: [
       'Hum dekh kar seekhte hain: attention, retention, reproduction, motivation.',
       'Seekhna aur karna alag hain: consequence dekh kar hum seekha hua dikhate ya chhupate hain.',
@@ -297,7 +310,8 @@
     visualCap: 'Atkinson-Shiffrin model: information sensory memory se short-term aur phir long-term memory me jaati hai. Dhyan na diya to sensory memory se gayab; rehearse na kiya to STM se gayab.',
     title: 'Memory: yaadein kaise banti hain',
     tag: 'Sensory, short-term, working aur long-term memory; encoding, retrieval, aur exam hall me "blank" kyun ho jaate hain',
-    hook: 'Aapko bachpan ke ghar ki khushboo yaad hai, par kal dopahar kya khaya tha shayad nahi. Exam me ek jawab "zubaan par" hai par nikal nahi raha. <b>Memory video recorder nahi hai</b>; ye ek jeevit process hai jo cheezein choonti, jodti, aur kabhi-kabhi badal bhi deti hai.',
+    intro: 'Teen chapters se hum seekhne ki baat kar rahe hain, par seekha hua jaata kahan hai? Aaj memory ka safar karenge: information andar kaise aati hai, kahan rehti hai, aur exam hall me wapas kyun nahi nikalti. Ye chapter seedha tumhari padhai ke kaam ka hai, to dhyan se.',
+    hook: 'Tumhe bachpan ke ghar ki khushboo yaad hai, par kal dopahar kya khaya tha shayad nahi. Exam me ek jawab "zubaan par" hai par nikal nahi raha. <b>Memory video recorder nahi hai</b>; ye ek jeevit process hai jo cheezein choonti, jodti, aur kabhi-kabhi badal bhi deti hai.',
     blocks: [
       ['h', 'Memory ke teen kaam'],
       ['steps', [
@@ -317,6 +331,7 @@
       ['case', 'Sperling ka partial report (1960)', 'George Sperling ne logon ko 12 letters ka grid ek second ke ~1/20 hisse ke liye dikhaya. Poore grid me se log ~4 letters hi bata paaye. Par jab grid gayab hone ke <b>turant baad</b> ek tone se bataya gaya ki kaunsi row batani hai, to log lagbhag kisi bhi row ke zyada tar letters bata dete the. Matlab poora grid kuch pal ke liye sensory memory me tha, bas bahut jaldi mit jaata hai.'],
       ['lab', 'digitspan'],
 
+      ['teacher', 'Ek farak pakad lo: OTP ko kuch second yaad rakhna short-term memory hai, par usi waqt mann me do numbers jodna "kaam" hai. Isi kaam wali jagah ko agla section working memory kehta hai.'],
       ['h', 'Working memory: dimaag ka whiteboard'],
       ['p', 'Baddeley aur Hitch (1974) ne kaha STM sirf ek "store" nahi, ek active <b>workspace</b> hai jahan hum information par kaam karte hain. Iske hisse:'],
       ['list', [
@@ -337,6 +352,7 @@
       ]],
       ['ex', '"Ratna" vs "samajhna"', 'Do students ne same chapter padha. Ek ne lines 5 baar padhi (shallow). Doosre ne har concept ko apne examples se samjhaya aur khud se "kyun?" poochha (deep, elaborative). Ek hafte baad doosre ko kahin zyada yaad tha, chahe usne kam time lagaya. Is website ke "Socho" aur real-life example sections isi principle par bane hain.'],
 
+      ['teacher', 'Isi chapter par try karo: har naya term padhte hi khud se poochho "ye mere saath kab hua?" Deep processing aur self-reference dono ek saath ho jaayenge, aur yaad rakhne ki mehnat aadhi.'],
       ['h', 'Long-term memory ke prakaar'],
       ['table', ['Type', 'Sub-type', 'Kya hai', 'Example'], [
         ['Explicit (declarative): "jaanna ki"', 'Episodic', 'Personal events, kab aur kahan', 'Pichhli Diwali par kya hua'],
@@ -354,7 +370,8 @@
         '<b>Relearning</b>: dobara seekhne me kam time lagna (savings). Bhooli hui cheez bhi "kahin" bachi hoti hai.'
       ]],
       ['p', '<b>Retrieval cues</b> memory ke "handles" hain. <b>Encoding specificity principle</b>: jis context me seekha, wahi context yaad dilane me madad karta hai.'],
-      ['case', 'Paani ke neeche yaad karna (Godden aur Baddeley, 1975)', 'Scuba divers ne words ki list ya to zameen par ya paani ke neeche yaad ki, aur test bhi dono jagah hua. Jo list paani ke neeche yaad ki, wo paani ke neeche zyada yaad aayi, aur zameen wali zameen par. Ise <b>context-dependent memory</b> kehte hain. Isi wajah se kitchen me jaakar bhool jaate ho ki kya lene aaye the, aur wapas kamre me aate hi yaad aa jaata hai!'],
+      ['case', 'Paani ke neeche yaad karna (Godden aur Baddeley, 1975)', 'Scuba divers ne words ki list ya to zameen par ya paani ke neeche yaad ki, aur test bhi dono jagah hua. Jo list paani ke neeche yaad ki, wo paani ke neeche zyada yaad aayi, aur zameen wali zameen par. Ise <b>context-dependent memory</b> kehte hain. Isi wajah se kitchen me pahunch kar yaad nahi aata ki kya lena tha, aur wapas kamre me aate hi yaad aa jaata hai!'],
+      ['teacher', 'Exam ke liye iska matlab: kabhi-kabhi waise hi halaat me padho jaise exam me honge, chup-chaap table par, bina phone ke. Aur exam me atak jao to mann me wo jagah yaad karo jahan padha tha; wahi cue kaam aa sakta hai.'],
       ['list', [
         '<b>State-dependent memory</b>: andruni state (mood, nasha, caffeine) bhi cue banti hai.',
         '<b>Mood-congruent memory</b>: udaas mood me udaas yaadein zyada aati hain, jo depression ke cycle ko mazboot kar sakti hain.',
@@ -394,6 +411,7 @@
         ['Flashbulb memory', 'Emotional events ki vivid yaad jo pakki lagti hai par badal sakti hai.']
       ]]
     ],
+    outro: 'Saar: memory recording nahi, encoding, storage aur retrieval ki process hai, aur gehri samajh sabse pakki yaad banati hai. Quiz abhi do; wo khud retrieval practice hai jo memory ko mazboot karegi. Agle chapter me iska ulta pehlu: hum bhoolte kyun hain, aur kam kaise bhoolein.',
     takeaways: [
       'Memory = encoding + storage + retrieval; galti kisi bhi step par ho sakti hai.',
       'Sensory → STM (attention se) → LTM (rehearsal aur deep encoding se).',
