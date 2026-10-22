@@ -367,18 +367,18 @@
         ['E: Encourage other supports', 'Dost, parivaar, neend, exercise, routine aur jo cheezein pehle madad karti thi.']
       ]],
       ['table', ['Ye kaho', 'Ye mat kaho'], [
-        ['"Mujhe batane ke liye shukriya. Main sun raha hoon."', '"Sab theek ho jaayega, chill kar."'],
+        ['"Mujhe batane ke liye shukriya. Aaram se batao, poora time hai."', '"Sab theek ho jaayega, chill kar."'],
         ['"Ye sach me bhaari lag raha hoga."', '"Tumhare paas sab kuch hai, phir udaas kyun?"'],
-        ['"Kya tum chahoge ki hum saath me kisi se baat karein?"', '"Mujhe bhi aisa hota hai, bas ignore karo."'],
-        ['"Kya tum khud ko nuksaan pahunchane ke baare me soch rahe ho?"', '"Aisa mat socho, ye paap hai / log kya kahenge."'],
-        ['"Main kal phir check karunga."', '"Positive socho, yoga karo, sab theek."']
+        ['"Kya saath me kisi se baat karna theek lagega?"', '"Mujhe bhi aisa hota hai, bas ignore karo."'],
+        ['"Kya kabhi khud ko nuksaan pahunchane ka khayal aata hai?"', '"Aisa mat socho, ye paap hai / log kya kahenge."'],
+        ['"Kal phir baat karte hain, theek?"', '"Positive socho, yoga karo, sab theek."']
       ]],
       ['teacher', 'Notice karo, achhe jawabon me koi "solution" nahi hai, sirf saath hai. Hum aksar turant theek karne ki jaldi me hote hain, jabki saamne wale ko pehle bas suna jaana chahiye.'],
 
       ['h', 'Suicide ke khatre me kya karein'],
       ['p', 'Agar koi suicide ke vichaar bata raha hai ya warning signs dikh rahe hain (Chapter 6.3):'],
       ['list', [
-        '<b>Seedhe aur shaanti se poochho</b>: "Kya tum suicide ke baare me soch rahe ho?" Ye vichaar nahi daalta.',
+        '<b>Seedhe aur shaanti se poochho</b>: "Kya tumhare mann me suicide ka khayal aa raha hai?" Ye vichaar nahi daalta.',
         '<b>Suno aur saath raho</b>. Agar turant khatra hai to unhe akela mat chhodo.',
         '<b>Khatarnak cheezon</b> ko pahunch se door karo (dawaiyan, zehreele padarth, dhaar wali cheezein), jahan safe ho.',
         '<b>Madad se jodo</b>: Tele-MANAS 14416, ya turant khatre me 112 ya nazdeeki emergency.',

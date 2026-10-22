@@ -423,7 +423,7 @@
         ['Effect size', 'Farak ya rishta kitna bada hai, uska maap (jaise Cohen\'s d).'],
         ['Confidence interval', 'Wo range jisme asli population value hone ki achhi sambhavna hai.']
       ]],
-      ['think', 'News: "Survey: 80% doctors is toothpaste ko recommend karte hain." Kaunse sawaal poochhoge?', [
+      ['think', 'News: "Survey: 80% doctors is toothpaste ko recommend karte hain." Kaunse sawaal poochhne chahiye?', [
         'Kitne doctors se poochha? Kaise chune gaye? Kya sawaal tha (kya ek hi brand chunna tha ya kai brands bata sakte the)? Survey kisne fund kiya? Aise hi ek mashhoor ad par UK me sawaal uthe the kyunki doctors kai brands chun sakte the, to doosre brands ko bhi utne hi "recommend" kiya gaya tha.'
       ]]
     ],
@@ -497,7 +497,7 @@
         '<b>Competence</b>: psychologist sirf wahi kaam kare jiski usne training li hai.'
       ]],
       ['ex', 'Ek "fun personality quiz" ka asli daam', 'Cambridge Analytica scandal (2018) me Facebook par ek personality quiz app ke zariye karodon users (Facebook ke hisaab se ~8.7 crore) ka data unki poori jaankari ke bina collect hua aur political ads target karne me use hone ke aarop lage. Ye dikhata hai ki <b>informed consent</b> sirf lab ki baat nahi; psychology ka data har online quiz me liya ja raha hai.'],
-      ['teacher', 'Ye tumhare phone par bhi hota hai. Agli baar "tum kaunse Bollywood character ho?" jaisa quiz khelne se pehle ek baar dekho ki wo kaunsi permissions maang raha hai. Informed consent ka matlab hai ki tumhe pata ho tum kya de rahe ho.'],
+      ['teacher', 'Ye tumhare phone par bhi hota hai. Agli baar "tum kaunse Bollywood character ho?" jaisa quiz khelne se pehle ek baar dekho ki wo kaunsi permissions maang raha hai. Informed consent ka matlab hai ki tumhe pata ho ki tumhara kya data ja raha hai.'],
       ['think', 'Kya aaj Milgram jaisi study ho sakti hai?', [
         'Poori tarah nahi. 2009 me psychologist Jerry Burger ne safe version kiya: 150 volt par hi rok diya (jahan learner pehli baar chhodne ki maang karta hai), participants ki pehle screening ki, aur baar-baar bataya ki wo chhod sakte hain. Phir bhi ~70% log 150 volt ke aage jaane ko tayyar the, Milgram ke results ke kaafi kareeb. Matlab sawaal ka jawab ethically bhi dhoondha ja sakta hai.'
       ]],

@@ -146,6 +146,20 @@
       ]
     },
     {
+      title: 'Dark psychology se bachav (Level 8)',
+      desc: 'Manipulation, scams aur fake news ko pehchaanne aur report karne ke liye bharosemand tools aur kitaabein.',
+      items: [
+        { type: 'Report (India)', title: 'Sanchar Saathi: Chakshu', by: 'Department of Telecommunications', why: 'Fraud calls, SMS aur WhatsApp messages report karo, taaki number band ho sake. "Digital arrest" jaise calls yahan report karo.', level: 'All', url: 'https://sancharsaathi.gov.in', cta: 'Portal kholo' },
+        { type: 'Consumer (India)', title: 'National Consumer Helpline (1915)', by: 'Department of Consumer Affairs', why: 'Dark patterns, chhupe charges, nakli offers ya MLM ki shikayat ke liye.', level: 'All', url: 'https://consumerhelpline.gov.in', cta: 'Shikayat karo' },
+        { type: 'Safety tool', title: 'StopNCII.org', by: 'Revenge Porn Helpline (SWGfL)', why: 'Intimate photos ke misuse ka darr ho to unka digital fingerprint bana kar platforms par upload rokne me madad.', level: 'All', url: 'https://stopncii.org', cta: 'Kholo' },
+        { type: 'Game', title: 'Bad News', by: 'Cambridge Social Decision-Making Lab & DROG', why: 'Khud fake news creator ban kar unki chaalein seekho: research-tested prebunking game.', level: 'Beginner', url: 'https://www.getbadnews.com', cta: 'Khelo' },
+        { type: 'Website', title: 'Deceptive Design', by: 'Harry Brignull', why: 'Dark patterns ke types aur asli examples ka sabse jaana-maana collection.', level: 'Beginner', url: 'https://www.deceptive.design', cta: 'Kholo' },
+        { type: 'Book', title: 'Influence: The Psychology of Persuasion', by: 'Robert Cialdini', why: 'Reciprocity, scarcity, authority jaise levers ki classic kitaab: chaal samajhne ke liye pehli kitaab.', level: 'Beginner', url: GR('Influence Cialdini'), cta: 'Goodreads' },
+        { type: 'Book', title: 'Foolproof', by: 'Sander van der Linden', why: 'Misinformation dimaag ko kaise "infect" karti hai, aur prebunking se immunity kaise banti hai.', level: 'Intermediate', url: GR('Foolproof Sander van der Linden'), cta: 'Goodreads' },
+        { type: 'Book', title: 'Emotional Blackmail', by: 'Susan Forward', why: 'FOG (Fear, Obligation, Guilt) ko pehchaanne aur rishton me boundary rakhne ki practical guide.', level: 'Beginner', url: GR('Emotional Blackmail Susan Forward'), cta: 'Goodreads' }
+      ]
+    },
+    {
       title: 'Madad aur helplines',
       desc: 'Seekhna ek taraf, par agar tum ya koi apna mushkil me hai to ye numbers sabse zaroori hain.',
       helpline: {
@@ -158,7 +172,9 @@
           ['Vandrevala Foundation', '+91 9999 666 555', '24x7 mental health support'],
           ['Women helpline', '181', 'Hinsa ya khatre me mahilaon ke liye'],
           ['Childline', '1098', 'Bachchon ki suraksha aur madad'],
-          ['Cyber crime', '1930', 'Online fraud aur harassment report']
+          ['Cyber crime', '1930', 'Online fraud aur harassment report (jitni jaldi, utna behtar)'],
+          ['NCW helpline', '7827-170-170', 'Mahilaon ke khilaf hinsa ya harassment (24x7)'],
+          ['Consumer helpline', '1915', 'Dark patterns, chhupe charges, nakli offers']
         ]
       },
       items: [

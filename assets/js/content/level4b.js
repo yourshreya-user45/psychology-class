@@ -242,7 +242,7 @@
       ['p', '<b>Personality</b> sochne, mehsoos karne aur behave karne ke wo <b>characteristic patterns</b> hain jo samay aur situations ke paar kaafi consistent rehte hain. Is chapter me do bade nazariye: <b>psychodynamic</b> (andar ke chhupe conflicts) aur <b>humanistic</b> (growth aur self). Agle chapter me traits aur measurement.'],
 
       ['h', 'Freud: mind ka iceberg'],
-      ['p', '<b>Sigmund Freud</b> ke hisaab se mind ke teen levels hain: <b>conscious</b> (abhi jo soch rahe ho), <b>preconscious</b> (jo abhi dhyan me nahi par aasaani se yaad aa jaaye, jaise apna pin code), aur sabse bada <b>unconscious</b> (dabi ichchhayein, darr, yaadein jo seedhe pahunch me nahi par behaviour ko chalati hain).'],
+      ['p', '<b>Sigmund Freud</b> ke hisaab se mind ke teen levels hain: <b>conscious</b> (abhi jo dimaag me chal raha hai), <b>preconscious</b> (jo abhi dhyan me nahi par aasaani se yaad aa jaaye, jaise apna pin code), aur sabse bada <b>unconscious</b> (dabi ichchhayein, darr, yaadein jo seedhe pahunch me nahi par behaviour ko chalati hain).'],
       ['table', ['Hissa', 'Principle', 'Kya chahta hai'], [
         ['Id', 'Pleasure principle', 'Turant khushi, bina soche. Janam se maujood. "Abhi chahiye!"'],
         ['Ego', 'Reality principle', 'Id ki ichchha ko realistic tareeke se poora karna. Manager.'],

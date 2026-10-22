@@ -261,7 +261,7 @@
       ['p', 'NCRB ke hisaab se 2022 me India me <b>1,70,000 se zyada</b> logon ki suicide se maut hui, jinme bada hissa yuvaon ka tha. Har suicide ke peeche kai log hote hain jo baad me gehre dukh me rehte hain. Suicide <b>roka ja sakta hai</b>.'],
       ['list', [
         '<b>Warning signs</b>: marne ya "bojh hone" ki baat karna, hopelessness, doston-parivaar se katna, apni pyaari cheezein baant dena, achanak shaant ho jaana (depression ke baad), nasha badhna, alvida jaise messages.',
-        '<b>Seedhe poochho</b>: "Kya tum suicide ke baare me soch rahe ho?" Research dikhati hai ki seedha aur parwah se poochhna vichaar <b>nahi</b> daalta, balki aksar rahat deta hai.',
+        '<b>Seedhe poochho</b>: "Kya tumhare mann me suicide ka khayal aa raha hai?" Research dikhati hai ki seedha aur parwah se poochhna vichaar <b>nahi</b> daalta, balki aksar rahat deta hai.',
         '<b>Suno, judge mat karo</b>, aur agar turant khatra ho to vyakti ko akela mat chhodo.',
         '<b>Khatarnak cheezon tak pahunch hatao</b> (dawaiyan, zehreele padarth) jahan sambhav ho.',
         '<b>Madad se jodo</b>: helpline, doctor, bharosemand bade.'

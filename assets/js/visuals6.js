@@ -284,7 +284,7 @@
     title: 'ALGEE action plan',
     render(stage) {
       const S = [
-        ['A', 'Approach', '"Hey, kaafi dino se tum thode chup lag rahe ho. Sab theek hai? Baat karna chahoge?"', 'Shaant jagah aur samay chuno. Khatre ke signs par dhyan do.'],
+        ['A', 'Approach', '"Hey, kaafi dino se baat nahi hui. Sab theek hai? Baat karne ka mann ho to main yahin hoon."', 'Shaant jagah aur samay chuno. Khatre ke signs par dhyan do.'],
         ['L', 'Listen', '"Hmm... ye sach me bhaari lag raha hoga. Aur batao, main sun raha hoon."', 'Beech me salah ya judgement nahi. Feelings ko maan do.'],
         ['G', 'Give support', '"Ye tumhari kamzori nahi hai. Bahut log aisa mehsoos karte hain aur madad se behtar hote hain."', 'Ummeed aur sahi jaankari do.'],
         ['E', 'Encourage help', '"Kya hum saath me Tele-MANAS (14416) par call karein? Ya main tumhare saath counsellor ke paas chalun?"', 'Professional madad ki taraf dheere se badhao.'],
