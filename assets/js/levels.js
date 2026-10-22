@@ -57,6 +57,10 @@
   ];
 
   PSY.facts = [
+    'Kanoon me "digital arrest" jaisi koi cheez nahi hai. Koi bhi agency video call par arrest nahi karti, na paise "verify" karwati hai.',
+    'UPI par paise lene ke liye kabhi PIN nahi lagta. PIN daalne ka matlab hamesha paise bhejna hai.',
+    'Baar-baar suni hui baat zyada sach lagne lagti hai, chahe galat ho. Ise illusory truth effect kehte hain.',
+    'Twitter ki ek badi study me jhoothi khabrein 1,500 logon tak sach se lagbhag 6 guna tez pahunchi (Vosoughi aur saathi, 2018).',
     'Tumhara brain body weight ka sirf ~2% hai, par body ki ~20% energy use karta hai.',
     'Har baar jab koi memory yaad ki jaati hai, wo thodi "rewrite" bhi ho jaati hai. Isliye memories samay ke saath badal jaati hain.',
     'Hum har din lagbhag 2 ghante REM sleep me sapne dekhte hain, chahe subah yaad rahe ya na rahe.',
