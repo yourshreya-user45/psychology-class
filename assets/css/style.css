@@ -30,6 +30,7 @@
   --l5: #6741d9;
   --l6: #0b7285;
   --l7: #a8700d;
+  --l8: #4a5a78;
 
   --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -78,6 +79,7 @@
     --l5: #b197fc;
     --l6: #66d9e8;
     --l7: #ffd43b;
+    --l8: #b4c2dc;
     color-scheme: dark;
   }
 }
@@ -111,6 +113,7 @@
   --l5: #b197fc;
   --l6: #66d9e8;
   --l7: #ffd43b;
+  --l8: #b4c2dc;
   color-scheme: dark;
 }
 
@@ -365,6 +368,19 @@ input[type="range"] { accent-color: var(--lc, var(--accent)); width: 100%; }
 .prose li::marker { color: var(--lc); font-weight: 700; }
 .hook { padding: 18px 20px; border-radius: var(--radius); background: color-mix(in srgb, var(--lc) 10%, var(--surface)); border: 1px solid color-mix(in srgb, var(--lc) 25%, transparent); font-size: 1.1rem; line-height: 1.6; display: grid; grid-template-columns: auto 1fr; gap: 14px; }
 .hook svg { width: 24px; height: 24px; color: var(--lc); margin-top: 2px; }
+.teach { display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: start; }
+.teach-av { width: 44px; height: 44px; border-radius: 50%; background: var(--deep); color: var(--on-deep); display: grid; place-items: center; font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; box-shadow: 0 0 0 3px color-mix(in srgb, var(--lc, var(--accent)) 35%, transparent); }
+.teach-bubble { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 4px 18px 18px 18px; padding: 12px 16px 14px; display: flex; flex-direction: column; gap: 8px; box-shadow: var(--shadow); }
+.teach-name { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: var(--lc, var(--accent)); }
+.teach-bubble p { margin: 0; font-size: 1.02rem; line-height: 1.65; }
+.teach.intro .teach-bubble { background: color-mix(in srgb, var(--lc, var(--accent)) 7%, var(--surface)); border-color: color-mix(in srgb, var(--lc, var(--accent)) 30%, var(--line)); }
+.teach.intro .teach-bubble p { font-size: 1.08rem; }
+.teach.outro .teach-bubble { border-style: dashed; border-color: color-mix(in srgb, var(--lc, var(--accent)) 45%, var(--line)); }
+.teach.mini { grid-template-columns: 34px 1fr; gap: 10px; }
+.teach.mini .teach-av { width: 34px; height: 34px; font-size: 1.05rem; box-shadow: none; }
+.teach.mini .teach-bubble { box-shadow: none; padding: 10px 14px 12px; gap: 4px; }
+.teach.mini .teach-bubble p { font-size: .95rem; line-height: 1.55; }
+.result .teach { max-width: 56ch; }
 .blk { border-radius: var(--radius); padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; }
 .blk-label { display: flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; }
 .blk-label svg { width: 16px; height: 16px; }

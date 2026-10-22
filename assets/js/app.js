@@ -155,7 +155,21 @@
     onCleanup(() => io.disconnect());
   }
 
+  /* ---------- TEACHER VOICE ---------- */
+  const tParas = (x) => (Array.isArray(x) ? x.map((p) => `<p>${p}</p>`).join('') : `<p>${x}</p>`);
+  const teach = (html, cls = '', name = 'Teacher') => `<div class="teach ${cls}"><span class="teach-av" aria-hidden="true">&psi;</span><div class="teach-bubble"><div class="teach-name">${name}</div>${tParas(html)}</div></div>`;
+  const praise = ['Shabaash!', 'Bilkul sahi!', 'Ekdum sahi pakda!', 'Wah, sahi jawab!', 'Yahi to chahiye tha!'];
+  const console_ = ['Koi baat nahi, galti se hi seekhte hain.', 'Ye galti bahut log karte hain. Dekho kyun:', 'Close tha, par sahi jawab kuch aur hai.', 'Ruko, yahan ek twist hai.'];
+
   /* ---------- HOME ---------- */
+  function classLine(next, done) {
+    if (!next) return 'Tumne poora course kar liya. Ab jo seekha hai use roz ki life me use karo, aur kisi ek dost ko bhi sikhao. Sikhana sabse pakki revision hai.';
+    if (next.exam) return `Level ${next.exam} ke saare chapters ho gaye. Ab exam ki baari hai. Ghabrao mat: jo padha hai wahi poochha jaayega. Pehle takeaways ek baar dekh lo, phir aaram se exam do.`;
+    if (!done && !PSY.isRead(next.id)) return 'Swagat hai! Pehle din ka kaam simple hai: ek chapter, aaram se, examples ke saath. Har section ke baad ruk kar apni life se jodna, wahi asli padhai hai.';
+    if (PSY.isRead(next.id)) return `Tumne "${next.title}" padh liya hai, bas quiz baaki hai. Ek baar takeaways dekho aur quiz do. 60% aate hi chapter complete.`;
+    return `Aaj hum "${next.title}" padhenge. Lagbhag ${next.mins} minute lagenge. Beech me jahan "Socho" aaye, wahan ruk kar khud jawab sochna, phir dekhna.`;
+  }
+
   function homeView() {
     const st = S();
     const next = PSY.nextChapter();
@@ -171,7 +185,7 @@
       const i = PSY.levelChapters(next.level).indexOf(next) + 1;
       cont = `<a class="card continue" href="#c-${next.id}" style="${lc(next.level)}; text-decoration:none; color:inherit">${ring(PSY.levelPct(next.level), pct(PSY.levelPct(next.level)))}<div><div class="num">LEVEL ${lv.n} · CHAPTER ${i} OF ${PSY.levelChapters(next.level).length}</div><h3>${next.title}</h3><p class="muted">${next.tag}</p></div><span class="btn lc">${PSY.isRead(next.id) ? 'Quiz do' : done ? 'Continue' : 'Shuru karo'} ${icon('right')}</span></a>`;
     } else {
-      cont = `<a class="card continue" href="#certificate" style="${lc(7)}; text-decoration:none; color:inherit">${ring(1, icon('trophy'))}<div><div class="num">COMPLETE</div><h3>Aapne poora course khatam kar liya!</h3><p class="muted">Apna certificate dekho.</p></div><span class="btn lc">Certificate ${icon('right')}</span></a>`;
+      cont = `<a class="card continue" href="#certificate" style="${lc(PSY.levels.length)}; text-decoration:none; color:inherit">${ring(1, icon('trophy'))}<div><div class="num">COMPLETE</div><h3>Tumne poora course khatam kar liya!</h3><p class="muted">Apna certificate dekho.</p></div><span class="btn lc">Certificate ${icon('right')}</span></a>`;
     }
     const fact = PSY.facts[u.dayIndex() % PSY.facts.length];
     const labKeys = Object.keys(PSY.labs);
@@ -181,7 +195,7 @@
         <canvas id="heroCanvas" aria-hidden="true"></canvas>
         <div class="eyebrow">Psychology · Zero se Advanced</div>
         <h1>Mann ko samjho, <em>science</em> ke saath.</h1>
-        <p>Namaste${name}! ${PSY.levels.length} levels, ${total} chapters, real-life examples, motion graphics aur interactive experiments. Har chapter ke baad quiz, har level ke baad exam.</p>
+        <p>Namaste${name}! Main tumhara psychology teacher hoon. Hum saath me ${PSY.levels.length} levels aur ${total} chapters padhenge: real-life examples, motion graphics aur experiments ke saath. Har chapter ke baad ek chhota quiz, har level ke baad exam.</p>
         <div class="row">
           <a class="btn" href="${next && next.exam ? '#exam-' + next.exam : next ? '#c-' + next.id : '#certificate'}">${done ? 'Continue learning' : 'Pehla chapter shuru karo'} ${icon('right')}</a>
           <a class="btn ghost" href="#path">Poora roadmap dekho</a>
@@ -191,14 +205,15 @@
         <div class="card stat"><b>${st.xp}</b><span>Total XP</span></div>
         <div class="card stat"><b>${done}/${total}</b><span>Chapters complete</span></div>
         <div class="card stat"><b>${st.streak.last === u.today() || isYesterday(st.streak.last) ? st.streak.n : 0}</b><span>Din ki streak</span></div>
-        <div class="card stat"><b style="font-size:1.25rem">${PSY.rank()}</b><span>Aapka rank</span></div>
+        <div class="card stat"><b style="font-size:1.25rem">${PSY.rank()}</b><span>Tumhara rank</span></div>
       </div>
       <section class="section">
-        <div class="section-head"><h2>Yahan se aage badho</h2></div>
+        <div class="section-head"><h2>Aaj ki class</h2></div>
+        ${teach(classLine(next, done), 'mini')}
         ${cont}
       </section>
       <section class="section">
-        <div class="section-head"><h2>7 levels ka safar</h2><a href="#path" class="muted">Sab chapters ${icon('right').replace('<svg', '<svg style="width:14px;height:14px;vertical-align:-2px"')}</a></div>
+        <div class="section-head"><h2>${PSY.levels.length} levels ka safar</h2><a href="#path" class="muted">Sab chapters ${icon('right').replace('<svg', '<svg style="width:14px;height:14px;vertical-align:-2px"')}</a></div>
         <div class="levels-grid">
           ${PSY.levels.map((lv) => {
             const open = PSY.levelUnlocked(lv.n), p = PSY.levelPct(lv.n), passed = PSY.levelPassed(lv.n);
@@ -258,6 +273,7 @@
             <div><div class="eyebrow">Level ${lv.n} · ${lv.name} · Rank: ${lv.rank}</div><h2>${lv.title}</h2><p>${lv.desc}</p></div>
             ${ring(PSY.levelPct(lv.n), passed ? icon('check') : pct(PSY.levelPct(lv.n)), 54)}</div>
           <div class="plevel-body">
+            ${open && lv.teacher ? teach(lv.teacher, 'mini') : ''}
             ${chs.map((c, i) => {
               const d = PSY.isDone(c.id), r = PSY.isRead(c.id), best = st.ch[c.id] && st.ch[c.id].best;
               return `<a class="pch ${d ? 'done' : r ? 'read' : ''} ${open ? '' : 'locked'}" href="#c-${c.id}"><span class="idx">${d ? icon('check') : i + 1}</span><span><b>${c.title}</b><small>${c.tag}</small></span><span class="row">${best ? `<span class="tag ${d ? 'done' : ''}">${pct(best)}</span>` : ''}<span class="tag">${icon('clock')}${c.mins}m</span></span></a>`;
@@ -296,6 +312,7 @@
       case 'quote': return `<blockquote class="quote" style="margin:0"><p>${a}</p><span>${b2}</span></blockquote>`;
       case 'steps': return `<div class="steps">${a.map(([k, d]) => `<div class="st"><div><b>${k}</b><span>${d}</span></div></div>`).join('')}</div>`;
       case 'compare': return `<div class="compare"><div><h4>${a[0]}</h4>${paras(a[1])}</div><div><h4>${b2[0]}</h4>${paras(b2[1])}</div></div>`;
+      case 'teacher': return teach(a);
       case 'think': return `<div class="blk think"><div class="blk-label">${icon('bulb')}Socho</div><p><b>${a}</b></p><button class="btn ghost small reveal">Jawab dekho</button><div class="ans" hidden>${paras(b2)}</div></div>`;
       default: return '';
     }
@@ -305,7 +322,7 @@
     return u.el(`<div class="wrap view" style="${lc(lv.n)}"><div class="card empty" style="padding:44px 22px;display:flex;flex-direction:column;align-items:center;gap:14px">
       ${icon('lock').replace('<svg', '<svg style="width:40px;height:40px;color:var(--lc)"')}
       <h2>Level ${lv.n}: ${lv.title} abhi locked hai</h2>
-      <p style="max-width:52ch">Level ${lv.n - 1} ka exam pass karke ise unlock karo. Ya agar aap pehle se kuch psychology jaante ho, Profile me <b>Explorer mode</b> on karke saare levels khol sakte ho.</p>
+      <p style="max-width:52ch">Pehle Level ${lv.n - 1} ka exam pass karo, ye level apne aap khul jaayega. Agar tumhe pehle se kuch psychology aati hai, to Profile me <b>Explorer mode</b> on karo, saare levels khul jaayenge.</p>
       <div class="row" style="justify-content:center"><a class="btn" href="#path">Learning path</a><a class="btn ghost" href="#profile">Explorer mode</a></div></div></div>`);
   }
 
@@ -333,9 +350,11 @@
         </header>
         <div class="ch-grid">
           <article class="prose" id="prose">
+            ${c.intro ? teach(c.intro, 'intro') : ''}
             ${c.visual ? visFigure(c.visual, c.visualCap || '') : ''}
             ${c.hook ? `<div class="hook">${icon('quote')}<div>${c.hook}</div></div>` : ''}
             ${body}
+            ${c.outro ? teach(c.outro, 'outro') : ''}
             <section class="takeaways" id="takeaways"><h3>Yaad rakhne layak</h3><ul>${c.takeaways.map((t) => `<li>${icon('check')}<span>${t}</span></li>`).join('')}</ul></section>
             <section class="card quiz" id="quizBox"></section>
             ${c.more && c.more.length ? `<section class="more"><div class="blk-label" style="color:var(--lc)">${icon('library')}Aur gehrai me jaana hai?</div>${c.more.map(([t, url, kind]) => `<a href="${url}" target="_blank" rel="noopener">${icon(kind === 'video' ? 'video' : kind === 'book' ? 'book' : kind === 'podcast' ? 'mic' : 'link')}<span>${t}</span><small>${kind || 'link'}</small></a>`).join('')}</section>` : ''}
@@ -447,7 +466,7 @@
         b.setAttribute('aria-disabled', 'true');
       });
       const last = i === questions.length - 1;
-      u.$('.q-after', box).innerHTML = `<div class="explain"><b class="${ok ? 'ok' : 'no'}">${ok ? 'Sahi jawab!' : 'Galat.'}</b> ${q[3] || ''}</div>
+      u.$('.q-after', box).innerHTML = `<div class="explain"><b class="${ok ? 'ok' : 'no'}">${u.pick(ok ? praise : console_)}</b> ${q[3] || ''}</div>
         <div class="row" style="margin-top:12px"><button class="btn lc nextq">${last ? 'Result dekho' : 'Agla sawaal'} ${icon('right')}</button></div>`;
       u.$('.quiz-dots', box).outerHTML = dots();
       const nb = u.$('.nextq', box);
@@ -459,9 +478,9 @@
       const ratio = correct / total;
       const passed = ratio >= opt.pass;
       opt.onFinish(correct, total);
-      const msg = ratio === 1 ? 'Perfect! Aapne concept poori tarah samajh liya.' : passed ? 'Badhiya! Aap pass ho gaye.' : 'Thoda aur revise karo, phir dobara try karo. Galat jawabon ka explanation dhyan se padho.';
+      const msg = ratio === 1 ? 'Perfect score! Tumne concept poori tarah pakad liya. Mujhe tum par garv hai.' : passed ? 'Badhiya, pass! Jo sawaal galat hue unka explanation ek baar aur padh lena, wahi kamzor kadi hai.' : 'Is baar pass nahi hua, aur ye bilkul theek hai. Galat jawabon ke explanation dhyan se padho, chapter ka wo hissa dobara dekho, phir try karo. Doosri baar zyada yaad rehta hai.';
       box.innerHTML = `<div class="quiz-top"><div class="eyebrow">${opt.title} · Result</div>${dots()}</div>
-        <div class="result">${ring(ratio, correct + '/' + total)}<div style="display:flex;flex-direction:column;gap:8px"><h4>${pct(ratio)} ${passed ? '· Pass' : ''}</h4><p class="muted">${msg}</p>
+        <div class="result">${ring(ratio, correct + '/' + total)}<div style="display:flex;flex-direction:column;gap:8px"><h4>${pct(ratio)} ${passed ? '· Pass' : ''}</h4>${teach(msg, 'mini')}
         <div class="row"><button class="btn ghost small again">${icon('replay')}Dobara try karo</button>${passed && opt.nextHref ? `<a class="btn lc small" href="${opt.nextHref}">${opt.nextLabel} ${icon('right')}</a>` : ''}</div></div></div>`;
       u.$('.again', box).addEventListener('click', start);
       renderShell();
@@ -515,7 +534,7 @@
     return u.el(`<div class="wrap view">
       <div class="eyebrow">Interactive labs</div>
       <h1 style="font-size:var(--step-4);margin-top:6px">Khud par experiment karo</h1>
-      <p class="lead" style="margin-top:10px">Ye wahi classic experiments hain jo psychology ki textbooks me padhaye jaate hain. Padhne se zyada yaad tab rehta hai jab aap khud mehsoos karte ho. ${tried}/${keys.length} labs try kiye.</p>
+      <p class="lead" style="margin-top:10px">Ye wahi classic experiments hain jo psychology ki textbooks me padhaye jaate hain. Padhne se zyada yaad tab rehta hai jab tum khud mehsoos karo. ${tried}/${keys.length} labs try kiye.</p>
       <div class="labs-grid" style="margin-top:24px">${keys.map(labCard).join('')}</div>
     </div>`);
   }
@@ -670,11 +689,11 @@
         <div class="avatar">${esc(initial)}</div>
         <div style="display:flex;flex-direction:column;gap:8px">
           <div class="eyebrow">Rank: ${PSY.rank()}</div>
-          <div class="row"><input type="text" id="nameInput" placeholder="Apna naam likho (certificate ke liye)" value="${esc(st.name)}" style="flex:1;min-width:200px;font-size:1.1rem" aria-label="Aapka naam"><button class="btn small" id="saveName">Save</button></div>
-          <div class="row"><span class="tag">${icon('bolt')}${st.xp} XP</span><span class="tag">${icon('check')}${done}/${PSY.chapters.length} chapters</span><span class="tag">${icon('trophy')}${passedLevels}/7 levels</span><span class="tag">${icon('flame')}Best streak ${st.streak.best || 0}</span><span class="tag">${icon('lab')}${Object.keys(st.labs).length} labs</span><span class="tag">${icon('cards')}${st.reviews || 0} reviews</span></div>
+          <div class="row"><input type="text" id="nameInput" placeholder="Apna naam likho (certificate ke liye)" value="${esc(st.name)}" style="flex:1;min-width:200px;font-size:1.1rem" aria-label="Tumhara naam"><button class="btn small" id="saveName">Save</button></div>
+          <div class="row"><span class="tag">${icon('bolt')}${st.xp} XP</span><span class="tag">${icon('check')}${done}/${PSY.chapters.length} chapters</span><span class="tag">${icon('trophy')}${passedLevels}/${PSY.levels.length} levels</span><span class="tag">${icon('flame')}Best streak ${st.streak.best || 0}</span><span class="tag">${icon('lab')}${Object.keys(st.labs).length} labs</span><span class="tag">${icon('cards')}${st.reviews || 0} reviews</span></div>
         </div>
       </div>
-      <section class="section"><div class="section-head"><h2>Level medals</h2>${passedLevels === 7 ? `<a class="btn small" href="#certificate">${icon('award')}Certificate</a>` : ''}</div>
+      <section class="section"><div class="section-head"><h2>Level medals</h2>${passedLevels === PSY.levels.length ? `<a class="btn small" href="#certificate">${icon('award')}Certificate</a>` : ''}</div>
         <div class="medals">${PSY.levels.map((lv) => `<a class="card medal ${PSY.levelPassed(lv.n) ? '' : 'off'}" href="#exam-${lv.n}" style="${lc(lv.n)};text-decoration:none;color:inherit"><span class="m">${lv.n}</span><b>${lv.rank}</b><small>${PSY.levelPassed(lv.n) ? 'Achieved' : pct(PSY.levelPct(lv.n)) + ' chapters'}</small></a>`).join('')}</div>
       </section>
       <section class="section"><div class="section-head"><h2>Badges</h2><span class="muted">${Object.keys(st.badges).length}/${PSY.badges.length}</span></div>
@@ -682,11 +701,11 @@
       </section>
       <section class="section"><div class="section-head"><h2>Settings</h2></div>
         <div class="card settings">
-          <div class="setting"><div><b>Explorer mode</b><small>Saare levels aur exams turant khol do (agar aap pehle se kuch jaante ho).</small></div><button class="switch" id="explorer" role="switch" aria-checked="${st.explorer}" aria-label="Explorer mode"></button></div>
+          <div class="setting"><div><b>Explorer mode</b><small>Saare levels aur exams turant khol do (agar tumhe pehle se kuch aata hai).</small></div><button class="switch" id="explorer" role="switch" aria-checked="${st.explorer}" aria-label="Explorer mode"></button></div>
           <div class="setting"><div><b>Theme</b><small>Light, dark ya system ke hisaab se.</small></div><div class="seg" id="themeSeg"><button data-t="">System</button><button data-t="light">Light</button><button data-t="dark">Dark</button></div></div>
           <div class="setting"><div><b>Progress reset</b><small>Saara XP, quiz scores aur badges mit jaayenge. Wapas nahi aayenge.</small></div><div class="row" id="resetBox"><button class="btn ghost small" id="resetBtn">Reset karo</button></div></div>
         </div>
-        <p class="muted" style="font-size:.85rem">Aapka progress sirf isi browser me save hota hai. Private window ya data clear karne par mit sakta hai.</p>
+        <p class="muted" style="font-size:.85rem">Tumhara progress sirf isi browser me save hota hai. Private window ya data clear karne par mit sakta hai.</p>
       </section>
     </div>`);
     const saveName = () => { store.setName(u.$('#nameInput', el).value.trim()); PSY.toast('Naam save ho gaya', 'check'); route(); };
@@ -713,7 +732,7 @@
     const all = PSY.levels.every((lv) => PSY.levelPassed(lv.n));
     if (!all) {
       const n = PSY.levels.filter((lv) => PSY.levelPassed(lv.n)).length;
-      return u.el(`<div class="wrap view"><div class="card empty" style="padding:44px 22px;display:flex;flex-direction:column;gap:12px;align-items:center">${icon('award').replace('<svg', '<svg style="width:44px;height:44px;color:var(--spark)"')}<h2>Certificate abhi locked hai</h2><p>Saare 7 level exams pass karo. Abhi tak: <b>${n}/7</b>.</p><a class="btn" href="#path">Learning path</a></div></div>`);
+      return u.el(`<div class="wrap view"><div class="card empty" style="padding:44px 22px;display:flex;flex-direction:column;gap:12px;align-items:center">${icon('award').replace('<svg', '<svg style="width:44px;height:44px;color:var(--spark)"')}<h2>Certificate abhi locked hai</h2><p>Saare ${PSY.levels.length} level exams pass karo. Abhi tak: <b>${n}/${PSY.levels.length}</b>.</p><a class="btn" href="#path">Learning path</a></div></div>`);
     }
     let canPrint = true;
     try { canPrint = window.self === window.top; } catch (e) { canPrint = false; }
@@ -728,7 +747,7 @@
         <h2>Manovigyan: Psychology A to Z</h2>
         <p>Ye pramanit kiya jaata hai ki</p>
         <div class="nm">${esc(st.name || 'Psychology Learner')}</div>
-        <p>ne ${PSY.chapters.length} chapters aur saare 7 level exams (Foundations se Advanced & Applied Psychology tak) safaltapoorvak poore kiye, aur <b>Psychology Master</b> rank achieve kiya.</p>
+        <p>ne ${PSY.chapters.length} chapters aur saare ${PSY.levels.length} level exams (${PSY.levels[0].title} se ${PSY.levels[PSY.levels.length - 1].title} tak) safaltapoorvak poore kiye, aur <b>Psychology Master</b> aur <b>Mind Guardian</b> ranks achieve kiye.</p>
         <p class="mono" style="font-size:.8rem">${date} · ${st.xp} XP</p>
       </div></div>
     </div>`);
@@ -740,7 +759,7 @@
   /* ---------- SEARCH ---------- */
   function chapterText(c) {
     if (c._text) return c._text;
-    const parts = [c.title, c.tag, c.hook || ''];
+    const parts = [c.title, c.tag, c.hook || '', c.intro || '', c.outro || ''];
     c.blocks.forEach((b) => {
       b.slice(1).forEach((x) => {
         if (typeof x === 'string') parts.push(x);

@@ -125,7 +125,10 @@
     flag: '<path d="M5 21V4M5 4h11l-2 4 2 4H5"/>',
     award: '<circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/>',
     shuffle: '<path d="M3 6h3.5c4.5 0 6.5 12 11 12H21M3 18h3.5c1.8 0 3.1-1.9 4.2-4.2M13.3 10.2C14.4 7.9 15.7 6 17.5 6H21"/><path d="m18 3 3 3-3 3M18 15l3 3-3 3"/>',
-    sparkles: '<path d="M12 3l1.8 4.6L18 9.5l-4.2 1.9L12 16l-1.8-4.6L6 9.5l4.2-1.9z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/>'
+    sparkles: '<path d="M12 3l1.8 4.6L18 9.5l-4.2 1.9L12 16l-1.8-4.6L6 9.5l4.2-1.9z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/>',
+    shield: '<path d="M12 3 5 6v5.5c0 4.4 3 8 7 9.5 4-1.5 7-5.1 7-9.5V6z"/><path d="m9 12 2.2 2.2L15.5 10"/>',
+    mask: '<path d="M3 6c3-1 6-1.5 9-1.5S18 5 21 6c0 7-3.5 12-9 13.5C6.5 18 3 13 3 6z"/><path d="M7.5 10.5c1-.7 2-.7 3 0M13.5 10.5c1-.7 2-.7 3 0M9 15c1.8 1 4.2 1 6 0"/>',
+    chat: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/>'
   };
   PSY.icon = (name, cls = '') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[name] || P.spark}</svg>`;
 
