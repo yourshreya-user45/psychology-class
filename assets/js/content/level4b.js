@@ -11,7 +11,8 @@
     visualCap: 'Piaget ke chaar cognitive stages ek seedhi ki tarah. Har step par tap karo: umar, kya seekhte hain, aur ek classic test.',
     title: 'Bachpan ka development',
     tag: 'Garbh se school tak: Piaget, Vygotsky, theory of mind, attachment, parenting styles aur temperament',
-    hook: 'Ek naya paida hua bachcha theek se dekh nahi pata, bol nahi pata, chal nahi pata. Paanch saal baad wahi bachcha kahaniyan sunata hai, chhota-mota jhooth bolna seekh chuka hai, aur aapka mood padh leta hai ki aaj chocolate maangna safe hai ya nahi. Ye <b>developmental psychology</b> ka jaadu hai.',
+    intro: 'Pichhle chapter me humne stress aur coping dekha, yaani mushkil waqt ko log kaise sambhalte hain. Aaj bilkul shuruaat par chalte hain: ek nanha bachcha sochna, bolna aur pyaar karna kaise seekhta hai. Padhte waqt apne bachpan ko, ya ghar ke kisi chhote bachche ko yaad rakhna, har theory tumhe kisi jaane-pehchaane chehre me dikhegi.',
+    hook: 'Ek naya paida hua bachcha theek se dekh nahi pata, bol nahi pata, chal nahi pata. Paanch saal baad wahi bachcha kahaniyan sunata hai, chhota-mota jhooth bolna seekh chuka hai, aur tumhara mood padh leta hai ki aaj chocolate maangna safe hai ya nahi. Ye <b>developmental psychology</b> ka jaadu hai.',
     blocks: [
       ['h', 'Development ke bade sawaal aur research ke tareeke'],
       ['list', [
@@ -28,6 +29,7 @@
 
       ['h', 'Piaget: bachche chhote scientist hain'],
       ['p', 'Swiss psychologist <b>Jean Piaget</b> ne dekha ki bachche adults ka "chhota version" nahi hain; wo <b>alag tarah se</b> sochte hain. Bachche duniya ko samajhne ke liye <b>schemas</b> (mental frameworks) banate hain. Nayi information ko purane schema me fit karna <b>assimilation</b> hai (har char pair wale janwar ko "doggy" kehna), aur schema ko badalna <b>accommodation</b> (seekhna ki gaay alag hai).'],
+      ['teacher', 'Ruko, assimilation aur accommodation me sab confuse hote hain. Ek trick suno: <b>assimilation</b> me nayi cheez purane schema me "samaa" jaati hai, schema nahi badalta; <b>accommodation</b> me schema khud ko "adjust" karta hai, jaise mehmaan ke liye kamre me naya bistar lagana.'],
       ['table', ['Stage', 'Umar (approx.)', 'Kya hota hai', 'Classic example'], [
         ['Sensorimotor', '0-2 saal', 'Senses aur actions se duniya samajhna. <b>Object permanence</b>: cheez chhup jaaye to bhi hai', 'Khilona kapde ke neeche chhupao: 8 mahine se pehle bachcha dhoondhta hi nahi'],
         ['Preoperational', '2-7 saal', 'Shabd aur symbols (pretend play), par logic kamzor. <b>Egocentrism</b>, <b>animism</b>, conservation nahi', 'Lambe patle glass me lassi "zyada" lagti hai'],
@@ -45,6 +47,7 @@
 
       ['h', 'Theory of mind: doosron ke mann ko samajhna'],
       ['case', 'Sally-Anne false-belief test', 'Bachche ko kahani dikhayi jaati hai: Sally apni marble tokri me rakh kar bahar jaati hai. Anne marble ko dabbe me rakh deti hai. Sally wapas aati hai. "Sally marble kahan dhoondhegi?" 3 saal ke zyada tar bachche kehte hain "dabbe me" (jahan marble asal me hai). 4-5 saal ke bachche samajhte hain ki Sally ko badlaav nahi pata, to wo <b>tokri</b> me dhoondhegi. Doosron ke vichaar aur vishwas hamare se alag ho sakte hain, ye samajh <b>theory of mind</b> hai. Isi umar me bachche chhupan-chhupai me better aur jhooth bolne me "smart" ho jaate hain.'],
+      ['teacher', 'Kabhi kisi 3 saal ke bachche ke saath chhupan-chhupai kheli hai? Wo aankhein band karke maan leta hai ki ab use koi nahi dekh sakta. Ye wahi theory of mind ki kami hai jo tumne abhi Sally-Anne test me dekhi.'],
 
       ['h', 'Attachment: pyaar ki neev'],
       ['case', 'Harlow ke bandar (1958)', 'Harry Harlow ne bandar ke bachchon ko do nakli "maa" di: ek taar ki bani jisme doodh ki bottle thi, aur ek mulayam kapde ki bina doodh ke. Bachche doodh ke liye taar wali ke paas jaate, par <b>zyada tar samay kapde wali maa se chipke rehte</b>, aur darne par usi ke paas bhaagte. Isse dikha ki attachment sirf khane ke liye nahi, <b>contact comfort</b> (sparsh aur suraksha) ke liye hai. (Ye research aaj gambhir ethical sawaal uthati hai.)'],
@@ -66,6 +69,7 @@
         ['Neglectful', 'Low', 'Low', 'Parent ka dhyan hi nahi', 'Sabse zyada problems']
       ]],
       ['note', 'Culture matter karta hai. Kuch research (jaise Ruth Chao, 1994) dikhati hai ki kai Asian families me sakht niyam aur oonchi expectations ko bachche <b>parwah aur pyaar</b> ke roop me dekhte hain, isliye "authoritarian" ka asar utna bura nahi dikhta jitna Western samples me. Phir bhi warmth har culture me zaroori hai: niyam + pyaar ka mel sabse achha nateeja deta hai.'],
+      ['teacher', 'Ek second ruk kar socho: tumhare ghar ka style in chaar me se kaunsa tha? Aur exam ka sabse bada trap yaad rakhna: <b>authoritative</b> aur <b>authoritarian</b> ki spelling lagbhag same hai. "-tive" wala hi pyaar aur niyam dono wala hai.'],
       ['p', '<b>Temperament</b>: bachche janam se alag hote hain. Thomas aur Chess (1977) ne bachchon ko teen broad groups me dekha: <b>easy</b> (~40%: khush, routine wale), <b>difficult</b> (~10%: chidchide, zyada rona) aur <b>slow-to-warm-up</b> (~15%: naye mahaul me dheere ghulne wale); baaki mixed. Achhi parenting temperament se "fit" hone wali hoti hai, sab bachchon ke liye ek hi formula nahi.'],
       ['terms', [
         ['Cross-sectional study', 'Ek samay par alag umar ke groups ki tulna.'],
@@ -93,6 +97,7 @@
         ['Temperament', 'Janmajaat emotional aur behavioural style.']
       ]]
     ],
+    outro: 'Aaj humne dekha ki bachcha Piaget ke stages, Vygotsky ki scaffolding, theory of mind aur attachment ke sahare kaise badhta hai. Ab quiz try karo, khaas kar stages aur attachment styles wale sawaal. Agle chapter me safar aage badhega: teenage ke "main kaun hoon?" se lekar budhape tak.',
     takeaways: [
       'Development nature aur nurture ke interaction se hota hai; longitudinal studies asli badlav dikhati hain.',
       'Piaget: sensorimotor, preoperational, concrete, formal; bachche active learner hain (par Piaget ne unhe kam aanka).',
@@ -122,12 +127,14 @@
     visualCap: 'Erikson ke 8 psychosocial stages: har umar ka ek "sawaal" (crisis). Dot zindagi ke safar par chalta hai; kisi bhi stage par tap karo.',
     title: 'Teenage se budhape tak',
     tag: 'Puberty, teen brain, Erikson, identity, moral development (Kohlberg aur Indian research), adulthood, aging aur grief',
+    intro: 'Pichhle chapter me humne bachpan dekha, aaj kahani aage badhti hai: teenage, jawaani aur budhapa. Apne 13-14 saal wale din yaad karo, jab har cheez bahut badi lagti thi. Aaj samjhenge ki aisa kyun tha, aur ye bhi ki development 18 par ruk kyun nahi jaata.',
     hook: '13 se 19 ki umar: body badalti hai, dost sab kuch ban jaate hain, aur sabse bada sawaal hota hai <b>"main kaun hoon?"</b> Aur development 18 par khatam nahi hota. 30, 50 aur 80 ki umar me bhi insaan badalta, seekhta aur naye sawaalon se jhoojhta hai.',
     blocks: [
       ['h', 'Puberty aur teen brain'],
       ['p', '<b>Puberty</b> me hormones (testosterone, estrogen) body ko badalte hain: height ka tezi se badhna, voice, body hair, periods. Puberty ka time har bachche me alag hota hai. Research me <b>jaldi mature hone wali ladkiyon</b> me teasing, body image problems aur depression ka risk zyada dikha hai; ladkon me jaldi maturity ke mixed asar hain.'],
       ['p', 'Teen brain ki khaas baat: <b>limbic system</b> (reward, emotion) puberty ke saath jaldi tez hota hai, par <b>prefrontal cortex</b> (planning, brake) mid-20s tak develop hota rehta hai. Saath me <b>synaptic pruning</b> ("use it or lose it": kam use hone wale connections hataana) aur <b>myelination</b> (signals tez karna) chalta hai.'],
       ['case', 'Doston ke saamne risk (Gardner aur Steinberg, 2005)', 'Teenagers, young adults aur adults ne ek driving video game khela jisme yellow light par rukna ya risk lena tha. Akele khelte waqt teenagers ka risk adults jitna hi tha. Par jab <b>dost dekh rahe the</b>, teenagers ne lagbhag <b>double risk</b> liya, jabki adults par khaas asar nahi pada. Teen brain me doston ki maujoodgi reward system ko "on" kar deti hai.'],
+      ['teacher', 'Ab samajh aaya ki doston ke saath bike par stunt "achha idea" kyun lagta hai? Brain ka accelerator tez hai aur brake abhi ban raha hai. Isliye kisi teenager ko sirf "laaparwah" kehna adhoori baat hai; peeche biology bhi kaam kar rahi hai.'],
 
       ['h', 'Erikson ke 8 psychosocial stages'],
       ['p', 'Psychoanalyst <b>Erik Erikson</b> ne Freud ke idea ko poori zindagi tak failaya. Har stage me ek <b>psychosocial crisis</b> (do vikalpon ke beech tension) hai. Achha samadhan ek strength ya <b>virtue</b> deta hai:'],
@@ -151,6 +158,7 @@
         ['Identity achievement', 'Haan', 'Haan', 'Explore karke khud chuna: "Maine design aur coding dono try kiye; UX design mera raasta hai."']
       ]],
       ['p', 'Foreclosure hamesha bura nahi: agar parivaar ka chuna raasta vyakti ko sach me pasand ho. Problem tab hai jab exploration ka mauka hi na mile aur 30 ki umar me "ye meri zindagi nahi" wala ehsaas aaye.'],
+      ['teacher', 'Marcia ke chaar status yaad rakhne ki trick: bas do sawaal poochho, "explore kiya?" aur "commit kiya?". Dono nahi = diffusion, sirf commit = foreclosure, sirf explore = moratorium, dono haan = achievement. Ab ek baar khud se poochho: career ke maamle me tum abhi kis box me ho?'],
 
       ['h', 'Moral development: sahi-galat ki samajh'],
       ['p', 'Lawrence <b>Kohlberg</b> ne logon ko moral dilemmas diye, jaise <b>Heinz dilemma</b>: Heinz ki patni marne wali hai, ek dawai se bach sakti hai, par dawai wala 10 guna daam maang raha hai. Kya Heinz ko dawai churani chahiye? Kohlberg ne jawab (haan/na) se zyada <b>reasoning</b> par dhyan diya:'],
@@ -160,6 +168,7 @@
         ['Postconventional (kuch log)', 'Social contract aur universal principles. "Jeevan ka adhikaar property ke adhikaar se upar hai."']
       ]],
       ['p', '<b>Aalochana</b>: Carol <b>Gilligan</b> ne kaha ki Kohlberg ki theory "justice" par zyada aur "care" (rishton aur zimmedari) par kam dhyan deti hai. Aur culture: Joan <b>Miller</b> ki research (1990s) me <b>Indian Hindu</b> participants ne doosron ki madad karne (jaise kisi ko zaroori madad dena) ko <b>naitik kartavya</b> maana, jabki American participants ne ise zyada tar personal choice samjha. Duty-based morality Kohlberg ke scale par "neeche" dikhti thi, par asal me ek alag, sophisticated naitik soch hai.'],
+      ['teacher', 'Yahan ek common galti hoti hai: Kohlberg ne <b>jawab</b> nahi, <b>reasoning</b> ko score kiya tha. "Churana chahiye" kehne wala preconventional bhi ho sakta hai aur postconventional bhi; farak sirf "kyun" me hai.'],
 
       ['h', 'Adulthood'],
       ['p', 'Psychologist Jeffrey Arnett ne 18 se ~25 ki umar ko <b>emerging adulthood</b> kaha: padhai lambi, shaadi aur naukri der se, aur "na bachcha, na poora adult" wala ehsaas. India me ye phase aksar parivaar ke saath rehte hue guzarta hai, jo alag challenges aur support dono deta hai.'],
@@ -197,6 +206,7 @@
         ['Dementia', 'Memory aur soch me itni kami ki rozmarra prabhavit ho; normal aging nahi.']
       ]]
     ],
+    outro: 'Aaj humne teen brain, Erikson ke stages, Marcia ki identity, moral reasoning aur aging ko ek saath dekha. Quiz me Marcia aur Erikson wale sawaal dhyan se padhna, options milte-julte hain. Agle chapter se personality ki baat shuru hogi, Freud ke iceberg se Rogers ke self tak.',
     takeaways: [
       'Teen brain me reward system jaldi tez hota hai aur prefrontal brake der se; dost risk badhate hain.',
       'Erikson: 8 stages, har ek ka crisis; teenage me identity vs role confusion.',
@@ -225,6 +235,7 @@
     visualCap: 'Freud ka iceberg: mind ka chhota hissa hi paani ke upar (conscious) hai. Id poori tarah neeche, ego aur superego teeno levels me phaile.',
     title: 'Personality: Freud se Rogers tak',
     tag: 'Id-ego-superego, defense mechanisms ("angoor khatte hain"), neo-Freudians, Rorschach, aur humanistic self',
+    intro: 'Pichhle do chapters me humne dekha ki insaan umar ke saath kaise badalta hai. Aaj sawaal ulta hai: wo kya hai jo tumhe saalon tak "tum" banaye rakhta hai? Personality ke pehle do bade jawab dekhenge, Freud ka chhupa hua mind aur Rogers ka badhne wala self, aur dono tumhe apni roz ki aadaton me dikhenge.',
     hook: 'Apne kisi dost ki personality batao: "masti-khor, thoda gussail, par dil ka achha". Ye shabd uske <b>consistent patterns</b> batate hain. Par ye patterns aate kahan se hain? Pehla bada jawab Vienna ke ek doctor ne diya, aur wo jawab aaj bhi utna hi charcha me hai jitna sau saal pehle tha.',
     blocks: [
       ['h', 'Personality kya hai?'],
@@ -238,6 +249,7 @@
         ['Superego', 'Morality', 'Parents aur samaaj se seekhe niyam: "kya sahi, kya galat". Guilt yahin se.']
       ]],
       ['ex', 'Diet aur samosa', 'Shaam ko garam samose ki khushboo. <b>Id</b>: "4 samose abhi khaao!" <b>Superego</b>: "Tumne diet ka vaada kiya tha, sharam karo." <b>Ego</b>: "Ek samosa le lo, aur kal subah thoda zyada walk kar lena." Freud ke hisaab se ego ka kaam in dono ke beech santulan banana hai. Jab ye conflict bahut badh jaaye, to <b>anxiety</b> paida hoti hai.'],
+      ['teacher', 'Yaad rakhne ka aasaan tareeka: id ek zid karta bachcha hai, superego ek sakht principal, aur ego wo samajhdaar dost jo dono ko manaata hai. Exam me "reality principle" dikhe to seedha ego socho.'],
 
       ['h', 'Defense mechanisms: ego ka bachav'],
       ['p', 'Anxiety se bachne ke liye ego unconscious tareeke apnata hai, jinhe Freud ki beti <b>Anna Freud</b> ne detail me samjhaya. Ye sab hum kabhi na kabhi karte hain:'],
@@ -251,6 +263,7 @@
         ['Regression', 'Pichhli umar ke behaviour par lautna', 'Naye bhai ke aane par bade bachche ka phir se angootha chusna'],
         ['Sublimation', 'Unacceptable urge ko socially acceptable kaam me badalna', 'Gusse ko boxing ya sport me lagana']
       ]],
+      ['teacher', 'Ab imaandari se socho: pichhle hafte inme se kaunsa tumne khud use kiya? Displacement aur rationalization sabse common hain. Bas dhyan rahe, Freud ke hisaab se ye <b>unconscious</b> hote hain; jaan-boojh kar banaya gaya bahana is list ka hissa nahi.'],
       ['p', 'Freud ke <b>psychosexual stages</b> (oral, anal, phallic, latency, genital) aur <b>Oedipus complex</b> jaise ideas aaj scientifically bahut kam support paate hain. Par defense mechanisms ka idea modern psychology me badle roop me upyogi maana jaata hai, aur kai therapists inhe pehchaanne me kaam me lete hain.'],
 
       ['h', 'Neo-Freudians: Freud ke shishya, alag raaste'],
@@ -266,7 +279,7 @@
 
       ['h', 'Projective tests: inkblots me kya dikhta hai?'],
       ['p', 'Psychodynamic soch se <b>projective tests</b> nikle: ambiguous cheez dikhao, aur vyakti apne chhupe vichaar usme "project" karega. <b>Rorschach test</b> (1921) me 10 symmetric inkblots dikhaye jaate hain. <b>Thematic Apperception Test (TAT)</b> me dhundhli tasveerein dikhakar kahani banwayi jaati hai. India me <b>Uma Chowdhury</b> ne 1960 me TAT ka Indian adaptation banaya taaki tasveerein Indian context se mel khaayein.'],
-      ['vis', 'inkblot', 'Ek naya symmetric "inkblot" banta hai. Aapko kya dikhta hai? (Ye asli Rorschach card nahi, sirf demo hai.)'],
+      ['vis', 'inkblot', 'Ek naya symmetric "inkblot" banta hai. Tumhe kya dikhta hai? (Ye asli Rorschach card nahi, sirf demo hai.)'],
       ['note', 'Projective tests ki <b>reliability</b> aur <b>validity</b> par lambe samay se sawaal hain: alag-alag examiners ek hi jawab ko alag tarah interpret kar sakte hain. Kuch scoring systems (jaise Rorschach ka R-PAS) ne isko sudharne ki koshish ki hai, par aaj zyada tar psychologists inhe akele diagnosis ke liye use nahi karte.'],
 
       ['h', 'Humanistic psychology: insaan achha aur badhne wala hai'],
@@ -278,6 +291,7 @@
         'Rogers ki <b>client-centered therapy</b> me therapist ke teen gun: <b>genuineness</b> (asli hona), <b>unconditional positive regard</b>, aur <b>empathy</b> (sach me samajhna). Ye aaj har tarah ki counselling ki neev hai.'
       ]],
       ['ex', '"Topper ho to hi achhe beta ho"', 'Aarav ko bachpan se lagta tha ki parents ka pyaar marks par tika hai. Ab 22 ki umar me har chhoti galti par wo khud ko "nakaam" kehta hai aur naya kuch try karne se darta hai. Rogers ke shabdon me uske andar <b>conditions of worth</b> baith gayi hain. Parents ka ye kehna ki "humein tumhari mehnat par garv hai, marks jo bhi aayein, tum hamare liye keemti ho" bachche ki self-worth ko marks se alag karta hai.'],
+      ['teacher', 'Ye example shayad thoda personal lage. Agar tumne bhi kabhi mehsoos kiya ho ki pyaar marks ya result par tika hai, to yaad rakhna: tumhari keemat kisi marksheet se badi hai. Rogers yahi kehte the.'],
       ['p', '<b>Humanistic approach ki aalochana</b>: concepts vague aur naapne me mushkil, insaan ki buraiyon ko kam aankta hai, aur "khud ko dhoondho" wala individualism har culture me fit nahi baithta. Phir bhi iska asar counselling, education aur positive psychology (Level 7) me gehra hai.'],
       ['terms', [
         ['Personality', 'Sochne, mehsoos karne aur behave karne ke consistent patterns.'],
@@ -302,6 +316,7 @@
         ['Congruence', 'Real self aur ideal self ke beech mel.']
       ]]
     ],
+    outro: 'Aaj humne Freud ka id-ego-superego, defense mechanisms, neo-Freudians aur Rogers ka self dekha. Quiz me defense mechanisms ke examples dhyan se pehchaanna, wahi sabse zyada confuse karte hain. Agle chapter me personality ko <b>naapne</b> ki science aayegi: Big Five, MBTI ki sachchai aur spotlight effect.',
     takeaways: [
       'Freud: conscious, preconscious, unconscious; id (khushi), ego (reality), superego (morality).',
       'Defense mechanisms anxiety se bachate hain: projection, displacement, rationalization ("angoor khatte").',
@@ -331,7 +346,8 @@
     visualCap: 'Big Five ke sliders khiskao aur dekho personality profile ka shape kaise badalta hai, aur har trait ka high/low matlab kya hai.',
     title: 'Personality traits aur unhe naapna',
     tag: 'Big Five (OCEAN), person vs situation, locus of control, MBTI ki sachchai, MMPI, spotlight effect aur culture',
-    hook: '"Wo introvert hai", "main bahut organized hoon", "wo jaldi naraz ho jaata hai". Hum roz <b>trait</b> ki bhasha bolte hain. Science ne dictionary ke hazaron personality shabdon ko sirf <b>5 bade dimensions</b> me kaise compress kiya? Aur kya aapka "type" sach me fixed hai?',
+    intro: 'Pichhle chapter me personality ke andar ke chhupe conflicts dekhe. Aaj zyada practical sawaal hai: personality ko naapa kaise jaaye? Big Five, locus of control aur MBTI ki sachchai dekhenge, aur shayad tumhe apne baare me ek-do nayi baatein bhi pata chalein.',
+    hook: '"Wo introvert hai", "main bahut organized hoon", "wo jaldi naraz ho jaata hai". Hum roz <b>trait</b> ki bhasha bolte hain. Science ne dictionary ke hazaron personality shabdon ko sirf <b>5 bade dimensions</b> me kaise compress kiya? Aur kya tumhara "type" sach me fixed hai?',
     blocks: [
       ['h', 'Trait approach'],
       ['p', '<b>Trait</b> ek stable tendency hai jo alag situations me similar behaviour paida karti hai. Gordon <b>Allport</b> ne English dictionary me ~18,000 shabd dhoondhe jo logon ko describe karte hain, aur unme se ~4,500 ko stable traits maana (<b>lexical approach</b>). Raymond <b>Cattell</b> ne <b>factor analysis</b> (milte-julte traits ko groups me jodne ki statistical technique) se inhe 16 factors (16PF) tak ghataya. Hans <b>Eysenck</b> ne teen bade dimensions batayi: extraversion, neuroticism, psychoticism.'],
@@ -354,6 +370,7 @@
         '<b>Cross-cultural</b>: Big Five kai bhashaon aur deshon me paaya gaya hai, jinme India par ki gayi studies bhi shaamil hain, haalanki kuch cultures me structure thoda alag dikhta hai.',
         '<b>HEXACO</b> model ek chhatha trait jodta hai: <b>Honesty-Humility</b> (imaandari, ghamand na karna).'
       ]],
+      ['teacher', 'OCEAN yaad rakhne ki trick: samundar ki paanch lehrein. Aur ek common galti: <b>neuroticism</b> ka matlab "pagal" ya beemar hona nahi, bas negative emotions jaldi mehsoos karne ki tendency hai. Hum sab is scale par kahin na kahin hain.'],
 
       ['h', 'Person vs situation debate'],
       ['p', '1968 me Walter <b>Mischel</b> ne kaha ki logon ka behaviour situation ke hisaab se itna badalta hai ki ek situation me trait doosri situation ka behaviour kam predict karta hai (correlation ~0.30). Isse bada debate chala. Aaj ka jawab: dono matter karte hain. Ek baar ka behaviour situation se zyada tay hota hai, par <b>bahut saare</b> moments ka average traits achhe se predict karte hain. Aur log apne "if-then" patterns me consistent hote hain: "<i>Agar</i> group bada ho, <i>to</i> Riya chup; <i>agar</i> close dost hon, <i>to</i> sabse zyada bolne wali."'],
@@ -362,16 +379,18 @@
       ['p', 'Albert <b>Bandura</b> ka <b>reciprocal determinism</b>: person (soch, traits), behaviour aur environment teeno ek-doosre ko lagataar prabhavit karte hain. Ek shy student party me nahi jaata (behaviour), isliye naye dost nahi bante (environment), aur shyness aur mazboot hoti hai (person).'],
       ['p', 'Julian <b>Rotter</b> ka <b>locus of control</b>: <b>internal</b> log maante hain ki nateeje unke apne actions se aate hain; <b>external</b> log maante hain ki kismat, doosre log ya halaat tay karte hain. Internal locus aam taur par behtar padhai, sehat aur kam stress se juda hai (par bahut zyada internal hona har cheez ka blame khud par daalna bhi ho sakta hai).'],
       ['ex', 'Kam marks: do reactions', '<b>External</b>: "Teacher ne paper bahut tough banaya, meri kismat hi kharab hai." <b>Internal</b>: "Maine numericals ki practice kam ki thi. Agli baar pehle se shuru karunga." Doosra student agle exam me zyada sudharega, kyunki use lagta hai ki uske paas control hai.'],
+      ['teacher', 'Apne kisi kharab test ki shaam yaad karo. Pehla vichaar kya tha, "paper tough tha" ya "meri tayyari kam thi"? Dono me thoda sach ho sakta hai, par jo hissa tumhare control me hai, agli baar wahi kaam aata hai.'],
 
       ['h', 'MBTI: popular, par science kya kehta hai?'],
-      ['myth', 'MBTI (16 personality types jaise INTJ, ENFP) scientific test hai jo aapka fixed "type" batata hai aur career chunne ke liye best hai.', 'MBTI Jung ke ideas par based hai aur companies me bahut popular hai, par psychologists ise kamzor maante hain: (1) Ye logon ko <b>types</b> me baantta hai jabki traits continuous hote hain; beech wale log chhote se farak par "I" ya "E" ban jaate hain. (2) <b>Test-retest reliability</b> kam: kuch hafton baad dobara dene par kai logon ka type badal jaata hai. (3) Job performance ko predict karne ka saboot kamzor. Self-reflection ke liye mazedaar ho sakta hai, par important faislon ke liye Big Five jaise validated tools behtar hain.'],
+      ['myth', 'MBTI (16 personality types jaise INTJ, ENFP) scientific test hai jo tumhara fixed "type" batata hai aur career chunne ke liye best hai.', 'MBTI Jung ke ideas par based hai aur companies me bahut popular hai, par psychologists ise kamzor maante hain: (1) Ye logon ko <b>types</b> me baantta hai jabki traits continuous hote hain; beech wale log chhote se farak par "I" ya "E" ban jaate hain. (2) <b>Test-retest reliability</b> kam: kuch hafton baad dobara dene par kai logon ka type badal jaata hai. (3) Job performance ko predict karne ka saboot kamzor. Self-reflection ke liye mazedaar ho sakta hai, par important faislon ke liye Big Five jaise validated tools behtar hain.'],
+      ['teacher', 'Agar tumne kabhi MBTI diya hai aur result padh kar laga "arre, ye to bilkul main hoon", to wo feeling normal hai. Bas yaad rakhna ki beech wale log chhote se farak par galat box me chale jaate hain; mazedaar tool hai, career ka faisla nahi.'],
 
       ['h', 'Personality kaise naapte hain?'],
       ['list', [
         '<b>Self-report inventories</b>: sawaalon ki list. <b>MMPI</b> (Minnesota Multiphasic Personality Inventory) clinical use ka mashhoor test hai jisme sainkdon true/false sawaal hain, aur <b>validity scales</b> bhi hain jo pakadti hain ki koi jhooth bol raha hai ya "achha dikhne" ki koshish kar raha hai. Big Five ke liye NEO-PI, BFI aur free IPIP tests.',
         '<b>Projective tests</b>: Rorschach, TAT (pichhla chapter).',
         '<b>Behavioural observation</b> aur doosron ki rating (dost aur parivaar aksar humein utna hi sahi judge karte hain jitna hum khud).',
-        'Savdhaan: online "kaunsa Bollywood character ho aap?" jaise quizzes <b>Barnum effect</b> par chalte hain (Chapter 1.6).'
+        'Savdhaan: online "kaunsa Bollywood character ho tum?" jaise quizzes <b>Barnum effect</b> par chalte hain (Chapter 1.6).'
       ]],
 
       ['h', 'Self: hum apne baare me kaise sochte hain'],
@@ -401,6 +420,7 @@
         ['Interdependent self', 'Khud ko rishton aur group ke hisse ke roop me dekhna.']
       ]]
     ],
+    outro: 'Aaj humne Big Five, person vs situation, locus of control, MBTI ki sachchai aur self ke baare me seekha. Pehle is chapter ka quiz karo, phir Level 4 ka exam: motivation, emotion, stress, development aur personality, sab ek saath. Yahan tak pahunchna hi dikhata hai ki tayyari ho chuki hai, bas ek baar takeaways par nazar daal lena.',
     takeaways: [
       'Big Five (OCEAN) sabse validated model hai; traits continuum hain, types nahi.',
       'Conscientiousness padhai, kaam aur sehat ka strong predictor hai.',

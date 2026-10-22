@@ -11,7 +11,8 @@
     visualCap: 'Ek hi ghatna, do explanations. Toggle karo: jab doosra kare tab hum kya sochte hain, aur jab hum khud karein tab.',
     title: 'Social cognition: hum doosron ko kaise judge karte hain',
     tag: 'First impressions, halo effect, attribution, fundamental attribution error (aur Indian research), self-serving bias aur self-fulfilling prophecy',
-    hook: 'Exam hall me ek student 15 minute der se aaya. Aapne kya socha: <b>"kitna laaparwah hai"</b> ya <b>"shayad traffic me phansa hoga"</b>? Aur jab <b>aap</b> khud der se pahunchte ho, tab aap kya kehte ho? Is chhote se farak me social psychology ka ek bada raaz chhupa hai.',
+    intro: 'Level 5 me swagat hai! Ab tak humne zyada tar ek insaan ke andar jhaanka: brain, memory, emotion, personality. Ab camera ghoomta hai doosre logon ki taraf, kyunki hum jo sochte aur karte hain uska bada hissa unhi se banta hai. Aaj ka pehla sawaal: hum doosron ko itni jaldi judge kaise kar lete hain, aur kitni baar galat?',
+    hook: 'Exam hall me ek student 15 minute der se aaya. Tumne kya socha: <b>"kitna laaparwah hai"</b> ya <b>"shayad traffic me phansa hoga"</b>? Aur jab <b>tum</b> khud der se pahunchte ho, tab tum kya kehte ho? Is chhote se farak me social psychology ka ek bada raaz chhupa hai.',
     blocks: [
       ['h', 'Social psychology kya hai?'],
       ['p', 'Gordon Allport ke shabdon me social psychology ye study karti hai ki hamare vichaar, feelings aur behaviour <b>doosron ki asli, kalpit ya maani hui maujoodgi</b> se kaise prabhavit hote hain. Level 5 me hum dekhenge ki hum doosron ke baare me kaise sochte hain (social cognition), wo humein kaise badalte hain (social influence), aur hum unse kaise judte ya ladte hain (social relations).'],
@@ -23,6 +24,7 @@
         '<b>Primacy effect</b>: pehli information baad wali se zyada asar daalti hai.'
       ]],
       ['case', 'Ek hi shabd, alag order (Solomon Asch, 1946)', 'Ek group ko kisi vyakti ka description diya: "intelligent, mehnati, impulsive, critical, ziddi, jalne wala". Doosre group ko <b>bilkul wahi shabd ulte order</b> me: "jalne wala, ziddi, critical, impulsive, mehnati, intelligent". Pehle group ne vyakti ko kaafi zyada positive judge kiya. Pehle shabd ne baaki shabdon ke "matlab" ko rang diya.'],
+      ['teacher', 'Socho, kisi naye teacher ke pehle din ka mood tumhe poore saal yaad rehta hai, hai na? Wahi primacy effect hai. Isliye kisi ke baare me pehli raay bane to ek baar khud se poochhna: kahin ye sirf pehle shabd ka rang to nahi?'],
 
       ['h', 'Attribution: "kyun kiya?"'],
       ['p', 'Fritz Heider ne kaha ki hum sab "naive scientist" hain jo behaviour ke kaaran dhoondhte hain. Do tarah ke explanations:'],
@@ -34,6 +36,7 @@
         ['Consistency', 'Kya Rahul har baar is comedian par hansta hai?', 'Haan → ye stable pattern hai']
       ]],
       ['p', 'Low consensus + low distinctiveness + high consistency (sirf Rahul hansta hai, har comedian par, har baar) → "Rahul hi bahut jaldi hansne wala insaan hai" (internal).'],
+      ['teacher', 'Ruko, Kelley ka model pehli baar me sabko ulta lagta hai. Ek trick: <b>teeno HIGH</b> (sab hanse, sirf is comedian par, har baar) = kaaran comedian me, yaani external. Consensus aur distinctiveness <b>LOW</b> par consistency HIGH = kaaran Rahul me, yaani internal.'],
 
       ['h', 'Fundamental attribution error'],
       ['p', 'Hum doosron ke behaviour ko samjhate waqt <b>personality ko zyada</b> aur <b>situation ko kam</b> weight dete hain. Lee Ross (1977) ne ise <b>fundamental attribution error (FAE)</b> naam diya.'],
@@ -48,13 +51,14 @@
         '<b>Hostile attribution bias</b>: ambiguous situation me doosre ka irada bura maan lena (bheed me dhakka lage to "jaanbujh kar maara"). Aggressive bachchon aur adults me ye zyada dikhta hai.'
       ]],
       ['ex', 'Cricket captain ki press conference', 'Jeet ke baad: "Humari planning perfect thi, bowlers ne zabardast mehnat ki." Haar ke baad: "Pitch bahut slow thi, toss haarna bhari pada, umpire ke do galat decisions..." Ye <b>self-serving bias</b> hai. Ye self-esteem bachata hai, par galtiyon se seekhne me rukawat bhi ban sakta hai.'],
+      ['teacher', 'Apna pichhla result yaad karo: achhe marks aaye to "maine mehnat ki", kam aaye to "paper out of syllabus tha"? Hum sab ye karte hain. Agli baar ek chhota experiment karo: result jaisa bhi ho, ek kaaran apne control wala bhi likho.'],
 
       ['h', 'Jo socho wahi ho jaaye: self-fulfilling prophecy'],
       ['case', 'Pygmalion in the classroom (Rosenthal aur Jacobson, 1968)', [
         'Ek school me teachers ko bataya gaya ki ek test ke hisaab se kuch bachche jaldi hi "intellectually bloom" karenge. Asal me ye bachche <b>random</b> chune gaye the. Saal ke ant me in bachchon ke IQ scores (khaas kar chhoti classes me) baakiyon se zyada badhe. Teachers ki ummeed ne unke behaviour (zyada attention, behtar feedback, zyada intezaar) ko badla, aur bachchon ka performance badal gaya.',
         'Dhyan do: baad ki research me ye effect asli to paaya gaya, par aam taur par <b>chhota</b> hai, aur original study ki kai aalochanayein hui. Phir bhi teachers aur parents ki expectations ka asar real hai.'
       ]],
-      ['p', '<b>Self-fulfilling prophecy</b>: kisi ke baare me ummeed hamare behaviour ko badalti hai, aur wo behaviour use waisa hi bana deta hai. Agar aap kisi naye colleague ko "rude" maan kar thande tareeke se milo, to wo bhi aapse thanda behave karega, aur aapki "ummeed" sach saabit ho jaayegi.'],
+      ['p', '<b>Self-fulfilling prophecy</b>: kisi ke baare me ummeed hamare behaviour ko badalti hai, aur wo behaviour use waisa hi bana deta hai. Agar tum kisi naye colleague ko "rude" maan kar thande tareeke se milo, to wo bhi tumse thanda behave karega, aur tumhari "ummeed" sach saabit ho jaayegi.'],
       ['terms', [
         ['Social psychology', 'Doosron ki maujoodgi hamare vichaar, feelings aur behaviour ko kaise prabhavit karti hai, iska study.'],
         ['Thin slicing', 'Bahut kam information se jaldi aur aksar sahi judgement banana.'],
@@ -72,10 +76,11 @@
         ['Hostile attribution bias', 'Ambiguous behaviour me doosre ka irada bura maan lena.'],
         ['Self-fulfilling prophecy', 'Ummeed jo behaviour badal kar khud ko sach kar de.']
       ]],
-      ['think', 'Office me ek naya colleague meeting me chup raha aur jaldi nikal gaya. Aapka pehla vichaar "ghamandi hai" aaya. FAE se bachne ke liye kya poochhoge?', [
+      ['think', 'Office me ek naya colleague meeting me chup raha aur jaldi nikal gaya. Tumhara pehla vichaar "ghamandi hai" aaya. FAE se bachne ke liye khud se kya poochhna chahiye?', [
         'Situation ke sawaal: kya wo naya hai aur abhi comfortable nahi? Kya uske ghar me koi emergency thi? Kya meeting uske kaam se judi nahi thi? Kya uski bhasha ya culture alag hai? Ek ghatna se personality ka faisla karne ke bajay, kuch aur moments dekho aur ho sake to seedhe baat karo.'
       ]]
     ],
+    outro: 'Aaj humne first impressions, attribution, FAE aur self-fulfilling prophecy dekhe: hum doosron ko kaise "padhte" hain aur kahan chook jaate hain. Quiz me har sawaal par pehle socho ki bias doosre ke baare me hai ya apne baare me. Agle chapter me dekhenge ki attitudes kaise bante hain aur log tumhe persuade kaise karte hain.',
     takeaways: [
       'First impressions bahut jaldi bante hain; halo aur primacy effect unhe rang dete hain.',
       'Attribution: internal (personality) vs external (situation); Kelley ke teen sawaal.',
@@ -104,7 +109,8 @@
     visualCap: 'Cognitive dissonance: jab behaviour aur belief takraate hain to mann ka taraju bigadta hai. Dekho dimaag use wapas balance karne ke kaunse raaste dhoondhta hai.',
     title: 'Attitudes, dissonance aur persuasion',
     tag: 'LaPiere, foot-in-the-door, Festinger ka $1 experiment, ELM, Cialdini ke principles aur fake news se bachav',
-    hook: 'Aap kehte ho "plastic bura hai", par roz plastic bag le aate ho. Smoker jaanta hai cigarette jaanleva hai, phir bhi peeta hai. Aur sale ka "sirf 2 piece bache!" banner dekh kar aap wo cheez kharid lete ho jo chahiye bhi nahi thi. <b>Attitudes</b> kaise bante hain, kaise badalte hain, aur log humein kaise <b>persuade</b> karte hain?',
+    intro: 'Pichhle chapter me dekha ki hum doosron ko kaise judge karte hain. Aaj baat hamari apni raay ki hai: attitudes kaise bante hain, kab behaviour se mel nahi khaate, aur ads aur WhatsApp forwards unhe kaise badalte hain. Is chapter ke baad online shopping thodi alag nazar se dikhegi.',
+    hook: 'Tum kehte ho "plastic bura hai", par roz plastic bag le aate ho. Smoker jaanta hai cigarette jaanleva hai, phir bhi peeta hai. Aur sale ka "sirf 2 piece bache!" banner dekh kar tum wo cheez kharid lete ho jo chahiye bhi nahi thi. <b>Attitudes</b> kaise bante hain, kaise badalte hain, aur log humein kaise <b>persuade</b> karte hain?',
     blocks: [
       ['h', 'Attitude kya hai?'],
       ['p', '<b>Attitude</b> kisi cheez, vyakti ya idea ke prati evaluation hai (pasand-napasand). Iske teen hisse <b>ABC model</b> se yaad rakho: <b>A</b>ffect (feeling: "mujhe cricket se pyaar hai"), <b>B</b>ehaviour (action: "har match dekhta hoon"), <b>C</b>ognition (belief: "cricket strategy ka khel hai").'],
@@ -118,6 +124,7 @@
         'Students ne ek ghanta bahut boring kaam kiya (spools ko tray me rakhna aur pegs ghumana). Phir unse kaha gaya ki agle participant ko bolo ki kaam "bahut mazedaar" tha. Kuch ko is jhooth ke liye <b>$1</b> diya gaya, kuch ko <b>$20</b> (us zamane me badi rakam).',
         'Baad me poochha gaya ki kaam asal me kitna mazedaar tha. <b>$1 wale group ne kaam ko zyada mazedaar</b> bataya! $20 walon ke paas jhooth ka bahana tha ("paison ke liye bola"). $1 walon ke paas koi achha bahana nahi tha, to dissonance kam karne ke liye unhone apna vishwas hi badal liya: "shayad kaam itna bura nahi tha."'
       ]],
+      ['teacher', 'Ruko, yahan sab confuse hote hain: lagta hai $20 wale zyada convince hue honge, par hua ulta! Trick yaad rakho: <b>bahana jitna chhota, dissonance utna bada</b>, aur attitude change bhi utna hi bada.'],
       ['list', [
         '<b>Effort justification</b>: jis cheez ke liye zyada mehnat ya takleef uthayi, use zyada value dete hain. Mushkil entrance exam paas karke mile college ko log zyada "best" maante hain.',
         '<b>Post-decision dissonance</b>: do achhe phones me se ek kharidne ke baad hum chune hue ki khoobiyan aur chhode hue ki kamiyan zyada dekhne lagte hain.'
@@ -134,9 +141,10 @@
         '<b>Repetition</b>: baar-baar suni baat sach lagne lagti hai (<b>illusory truth effect</b>). Isi wajah se WhatsApp ki jhoothi khabar, 20 forward ke baad, "sab kehte hain" ban jaati hai.',
         '<b>Audience</b>: teen aur 20s ki umar me attitudes sabse zyada badalte hain ("impressionable years").'
       ]],
+      ['teacher', 'Teen aur 20s wale saal sabse "impressionable" hote hain, aur WhatsApp forwards unhi saalon ke saathi hain. Agli baar koi forward bina source ke sach lage, to khud se poochho: maine ise <b>check</b> kiya hai, ya bas <b>baar-baar dekha</b> hai?'],
 
       ['h', 'Cialdini ke principles of influence'],
-      ['table', ['Principle', 'Matlab', 'Aapne kahan dekha hai'], [
+      ['table', ['Principle', 'Matlab', 'Tumne kahan dekha hai'], [
         ['Reciprocity', 'Kuch mila to wapas dene ka dabaav', 'Mall me free sample chakhne ke baad kharidna; shaadi me "unhone kitna diya tha" ka hisaab'],
         ['Commitment / consistency', 'Chhoti haan ke baad badi haan', '"Bas ek free trial le lo" phir subscription'],
         ['Social proof', 'Jo sab kar rahe hain wahi sahi', '"Bestseller", 4.5★ aur 20,000 reviews, sitcom ka laugh track'],
@@ -148,6 +156,7 @@
 
       ['h', 'Persuasion se bachav: "mental vaccine"'],
       ['p', 'William McGuire ki <b>inoculation theory</b>: jaise vaccine kamzor virus dikha kar body ko taiyaar karti hai, waise hi kisi galat argument ka kamzor roop aur uska jawab pehle se dikhane se log asli manipulation ke prati mazboot hote hain. Aaj ise <b>prebunking</b> kehte hain. "Bad News" jaise games (Roozenbeek aur van der Linden) me log khud fake news banane ki "techniques" khel kar seekhte hain, aur research me isse manipulation pehchaanne ki kshamta badhi.'],
+      ['teacher', 'Ek baar upar wali Cialdini table phir se dekho: tumne abhi apne dimaag ko wahi "vaccine" de di hai. Jo trick pehchaan li gayi, uska aadha jaadu wahin khatam.'],
       ['terms', [
         ['Attitude', 'Kisi cheez, vyakti ya idea ka positive ya negative evaluation.'],
         ['ABC model', 'Attitude ke teen hisse: affect, behaviour, cognition.'],
@@ -166,6 +175,7 @@
         ['Prebunking', 'Galat information milne se pehle uski techniques samjha dena.']
       ]]
     ],
+    outro: 'Aaj ka saar: attitude behaviour badalta hai, aur behaviour bhi attitude badalta hai (dissonance); persuasion ke do raaste hain, soch-samajh wala aur shortcut wala. Quiz me Festinger aur foot-in-the-door wale sawaal pakke karo. Agle chapter me group ka dabaav aur authority ka asar: Asch, Milgram aur "log kya kahenge".',
     takeaways: [
       'Attitude = affect + behaviour + cognition; specific aur strong attitudes hi behaviour predict karte hain.',
       'Behaviour attitude badalta hai: foot-in-the-door aur cognitive dissonance.',
@@ -191,9 +201,10 @@
   /* 5.3 */
   C({
     id: 'conformity-obedience', level: 5, mins: 18, visual: 'asch',
-    visualCap: 'Asch ka experiment khud mehsoos karo: 6 "participants" ek-ek karke jawab denge. Phir aapki baari.',
+    visualCap: 'Asch ka experiment khud mehsoos karo: 6 "participants" ek-ek karke jawab denge. Phir tumhari baari.',
     title: 'Conformity, compliance aur obedience',
     tag: '"Log kya kahenge": Asch ki lines, Sherif, door-in-the-face, Milgram ke variations, hospital study, aur minority ki taakat',
+    intro: 'Pichhle chapter me dekha ki log humein shabdon aur ads se kaise persuade karte hain. Aaj ka dabaav zyada seedha hai: group ka, request ka aur authority ka. Ek baar socho, aakhri baar kab tumne kuch sirf isliye kiya kyunki "sab kar rahe the"? Aaj usi ka science.',
     hook: '1962 me ek TV prank show me ek aadmi lift me ghusa. Andar ke saare log (actors) jaanbujh kar <b>peeche ki deewar</b> ki taraf munh karke khade the. Kuch seconds me wo aadmi bhi ghoom gaya! India me ise ek line me kehte hain: <b>"Log kya kahenge?"</b> Is chapter me dekhenge ki group, request aur authority hamare behaviour ko kitna badal dete hain.',
     blocks: [
       ['h', 'Conformity: group jaisa ban jaana'],
@@ -203,12 +214,13 @@
         'Solomon Asch ne ek bilkul saaf task diya: teen lines me se kaunsi line standard line ke barabar hai? Akele me log 99% sahi the. Par experiment me participant ke saath 6-7 log aur the, jo asal me <b>actors</b> the aur kuch trials me jaanbujh kar <b>ek hi galat jawab</b> dete the. Participant aakhir me jawab deta tha.',
         'Nateeja: critical trials me lagbhag <b>37%</b> jawab group ke galat jawab se mel khaate the. Lagbhag <b>75%</b> participants ne kam se kam ek baar conform kiya, aur ~25% ne kabhi nahi. Baad me kai logon ne kaha unhe pata tha jawab galat hai, par "alag dikhna" nahi chahte the.'
       ]],
+      ['teacher', 'Ruko, Asch ke do numbers me sab confuse hote hain. <b>37%</b> critical trials ke <b>jawabon</b> ka hisaab hai, aur <b>75%</b> un <b>logon</b> ka jinhone kam se kam ek baar conform kiya. Exam me dhyan se padhna ki sawaal jawabon ka hai ya logon ka.'],
       ['table', ['Type', 'Kyun conform karte hain', 'Example'], [
         ['Informational influence', 'Group ko sahi information ka srot maan kar (khaas kar jab hum unsure hon)', 'Naye sheher me jidhar bheed ja rahi hai udhar chalna; Sherif'],
         ['Normative influence', 'Accept hone aur rejection se bachne ke liye', 'Asch; shaadi me "status" ke liye kharcha; kapde aur fashion']
       ]],
       ['p', 'Conformity kab zyada hoti hai? Group me <b>3-4 log</b> ho jaane par (usse zyada se khaas farak nahi), jab group <b>ekmat</b> ho (Asch ke variation me sirf ek "saathi" ke sahi jawab dene se conformity bahut gir gayi), jab jawab <b>sabke saamne</b> dena ho, jab group ka status ooncha ho, aur collectivist cultures me (Bond aur Smith ke 1996 meta-analysis me collectivist deshon me conformity zyada mili).'],
-      ['ex', '"Log kya kahenge?"', 'Bina zaroorat ke mehngi shaadi aur karza, padosi ke bachche jaisa course chunna, ya "ladkiyan raat ko bahar nahi jaati" jaise niyam: kai baar hum ye kisi ke kehne se nahi, balki ek <b>kalpit audience</b> ke darr se karte hain. Ye normative influence ka sabse Indian roop hai. Dilchasp baat: aksar "log" bhi andar se wahi chahte hain jo aap chahte ho, par sab chup rehte hain (<b>pluralistic ignorance</b>, Chapter 5.7).'],
+      ['ex', '"Log kya kahenge?"', 'Bina zaroorat ke mehngi shaadi aur karza, padosi ke bachche jaisa course chunna, ya "ladkiyan raat ko bahar nahi jaati" jaise niyam: kai baar hum ye kisi ke kehne se nahi, balki ek <b>kalpit audience</b> ke darr se karte hain. Ye normative influence ka sabse Indian roop hai. Dilchasp baat: aksar "log" bhi andar se wahi chahte hain jo tum chahte ho, par sab chup rehte hain (<b>pluralistic ignorance</b>, Chapter 5.7).'],
 
       ['h', 'Compliance: request maanna'],
       ['list', [
@@ -219,7 +231,7 @@
       ]],
 
       ['h', 'Obedience: authority ki baat maanna'],
-      ['p', 'Chapter 1.5 me aapne Milgram ka experiment dekha: 65% log 450 volt tak gaye. Milgram ne baad me <b>kai variations</b> kiye jo dikhate hain ki obedience kab ghatti-badhti hai:'],
+      ['p', 'Chapter 1.5 me tumne Milgram ka experiment dekha: 65% log 450 volt tak gaye. Milgram ne baad me <b>kai variations</b> kiye jo dikhate hain ki obedience kab ghatti-badhti hai:'],
       ['vis', 'milgram', 'Original Milgram study: har voltage par kitne % participants jaari rahe.'],
       ['table', ['Variation', 'Poore 450 V tak gaye'], [
         ['Original (learner doosre kamre me)', '65%'],
@@ -237,6 +249,7 @@
         '<b>Legitimate authority</b>: lab coat, Yale ka naam, "experiment ke liye zaroori hai".'
       ]],
       ['case', 'Hospital ki nurses (Hofling aur saathi, 1966)', 'Raat ki shift me nurses ko ek anjaan "doctor" ka phone aaya: ek patient ko "Astroten" naam ki dawai ki 20 mg dose do. Dabbe par saaf likha tha max dose 10 mg hai, aur hospital ke niyam phone par order lene se rokte the. Phir bhi <b>22 me se 21 nurses</b> dawai dene ke liye taiyaar thi (dawai asal me nakli thi aur unhe raste me rok liya gaya). Real duniya me bhi authority ke saamne savaal poochhna kitna mushkil hai, ye study dikhati hai. (Baad ki ek study me jab nurses ko jaani-pehchaani dawai aur saathiyon se baat karne ka mauka mila, obedience kaafi kam thi.)'],
+      ['teacher', 'Kabhi office ya college me kisi senior ne kuch aisa kaha jo tumhe galat laga, par bolna mushkil laga? Hofling ki nurses wahi dikhati hain. Aksar ek chhota sa sawaal, "kya main ise ek baar confirm kar loon?", kaafi hota hai.'],
 
       ['h', 'Minority influence aur na kehne ki taakat'],
       ['p', 'Serge Moscovici (1969) ke experiment me jab group ke do "actors" <b>lagataar</b> neeli slides ko "hari" kehte rahe, to baaki participants ne bhi ~8% jawabon me "hara" kaha. <b>Consistent</b> minority dheere-dheere majority ki soch badal sakti hai. Itihaas ke zyada tar bade samajik badlaav (sati pratha ka virodh, mahilaon ke voting adhikaar, swatantrata andolan) isi tarah chhote, lagataar groups se shuru hue.'],
@@ -254,10 +267,11 @@
         ['Minority influence', 'Consistent chhote group ka majority ki soch badalna.'],
         ['Pluralistic ignorance', 'Sab andar se ek hi baat sochte hain par maan lete hain ki doosre alag sochte hain.']
       ]],
-      ['think', 'Asch ke experiment me aap hote to kya karte? Aur kis cheez se aapke liye sahi jawab dena aasaan hota?', [
+      ['think', 'Asch ke experiment me tumhari baari aaye to tumhara jawab kya hoga? Aur kis cheez se tumhare liye sahi jawab dena aasaan hota?', [
         'Zyada tar log sochte hain "main kabhi conform nahi karta", par research kehti hai ki 75% ne kam se kam ek baar kiya. Sahi jawab aasaan hota agar: ek bhi aur vyakti sahi jawab deta, jawab likh kar (private) dena hota, ya group anjaan aur kam important hota. Real life me bhi: kisi galat cheez par pehli awaaz uthane wale ka saath do.'
       ]]
     ],
+    outro: 'Aaj humne dekha ki group (Sherif, Asch), request (foot aur door) aur authority (Milgram, Hofling) humein kitna badal sakte hain, aur ek saathi ya consistent minority kaise ulta asar daal sakti hai. Quiz me Asch aur Milgram ke numbers dhyan se dekhna. Agle chapter me group ki doosri shakal: team, bheed aur groupthink.',
     takeaways: [
       'Ambiguous situation me informational influence (Sherif), saaf situation me bhi normative influence (Asch).',
       'Asch: ~37% critical trials me conformity; ek saathi milte hi conformity bahut girti hai.',
@@ -286,7 +300,8 @@
     visualCap: 'Ringelmann ka rope pulling: log badhne par group ki kul taakat badhti hai, par har vyakti ki mehnat ghatti jaati hai (social loafing).',
     title: 'Group behaviour: bheed, team aur groupthink',
     tag: 'Social facilitation, social loafing, deindividuation, group polarization aur groupthink: group me hum alag kyun ho jaate hain',
-    hook: 'Akele bathroom me gaana gaate ho to sur sahi lagta hai; 50 logon ke saamne awaaz kaanp jaati hai. Par cricket stadium me 50,000 logon ke beech aap bhi gala phaad kar chillate ho. College ke group project me ek banda saara kaam karta hai aur baaki "moral support". <b>Group humein kaise badalta hai?</b>',
+    intro: 'Pichhle chapter me dekha ki group ka dabaav humein kaise jhuka deta hai. Aaj ek kadam aage: group hamari mehnat, himmat aur faislon ko bhi chupchaap badal deta hai. Apna aakhri group project yaad rakhna, aaj uski poori kahani samajh aayegi.',
+    hook: 'Akele bathroom me gaana gaate ho to sur sahi lagta hai; 50 logon ke saamne awaaz kaanp jaati hai. Par cricket stadium me 50,000 logon ke beech tum bhi gala phaad kar chillate ho. College ke group project me ek banda saara kaam karta hai aur baaki "moral support". <b>Group humein kaise badalta hai?</b>',
     blocks: [
       ['h', 'Social facilitation: doosron ke saamne'],
       ['p', '1898 me Norman <b>Triplett</b> ne dekha ki cyclists doosron ke saath race karte waqt akele ke mukable tez chalaate the. Ye psychology ke pehle social experiments me se ek tha. Par kabhi-kabhi doosron ke saamne performance <b>girti</b> bhi hai. Robert <b>Zajonc</b> (1965) ne puzzle suljhaya: doosron ki maujoodgi <b>arousal badhati</b> hai, aur arousal <b>dominant (sabse aadat wala) response</b> ko mazboot karta hai.'],
@@ -295,6 +310,7 @@
         '<b>Naya, mushkil kaam</b>: dominant response aksar galat → audience ke saamne <b>kharab</b>.'
       ]],
       ['ex', 'Pool table aur audience', 'Michaels aur saathiyon (1982) ne college ke pool players ko chupke se dekha. Jab chaar log paas aakar dekhne lage, <b>achhe players</b> ka success 71% se 80% ho gaya, aur <b>kamzor players</b> ka 36% se ghat kar 25%. Isliye pehli baar gaadi chalate waqt koi peeche se dekhe to galti zyada hoti hai, par experienced driver ko farak nahi padta.'],
+      ['teacher', 'Ek trick suno: audience ek <b>amplifier</b> hai, jo pehle se hai use aur zor se baja deti hai. Isliye exam ya presentation se pehle itni practice karo ki sahi jawab hi tumhara "dominant response" ban jaaye.'],
 
       ['h', 'Social loafing: "koi aur kar lega"'],
       ['p', 'French engineer Max <b>Ringelmann</b> ne 1900s ke aas-paas dekha ki rassi kheenchne me jab log badhte hain, to <b>har vyakti</b> akele se kam zor lagata hai. Bibb Latané (1979) ne taali bajane aur chillane ke experiments me bhi yahi paaya. Ise <b>social loafing</b> kehte hain: group me individual effort ka ghatna jab individual contribution dikhta na ho.'],
@@ -303,6 +319,7 @@
       ['h', 'Deindividuation: bheed me kho jaana'],
       ['p', 'Jab log <b>anonymous</b> hon, bade group me hon aur arousal zyada ho, to unka self-awareness aur personal zimmedari ka ehsaas ghat jaata hai. Ise <b>deindividuation</b> kehte hain. Isse mob violence, dangon me tod-phod, aur online trolling (fake account ke peeche) samjhaye jaate hain. Par deindividuation sirf bura nahi: ye group ke norm ko follow karne ko badhata hai. Agar bheed ka norm achha ho (jaise kisi tyohaar me sab naach rahe hon), to log zyada khule aur khush hote hain.'],
       ['case', 'Halloween ki toffiyan (Diener aur saathi, 1976)', 'Halloween par 1,300 se zyada bachche gharon me "trick-or-treat" ke liye aaye. Ek researcher ne kaha "sirf ek toffee lena" aur kamre se chali gayi (chhupke dekha ja raha tha). Jo bachche <b>group me</b> aaye aur jinse <b>naam nahi poochha</b> gaya (anonymous), unme se ~57% ne extra toffiyan uthayi. Jo <b>akele</b> the aur jinka <b>naam poochha</b> gaya, unme sirf ~8% ne. Anonymity + group = niyam todna aasaan.'],
+      ['teacher', 'Ab socho, comment section me log itne rude kyun ho jaate hain? Fake profile + bheed = wahi Halloween wala nuskha. Agli baar online kuch likhne se pehle ek chhota test karo: kya ye baat apne naam aur chehre ke saath bhi kahi ja sakti hai?'],
 
       ['h', 'Group polarization: discussion ke baad aur extreme'],
       ['p', 'Jab ek jaisi soch wale log discuss karte hain, to group ka faisla un sabke shuruaati average se <b>aur zyada extreme</b> ho jaata hai. Thode se risky log milkar bahut risky ho jaate hain; thode cautious log bahut cautious. Ek jaisi raay wale WhatsApp groups, YouTube recommendations aur social media "echo chambers" isi wajah se logon ko zyada polarized banate hain.'],
@@ -316,6 +333,7 @@
         ['"Mindguards": buri khabar leader tak na pahunchne dena', 'Bahar ke experts ko bulao, sub-groups me alag discuss karo']
       ]],
       ['ex', 'Office meeting ka "sab theek hai"', 'Boss ne naya plan bataya aur poocha "koi problem?" Sab chup. Baad me chai par sab kehte hain "ye plan to fail hoga". Ye groupthink aur pluralistic ignorance ka mel hai. Achhe leaders isliye pehle juniors se raay maangte hain aur "is plan me sabse badi kamzori kya hai?" jaisa sawaal poochhte hain.'],
+      ['teacher', 'Groupthink aur group polarization me sab confuse hote hain. Polarization me raay <b>aur extreme</b> hoti hai; groupthink me <b>harmony ke chakkar</b> me critical soch band ho jaati hai. Ek raay ki <b>disha</b> ki baat hai, doosra soch ki <b>quality</b> ki.'],
       ['p', '<b>Leadership</b> par research do bade styles dikhati hai: <b>task-focused</b> (kaam aur targets par) aur <b>relationship-focused</b> (team ke mood aur rishton par). Sabse effective leaders situation ke hisaab se dono ka mel karte hain. <b>Transformational leaders</b> ek inspiring vision dete hain aur team ko khud se badhkar sochne ko prerit karte hain.'],
       ['terms', [
         ['Social facilitation', 'Doosron ki maujoodgi me aasaan/achhi tarah seekhe kaam me behtar performance.'],
@@ -330,6 +348,7 @@
         ['Transformational leadership', 'Inspiring vision se team ko prerit karne wali leadership.']
       ]]
     ],
+    outro: 'Aaj ka saar: audience, anonymity aur ek jaisi soch wale saathi humein alag insaan bana dete hain, achhi ya buri dono taraf. Ab quiz karo, phir agle chapter me ek mushkil par zaroori topic: prejudice, aur "hum vs woh" wali soch kaise kam ho.',
     takeaways: [
       'Audience aasaan kaam behtar aur mushkil kaam kharab karti hai (arousal + dominant response).',
       'Social loafing: group me mehnat ghatti hai; individual contribution dikhao.',

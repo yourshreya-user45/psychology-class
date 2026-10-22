@@ -11,6 +11,7 @@
     visualCap: 'Robbers Cave (1954): do groups banaye, unhe compete karwaya, dushmani badhi, aur phir common goals ne doori ghatayi. Dekho tension meter har phase me kaise badalta hai.',
     title: 'Prejudice, stereotypes aur discrimination',
     tag: 'In-group vs out-group, Robbers Cave, implicit bias, stereotype threat (UP ki caste study), aur cricket se doori kaise ghati',
+    intro: 'Pichhle chapter me dekha ki group humein kaise badalta hai. Aaj uska sabse dardnak roop dekhenge: "hum vs woh" wali soch, jo jaati, dharm, rang aur state ke naam par logon ko baant deti hai. Ye chapter thoda personal lag sakta hai, aur yahi iski taakat hai. Saath me ye bhi dekhenge ki research ke hisaab se ye doori kam kaise hoti hai.',
     hook: 'Kisi ka naam ya surname sun kar hi uski jaati, dharm ya state ka andaza lagana, aur phir uske baare me "aise log to aise hi hote hain" wala faisla kar lena: ye hum sab kabhi na kabhi karte hain, aksar bina jaane. Psychology poochhti hai: <b>ye aata kahan se hai, aur ise kam kaise karein?</b>',
     blocks: [
       ['h', 'Teen alag cheezein'],
@@ -20,10 +21,12 @@
         ['Discrimination (behaviour)', 'Group membership ki wajah se alag aur anuchit vyavhaar', 'Ghar kiraye par na dena, naukri me reject karna']
       ]],
       ['p', 'Prejudice <b>explicit</b> (khule taur par maana hua) bhi ho sakta hai aur <b>implicit</b> (bina jaane, automatic associations) bhi. Bahut se log jo khule taur par barabari me vishwas karte hain, unke andar bhi kuch implicit associations ho sakte hain.'],
+      ['teacher', 'Ek aasaan trick: <b>stereotype = soch, prejudice = feeling, discrimination = kaam</b>. Ek dimaag me, ek dil me, ek haathon me. Exam me koi example aaye to bas poochho: ye soch hai, feeling hai ya action?'],
 
       ['h', 'Hum vs woh: social identity'],
       ['p', 'Henri <b>Tajfel</b> aur John Turner ki <b>social identity theory</b> (1979): hamari self-esteem ka ek hissa hamare <b>groups</b> (desh, dharm, college, cricket team) se aata hai. Apne group ko achha mehsoos karne ke liye hum <b>in-group favouritism</b> karte hain, aur kabhi out-group ko neeche dikhate hain.'],
       ['case', 'Minimal group paradigm (Tajfel, 1971)', 'British school ke ladkon ko bataya gaya ki unhe do groups me baanta ja raha hai, is aadhar par ki unhe <b>Klee ki painting pasand hai ya Kandinsky ki</b> (asal me random baanta gaya). Group ke members ek-doosre ko jaante bhi nahi the, koi itihaas nahi, koi muqabla nahi. Phir bhi jab unhe points baantne ko kaha gaya, unhone <b>apne group ko zyada</b> diye, aur kai baar to kul fayda kam karke bhi "unse zyada" rehna chuna. Itne bekaar aadhar par bhi "hum vs woh" ban gaya.'],
+      ['teacher', 'Ab socho, painting ki pasand jaisi bekaar cheez se itna favouritism, to college, state ya cricket team jaisi badi pehchaan ka asar kitna hota hoga? India-Pakistan match ke din apni feelings ek baar yaad karo.'],
       ['p', '<b>Out-group homogeneity effect</b>: "woh sab ek jaise hain", jabki "humare group me to har tarah ke log hain". Hum apne group ki variety dekhte hain, doosre ki nahi.'],
 
       ['h', 'Robbers Cave: muqabla se dushmani'],
@@ -42,12 +45,13 @@
       ]],
 
       ['h', 'Implicit bias aur IAT'],
-      ['p', '<b>Implicit Association Test (IAT)</b> (Greenwald aur saathi, 1998) naapta hai ki hum do concepts ko kitni jaldi jodte hain (jaise ek group ke chehre + "achha" vs "bura" shabd). Kai logon me automatic associations unke khule vishwas se alag nikalte hain. Aap Project Implicit par khud try kar sakte ho.'],
+      ['p', '<b>Implicit Association Test (IAT)</b> (Greenwald aur saathi, 1998) naapta hai ki hum do concepts ko kitni jaldi jodte hain (jaise ek group ke chehre + "achha" vs "bura" shabd). Kai logon me automatic associations unke khule vishwas se alag nikalte hain. Project Implicit par ise khud try karke dekho.'],
       ['note', 'IAT par research me bahas hai: ek vyakti ka score baar-baar dene par kaafi badal sakta hai, aur akela IAT score kisi ke asli behaviour ko kamzor tareeke se predict karta hai. Isliye ise kisi ko "biased" ya "unbiased" ka label dene ke liye nahi, balki samaaj ke level par patterns samajhne aur khud par sochne ke tool ki tarah dekhna chahiye.'],
 
       ['h', 'Stereotype threat'],
       ['p', 'Claude <b>Steele</b> aur Joshua Aronson (1995) ne dikhaya ki jab Black American students ko bataya gaya ki ek test unki "intellectual ability" naapta hai, to unka performance gira; jab wahi test "problem solving puzzle" bataya gaya, to farak lagbhag gayab ho gaya. Jab kisi ko apne group ke negative stereotype ki <b>yaad dilayi</b> jaaye, to "kahin main ise sach na saabit kar doon" ki chinta performance gira sakti hai.'],
       ['case', 'Uttar Pradesh me jaati aur maze (Hoff aur Pandey, 2006)', 'World Bank ki economists Karla Hoff aur Priyanka Pandey ne UP ke gaon ke 11-12 saal ke ladkon ko maze (bhool-bhulaiya) suljhane diye, inaam ke saath. Jab kisi ki <b>jaati announce nahi ki gayi</b>, "low-caste" aur "high-caste" ladkon ka performance lagbhag <b>barabar</b> tha. Jab har ladke ka naam, gaon aur jaati <b>sabke saamne bataayi gayi</b>, to low-caste ladkon ka performance kaafi gir gaya aur ek bada gap paida ho gaya. Ability same thi; sirf jaati ko yaad dilane se farak aaya. Ye dikhata hai ki samajik pehchaan ki yaad bhi asli performance ko prabhavit kar sakti hai.'],
+      ['teacher', 'Ye study dhyan se dobara padhna, kyunki yahan sab ek galti karte hain: farak <b>ability</b> me nahi tha, sirf <b>yaad dilane</b> me tha. Stereotype threat ka matlab ye nahi ki stereotype sach hai; matlab ye hai ki uska bojh performance ko neeche kheench leta hai.'],
 
       ['h', 'India ke context me prejudice'],
       ['p', 'India me jaati, dharm, kshetra, bhasha, gender aur rang ke aadhar par prejudice aur discrimination ki lambi aur dardnak kahani hai, aur research ise aaj bhi naukri, kiraye ke ghar aur shaadi ke faislon me dikhati hai. Matrimonial ads me "fair" ki maang aur fairness creams ka bazaar <b>colourism</b> ka udaharan hai. North-East ke logon ke saath bade shehron me nasli tippaniyan bhi report hoti hain. Samvidhan ka <b>Article 15</b> dharm, jaati, nasl, ling ya janm-sthaan ke aadhar par bhedbhaav ko mana karta hai, aur <b>Article 17</b> untouchability ko khatam karta hai. Psychology ka kaam ye samajhna hai ki ye attitudes kaise bante hain aur kaise badle ja sakte hain.'],
@@ -80,6 +84,7 @@
         ['Colourism', 'Twacha ke rang ke aadhar par bhedbhaav.']
       ]]
     ],
+    outro: 'Aaj humne dekha ki stereotype, prejudice aur discrimination kahan se aate hain, aur barabar status wala, saath milkar kaam karne wala contact unhe kaise kam karta hai. Quiz me Robbers Cave aur UP wali studies par khaas dhyan dena. Agle chapter me mood thoda halka hoga: attraction, pyaar aur rishte.',
     takeaways: [
       'Stereotype (soch), prejudice (feeling), discrimination (behaviour) alag hain.',
       'Bekaar aadhar par bhi "hum vs woh" ban jaata hai (minimal groups); muqabla dushmani badhata hai (Robbers Cave).',
@@ -108,7 +113,8 @@
     visualCap: 'Sternberg ka triangle of love: intimacy, passion aur commitment ke mel se alag-alag tarah ka pyaar. Kisi bhi kone ya kinare par tap karo.',
     title: 'Attraction, pyaar aur rishte',
     tag: 'Proximity, mere exposure, similarity, Sternberg ka triangle, attachment styles, Gottman ke "four horsemen" aur arranged vs love marriage research',
-    hook: 'Aapke sabse kareebi dost kaun hain? Shayad wo jo school me bagal me baithte the, ya hostel me agle kamre me rehte the. Pyaar aur dosti me "kismat" ka bada hissa asal me <b>proximity</b> aur kuch simple psychological niyam hain. Aur rishta tikta kaise hai, iska bhi science hai.',
+    intro: 'Pichhle chapter me dekha ki log ek-doosre se door kaise hote hain. Aaj ulta sawaal: hum kisi ke kareeb kyun aate hain, aur rishta tikta kaise hai? Dosti, pyaar, shaadi, sab is chapter me hai, aur sab tumhari apni zindagi se seedha judta hai.',
+    hook: 'Tumhare sabse kareebi dost kaun hain? Shayad wo jo school me bagal me baithte the, ya hostel me agle kamre me rehte the. Pyaar aur dosti me "kismat" ka bada hissa asal me <b>proximity</b> aur kuch simple psychological niyam hain. Aur rishta tikta kaise hai, iska bhi science hai.',
     blocks: [
       ['h', 'Hum kisse attract hote hain?'],
       ['list', [
@@ -118,11 +124,13 @@
         '<b>Similarity</b>: "opposites attract" se zyada "birds of a feather": milte-julte values, interests aur attitudes attraction ka strong predictor hain.',
         '<b>Reciprocity</b>: jo humein pasand karta hai, use hum zyada pasand karne lagte hain.'
       ]],
+      ['teacher', 'Apne school ke best friend ko yaad karo. Kya wo bench par bagal me baithte the? Agar haan, to "kismat" ke saath proximity ka bhi haath tha. Mirror image wali baat bhi khud check karo: apni selfie aur kisi doosre ki kheenchi photo me se tumhe kaunsi zyada achhi lagti hai?'],
       ['p', '<b>"What is beautiful is good"</b> stereotype: attractive logon ko hum zyada smart, dayalu aur safal maan lete hain (halo effect). Research me attractive logon ko naukri aur kuch adalati faislon me bhi fayda milta dikha hai: ye ek tarah ka bias hai jiska humein dhyan rakhna chahiye.'],
 
       ['h', 'Pyaar ke prakaar'],
       ['compare', ['Passionate love', 'Tez attraction, excitement, "butterflies", saath rehne ki tadap. Rishte ki shuruaat me sabse tez; samay ke saath aam taur par shaant hota hai.'], ['Companionate love', 'Gehri dosti, bharosa, saath-saath zindagi bitane ka sukoon. Samay ke saath badhta hai aur lambe rishton ki neev hai.']],
       ['p', 'Robert <b>Sternberg</b> ka <b>triangular theory of love</b> (1986) teen ingredients batata hai: <b>intimacy</b> (kareebi, samajh), <b>passion</b> (attraction, excitement) aur <b>commitment</b> (saath rehne ka faisla). Inke alag mel se alag tarah ka pyaar banta hai, jaise upar ke triangle me dikhaya gaya hai. Teeno ho to <b>consummate love</b>, jo aadarsh hai par banaye rakhne ke liye mehnat maangta hai.'],
+      ['teacher', 'Ruko, triangle me ek common galti hoti hai: passion kam hone ka matlab pyaar khatam hona nahi. Intimacy + commitment wala <b>companionate love</b> bhi poora pyaar hai, aur lambe rishton me aksar wahi sabse mazboot hota hai.'],
 
       ['h', 'Adult attachment styles'],
       ['p', 'Hazan aur Shaver (1987) ne Bowlby-Ainsworth ke bachpan ke attachment idea ko adult romantic rishton par lagaya:'],
@@ -141,6 +149,7 @@
         ['Defensiveness', '"Meri galti nahi, tum bhi to..."', 'Apni zimmedari ka chhota hissa bhi maan lena'],
         ['Stonewalling', 'Chup ho jaana, baat se door chale jaana', '20 minute ka break lekar shaant hona, phir laut kar baat karna']
       ]],
+      ['teacher', 'Yaad rakhne ki trick: chaar horsemen C-C-D-S, aur sabse khatarnak <b>Contempt</b>. Agli baar ghar me behas ho, to note karo ki shabd kaam ke baare me hain ("bill late hua") ya insaan ke baare me ("tum laaparwah ho"). Pehla suljhata hai, doosra chot karta hai.'],
       ['list', [
         '<b>Self-disclosure</b>: dheere-dheere apne baare me gehri baatein share karna kareebi badhata hai. Arthur Aron (1997) ke "36 sawaalon" wale experiment me ajnabiyon ne 45 minute me ek-doosre ke kaafi kareeb mehsoos kiya.',
         '<b>Equity</b>: rishte tab santushtidaayak lagte hain jab dono ko lagta hai ki dena-lena lagbhag barabar hai (ghar ka kaam bhi!).',
@@ -169,6 +178,7 @@
         'Ladna khud problem nahi. Farak <b>kaise</b> ladte hain aur baaki samay kaisa hai, usme hai. Pehla couple shayad bina contempt ke ladta hai, jaldi "repair" karta hai (sorry, hasi, haath pakadna), aur din me kai positive moments rakhta hai (5:1). Doosra couple shayad stonewalling kar raha hai: mudde dabaye ja rahe hain aur emotional doori badh rahi hai.'
       ]]
     ],
+    outro: 'Aaj ka saar: proximity, similarity aur exposure se attraction shuru hota hai, aur respect, baatcheet aur 5:1 wala ratio rishte ko tikata hai. Quiz me Sternberg aur Gottman wale sawaal dhyan se karna. Agla chapter Level 5 ka aakhri hai: hum kab madad karte hain, aur kab aggression dikhate hain.',
     takeaways: [
       'Proximity, mere exposure, similarity aur reciprocity attraction ke bade predictors hain.',
       'Passionate love samay ke saath shaant hota hai; companionate love badhta hai.',
@@ -197,6 +207,7 @@
     visualCap: 'Darley aur Latané (1968): jitne zyada log "sun" rahe the, utne kam participants ne seizure ke dauraan madad ki.',
     title: 'Madad aur aggression',
     tag: 'Bystander effect, Good Samaritan, empathy-altruism, frustration-aggression, garmi, media violence aur cyberbullying',
+    intro: 'Pichhle chapter me dekha ki hum kisi ke kareeb kyun aate hain. Level 5 ke is aakhri chapter me do ulti cheezein saath dekhenge: madad aur aggression. Sadak par koi gira ho aur bheed bas dekh rahi ho, aisa scene tumne bhi dekha hoga. Aaj samjhenge ki log kyun nahi rukte, aur us pal me kya karna chahiye.',
     hook: '1964, New York: Kitty Genovese naam ki mahila par uske ghar ke paas hamla hua. Akhbaar ne likha "38 log dekhte rahe aur kisi ne madad nahi ki". Baad me pata chala ki ye kahani badha-chadha kar likhi gayi thi; kuch logon ne police ko call kiya tha aur zyada tar ne poora hamla dekha hi nahi tha. Par isne ek zaroori sawaal khada kiya: <b>kya bheed me log madad karne se katrate hain?</b>',
     blocks: [
       ['h', 'Bystander effect'],
@@ -207,6 +218,7 @@
         '<b>Pluralistic ignorance</b>: sab doosron ko dekh kar situation ko judge karte hain, aur jab sab shaant dikhte hain to sab sochte hain "shayad emergency nahi hai".'
       ]],
       ['case', 'Dhuen se bhara kamra (Latané aur Darley, 1968)', 'Students ek form bhar rahe the jab vent se dhuan aane laga. <b>Akele</b> participants me ~75% ne kuch minute me report kiya. Jab participant ke saath do log (actors) the jo dhuan dekh kar bhi kuch nahi kar rahe the, sirf ~10% ne report kiya, chahe kamra dhuen se bhar gaya aur wo khaans rahe the!'],
+      ['teacher', 'Ruko, diffusion of responsibility aur pluralistic ignorance me sab confuse hote hain. Seizure study = "koi aur karega" (zimmedari bat gayi). Dhuen wala kamra = "sab shaant hain, to shayad kuch nahi hua" (situation galat padhi). Pehla <b>kaun</b> karega ka sawaal hai, doosra <b>kya</b> ho raha hai ka.'],
       ['steps', [
         ['Notice karna', 'Phone me khoye ya jaldi me hon to cheez dikhti hi nahi.'],
         ['Emergency samajhna', 'Kya ye sach me madad ki situation hai? (Pluralistic ignorance yahan rokti hai.)'],
@@ -215,8 +227,8 @@
         ['Madad karne ka faisla', 'Khatra, sharam aur "galat ho gaya to?" ke darr ke bawajood.']
       ]],
       ['tip', [
-        '<b>Agar aapko madad chahiye</b>, bheed se "koi madad karo!" mat kaho. Kisi <b>ek vyakti</b> ko chuno aur seedha kaho: "Aap, neeli shirt wale bhaiya, 112 par call kariye!" Isse diffusion of responsibility khatam ho jaati hai.',
-        '<b>Agar aap bystander ho</b>: pehle "koi aur karega" wale vichaar ko pehchaano. Sadak haadse me madad karne walon ko India me <b>Good Samaritan</b> suraksha milti hai (2016 ke Supreme Court guidelines aur Motor Vehicles Act me 2019 ka sanshodhan): police unhe pareshaan nahi kar sakti aur unhe apna naam batana zaroori nahi.'
+        '<b>Agar tumhe madad chahiye</b>, bheed se "koi madad karo!" mat kaho. Kisi <b>ek vyakti</b> ko chuno aur seedha kaho: "Aap, neeli shirt wale bhaiya, 112 par call kariye!" Isse diffusion of responsibility khatam ho jaati hai.',
+        '<b>Agar tum bystander ho</b>: pehle "koi aur karega" wale vichaar ko pehchaano. Sadak haadse me madad karne walon ko India me <b>Good Samaritan</b> suraksha milti hai (2016 ke Supreme Court guidelines aur Motor Vehicles Act me 2019 ka sanshodhan): police unhe pareshaan nahi kar sakti aur unhe apna naam batana zaroori nahi.'
       ]],
 
       ['h', 'Hum madad kyun karte hain?'],
@@ -227,6 +239,7 @@
         '<b>Mood</b>: "feel good, do good": achhe mood me log zyada madad karte hain. Aur kabhi guilt ya udaasi kam karne ke liye bhi (negative state relief).'
       ]],
       ['case', 'Jaldi me Good Samaritan (Darley aur Batson, 1973)', 'Princeton ke theology students ko doosri building me ek talk dena tha; kuch ko <b>"Good Samaritan"</b> (raste me ghayal ki madad karne wale ki dharmik kahani) par hi bolna tha. Raste me ek aadmi giraa hua, karahta hua mila (actor). Jinhe kaha gaya tha ki wo <b>late ho rahe hain</b>, unme se sirf ~10% ruke; jinke paas <b>time tha</b>, unme ~63% ne madad ki. Kuch jaldi wale students to aadmi ke upar se kood kar nikal gaye, Good Samaritan par bhashan dene ke liye! Personality ya dharmik vichaar se zyada <b>situation (jaldi)</b> ne behaviour tay kiya.'],
+      ['teacher', 'Ye study har baar sochne par majboor karti hai. College ya office ki jaldi me tumne kitni baar kisi ko nazarandaaz kiya hoga, bina bure insaan hue? Agli baar jaldi ho, to bas ek second ruk kar dekhna ki raste me koi madad to nahi maang raha.'],
 
       ['h', 'Aggression: nuksaan pahunchane wala behaviour'],
       ['p', 'Psychology me <b>aggression</b> kisi ko jaanbujh kar physical ya emotional nuksaan pahunchane wala behaviour hai. <b>Hostile aggression</b> gusse se aata hai (nuksaan hi maksad); <b>instrumental aggression</b> kisi aur maksad ka zariya hota hai (lootne ke liye maarna).'],
@@ -240,10 +253,11 @@
       ]],
       ['p', '<b>Media violence aur video games</b>: research me violent games aur thodi der ke aggressive thoughts/feelings ke beech chhota rishta milta hai. Par ye <b>gambhir real-world violence</b> paida karte hain, iska saboot kamzor hai, aur experts me bahas jaari hai. American Psychological Association (2015, 2020) ne kaha ki violent games ko seedhe criminal violence ka kaaran batane ka saboot kaafi nahi.'],
       ['myth', 'Gussa nikaal do (takiya peeto, cheekho) to gussa kam ho jaayega (catharsis).', 'Research (jaise Bushman, 2002) ke hisaab se venting gusse ko aur badhata hai. Behtar hai: thoda samay aur doori, dheemi saans, physical exercise (bina gusse ke focus ke), aur baad me shaant hokar "I feel" statements me baat karna. Gusse ko pehchaan kar uske peeche ki zaroorat (izzat, nyay) ko address karna CBT-based anger management ka hissa hai.'],
+      ['teacher', 'Apna aakhri bada gussa yaad karo. Chillane ke baad sach me shaanti mili thi, ya baat aur bigdi? Agli baar 10 gehri saans aur thodi doori try karo; research ka paksh usi taraf hai.'],
 
       ['h', 'Online aggression aur cyberbullying'],
       ['p', 'Anonymity (deindividuation), turant reaction ki suvidha aur victim ka dard na dikhna online aggression ko aasaan banate hain: trolling, body-shaming, rape threats, private photos leak karna. Iska mental health par gambhir asar hota hai, khaas kar teenagers par.'],
-      ['note', 'Agar aap ya koi jaanne wala online harassment ya cyber crime ka shikaar hai: screenshots save karo, account block/report karo, kisi bharosemand bade ko batao, aur India me <b>cybercrime.gov.in</b> par ya <b>1930</b> (National Cyber Crime Helpline) par report karo. Emotional support ke liye Tele-MANAS <b>14416</b>.'],
+      ['note', 'Agar tum ya koi jaanne wala online harassment ya cyber crime ka shikaar hai: screenshots save karo, account block/report karo, kisi bharosemand bade ko batao, aur India me <b>cybercrime.gov.in</b> par ya <b>1930</b> (National Cyber Crime Helpline) par report karo. Emotional support ke liye Tele-MANAS <b>14416</b>.'],
       ['terms', [
         ['Bystander effect', 'Zyada logon ki maujoodgi me kisi ek ke madad karne ka chance kam hona.'],
         ['Diffusion of responsibility', 'Group me zimmedari ka bat jaana: "koi aur karega".'],
@@ -261,6 +275,7 @@
         ['Cyberbullying', 'Digital madhyamon se kisi ko pareshaan, dhamkana ya badnaam karna.']
       ]]
     ],
+    outro: 'Aaj ka saar: bheed me madad ghatti hai, par "koi aur karega" ko pehchaanne aur kisi ek vyakti ko seedha bolne se ye chakra toot sakta hai; aggression biology, situation aur seekhne ka mel hai. Pehle is chapter ka quiz karo, phir Level 5 ka exam: social cognition se lekar madad aur aggression tak sab ek saath. Samaaj ka poora safar tumne kar liya hai, ab dikhane ki baari hai.',
     takeaways: [
       'Bystander effect: diffusion of responsibility aur pluralistic ignorance madad rokte hain.',
       'Madad chahiye to kisi ek vyakti ko seedha bolo; India me Good Samaritans ko kanooni suraksha hai.',
