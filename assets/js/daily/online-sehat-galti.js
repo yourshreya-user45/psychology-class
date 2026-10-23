@@ -152,7 +152,7 @@
       'Asli logon se feedback: ek dost ko seedha photo bhejo. Ek "ye bahut pyaari hai" 200 anjaan likes se zyada kaam karta hai.',
       'Parents ke liye: "Ye kya bakwaas hai" mat bolo. Bolo: "Mujhe pata hai ye chhoti baat nahi lagti. Batao kya hua?"'
     ],
-    teacher: 'Tumhari keemat kisi app ke counter me nahi hai. Agar kabhi likes ki wajah se din kharab ho, to bas itna yaad karo: tumhara dimaag ek bahut purana alarm baja raha hai, aur us alarm ko tum dheere-dheere shaant karna seekh sakte ho.',
+    teacher: 'Tumhari keemat kisi app ke counter me nahi hai. Agar kabhi likes ki wajah se din kharab ho, to bas itna yaad karo: tumhara dimaag ek bahut purana alarm baja raha hai, aur us alarm ko dheere-dheere shaant karna seekha ja sakta hai.',
     chapters: ['adolescence-adulthood', 'social-cognition', 'motivation'],
     tags: ['likes', 'instagram', 'self-esteem', 'teenager', 'social comparison', 'belonging']
   });
@@ -316,7 +316,7 @@
   S({
     id: 'bas-ek-episode', cat: 'sehat', level: 2, kind: 'dono',
     title: '"Bas ek episode" aur raat ke 3 baj gaye, jabki kal office hai. Kyun?',
-    hook: 'Neend aa rahi thi, phir bhi phone nahi rakha. Jaise din ka badla le rahe ho.',
+    hook: 'Neend aa rahi thi, phir bhi phone nahi rakha. Jaise din se badla liya ja raha ho.',
     story: [
       'Mumbai, Tuesday. Imran (31) ek CA firm me kaam karta hai. 9 baje se 9 baje tak client calls aur Excel. Local train se ghar 10:30, khaana 11 baje. Bistar par let kar usne series lagayi: "Bas ek episode, apne liye."',
       'Episode khatam hote hi screen par countdown: "Next episode in 5... 4..." Imran ne socha "ab to cliffhanger hai". Ek aur. Phir ek aur. Aankhein jal rahi thi, par haath remote nahi rakh raha tha. 3:10 baje phone 5% par tha.',
@@ -460,7 +460,7 @@
       '<b>Cues ka map banao</b>: kab, kahan, kiske saath, kis mood me cigarette yaad aati hai. Pehle 2-3 hafte un jagahon ka raasta badlo (doosri tapri, chai office me).',
       '<b>Craving ki lahar</b>: craving aksar kuch minute me charam par pahunch kar utarti hai. 5 minute paani piyo, walk karo, saans gino ("urge surfing").',
       '<b>Slip ko relapse mat banao</b>: ek cigarette ke baad kaho, "Ye ek galti thi, plan zinda hai." Packet mat khareedo, agle din se wapas.',
-      'Dosto ke liye ek line taiyaar rakho: "Main chhod rahi hoon, offer mat karna. Chai pakki, cigarette nahi."',
+      'Dosto ke liye ek line taiyaar rakho: "Maine chhod di hai, offer mat karna. Chai pakki, cigarette nahi."',
       'Akele mat lado: doctor se nicotine replacement ya doosre options poochho, ya National Tobacco Quit Line (1800-112-356) par call karo.'
     ],
     teacher: 'Agar tumne ya tumhare kisi apne ne kai baar chhodne ki koshish ki hai, to wo fail nahi, practice hai. Zyadatar log jo chhod paate hain, kai koshishon ke baad hi chhodte hain.',
@@ -599,7 +599,7 @@
     kyun: [
       ['Dhyaan seemit hai', 'Dimaag ek waqt me do mushkil kaam nahi karta; wo tezi se switch karta hai (Level 3, thinking). Driving aur price ki bahas dono dhyaan maangte hain. Har switch me kuch pal ke liye sadak "andheri" ho jaati hai.'],
       ['Inattentional blindness', 'Daniel Simons aur Christopher Chabris (1999) ke mashhoor "gorilla" experiment me basketball passes ginte log beech me se guzarte gorilla costume wale insaan ko aksar dekh hi nahi paaye. Call me doobi Neha ki aankhein exit board par padi hongi, par dimaag ne use register nahi kiya.'],
-      ['Overconfidence', 'Har baar jab "bas ek message" ke baad kuch nahi hua, dimaag ne seekha "main ye kar sakti hoon". Near-miss ko log aksar "dekha, maine sambhal liya" padhte hain, "main maut ke kitne paas thi" nahi.'],
+      ['Overconfidence', 'Har baar jab "bas ek message" ke baad kuch nahi hua, dimaag ne seekha "ye to ho jaata hai". Near-miss ko log aksar "dekha, maine sambhal liya" padhte hain, "main maut ke kitne paas thi" nahi.'],
       ['Notification ka khinchaav', 'Message ka khula loop (client wait kar raha hai) aur variable reward (kya jawab aaya?) haath ko phone ki taraf khinchte hain, chahe gaadi chal rahi ho.']
     ],
     kaise: [
@@ -654,7 +654,7 @@
     fix: [
       '<b>Context pakdo</b>: likho, galti kab, kahan, kis haalat me hoti hai. Kishore ji ke liye: "Dopahar 1-2, bheed, bhookh."',
       '<b>Context badlo</b>: 12:45 par lunch, bheed se pehle. Bhookha dimaag sabse kamzor brake hai.',
-      '<b>If-then plan</b> (Peter Gollwitzer ka "implementation intention"): "Agar Varun bheed me galti kare, to main sirf itna bolunga: <i>baad me baat karte hain</i>, aur parchi par likh lunga." Tay jawab, automatic gusse ki jagah lega.',
+      '<b>If-then plan</b> (Peter Gollwitzer ka "implementation intention"): "Agar Varun bheed me galti kare, to sirf itna kehna hai: <i>baad me baat karte hain</i>, aur baat parchi par likh leni hai." Tay jawab, automatic gusse ki jagah lega.',
       'Saamne wale ko shaamil karo: Varun ke saath ek signal tay karo (jaise "chai ka time") jo dono ko yaad dilaye.',
       'Slip ho to khud ko mat kosho. Aadat 21 din nahi, kai hafte leti hai. Ginti karo kitne din <b>sahi</b> gaye.'
     ],

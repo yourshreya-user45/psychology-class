@@ -37,7 +37,7 @@
       '<b>Nakli deadline banao</b>: dost ke saath tay karo, "Friday ko ek doosre ko Unit 1 padha kar sunayenge." Kisi aur ke saamne ka vaada zyada tikta hai.',
       'Ek din chhoot jaaye to "ab to sab bekaar" mat socho. Agle din wahin se shuru karo.'
     ],
-    teacher: 'Agar ye kahani tumhari bhi hai, to khud ko aalsi mat bolo. Kitaab se nahi, us bechaini se bhaag rahe ho. Bechaini ke saath bas do minute baith jao, phir dekho kaam kaise chal padta hai.',
+    teacher: 'Agar ye kahani tumhari bhi hai, to khud ko aalsi mat bolo. Bhaagna kitaab se nahi, us bechaini se hota hai. Bechaini ke saath bas do minute baith jao, phir dekho kaam kaise chal padta hai.',
     chapters: ['motivation', 'operant-conditioning', 'cognitive-biases'],
     tags: ['procrastination', 'exam', 'present bias', 'padhai', 'deadline', 'hostel']
   });
@@ -108,7 +108,7 @@
       '<b>Blank ho to body pehle</b>: pen rakho, 4 second saans andar, 6 second bahar, paanch baar. Lambi saans bahar chhodna body ko shaant karta hai.',
       '<b>Sawaal chhodo, ruko mat</b>: jo nahi aa raha uspar nishaan lagao aur aage badho. Aksar doosra sawaal karte waqt yaad laut aati hai, jaise Karthik ke saath hua.',
       '<b>Gate ki afwaahon se door</b>: exam se pehle 15 minute akele raho, kisi se "kya padha" mat poochho.',
-      'Agar exam ka darr hafton tak neend, khana ya saans par asar karne lage, to akele mat jhelo. Tele-MANAS (14416) par free me baat kar sakte ho.'
+      'Agar exam ka darr hafton tak neend, khana ya saans par asar karne lage, to akele mat jhelo. Tele-MANAS (14416) par free me baat ho sakti hai.'
     ],
     teacher: 'Agar exam me kabhi tumhara dimaag blank hua hai, to yaad rakho: padha hua gaya nahi tha, bas darwaza kuch der band tha. Saans lo, aage badho, darwaza khul jaayega.',
     chapters: ['memory', 'stress-coping', 'nervous-endocrine'],
@@ -123,7 +123,7 @@
       'Ludhiana me Simran ke 10th ke pre-boards me Maths me 71 aaye. Raat ke khaane par papa ne kaha, "Gupta ji ki Rhea ke 96 aaye hain. Wo bhi tumhare saath hi tuition jaati hai. Tumhe kya kami hai?" Mummy ne dheere se joda, "Rhea to subah 5 baje uthti hai." Papa ka matlab bura nahi tha. Unhe laga thoda jhatka lagega to beti mehnat karegi.',
       'Agle din Simran tuition gayi, par Rhea se baat nahi ki. Ghar aa kar Maths ki jagah English padhti rahi, "jismein main achhi hoon". Family WhatsApp group me Gupta ji ne Rhea ka result share kiya; Simran ne group mute kar diya. Final boards me Maths me 68 aaye. Papa hairaan the: "Itna samjhaya, phir bhi?"'
     ],
-    guess: ['Papa ki comparison ne kaam kyun nahi kiya?', ['Simran ziddi hai, use samjhana bekaar hai', 'Comparison ne mehnat ki jagah "main hi kam hoon" wali feeling jagai, aur dimaag ne us dard se bachne ke liye Maths se hi doori bana li', 'Rhea Simran se zyada intelligent hai'], 1, 'Upar ki comparison kabhi-kabhi prerna deti hai, par sirf tab jab lage "main bhi wahan pahunch sakti hoon". Warna wo sharm banti hai, aur sharm se insaan chhupta hai.'],
+    guess: ['Papa ki comparison ne kaam kyun nahi kiya?', ['Simran ziddi hai, use samjhana bekaar hai', 'Comparison ne mehnat ki jagah "main hi kam hoon" wali feeling jagai, aur dimaag ne us dard se bachne ke liye Maths se hi doori bana li', 'Rhea Simran se zyada intelligent hai'], 1, 'Upar ki comparison kabhi-kabhi prerna deti hai, par sirf tab jab lage "main bhi wahan pahunch sakta/sakti hoon". Warna wo sharm banti hai, aur sharm se insaan chhupta hai.'],
     kya: 'Ghar wale bachche ki tulna kisi "behtar" bachche se karte hain, ye soch kar ki isse mehnat badhegi. Bachcha aksar ulta us subject, us dost, ya padhai se hi doori bana leta hai.',
     kyun: [
       ['Upward social comparison', 'Hum apni qeemat doosron se tulna karke aankte hain. Rhea ke 96 ke saamne Simran ke 71 achanak "failure" ban gaye, jabki khud me wo theek-thaak number tha. Tulna ne naap-tol ki line hi badal di.'],
@@ -222,7 +222,7 @@
       '<b>Copy pehle, kahani baad me</b>: result ke din kisi ko wajah batane se pehle apni copy dekho.',
       'Dost ko jawab dene ka imaandaar tareeka: "Thoda paper bhi tough tha, par maine teen sawaal chhod diye the. Agli baar time ka plan pehle banana hai."'
     ],
-    teacher: 'Apni galti maanna kamzori nahi, ek super-power hai: jo galti tumhari hai, sirf wahi tum theek kar sakte ho. Paper ko theek karna tumhare haath me nahi.',
+    teacher: 'Apni galti maanna kamzori nahi, ek super-power hai: jo galti tumhari hai, sirf wahi theek karna tumhare haath me hai. Paper ko theek karna tumhare haath me nahi.',
     chapters: ['social-cognition', 'cognitive-biases', 'attitudes-persuasion'],
     tags: ['self-serving bias', 'attribution', 'result', 'excuse', 'dissonance', 'college']
   });
@@ -571,7 +571,7 @@
       'Bhopal ki Nisha college me thi aur ek food app par "5 orders me 1 free meal" wala card chal raha tha. App me 5 me se 2 khaane pehle se "bonus" ke roop me bhare huye the. Usne socha, "Bas teen hi bache." Agla order karte waqt app ne kaha "₹50 cashback, sirf ₹399 se upar". Uska order ₹280 ka tha; usne ek dessert jod diya.',
       'Mahine ke end me Nisha ne hisaab lagaya: cashback me ₹320 mile, par khaane par ₹4,800 kharch hua, jo pichhle mahine se lagbhag double tha. Uski roommate Ritu boli, "Tu to hostel ka khaana bhi chhod chuki hai." Nisha ke paas ab wallet me ₹320 ke "coins" the, jo sirf usi app par chalte the, aur unhe "barbaad na ho" isliye ek aur order karna pada.'
     ],
-    guess: ['Nisha ne "bachat" ke chakkar me zyada kharch kyun kiya?', ['Nisha ko khaane ka bahut shauk hai', 'Card par pehle se bhare points, threshold aur sirf-app-wale coins ne har baar "bas ek aur" ka bahana diya', 'Cashback sach me fayde ka sauda tha'], 1, 'Cashback tab fayda hai jab tum waise bhi khareedte. Jab cashback hi khareedne ki wajah ban jaaye, to wo marketing ka kharcha hai jo tum de rahe ho.'],
+    guess: ['Nisha ne "bachat" ke chakkar me zyada kharch kyun kiya?', ['Nisha ko khaane ka bahut shauk hai', 'Card par pehle se bhare points, threshold aur sirf-app-wale coins ne har baar "bas ek aur" ka bahana diya', 'Cashback sach me fayde ka sauda tha'], 1, 'Cashback tab fayda hai jab tum waise bhi khareedte. Jab cashback hi khareedne ki wajah ban jaaye, to wo marketing ka kharcha hai jo tumhari jeb se ja raha hai.'],
     kya: 'Log cashback, coins, loyalty points aur "ek aur order par reward" ke chakkar me zyada aur baar-baar khareedte hain, aur bachat ka hisaab lagate hain, kharche ka nahi.',
     kyun: [
       ['Endowed progress effect', 'Card par pehle se 2 "bonus" bhare the, to Nisha ko laga wo aadhe raste par hai. Jab lagta hai hum pehle se shuru kar chuke hain, to target poora karne ki chahat badh jaati hai.'],
@@ -629,7 +629,7 @@
     fix: [
       '<b>"Aaj khareedta?" test</b>: har share ke liye poochho, "Agar mere paas ye share na hota aur aaj ye paisa cash me hota, to kya ise aaj ke daam par khareedna banta?" Agar nahi, to pakad kar rakhna bhi ek "khareed" hai.',
       '<b>Pehle se exit rule</b>: khareedte waqt hi likh lo: "Agar company ke do results lagataar kharab aaye, ya share 25% gira, to dobaara sochna hai." Rule shaant waqt me banta hai, kaam tension me aata hai.',
-      '<b>Khareed daam chhupao</b>: kai apps me "avg buy price" dikhna band ya kam kar sakte ho. Aaj ki keemat aur company ki haalat dekho.',
+      '<b>Khareed daam chhupao</b>: kai apps me "avg buy price" dikhna band ya kam kiya ja sakta hai. Aaj ki keemat aur company ki haalat dekho.',
       '<b>Tip par nahi</b>: kisi bhi dost, WhatsApp group ya YouTube tip par paisa lagane se pehle company ke results khud dekho.',
       'Agar samajh na aaye, to index fund ya SEBI-registered advisor ki madad lo.'
     ],

@@ -42,7 +42,7 @@
 
   K({
     id: 'incubation-break', cat: 'creative', level: 1,
-    q: 'Kisi problem par atak gaye ho to kya karein?',
+    q: 'Kisi problem par dimaag atak jaaye to kya karein?',
     short: 'Pehle poori mehnat se problem samjho, phir jaanbujh kar break lo aur koi halka kaam karo. Dimaag peeche se kaam karta rehta hai, aur jawab aksar baad me "click" hota hai.',
     why: [
       'Graham Wallas ne 1926 me creative process ke char stage bataye: <b>preparation</b> (mehnat se samajhna), <b>incubation</b> (chhod dena), <b>illumination</b> ("aha!" moment) aur <b>verification</b> (check karna).',
@@ -51,7 +51,7 @@
     ],
     steps: [
       ['Pehle 20-30 minute poori mehnat', 'Problem likho, kya try kiya wo likho, kahan atke wo likho. Ye preparation hai.'],
-      ['Atakne ko pehchaano', 'Agar 10 minute se ek hi idea ghoom raha hai, to tum fixate ho chuke ho. Ye break ka signal hai.'],
+      ['Atakne ko pehchaano', 'Agar 10 minute se ek hi idea ghoom raha hai, to dimaag fixate ho chuka hai. Ye break ka signal hai.'],
       ['Halka kaam chuno', 'Walk, naha lena, kapde tah karna, sabzi kaatna. Phone scroll ya doosra mushkil kaam nahi.'],
       ['Notepad paas rakho', 'Jo bhi khayal aaye, turant likh lo. "Aha" ideas jaldi bhaag jaate hain.'],
       ['Wapas aakar check karo', 'Naye idea ko asli problem par test karo. Har "aha" sahi nahi hota.']
@@ -67,7 +67,7 @@
       'Aha idea ko bina check kiye sahi maan lena. Shower ke ideas bhi kabhi-kabhi galat hote hain.'
     ],
     drill: 'Aaj jis kaam par atke ho (assignment, presentation, ghar ka koi faisla), 20 minute uspar mehnat karo aur 3 line me likho ki kahan atke. Phir 15 minute bina phone walk karo, jeb me ek chhota kaagaz rakh kar.',
-    teacher: 'Zid se ghoorna mehnat jaisa lagta hai, par kai baar ye bas ek band darwaze ko baar-baar dhakka dena hota hai. Thoda peeche hatoge to doosra darwaza dikhega.',
+    teacher: 'Zid se ghoorna mehnat jaisa lagta hai, par kai baar ye bas ek band darwaze ko baar-baar dhakka dena hota hai. Thoda peeche hato, to doosra darwaza dikhega.',
     chapters: ['thinking-decisions', 'consciousness-sleep'],
     tags: ['incubation', 'stuck', 'wallas', 'aha moment', 'break']
   });
@@ -121,7 +121,7 @@
       ['Ek clear seema chuno', 'Paisa (2000 rupaye), time (1 shaam), cheezein (jo ghar me hai), ya format (sirf ek page).'],
       ['Seema ko khel banao', '"Agar ek bhi rupaya kharch na karna ho to?" Extreme version bhi try karo.'],
       ['Seema me 10 ideas', 'Divergent thinking yahan bhi: pehle bahut ideas, phir chuno.'],
-      ['Seema dheeli karke dekho', 'Best idea mila? Ab dekho ki thoda zyada budget se use behtar kar sakte ho ya nahi.']
+      ['Seema dheeli karke dekho', 'Best idea mila? Ab dekho ki thoda zyada budget se use behtar kiya ja sakta hai ya nahi.']
     ],
     example: [
       'Simran aur uska bhai Aman apne mummy-papa ki 25th anniversary ke liye hotel me party chahte the, par budget nahi tha. Simran ne kaha, "Chalo maante hain sirf 2000 rupaye hain aur sirf ghar ki cheezein."',
@@ -207,7 +207,7 @@
       'Inspiration ka intezaar karna. Inspiration aksar kaam shuru karne ke baad aati hai, pehle nahi.',
       'Pehle draft ko doosron ke final kaam se compare karna. Tum unke 20 draft nahi dekhte.'
     ],
-    drill: 'Jo kaam taal rahe ho, uska 15 minute ka "jaanbujh kar bura" version banao: ek ugly slide, ek bekaar paragraph, ek kaccha sketch. Bas banana hai, sudharna kal.',
+    drill: 'Jo kaam tal raha hai, uska 15 minute ka "jaanbujh kar bura" version banao: ek ugly slide, ek bekaar paragraph, ek kaccha sketch. Bas banana hai, sudharna kal.',
     teacher: 'Perfect kaam duniya me kam hai, aur adhoora pada "perfect" kaam usse bhi kam kaam ka. Pehle bana lo, phir pyaar se sudhaaro.',
     chapters: ['motivation', 'stress-coping', 'personality-traits'],
     tags: ['perfectionism', 'creative block', 'procrastination', 'first draft', 'fear of judgment']
@@ -301,7 +301,7 @@
       ['Dene se pehle permission', '"Ek feedback dun? Abhi theek hai ya baad me?" Privately, sabke saamne nahi.'],
       ['Situation, behaviour, impact', '"Kal ki presentation me (situation), tumne client ka sawaal kaat diya (behaviour), aur wo chup ho gaye (impact)."'],
       ['Bharosa aur aage ka raasta', '"Tumhari tayaari solid thi. Agli baar unhe poora bolne do, phir jawab do."'],
-      ['Lete waqt: pehle samjho', '"Ek example de sakte ho?" Behes nahi, sawaal.'],
+      ['Lete waqt: pehle samjho', '"Ek example milega?" Behes nahi, sawaal.'],
       ['Phir chuno', 'Har feedback sach nahi hota. Sun lo, ek din socho, phir tay karo kya rakhna hai.']
     ],
     example: [
@@ -311,7 +311,7 @@
     ],
     script: [
       ['Feedback shuru karna', '"Ek cheez share karni hai jo mujhe lagta hai kaam aayegi. Abhi 5 minute hain?"'],
-      ['Kadi baat ke saath bharosa', '"Ye isliye keh rahe hain kyunki standards oonche hain, aur bharosa hai ki tum ye kar sakte ho."'],
+      ['Kadi baat ke saath bharosa', '"Ye isliye keh rahe hain kyunki standards oonche hain, aur bharosa hai ki ye tumse ho jaayega."'],
       ['Jab feedback mile aur bura lage', '"Thank you batane ke liye. Ek example milega? Thoda sochna hai, kal wapas baat karte hain."']
     ],
     mistakes: [
@@ -338,7 +338,7 @@
       ['Pehli 30 second ratt lo', 'Shuruaat sabse darawni hoti hai. Pehli 2-3 line yaad ho to engine start ho jaata hai.'],
       ['Notes me points, script nahi', 'Poori script padhne se aankh kaagaz me rehti hai. 5-6 keywords kaafi.'],
       ['Body ko kaam do', 'Bolne se pehle 4-5 lambi saans (lambi saans bahar). Haath me clicker ya pen.'],
-      ['Darr ka naam badlo', '"Main ghabra raha hoon" ki jagah "Ye josh hai, body ready ho rahi hai."'],
+      ['Darr ka naam badlo', '"Mujhe ghabrahat ho rahi hai" ki jagah "Ye josh hai, body ready ho rahi hai."'],
       ['Chhota exposure ladder', 'Dosto ke saamne, phir class me ek sawaal, phir 2 minute ka update, phir presentation.']
     ],
     example: [
@@ -375,7 +375,7 @@
       ['Observation: camera kya dekhta?', '"Is hafte teen baar tumne raat 11 baje ke baad call kiya" na ki "tum kabhi time ki respect nahi karte".'],
       ['Feeling: ek shabd', 'Pareshaan, thaka hua, akela, chinta. "Mujhe lagta hai tum..." feeling nahi, judgement hai.'],
       ['Need: kyun zaroori hai', '"Mujhe subah 6 baje uthna hota hai, neend chahiye."'],
-      ['Request: saaf, chhota, karne layak', '"Kya 10 baje ke baad sirf urgent ho to call kar sakte ho?" Maang hai, hukm nahi.'],
+      ['Request: saaf, chhota, karne layak', '"Kya 10 baje ke baad call sirf urgent kaam ke liye rakhein?" Maang hai, hukm nahi.'],
       ['Phir suno', 'Unki side bhi aayegi. Active listening wahi se shuru.']
     ],
     example: [
@@ -406,7 +406,7 @@
     why: [
       'Petty aur Cacioppo ke <b>Elaboration Likelihood Model</b> ke hisaab se persuasion ke do raaste hain: <b>central</b> (log arguments soch-samajh kar parakhte hain) aur <b>peripheral</b> (shortcut: confident aawaaz, "sab kar rahe hain", jaldi ka pressure). Central raaste se bana yakeen zyada tikta hai. Manipulation aksar peripheral raaste ka galat istemal hai.',
       'Motivational Interviewing (Miller aur Rollnick) me dekha gaya ki jab hum kisi ko dhakka dete hain, wo aksar ulta behes karta hai (log apni aazaadi bachaate hain). Jab hum poochhte hain aur unki apni wajah nikalne dete hain, badlaav zyada hota hai.',
-      'Ethical aur manipulative persuasion me test simple hai: <b>kya tum apna tareeka saamne wale ko khul kar bata sakte ho?</b> "Maine tumhe dono pehlu dikhaye" bata sakte ho. "Maine tumhe jaldi me faisla karwaya taaki tum soch na sako" nahi bata sakte. (Level 8 me iske ulte, bachne ke tareeke hain.)'
+      'Ethical aur manipulative persuasion me test simple hai: <b>kya apna tareeka saamne wale ko khul kar bataya ja sakta hai?</b> "Maine tumhe dono pehlu dikhaye" bataya ja sakta hai. "Maine tumhe jaldi me faisla karwaya taaki tum soch na sako" kabhi nahi. (Level 8 me iske ulte, bachne ke tareeke hain.)'
     ],
     steps: [
       ['Pehle sawaal, phir pitch', '"Tumhe isme sabse badi chinta kya lagti hai?" Unki chinta tumhara agenda hai.'],
@@ -445,7 +445,7 @@
     why: [
       'Susan Fiske aur saathiyon ke <b>Stereotype Content Model</b> ke hisaab se hum doosron ko do dimensions par parakhte hain: <b>warmth</b> (iske iraade achhe hain?) aur <b>competence</b> (ye iraade poore kar sakta hai?). Research me warmth ka judgement aksar pehle aur zyada tezi se hota hai: pehle "dost ya khatra", phir "kitna kaabil".',
       'Pehli impression bahut tez banti hai. "Thin slices" research (Ambady aur Rosenthal) me log kuch second ke video se bhi kisi ke baare me andaaze laga lete the. Par tez ka matlab sahi nahi: pehli impression galat bhi hoti hai, aur badal bhi sakti hai.',
-      'Ek aur dilchasp research: baat-cheet ke baad log aksar ye kam aankte hain ki saamne wale ne unhe kitna pasand kiya (ise "liking gap" kaha gaya). Matlab, tum shayad jitna sochte ho usse behtar impression already bana rahe ho.'
+      'Ek aur dilchasp research: baat-cheet ke baad log aksar ye kam aankte hain ki saamne wale ne unhe kitna pasand kiya (ise "liking gap" kaha gaya). Matlab, tumhara impression shayad tumhari soch se behtar ban raha hai.'
     ],
     steps: [
       ['Naam suno aur ek baar bolo', '"Achha, Harpreet. Kis team se ho?" Naam bolne se yaad bhi rehta hai.'],
@@ -461,7 +461,7 @@
     ],
     script: [
       ['Kisi naye se milte waqt', '"Hi, main [naam]. Tum yahan kis kaam se jude ho?"'],
-      ['Naam bhool jaane par', '"Sorry, naam dobara bata sakte ho? Yaad rakhna hai."'],
+      ['Naam bhool jaane par', '"Sorry, naam ek baar phir bataiye? Yaad rakhna hai."'],
       ['Agli mulaqat me', '"Pichhli baar tumne [detail] bataya tha, uska kya hua?"']
     ],
     mistakes: [
@@ -478,7 +478,7 @@
   K({
     id: 'dont-know-answer', cat: 'room', level: 1,
     q: 'Jab kisi sawaal ka jawab na pata ho to kya bolein, bina bewakoof lage?',
-    short: 'Seedha maano ki pata nahi, phir jo pata hai wo batao aur bolo ki kab tak pata karke bataoge. Gol-mol jawab dene se "pata nahi" kehna kahin zyada smart lagta hai.',
+    short: 'Seedha maano ki pata nahi, phir jo pata hai wo batao aur bolo ki kab tak pata karke bataya jaayega. Gol-mol jawab dene se "pata nahi" kehna kahin zyada smart lagta hai.',
     why: [
       '<b>Intellectual humility</b> par research (jaise Mark Leary aur saathiyon ka kaam) me ye dekha gaya ki jo log maan lete hain ki unki jaankari me kami ho sakti hai, wo naye saboot par zyada dhyaan dete hain aur bias kam dikhaate hain.',
       'Dunning-Kruger effect yaad karo: kisi field me kam jaankaari wale aksar apni kshamata ko zyada aankte hain. Jo log sach me jaante hain, wo aksar apni seemayein bhi jaante hain. Isliye "Ye mujhe nahi pata" kehna kai baar expert hone ki nishaani hai, kamzori ki nahi.',
@@ -534,7 +534,7 @@
       'Kamre ka mood badal gaya. Sayan ne phir kaha, "To shayad problem marketing nahi, payment flow hai. Kya hum agle hafte us flow ka data dekh sakte hain?" Meeting ke baad Ritu ne use agle project me bulaya. Usne 2 sawaal aur ek saaraansh diya tha, bhaashan nahi.'
     ],
     script: [
-      ['Follow-up', '"Tumne abhi [X] kaha, thoda aur bata sakte ho? Ye kab se ho raha hai?"'],
+      ['Follow-up', '"Tumne abhi [X] kaha, thoda aur batao? Ye kab se ho raha hai?"'],
       ['Assumption check', '"Ek sawaal: hum ye kaise jaante hain ki asli wajah [Y] hai?"'],
       ['Saaraansh', '"Ek summary try karte hain: abhi tak do options hain, A aur B. Faisla kis cheez par atka hai?"']
     ],
@@ -650,7 +650,7 @@
       ['Follow-up message', '"Kal ki baat ke liye thanks. [Specific detail] wali baat abhi tak dimaag me hai. Ye link kaam aa sakta hai: ..."']
     ],
     mistakes: [
-      'Pehli mulaqat me hi favour maangna ("referral de doge?"). Pehle rishta, phir maang.',
+      'Pehli mulaqat me hi favour maangna ("referral mil sakta hai?"). Pehle rishta, phir maang.',
       'Sirf "important" logon se baat karna. Log notice karte hain, aur aaj ka junior kal ka decision-maker hota hai.',
       'Copy-paste messages. Ek specific detail har message ko insaani banata hai.'
     ],
@@ -757,7 +757,7 @@
       'Dorothy kehti hai, "Samajh aata hai. Khushi aur darr ek saath, ye bahut bhaari hai." Phir poochhti hai ki kya madad karegi. Dono milkar Delhi me Ibasara ke college ke do seniors ke number dhoondhte hain aur weekly video call fix karte hain. "Wo bahut khush hogi" wala andaaza aadha sach tha, aur adha sach kai baar poore jhooth jitna door le jaata hai.'
     ],
     script: [
-      ['Feeling samajhne ke liye', '"Tum is baare me sach me kaisa mehsoos kar rahe ho?"'],
+      ['Feeling samajhne ke liye', '"Is baare me sach me tumhe kaisa lag raha hai?"'],
       ['Guess ko sawaal banana', '"Lag raha hai thoda [akela/thaka hua] mehsoos ho raha hai, sahi hai?"'],
       ['Validate karna', '"Samajh aata hai ki ye mushkil laga. Is jagah koi bhi aisa mehsoos karta."']
     ],
@@ -784,9 +784,9 @@
     steps: [
       ['Pehli reaction ko jaane do', 'Body garam hogi. Turant safaai ya palat-waar nahi; bas "Ok, sunte hain."'],
       ['Trigger pehchaano', 'Galat lag raha hai? Bolne wala pasand nahi? Ya chot pehchaan par hai?'],
-      ['Clarify karo', '"Ek example de sakte ho?" Example criticism ko vague se specific banata hai.'],
+      ['Clarify karo', '"Ek example milega?" Example criticism ko vague se specific banata hai.'],
       ['Apni values yaad karo', 'Ek line: "Main ek seekhne wala insaan hoon. Ye ek report hai, meri poori pehchaan nahi."'],
-      ['10% sach dhoondho', 'Isme kya kaam ka hai? Wo rakho, baaki chhodo. Faisla 24 ghante baad bhi kar sakte ho.']
+      ['10% sach dhoondho', 'Isme kya kaam ka hai? Wo rakho, baaki chhodo. Faisla 24 ghante baad bhi ho sakta hai.']
     ],
     example: [
       'Chandigarh me Gurleen ne apni pehli short film family WhatsApp group par daali. Mausa ji ne likha: "Bahut lambi hai, aur aawaz saaf nahi. Time waste." Gurleen ko laga jaise kisi ne thappad maara ho. Usne jawab likha, "Film ke baare me pata bhi hai kuch?", par bheja nahi.',
@@ -794,7 +794,7 @@
       'Subah usne film dobara dekhi, sirf ye dhoondhne ki koi sach hai kya. Aawaaz sach me kuch scenes me dheemi thi. Lambaai uski choice thi, use wo rakhni thi. Usne agli film ke liye 800 rupaye ka lapel mic order kiya, aur mausa ji ko likha: "Thanks, aawaz wali baat sahi thi." Gussa jaane diya, sach rakh liya.'
     ],
     script: [
-      ['Criticism sunte hi', '"Ok, sunte hain. Ek example de sakte ho?"'],
+      ['Criticism sunte hi', '"Ok, sunte hain. Ek example milega?"'],
       ['Jab time chahiye', '"Thank you. Isko thoda sochna hai, kal baat karte hain."'],
       ['Jab kuch sach ho', '"Ye point sahi hai, ispar kaam karte hain. Baaki par ek alag soch hai, wo bhi share karni hai."']
     ],
@@ -803,7 +803,7 @@
       'Ek criticism ko poori pehchaan par le lena ("main bekaar hoon"). Ek kaam, ek din, ek galti.',
       'Har criticism maan lena. Sunna aur maanna alag hain.'
     ],
-    drill: 'Pichhle mahine ka ek criticism yaad karo jo chubha tha. Likho: kaunsa trigger tha (truth, relationship, identity), aur usme 10% sach kya tha. Ek chhota kadam bhi likho jo us 10% par le sakte ho.',
+    drill: 'Pichhle mahine ka ek criticism yaad karo jo chubha tha. Likho: kaunsa trigger tha (truth, relationship, identity), aur usme 10% sach kya tha. Ek chhota kadam bhi likho jo us 10% par liya ja sake.',
     teacher: 'Jo criticism sabse zyada chubhta hai, uske andar aksar kuch sach hota hai, ya kuch aisa jo hum khud apne baare me darte hain. Dono me kaam ki cheez hai.',
     chapters: ['emotion', 'stress-coping', 'personality-traits'],
     tags: ['criticism', 'feedback triggers', 'self-affirmation', 'defensiveness', 'growth']

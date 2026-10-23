@@ -53,7 +53,7 @@
       ['Uthte hi roshni', 'Parda kholo, balcony ya chhat par 5-10 minute. Baadal ho tab bhi bahar ki roshni andar ke bulb se kaafi zyada hoti hai.'],
       ['Body hilao', '10 squats, thodi stretching, ya seedhiyan chadhna. Pasina nahi chahiye, bas khoon ka daura.'],
       ['Ek glass paani', 'Raat bhar paani nahi piya. Halki dehydration bhi sir bhaari kar sakti hai.'],
-      ['Phone ko 20 minute ruko', 'Uthte hi notifications khologe to dimaag tumhare plan ki jagah doosron ke agenda par chalne lagta hai.']
+      ['Phone ko 20 minute ruko', 'Uthte hi notifications khol li, to dimaag tumhare plan ki jagah doosron ke agenda par chalne lagta hai.']
     ],
     example: [
       'Arjun, Pune me BCom final year, roz 7 baje alarm snooze karta tha, bistar me hi 25 minute Instagram, phir bhaag kar college. Pehla lecture "dhund" me jaata tha. Wo khud ko "morning person nahi hoon" bolta tha.',
@@ -115,7 +115,7 @@
     why: [
       '<b>Retrieval practice</b>: yaad se nikaalna khud ek seekhne ka kaam hai. Roediger aur Karpicke (2006) ke experiment me jin students ne padh kar khud ko test kiya, unhe kuch din baad zyada yaad raha, un students se jinhone wahi time dobara padhne me lagaya. Dobara padhna aasaan lagta hai, isliye "yaad hai" ka jhootha ehsaas deta hai.',
       '<b>Spacing</b>: Ebbinghaus ke zamane se pata hai ki bhoolna tezi se hota hai (forgetting curve). Ek din me 3 ghante ki jagah teen din me ek ek ghanta lagbhag hamesha behtar yaad rehta hai. Thoda bhool kar phir yaad karna dimaag ko strong banata hai.',
-      '<b>Feynman technique</b> (physicist Richard Feynman ke naam par mashhoor): concept ko seedhe shabdon me samjhao. Jahan atkoge, wahi tumhara gap hai. Aur ek myth: "main visual learner hoon" jaise <b>learning styles</b> ka koi pakka saboot nahi mila (Pashler aur saathi, 2008 ki review). Content ke hisaab se tareeka chuno, apne "style" ke hisaab se nahi.'
+      '<b>Feynman technique</b> (physicist Richard Feynman ke naam par mashhoor): concept ko seedhe shabdon me samjhao. Jahan atak jao, wahi tumhara gap hai. Aur ek myth: "main visual learner hoon" jaise <b>learning styles</b> ka koi pakka saboot nahi mila (Pashler aur saathi, 2008 ki review). Content ke hisaab se tareeka chuno, apne "style" ke hisaab se nahi.'
     ],
     steps: [
       ['Padho, phir kitaab band', '10-15 minute padho, phir band karke jo yaad hai wo likho ya bolo. Kharab lagega, yahi seekhna hai.'],
@@ -147,7 +147,7 @@
   K({
     id: 'memory-palace', cat: 'active', level: 2,
     q: 'Lambi list ya naam numbers yaad rakhne ke liye memory tez kaise karein?',
-    short: 'Cheezon ko jaani pehchaani jagah par rakh do (memory palace) aur chhote tukdon me jodo (chunking). Memory ek muscle se zyada ek storage system hai: achhe se rakhoge to aasaani se milegi.',
+    short: 'Cheezon ko jaani pehchaani jagah par rakh do (memory palace) aur chhote tukdon me jodo (chunking). Memory ek muscle se zyada ek storage system hai: achhe se rakho, to aasaani se milegi.',
     why: [
       '<b>Method of loci</b> (memory palace) kam se kam Greek-Roman zamane se use ho raha hai. Hamara dimaag jagah aur raaste yaad rakhne me bahut acha hai. Jab koi abstract cheez kisi jaani pehchaani jagah par ek ajeeb, zinda image ke saath rakhte hain, to use wapas nikaalna aasaan hota hai. Memory championships jeetne wale log zyaadatar yahi tareeka use karte hain; research me unke dimaag "alag" nahi, unka tareeka alag nikla.',
       '<b>Chunking</b>: working memory ek waqt me thodi hi cheezein pakad sakti hai. George Miller (1956) ne "7 plus-minus 2" kaha, baad ki research ise aur kam (lagbhag 4 tukde) maanti hai. Isliye 9876543210 ko hum 98765-43210 bolte hain. Expert chess players poori board positions ko "patterns" ke chunks me dekhte hain.',
@@ -179,7 +179,7 @@
   K({
     id: 'boredom-ka-fayda', cat: 'active', level: 3,
     q: 'Kya bina phone ke bore hona sach me dimaag ke liye accha hai, aur kaise karein?',
-    short: 'Haan, ek had tak. Khaali waqt me dimaag purani yaadein jodta hai, plan banata hai, ideas mix karta hai. Har khaali pal ko reels se bhar doge to ye kaam ruk jaata hai. Roz thoda "khaali time" plan karo.',
+    short: 'Haan, ek had tak. Khaali waqt me dimaag purani yaadein jodta hai, plan banata hai, ideas mix karta hai. Har khaali pal reels se bhar diya to ye kaam ruk jaata hai. Roz thoda "khaali time" plan karo.',
     why: [
       'Jab hum kisi bahar ke kaam par focus nahi kar rahe hote, dimaag ka ek network (<b>default mode network</b>) active hota hai. Ye apne baare me sochne, past aur future jodne, doosron ke mann ko samajhne jaise kaam se juda hai. Mind-wandering ke kuch nuksaan bhi hain (kaam me galti, kabhi udaasi wale vichaar), par planning aur ideas ke liye ye zaroori bhi hai.',
       '<b>Incubation</b>: kai baar problem chhod kar kuch aur halka karne (nahaana, chalna) ke baad hal achanak aata hai. Research me ye effect milta hai, khaaskar jab beech wala kaam halka ho. Lekin ye guarantee nahi; pehle problem par asli mehnat ki ho tab hi ye kaam karta hai.',
@@ -354,7 +354,7 @@
       'Sirf doosron ki galtiyan pakadna. Ye charon tum bhi karte ho, khaaskar gusse me.',
       'Ye maan lena ki fallacy mili to conclusion galat hai (isko bhi "fallacy fallacy" kehte hain).'
     ],
-    drill: 'Aaj kisi TV debate, YouTube comment section ya family group se 10 minute ki bahas dekho. In charon me se jitni galtiyan dikhein, likho, aur har ek ke liye ek shaant sawaal likho jo tum pooch sakte ho.',
+    drill: 'Aaj kisi TV debate, YouTube comment section ya family group se 10 minute ki bahas dekho. In charon me se jitni galtiyan dikhein, likho, aur har ek ke liye ek shaant sawaal likho jo poochha ja sake.',
     teacher: 'Sabse acha critical thinker wo nahi jo har bahas jeet le. Wo hai jo bahas ko sach ke kareeb le aaye, chahe wo khud galat nikle.',
     chapters: ['critical-thinking', 'attitudes-persuasion', 'cults-propaganda'],
     tags: ['fallacy', 'ad hominem', 'strawman', 'false dilemma', 'slippery slope', 'bahas']
@@ -371,7 +371,7 @@
     ],
     steps: [
       ['Apni raay likho', 'Ek line me, aur kitna yakeen hai (0-100%).'],
-      ['Teen kaaran socho ki tum galat ho sakte ho', 'Asli kaaran, majboot wale. Jo tumhe sabse bura lage, wahi zaroori hai.'],
+      ['Teen kaaran socho ki tumhari raay galat kyun ho sakti hai', 'Asli kaaran, majboot wale. Jo tumhe sabse bura lage, wahi zaroori hai.'],
       ['Ulta test', '"Agar yahi saboot doosri side ke liye hota, to main use kitna maanta / maanti?"'],
       ['Doosri side ka best source padho', 'Unka sabse samajhdaar voice, troll nahi.'],
       ['Yakeen update karo', 'Raay badalna zaroori nahi, par 90% se 70% hona bhi jeet hai.']
@@ -522,7 +522,7 @@
       ['Ulta sawaal', '"Main isko pakka barbaad kaise karunga / karungi?"'],
       ['Fail list', '10 tareeke. Mazaak me bhi chalega, jitne specific utne behtar.'],
       ['Har ek ko palto', 'Har fail tareeke ka ulta ek rule ya action ban jaata hai.'],
-      ['Jo abhi ho raha hai, mark karo', 'Fail list me se kya tum already kar rahe ho? Wahi pehla fix hai.']
+      ['Jo abhi ho raha hai, mark karo', 'Fail list me se kya kuch already ho raha hai? Wahi pehla fix hai.']
     ],
     example: [
       'Biju ki Thrissur me ek chhoti bakery hai. Naye log ek baar aate the, phir dobara nahi. Biju "zyada customers kaise laaun" soch soch kar discount ke ads chala raha tha, fayda nahi.',
@@ -538,7 +538,7 @@
       'Inversion ko negativity samajhna aur team ka mood girana. Ise khel ki tarah karo, hansi ke saath.',
       'Sirf galtiyan hataana kaafi samajhna. Kabhi kabhi kuch naya bhi chahiye; inversion pehla step hai, aakhri nahi.'
     ],
-    drill: 'Apna ek goal chuno (fitness, padhai, savings). "Ise pakka fail kaise karun?" ke 10 tareeke likho. Teen aise mark karo jo tum abhi kar rahe ho, aur un me se ek aaj band karo.',
+    drill: 'Apna ek goal chuno (fitness, padhai, savings). "Ise pakka fail kaise karun?" ke 10 tareeke likho. Teen aise mark karo jo abhi ho rahe hain, aur un me se ek aaj band karo.',
     teacher: '"Achha kaise banun?" ka jawab aksar dhundla milta hai. "Pakka bekaar kaise banun?" ki list bina kisi lecture ke sab saaf dikha deti hai.',
     chapters: ['thinking-decisions', 'cognitive-biases'],
     tags: ['inversion', 'ulta socho', 'munger', 'reverse brainstorming', 'business', 'problem solving']
@@ -647,7 +647,7 @@
       'Bade, na palatne wale faislon ko bhi "gut feeling" par jaldi lena kyunki chhote faislon me thak gaye.',
       'Chhote faislon me "galat" chunne ko apni kamzori samajhna. Do-tarfa darwaze me galti bas data hai.'
     ],
-    drill: 'Apne aane wale 5 faisle likho (chhote bade dono). Har ek ke saamne likho: palat sakta hai ya nahi, aur kitna time doge. Aaj ek chhota, palatne wala faisla 5 minute me "kaafi achha" standard ke saath le lo.',
+    drill: 'Apne aane wale 5 faisle likho (chhote bade dono). Har ek ke saamne likho: palat sakta hai ya nahi, aur kitna time dena hai. Aaj ek chhota, palatne wala faisla 5 minute me "kaafi achha" standard ke saath le lo.',
     teacher: '"Perfect" faisle ke intezaar me saal nikal jaate hain. Zyaadatar faislon ko perfect nahi, baad me theek kar dene layak hona chahiye.',
     chapters: ['thinking-decisions', 'cognitive-biases', 'positive-psychology'],
     tags: ['decision making', 'satisficing', 'herbert simon', 'maximizer', 'reversible decisions', 'choice overload']

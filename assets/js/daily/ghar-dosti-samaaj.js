@@ -205,7 +205,7 @@
     kyun: [
       ['Loss aversion aur availability', 'Gurmeet ji ne apne zamane me dekha ki doctor-engineer ki naukri pakki thi. Nuksaan ka darr fayde ki ummeed se bhaari padta hai. Naye careers ki success stories unke dimaag me "available" hi nahi.'],
       ['Sunk cost', '"Do saal ki kamai laga di" ab ek aur wajah ban gayi ki raasta na badle, chahe wo raasta kaam na kar raha ho.'],
-      ['Self-determination theory', 'Deci aur Ryan ke hisaab se motivation ke liye teen zarooratein hain: autonomy (apna faisla), competence (main kar sakti hoon), relatedness (log saath hain). Harpreet ke paas teesra tha, par pehla bilkul nahi. Isliye mehnat thi, par andar ki aag nahi.'],
+      ['Self-determination theory', 'Deci aur Ryan ke hisaab se motivation ke liye teen zarooratein hain: autonomy (apna faisla), competence (ye mujhse ho sakta hai), relatedness (log saath hain). Harpreet ke paas teesra tha, par pehla bilkul nahi. Isliye mehnat thi, par andar ki aag nahi.'],
       ['Guilt induction', '"Humne sab kuch kiya" jaisi line, chahe pyaar se kahi gayi ho, bachche ke andar karz ki bhawna paida karti hai. Jab ye line baar-baar faisle badalne ke liye use ho, to ye ek manipulation pattern ban jaata hai.']
     ],
     kaise: [
@@ -222,7 +222,7 @@
       'Parents ke liye ek sawaal: "Mera zor bachche ke sapne se aa raha hai ya mere darr se?"',
       'Data se baat karo: dono milkar kisi counsellor ya us field ke kisi professional se ek ghante ki baat karein.',
       'Har hafte ek call jisme padhai ki koi baat nahi, bas "Tu kaisi hai? Neend aa rahi hai?"',
-      'Agar pressure bahut bhaari lage, khud ko akela mat chhodo: kisi bharose wale se baat karo, ya <b>Tele-MANAS 14416</b> par free, confidential baat kar sakte ho.'
+      'Agar pressure bahut bhaari lage, khud ko akela mat chhodo: kisi bharose wale se baat karo, ya <b>Tele-MANAS 14416</b> par free, confidential baat ho sakti hai.'
     ],
     teacher: 'Tumhare parents ka darr asli hai, aur tumhara sapna bhi. Dono ko ek hi table par rakhne ki himmat hi asli samajhdari hai.',
     chapters: ['adolescence-adulthood', 'motivation', 'stress-coping'],
@@ -295,7 +295,7 @@
     real: ['Asch conformity experiments (Solomon Asch, 1950s)', 'Students ko lines ki lambai match karni thi, jahan sahi jawab bilkul saaf tha. Jab group ke baaki log (jo actor the) jaanbujh kar galat jawab dete, to lagbhag 75% participants ne kam se kam ek baar group ke saath galat jawab diya. Par jab group me sirf ek aur insaan sahi jawab deta, to conformity kaafi gir gayi. Ek awaaz bahut fark daalti hai.'],
     fix: [
       'Group me pehle bolne ki koshish karo, kyunki pehli raay baaki ko azaad karti hai: <b>"Main is baar skip karunga/karungi, exams hain. Baaki log jao to photos bhejna!"</b>',
-      'Plan dene wale ho to bolo: "Sach me batana, na bhi bologe to koi baat nahi." Ye "na" ko sasta bana deta hai.',
+      'Plan tumhara ho to bolo: "Sach me batana, na bhi kaha to koi baat nahi." Ye "na" ko sasta bana deta hai.',
       'Group polls use karo jahan vote anonymous ho.',
       'Haan bolne se pehle khud se poocho: "Agar sab mana kar dein, kya main phir bhi jaana chahunga/chahungi?"'
     ],
@@ -356,7 +356,7 @@
     kya: 'Log apne kareebi dost ki success par sach me khush bhi hote hain, aur andar se chubhan bhi mehsoos karte hain. Phir guilt aata hai, aur aksar wo dost se thoda door ho jaate hain, bina wajah bataye.',
     kyun: [
       ['Self-evaluation maintenance model', 'Abraham Tesser ke model ke hisaab se kisi kareebi ki success do tarah asar karti hai. Agar field hamari pehchaan ke liye zaroori nahi, to hum garv mehsoos karte hain ("meri dost IAS!"). Agar wahi field hamari pehchaan hai, to tulna chubhti hai. UPSC dono ki pehchaan thi.'],
-      ['Benign vs malicious envy', 'Research jalan ke do roop batata hai: ek jo bolta hai "main bhi kar sakti hoon" (benign), aur ek jo bolta hai "kaash iska na hota" (malicious). Sana ki jalan zyada tar pehli thi, par guilt ne use samajhne hi nahi diya.'],
+      ['Benign vs malicious envy', 'Research jalan ke do roop batata hai: ek jo bolta hai "main bhi kar sakta/sakti hoon" (benign), aur ek jo bolta hai "kaash iska na hota" (malicious). Sana ki jalan zyada tar pehli thi, par guilt ne use samajhne hi nahi diya.'],
       ['Mixed emotions', 'Dimaag ek saath do ulti feelings rakh sakta hai. Problem jalan nahi, ye soch hai ki "achhe dost ko jalan nahi honi chahiye." Isi soch se guilt aur chhupana shuru hota hai.']
     ],
     kaise: [
@@ -403,7 +403,7 @@
       'Pehle mahine me group ban jaata hai.',
       'Baad me bhale behtar "match" mile, purana circle hi chalta hai.'
     ],
-    irada: 'Ye <b>anjaane me</b> hota hai. Bhaskar ne seedhiyon wala kamra jaanbujh kar nahi chuna tha. Par ye jaan kar ab tum ise <b>jaanbujh kar</b> use kar sakte ho: jagah aur routine chun kar, dost banane ke mauke khud bana sakte ho.',
+    irada: 'Ye <b>anjaane me</b> hota hai. Bhaskar ne seedhiyon wala kamra jaanbujh kar nahi chuna tha. Par ye jaan kar ab ise <b>jaanbujh kar</b> use karna mumkin hai: jagah aur routine chun kar, dost banane ke mauke khud banao.',
     gap: 'Iqbal ko pata tha ki use logon se milna chahiye. Par "milna" ek bada, dhundhla kaam lagta tha. Use ye nahi pata tha ki dosti badi baatcheet se nahi, chhoti, roz ki mulaqaaton se banti hai. Jaankari thi, par galat cheez ki.',
     real: ['Westgate housing study (Festinger, Schachter aur Back, 1950)', 'MIT ke married students ke housing me researchers ne dekha ki log sabse zyada dosti apne bilkul bagal waale ghar se karte the. Jinke ghar seedhiyon ya mailbox ke paas the, unke dost zyada the, kyunki log unke paas se zyada guzarte the. Duri ka chhota sa fark bhi dosti me bada fark laaya.'],
     fix: [
@@ -412,7 +412,7 @@
       'Pehla hafta khoya to bhi der nahi hui: kisi club, team ya project me shaamil ho jao jahan roz milna "built-in" ho.',
       'Kisi pasand wale insaan se dosti chahiye to "mauka" banao: "Main roz 5 baje chai par jaata/jaati hoon, chalna ho to aa jaana."'
     ],
-    teacher: 'Dosti kismat se nahi, nazdeeki aur dohraav se banti hai. Ye jaan lo, to akelapan ek "design problem" ban jaata hai, jise tum badal sakte ho.',
+    teacher: 'Dosti kismat se nahi, nazdeeki aur dohraav se banti hai. Ye jaan lo, to akelapan ek "design problem" ban jaata hai, jise badla ja sakta hai.',
     chapters: ['attraction-relationships', 'social-cognition', 'group-behavior'],
     tags: ['dosti', 'college', 'hostel', 'propinquity', 'mere exposure', 'akelapan']
   });
@@ -444,9 +444,9 @@
     irada: 'Ye <b>anjaane me</b> hai. Joel ne jaanbujh kar sharminda nahi kiya, aur Karthik jaanbujh kar yaadein nahi badal raha. Dhyaan rahe: ye kahani <b>ek galti</b> ki hai. Agar koi baar-baar, jaanbujh kar neecha dikhaye aur har baar "sorry" bol kar wahi kare, to wo galti nahi, pattern hai. Wahan maaf karne se pehle khud ko bachana zaroori hai.',
     gap: 'Karthik jaanta hai ki koi perfect nahi, usne khud kai galtiyan ki hain jinhe doston ne maaf kiya. Par maaf karna ek decision nahi, ek process hai. "Theek hai" bol dena decision tha; dard par baat karna process tha, jo kabhi hua hi nahi. Jaankari "maaf karo" kehti hai, par feeling ko pehle suna jaana chahiye.',
     fix: [
-      'Pehle khud se poocho: <b>"Ye ek galti hai ya ek pattern?"</b> Kaagaz par likho: aur kab aisa hua? Agar list khaali hai, to tum ek pal ko poora rishta bana rahe ho.',
+      'Pehle khud se poocho: <b>"Ye ek galti hai ya ek pattern?"</b> Kaagaz par likho: aur kab aisa hua? Agar list khaali hai, to ek pal ko poore rishte ka faisla banaya ja raha hai.',
       '"Theek hai" ki jagah asli baat: "Us din mujhe Divya ke parivaar ke saamne bahut sharmindagi hui. Mujhe tumhari maafi chahiye thi, par us dard ko samajhna bhi."',
-      'Maafi maangne wale ke liye: "galti ho gayi" se aage jao. Bolo tumne kya kiya, uska kya asar hua, aur aage kya badloge.',
+      'Maafi maangne wale ke liye: "galti ho gayi" se aage jao. Bolo tumne kya kiya, uska kya asar hua, aur aage kya badlega.',
       'Maaf karna ka matlab bhoolna nahi, aur rishta wapas pehle jaisa banana bhi zaroori nahi. Bas ye ki wo ghatna ab tumhari zindagi ka remote control na rakhe.'
     ],
     teacher: 'Kisi ek pal ko poore insaan ka faisla mat banne do, jab tak wo pal baar-baar na dohraaya jaaye. Aur agar dohraaya jaaye, to khud ko bachana bhi pyaar hai.',
