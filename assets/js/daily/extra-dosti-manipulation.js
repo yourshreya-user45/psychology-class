@@ -70,7 +70,7 @@
     real: ['Dunbar aur baatcheet par research', 'Robin Dunbar aur saathiyon ne 1990s me logon ki casual baatcheet sun kar dekha ki baat ka bada hissa doosre logon aur rishton ke baare me hota hai, technical ya bade topics ke baare me kam. Dunbar ka "gossip se bhasha bani" wala idea ek theory hai, saabit fact nahi. Par is baat par kaafi research sahmat hai ki gossip rishte jodne aur todne, dono ka zariya hai.'],
     fix: [
       '<b>Simple test</b>: jo insaan tumhe doosron ke raaz batata hai, wo tumhare bhi kisi aur ko bata sakta hai. Usse apni personal baatein kam karo.',
-      '<b>Baat wahin roko</b>: jab koi "sirf tujhe bata rahi hoon" bole, to kaho: "Ye uski personal baat hai, shayad mujhe nahi sunni chahiye."',
+      '<b>Baat wahin roko</b>: jab koi "sirf tujhe bata raha/rahi hoon" bole, to kaho: "Ye uski personal baat hai, shayad mujhe nahi sunni chahiye."',
       '<b>Shaant aur seedha confront</b>: "Ye baat maine sirf tumhe batayi thi, aur ab Divya aur Arpit ko pata hai. Isliye aage se personal baatein share nahi hongi."',
       '<b>"Sensitive" wale jawab me mat phaso</b>: "Mera reaction alag baat hai. Sawaal ye hai ki baat bahar kaise gayi."',
       '<b>Damage control</b>: zaroorat ho to team lead se khud seedhi baat karo, taaki kahani tumhari zubaan se pahunche, afwaah se nahi.'
@@ -266,7 +266,7 @@
       '<b>Guilt ki pehli lehar me faisla mat lo</b>: "Mujhe ek din do, kal baat karte hain." Ek raat me guilt aadha ho jaata hai.',
       '<b>Beech ka raasta dhoondho</b>: "Diwali par nahi aa pa rahe, par agle weekend do din ke liye aate hain, aur Diwali ki shaam video call par saath me diya jalayenge."',
       '<b>Tabiyat ki baat ko seriously lo, par seedha</b>: "BP check karwaya? Kal doctor ko dikha dete hain." Fikar ko action do, guilt ko nahi.',
-      '<b>Agar tum Usha ki jagah ho</b>: seedha bolne ki practice karo: "Mujhe is Diwali tumhari bahut yaad aayegi. Kya kuch din ke liye aa sakti ho?"'
+      '<b>Agar tum Usha ki jagah ho</b>: seedha bolne ki practice karo: "Mujhe is Diwali tumhari bahut yaad aayegi. Kya kuch din ke liye aana ho sakta hai?"'
     ],
     teacher: 'Har guilt-trip ek chaal nahi hoti; kabhi-kabhi wo ek dil hota hai jise seedha maangna nahi aaya. Pattern ko pehchanna kisi ko doshi banana nahi, bas pehla kadam hai.',
     chapters: ['relationship-manipulation', 'operant-conditioning', 'emotion'],

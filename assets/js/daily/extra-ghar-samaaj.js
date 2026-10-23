@@ -33,7 +33,7 @@
     real: ['Adverse Childhood Experiences (ACE) study (Felitti aur saathi, 1998)', 'Amerika me Kaiser Permanente aur CDC ki is badi study me hazaaron adults se bachpan ki mushkilon (ghar me nasha, bimari, jhagda, abuse) ke baare me poocha gaya. Jinke bachpan me aisi zyada mushkilein thi, unme badi umar me sehat aur mental health ki dikkatein zyada dikhi. Dhyan rahe: ye correlation hai aur yaadon par tiki hai. Ye nahi kehti ki aisa bachpan kismat tay kar deta hai; supportive rishte aur therapy is asar ko kaafi kam kar sakte hain.'],
     fix: [
       '<b>Pattern ko naam do</b>: ek kaagaz par likho, "Bachpan me mera role kya tha? Aaj kin rishton me main wahi kar rahi/raha hoon?" Naam milte hi autopilot thoda dheema hota hai.',
-      '<b>Chhote "na" ki practice</b>: har hafte ek kaam jo tumhara nahi, wapas lautao. Joel jaise kisi se: "Is mahine paise nahi bhej paaungi/paaunga. Mujhe pata hai tum sambhal loge."',
+      '<b>Chhote "na" ki practice</b>: har hafte ek kaam jo tumhara nahi, wapas lautao. Joel jaise kisi se: "Is mahine paise nahi bhej paaungi/paaunga. Mujhe bharosa hai ki tumse ho jaayega."',
       '<b>Repair, perfection nahi</b>: agar wahi line bachche se nikal jaaye, to baad me bolo: "Kal maine gusse me galat kaha. Tum samajhte ho. Mujhe bahut thakaan thi." Repair hi peedhi ka chain todta hai.',
       '<b>Madad lene ka experiment</b>: hafte me ek baar kisi se madad maango aur dekho ki duniya toot-ti nahi.',
       'Agar thakaan, gussa ya udaasi bhaari lage, to family ya individual therapist se baat karo. India me <b>Tele-MANAS 14416</b> par muft aur confidential baat ho sakti hai.'
@@ -181,7 +181,7 @@
     fix: [
       '<b>Shabd nahi, feeling ka jawab do</b>: "Papa, lag raha hai aapko ye faisla achha nahi laga. Kya baat pareshaan kar rahi hai?" Ye taana nahi, darwaza hai.',
       '<b>Taane ka taana mat do</b>. Agar gussa aa raha hai, to bolo: "Main thodi der me baat karta/karti hoon", aur sach me lautkar baat karo.',
-      'Agar tum khud "main to kuch nahi kehta/kehti" bolne wale ho, to asli line try karo: "Mujhe bura laga ki mujhse pehle nahi poocha. Mujhe dar hai tum door chale jaaoge."',
+      'Agar tum khud "main to kuch nahi kehta/kehti" bolne wale ho, to asli line try karo: "Mujhe bura laga ki mujhse pehle nahi poocha. Mujhe dar hai ki hum door ho jaayenge."',
       'Ghar me ek niyam: badi khabar akele me, chai ke time, lunch table par sabke saamne nahi.'
     ],
     teacher: '"Kuch nahi" aksar sabse bhaari "kuch" hota hai. Usse ladne ki jagah ek baar dheere se poochho ki asal me kya chubh raha hai, kyunki ghuma kar bola gaya dukh bhi dukh hi hai.',
@@ -336,7 +336,7 @@
       '<b>Pehle bolo, jaldi bolo</b>: meeting me shuru ke 10 minute me ek chhota sa sawaal hi kaafi hai: "Kya hum ek beech ka option bhi dekh sakte hain?" Ek awaaz se baaki logon ko himmat milti hai.',
       '<b>Secret ballot maango</b>: "Is par paper vote ya Google Form karte hain, taaki sab apni raay de sakein."',
       '<b>Meeting se pehle baat karo</b>: do-teen padosiyon se poochho. Aksar pata chalta hai ki tum akele nahi ho.',
-      'Agar tum meeting chala rahe ho, to har kone se raay maango: "Jo log abhi tak nahi bole, unki kya raay hai?"'
+      'Agar meeting tumhare haath me ho, to har kone se raay maango: "Jo log abhi tak nahi bole, unki kya raay hai?"'
     ],
     teacher: 'Chuppi ka matlab hamesha sahmati nahi hota. Agli baar jab lage ki tum akele ho, to bas ek chhota sawaal poochh kar dekho. Aksar kamre me aur log bhi tumhari hi baat soch rahe hote hain.',
     chapters: ['conformity-obedience', 'group-behavior'],

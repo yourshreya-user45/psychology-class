@@ -91,7 +91,7 @@ C({
 
 Chapter order file aur script tag ke order se tay hota hai.
 
-Commit se pehle `node tools/check-content.js --voice` chalao: ye har chapter, quiz answer index, visual/lab reference aur teacher-voice coverage check karta hai.
+Commit se pehle `node tools/check-content.js --voice` chalao: ye har chapter, quiz answer index, visual/lab reference aur teacher-voice coverage check karta hai. Ye ye bhi check karta hai ki Roz ki Psychology me har category × level × kind combination me kam se kam ek situation ho (taaki koi filter khaali na dikhe); kisi khaali combination par error aata hai.
 
 ## Roz ki Psychology ka format
 

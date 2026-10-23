@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* Content checker: loads every script from index.html in a stubbed sandbox and
    validates chapters, quizzes, visual/lab references and teacher-voice coverage.
-   Usage: node tools/check-content.js [--voice] [--coverage]   (exit code 1 on errors) */
+   Usage: node tools/check-content.js [--voice] [--no-coverage]   (exit code 1 on errors) */
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
@@ -134,7 +134,7 @@ const libLines = [
 const emptyCells = [];
 [...dcats].forEach((c) => [...kinds].forEach((k) => [1, 2, 3].forEach((l) => { if (!sits.some((d) => d.cat === c && d.kind === k && d.level === l)) emptyCells.push(`${c}/${k}/L${l}`); })));
 libLines.push(`  filter coverage: ${dcats.size * kinds.size * 3 - emptyCells.length}/${dcats.size * kinds.size * 3} category × kind × level combinations have content`);
-if (emptyCells.length) (process.argv.includes('--coverage') ? errors : warns).push(`empty library filter combinations (${emptyCells.length}): ${emptyCells.join(', ')}`);
+if (emptyCells.length) (process.argv.includes('--no-coverage') ? warns : errors).push(`empty library filter combinations (${emptyCells.length}): ${emptyCells.join(', ')}`);
 
 // Teacher voice coverage
 const voice = process.argv.includes('--voice');
