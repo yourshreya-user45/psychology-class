@@ -75,6 +75,62 @@ chapters.forEach((c, n) => {
 });
 levels.forEach((l) => { if (!chapters.some((c) => c.level === l.n)) warns.push(`level ${l.n} has no chapters yet`); });
 
+// Libraries: Roz ki Psychology (situations) and Smart Dimaag (skills)
+const sits = PSY.situations || [], skills = PSY.skills || [];
+const dcats = new Set((PSY.dailyCats || []).map((c) => c[0])), kcats = new Set((PSY.skillCats || []).map((c) => c[0]));
+const kinds = new Set(Object.keys(PSY.dailyKinds || {}));
+const pairs = (x, min) => Array.isArray(x) && x.length >= min && x.every((p) => Array.isArray(p) && p.length === 2 && textOk(p[0]) && textOk(p[1]));
+const list = (x, min) => Array.isArray(x) && x.length >= min && x.every((y) => typeof y === 'string' && y.trim());
+const chRefs = (x, w) => { if (!Array.isArray(x) || !x.length) return errors.push(`${w}: needs chapters: [...] with at least one chapter id`); x.forEach((id) => { if (!ids.has(id)) errors.push(`${w}: chapter "${id}" does not exist`); }); };
+const lid = new Set();
+sits.forEach((d, n) => {
+  const w = `situation ${d.id || '#' + n}`;
+  if (!d.id || lid.has(d.id)) errors.push(`${w}: missing or duplicate id`);
+  lid.add(d.id);
+  if (!dcats.has(d.cat)) errors.push(`${w}: unknown cat "${d.cat}"`);
+  if (![1, 2, 3].includes(d.level)) errors.push(`${w}: level must be 1, 2 or 3`);
+  if (!kinds.has(d.kind)) errors.push(`${w}: kind must be one of ${[...kinds].join(', ')}`);
+  ['title', 'hook', 'story', 'kya', 'irada', 'teacher'].forEach((k) => { if (!textOk(d[k])) errors.push(`${w}: missing ${k}`); });
+  if (!pairs(d.kyun, 2)) errors.push(`${w}: kyun must be 2+ [concept, explanation] pairs`);
+  if (!list(d.kaise, 3)) errors.push(`${w}: kaise must be 3+ steps`);
+  if (!list(d.fix, 3)) errors.push(`${w}: fix must be 3+ tips`);
+  if (d.gap !== undefined && !textOk(d.gap)) errors.push(`${w}: gap must be text`);
+  if (d.real !== undefined && !(Array.isArray(d.real) && d.real.length === 2 && textOk(d.real[0]) && textOk(d.real[1]))) errors.push(`${w}: real must be [title, body]`);
+  if (d.guess !== undefined) {
+    const g = d.guess;
+    if (!(Array.isArray(g) && textOk(g[0]) && list(g[1], 2) && Number.isInteger(g[2]) && g[2] >= 0 && g[2] < g[1].length && textOk(g[3]))) errors.push(`${w}: guess must be [question, [options], correctIndex, reveal]`);
+  }
+  if (d.series !== undefined && !(Array.isArray(d.series) && textOk(d.series[0]) && Number.isInteger(d.series[1]) && d.series[1] >= 1)) errors.push(`${w}: series must be ['Series name', episodeNumber]`);
+  if (d.cat === 'manipulation' && !d.series) warns.push(`${w}: manipulation stories should have series: ['Name', ep]`);
+  if (!list(d.tags, 1)) errors.push(`${w}: needs tags`);
+  chRefs(d.chapters, w);
+  walk([d.title, d.hook, d.story, d.kya, d.kyun, d.kaise, d.irada, d.gap, d.real, d.fix, d.teacher, d.guess], w);
+});
+const series = {};
+sits.filter((d) => d.series).forEach((d) => { (series[d.series[0]] = series[d.series[0]] || []).push(d.series[1]); });
+Object.entries(series).forEach(([k, eps]) => { const sorted = eps.slice().sort((a, b) => a - b); if (sorted.some((e, i) => e !== i + 1)) errors.push(`series "${k}": episodes must be 1..${eps.length} without gaps or repeats (got ${sorted.join(',')})`); });
+const kid = new Set();
+skills.forEach((k, n) => {
+  const w = `skill ${k.id || '#' + n}`;
+  if (!k.id || kid.has(k.id)) errors.push(`${w}: missing or duplicate id`);
+  kid.add(k.id);
+  if (!kcats.has(k.cat)) errors.push(`${w}: unknown cat "${k.cat}"`);
+  if (![1, 2, 3].includes(k.level)) errors.push(`${w}: level must be 1, 2 or 3`);
+  ['q', 'short', 'why', 'example', 'drill', 'teacher'].forEach((f) => { if (!textOk(k[f])) errors.push(`${w}: missing ${f}`); });
+  if (!pairs(k.steps, 3)) errors.push(`${w}: steps must be 3+ [name, detail] pairs`);
+  if (k.script !== undefined && !pairs(k.script, 1)) errors.push(`${w}: script must be [situation, line] pairs`);
+  if (k.mistakes !== undefined && !list(k.mistakes, 1)) errors.push(`${w}: mistakes must be a list`);
+  if (!list(k.tags, 1)) errors.push(`${w}: needs tags`);
+  chRefs(k.chapters, w);
+  walk([k.q, k.short, k.why, k.steps, k.example, k.script, k.mistakes, k.drill, k.teacher], w);
+});
+const libLines = [
+  `situations ${sits.length}: ` + [...dcats].map((c) => `${c} ${sits.filter((d) => d.cat === c).length}`).join(' · '),
+  `  levels ${[1, 2, 3].map((l) => sits.filter((d) => d.level === l).length).join('/')} · series ${Object.keys(series).length}`,
+  `skills ${skills.length}: ` + [...kcats].map((c) => `${c} ${skills.filter((k) => k.cat === c).length}`).join(' · '),
+  `  levels ${[1, 2, 3].map((l) => skills.filter((k) => k.level === l).length).join('/')}`
+];
+
 // Teacher voice coverage
 const voice = process.argv.includes('--voice');
 const byLevel = levels.map((l) => {
@@ -84,7 +140,7 @@ const byLevel = levels.map((l) => {
   return `L${l.n} ${String(chs.length).padStart(2)} ch · intro ${intro}/${chs.length} · outro ${outro}/${chs.length} · teacher asides ${asides}`;
 });
 if (voice) {
-  const files = scripts.filter((s) => /content\/|labs|visuals|resources|levels/.test(s));
+  const files = scripts.filter((s) => /content\/|daily\/|smart\/|labs|visuals|resources|levels/.test(s));
   files.forEach((f) => {
     const src = fs.readFileSync(path.join(root, f), 'utf8');
     const n = (src.match(/(?<!apne |apne-)\b(aap|aapko|aapka|aapke|aapki|aapne|aapse)\b/gi) || []).length;
@@ -94,6 +150,7 @@ if (voice) {
 
 console.log(`levels ${levels.length} · chapters ${chapters.length} · visuals ${Object.keys(visuals).length} · labs ${Object.keys(labs).length}`);
 byLevel.forEach((l) => console.log('  ' + l));
+libLines.forEach((l) => console.log(l));
 warns.forEach((w) => console.log('WARN  ' + w));
 errors.forEach((e) => console.log('ERROR ' + e));
 console.log(errors.length ? `\n${errors.length} error(s)` : '\nOK: no errors');

@@ -88,6 +88,55 @@ Chapter order file aur script tag ke order se tay hota hai.
 
 Commit se pehle `node tools/check-content.js --voice` chalao: ye har chapter, quiz answer index, visual/lab reference aur teacher-voice coverage check karta hai.
 
+## Roz ki Psychology ka format
+
+`assets/js/daily/*.js` me `S({...})` (yaani `PSY.situation`). Route: `#daily` (library) aur `#d-<id>` (detail). Category aur level ke naam `assets/js/libmeta.js` me hain. Pura example: `assets/js/daily/online-sehat-galti.js` me `gym-membership`.
+
+```js
+S({
+  id: 'gym-membership', cat: 'sehat',          // cat: ghar, dosti, samaaj, padhai, kaam, paisa, online, sehat, galti, manipulation
+  level: 1,                                    // 1 Basic, 2 Gehra, 3 Expert
+  kind: 'anjaane',                             // 'anjaane' | 'jaanbujh' | 'dono'
+  title: 'Situation ek sawaal ki tarah',       // "...Kyun?"
+  hook: 'Card par dikhne wali ek line',
+  story: ['Kahani (characters ke saath)', '...'],
+  guess: ['Tumhara andaza?', ['A', 'B', 'C'], 1, 'Reveal line'],   // optional
+  kya: 'Log kya karte hain',
+  kyun: [['Concept', 'Kahani se jodta explanation'], ...],         // 2-4
+  kaise: ['Step 1', 'Step 2', 'Step 3'],                           // kaise hota hai
+  irada: 'Jaanbujh kar ya anjaane me, aur kaun',
+  gap: 'Jaante huye bhi galti kyun hoti hai',                      // optional, par zyada tar me rakho
+  real: ['Real incident ya study ka naam', 'Factual detail'],     // optional
+  fix: ['Kya karein 1', '...'],                                    // 3-5
+  teacher: 'Teacher ki ek line (tum voice)',
+  chapters: ['course-chapter-id'],                                 // jo chapter isse jude hain
+  tags: ['keyword'],
+  series: ['Series ka naam', 2]                                    // sirf judi kahaniyon ke liye (episode number)
+});
+```
+
+## Smart Dimaag ka format
+
+`assets/js/smart/*.js` me `K({...})` (yaani `PSY.skill`). Route: `#smart` aur `#s-<id>`. Example: `assets/js/smart/active-critical-problem.js` me `five-whys`.
+
+```js
+K({
+  id: 'five-whys', cat: 'problem',             // cat: active, critical, problem, creative, communication, room, eq
+  level: 1,
+  q: '"Kaise...?" wala sawaal',
+  short: 'Ek-do line ka seedha jawab',
+  why: ['Ye kaam kyun karta hai (science)'],
+  steps: [['Step', 'Detail'], ...],                                // 3+
+  example: ['Roz ki life ka example', '...'],
+  script: [['Situation', 'Bolne ki line'], ...],                   // optional
+  mistakes: ['Common galti'],                                      // optional
+  drill: 'Aaj ka 5-10 minute ka workout',
+  teacher: 'Teacher ki ek line',
+  chapters: ['course-chapter-id'],
+  tags: ['keyword']
+});
+```
+
 ### Teacher voice ke niyam
 
 - Learner ko "tum" se bulao (aap nahi), Hinglish me, chhote aur garam sentences.

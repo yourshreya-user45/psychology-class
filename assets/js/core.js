@@ -13,6 +13,10 @@
   PSY.visual = (key, def) => (PSY.visuals[key] = def);
   PSY.lab = (key, def) => (PSY.labs[key] = def);
   PSY.terms = (list) => PSY.extraTerms.push(...list);
+  PSY.situations = [];
+  PSY.skills = [];
+  PSY.situation = (s) => PSY.situations.push(s);
+  PSY.skill = (s) => PSY.skills.push(s);
 
   /* ---------- helpers ---------- */
   const u = (PSY.u = {});
@@ -128,7 +132,10 @@
     sparkles: '<path d="M12 3l1.8 4.6L18 9.5l-4.2 1.9L12 16l-1.8-4.6L6 9.5l4.2-1.9z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/>',
     shield: '<path d="M12 3 5 6v5.5c0 4.4 3 8 7 9.5 4-1.5 7-5.1 7-9.5V6z"/><path d="m9 12 2.2 2.2L15.5 10"/>',
     mask: '<path d="M3 6c3-1 6-1.5 9-1.5S18 5 21 6c0 7-3.5 12-9 13.5C6.5 18 3 13 3 6z"/><path d="M7.5 10.5c1-.7 2-.7 3 0M13.5 10.5c1-.7 2-.7 3 0M9 15c1.8 1 4.2 1 6 0"/>',
-    chat: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/>'
+    chat: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/>',
+    wallet: '<path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H18v3"/><rect x="4" y="8" width="16" height="11" rx="2.5"/><path d="M16 13.5h1.5"/>',
+    briefcase: '<rect x="3.5" y="7.5" width="17" height="12" rx="2.5"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5M3.5 13h17"/>',
+    puzzle: '<path d="M9 4h3a1.5 1.5 0 0 1 3 0h3v5a1.5 1.5 0 0 1 0 3v6H13a1.5 1.5 0 0 0-3 0H5v-5a1.5 1.5 0 0 0 0-3V4z"/>'
   };
   PSY.icon = (name, cls = '') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[name] || P.spark}</svg>`;
 
@@ -143,7 +150,7 @@
 
   /* ---------- progress store ---------- */
   const KEY = 'manovigyan.progress.v1';
-  const fresh = () => ({ name: '', xp: 0, ch: {}, labs: {}, exams: {}, cards: {}, badges: {}, streak: { n: 0, last: null, best: 0 }, explorer: false, theme: null, last: null, reviews: 0, days: {} });
+  const fresh = () => ({ name: '', xp: 0, ch: {}, labs: {}, exams: {}, cards: {}, badges: {}, streak: { n: 0, last: null, best: 0 }, explorer: false, theme: null, last: null, reviews: 0, days: {}, daily: {}, smart: {} });
   let S = fresh();
   try {
     const raw = localStorage.getItem(KEY);
@@ -233,6 +240,26 @@
       store.addXP(2);
       store.checkBadges();
       save();
+    },
+    dailyDone(id) {
+      if (S.daily[id]) return false;
+      S.daily[id] = Date.now();
+      store.addXP(8, 'Situation samajh li');
+      store.checkBadges();
+      save();
+      return true;
+    },
+    smartDone(id) {
+      const first = !S.smart[id];
+      const today = u.today();
+      const rec = (S.smart[id] = S.smart[id] || { n: 0 });
+      if (rec.last === today) return false;
+      rec.n++;
+      rec.last = today;
+      store.addXP(first ? 10 : 4, first ? 'Naya brain workout' : 'Brain workout');
+      store.checkBadges();
+      save();
+      return true;
     },
     setName(n) { S.name = String(n).slice(0, 40); save(); },
     setExplorer(v) { S.explorer = !!v; save(); },
