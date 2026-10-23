@@ -13,13 +13,15 @@
   const NAV = [
     ['home', 'Home', 'home'],
     ['path', 'Learning Path', 'path'],
+    ['daily', 'Roz ki Psychology', 'eye'],
+    ['smart', 'Smart Dimaag', 'bulb'],
     ['labs', 'Labs', 'lab'],
     ['glossary', 'Glossary A to Z', 'book'],
     ['cards', 'Flashcards', 'cards'],
     ['resources', 'Resources', 'library'],
     ['profile', 'Profile', 'user']
   ];
-  const TABS = [['home', 'Home', 'home'], ['path', 'Path', 'path'], ['labs', 'Labs', 'lab'], ['glossary', 'Glossary', 'book'], ['resources', 'Library', 'library']];
+  const TABS = [['home', 'Home', 'home'], ['path', 'Path', 'path'], ['daily', 'Roz ki', 'eye'], ['smart', 'Smart', 'bulb'], ['labs', 'Labs', 'lab']];
   const lc = (n) => `--lc: var(--l${n})`;
 
   /* ---------- small components ---------- */
@@ -48,7 +50,8 @@
 
   /* ---------- shell ---------- */
   function renderShell() {
-    const cur = currentRoute().name;
+    const r0 = currentRoute().name;
+    const cur = { situation: 'daily', skill: 'smart', chapter: 'path', exam: 'path', lab: 'labs' }[r0] || r0;
     document.getElementById('railNav').innerHTML = NAV.map(([k, label, ic]) =>
       `<a href="#${k}" class="${cur === k ? 'active' : ''}" ${cur === k ? 'aria-current="page"' : ''}>${icon(ic)}<span>${label}</span></a>`).join('');
     document.getElementById('tabbar').innerHTML = TABS.map(([k, label, ic]) =>
@@ -93,7 +96,9 @@
     if (h.startsWith('c-')) return { name: 'chapter', id: h.slice(2) };
     if (h.startsWith('exam-')) return { name: 'exam', n: +h.slice(5) };
     if (h.startsWith('lab-')) return { name: 'lab', id: h.slice(4) };
-    const known = ['home', 'path', 'labs', 'glossary', 'cards', 'resources', 'profile', 'search', 'certificate'];
+    if (h.startsWith('d-')) return { name: 'situation', id: h.slice(2) };
+    if (h.startsWith('s-')) return { name: 'skill', id: h.slice(2) };
+    const known = ['home', 'path', 'labs', 'glossary', 'cards', 'resources', 'profile', 'search', 'certificate', 'daily', 'smart'];
     return { name: known.includes(h) ? h : 'home' };
   }
   function go(hash) {
@@ -111,7 +116,8 @@
       view = ({
         home: homeView, path: pathView, chapter: () => chapterView(r.id), exam: () => examView(r.n),
         labs: labsView, lab: () => labView(r.id), glossary: glossaryView, cards: cardsView,
-        resources: resourcesView, profile: profileView, search: searchView, certificate: certificateView
+        resources: resourcesView, profile: profileView, search: searchView, certificate: certificateView,
+        daily: dailyView, smart: smartView, situation: () => situationView(r.id), skill: () => skillView(r.id)
       }[r.name] || homeView)();
     } catch (e) {
       console.error(e);
@@ -122,7 +128,7 @@
     mountVisuals(view);
     window.scrollTo(0, 0);
     renderShell();
-    const titles = { home: 'Manovigyan', path: 'Learning Path', labs: 'Labs', glossary: 'Glossary', cards: 'Flashcards', resources: 'Resources', profile: 'Profile', search: 'Search', certificate: 'Certificate' };
+    const titles = { home: 'Manovigyan', path: 'Learning Path', labs: 'Labs', glossary: 'Glossary', cards: 'Flashcards', resources: 'Resources', profile: 'Profile', search: 'Search', certificate: 'Certificate', daily: 'Roz ki Psychology', smart: 'Smart Dimaag', situation: 'Roz ki Psychology', skill: 'Smart Dimaag' };
     const ch = r.name === 'chapter' ? PSY.getChapter(r.id) : null;
     document.title = ch ? `${u.strip(ch.title)} · Manovigyan` : r.name === 'home' ? 'Manovigyan' : `${titles[r.name] || 'Manovigyan'} · Manovigyan`;
   }
@@ -170,6 +176,21 @@
     return `Aaj hum "${next.title}" padhenge. Lagbhag ${next.mins} minute lagenge. Beech me jahan "Socho" aaye, wahan ruk kar khud jawab sochna, phir dekhna.`;
   }
 
+  function todayLib() {
+    const sits = sortedSits(), skills = sortedSkills();
+    if (!sits.length && !skills.length) return '';
+    const di = u.dayIndex();
+    const sit = sits.length ? (sits.find((d, k) => k >= di % sits.length && !S().daily[d.id]) || sits[di % sits.length]) : null;
+    const sk = skills.length ? skills[(di * 7) % skills.length] : null;
+    return `<section class="section">
+      <div class="section-head"><h2>Roz ki psychology, roz ka workout</h2></div>
+      <div class="lib-home">
+        ${sit ? `<div class="grid"><div class="row" style="justify-content:space-between"><span class="eyebrow">Aaj ki situation</span><a class="muted" href="#daily">${sits.length} situations ${icon('right').replace('<svg', '<svg style="width:14px;height:14px;vertical-align:-2px"')}</a></div>${situationCard(sit)}</div>` : ''}
+        ${sk ? `<div class="grid"><div class="row" style="justify-content:space-between"><span class="eyebrow">Aaj ka brain workout</span><a class="muted" href="#smart">${skills.length} cards ${icon('right').replace('<svg', '<svg style="width:14px;height:14px;vertical-align:-2px"')}</a></div>${skillCard(sk)}</div>` : ''}
+      </div>
+    </section>`;
+  }
+
   function homeView() {
     const st = S();
     const next = PSY.nextChapter();
@@ -212,6 +233,7 @@
         ${teach(classLine(next, done), 'mini')}
         ${cont}
       </section>
+      ${todayLib()}
       <section class="section">
         <div class="section-head"><h2>${PSY.levels.length} levels ka safar</h2><a href="#path" class="muted">Sab chapters ${icon('right').replace('<svg', '<svg style="width:14px;height:14px;vertical-align:-2px"')}</a></div>
         <div class="levels-grid">
@@ -678,6 +700,167 @@
     return el;
   }
 
+  /* ---------- LIBRARIES: Roz ki Psychology + Smart Dimaag ---------- */
+  const libState = { daily: { q: '', cat: '', level: 0, kind: '' }, smart: { q: '', cat: '', level: 0 } };
+  const catIdx = (list, key) => Math.max(0, list.findIndex((c) => c[0] === key));
+  const catLc = (list, key) => `--lc: var(--l${(catIdx(list, key) % 8) + 1})`;
+  const catOf = (list, key) => list.find((c) => c[0] === key) || [key, key, 'spark', ''];
+  const lvTag = (n) => { const L = PSY.libLevels[n] || PSY.libLevels[1]; return `<span class="tag lv"><i style="background:${L.color}"></i>${L.name}</span>`; };
+  const kindTag = (k) => `<span class="tag kind kind-${k}">${(PSY.dailyKinds[k] || {}).name || k}</span>`;
+  const libParas = (x) => (Array.isArray(x) ? x : [x]).map((p) => `<p>${p}</p>`).join('');
+  const seriesOf = (name) => PSY.situations.filter((d) => d.series && d.series[0] === name).sort((a, b) => a.series[1] - b.series[1]);
+  const sortedSits = () => PSY.situations.slice().sort((a, b) => catIdx(PSY.dailyCats, a.cat) - catIdx(PSY.dailyCats, b.cat) || (a.series && b.series ? a.series[0].localeCompare(b.series[0]) || a.series[1] - b.series[1] : 0) || a.level - b.level);
+  const sortedSkills = () => PSY.skills.slice().sort((a, b) => catIdx(PSY.skillCats, a.cat) - catIdx(PSY.skillCats, b.cat) || a.level - b.level);
+  const libText = (o) => o._t || (o._t = u.strip(JSON.stringify(o)).toLowerCase());
+  const relLinks = (ids) => {
+    const chs = (ids || []).map((id) => PSY.getChapter(id)).filter(Boolean);
+    return chs.length ? `<div class="rel"><span class="muted">Course me gehrai se:</span>${chs.map((c) => `<a href="#c-${c.id}" style="${lc(c.level)}">${icon(PSY.levels[c.level - 1].icon)}${c.title}</a>`).join('')}</div>` : '';
+  };
+  const situationCard = (d) => {
+    const c = catOf(PSY.dailyCats, d.cat);
+    return `<a class="card lib-card" href="#d-${d.id}" style="${catLc(PSY.dailyCats, d.cat)}"><div class="top">${icon(c[2])}<span>${c[1]}</span>${S().daily[d.id] ? `<span class="done">${icon('check')}</span>` : ''}</div><h3>${d.title}</h3><p>${d.hook}</p><div class="row">${lvTag(d.level)}${kindTag(d.kind)}${d.series ? `<span class="tag">Ep ${d.series[1]} · ${d.series[0]}</span>` : ''}</div></a>`;
+  };
+  const skillCard = (k) => {
+    const c = catOf(PSY.skillCats, k.cat);
+    return `<a class="card lib-card" href="#s-${k.id}" style="${catLc(PSY.skillCats, k.cat)}"><div class="top">${icon(c[2])}<span>${c[1]}</span>${S().smart[k.id] ? `<span class="done">${icon('check')}</span>` : ''}</div><h3>${k.q}</h3><p>${k.short}</p><div class="row">${lvTag(k.level)}</div></a>`;
+  };
+
+  function libraryShell(kind) {
+    const daily = kind === 'daily';
+    const f = libState[kind];
+    const cats = daily ? PSY.dailyCats : PSY.skillCats;
+    const all = daily ? PSY.situations : PSY.skills;
+    const doneMap = daily ? S().daily : S().smart;
+    const done = all.filter((x) => doneMap[x.id]).length;
+    const el = u.el(`<div class="wrap view lib">
+      <div class="eyebrow">Library · ${daily ? 'Roz ki Psychology' : 'Smart Dimaag'}</div>
+      <h1 class="lib-h1">${daily ? 'Roz ki situations, unke peeche ki psychology' : 'Dimaag ko active, smart aur creative banao'}</h1>
+      ${teach(daily ? 'Yahan wo situations hain jo tumhare saath ya aas-paas roz hoti hain. Har ek me ek kahani hai, phir ek sawaal: "tumhe kya lagta hai, kyun?" Pehle khud socho, phir dekho psychology kya kehti hai. Dheere-dheere ye patterns tumhe har jagah dikhne lagenge.' : 'Psychology padhne ka asli fayda tab hai jab wo roz ki soch aur baatcheet me dikhe. Har card ek "kaise karein?" ka jawab hai: science, steps, example, bolne ki lines, aur ek chhota workout. Roz ek card, aur dimaag ki training chalti rahegi.', 'mini')}
+      <div class="lib-progress"><span class="muted">${done}/${all.length} ${daily ? 'situations samjhi' : 'workouts kiye'}</span><div class="bar"><span style="width:${all.length ? (done / all.length) * 100 : 0}%"></span></div></div>
+      <div class="lib-controls">
+        <input type="search" id="libQ" placeholder="${daily ? 'Dhoondo: exam, sale, gussa, reels...' : 'Dhoondo: focus, interview, gussa, idea...'}" value="${esc(f.q)}" aria-label="Library me dhoondo">
+      </div>
+      <div class="lib-filters"></div>
+      <div class="lib-cats" role="group" aria-label="Category">${[['', 'Sab', 'grid']].concat(cats).map(([k, n, ic]) => `<button class="lib-chip ${f.cat === k ? 'on' : ''}" data-cat="${k}">${icon(ic)}${n}<small>${k ? all.filter((x) => x.cat === k).length : all.length}</small></button>`).join('')}</div>
+      <p class="muted lib-catdesc"></p>
+      <div class="lib-grid"></div>
+    </div>`);
+    const filters = u.$('.lib-filters', el);
+    filters.appendChild(H_seg(['Sab level', 'Basic', 'Gehra', 'Expert'], f.level, (i) => { f.level = i; draw(); }));
+    if (daily) filters.appendChild(H_seg(['Sab', 'Anjaane me', 'Jaanbujh kar', 'Dono'], ['', 'anjaane', 'jaanbujh', 'dono'].indexOf(f.kind), (i) => { f.kind = ['', 'anjaane', 'jaanbujh', 'dono'][i]; draw(); }));
+    const grid = u.$('.lib-grid', el);
+    const draw = () => {
+      const words = f.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      const list = (daily ? sortedSits() : sortedSkills()).filter((x) => (!f.cat || x.cat === f.cat) && (!f.level || x.level === f.level) && (!daily || !f.kind || x.kind === f.kind) && words.every((w) => libText(x).includes(w)));
+      grid.innerHTML = list.length ? list.map(daily ? situationCard : skillCard).join('') : `<div class="card empty">${all.length ? 'Is filter me kuch nahi mila. Filter badal kar dekho.' : 'Content jaldi aa raha hai.'}</div>`;
+      const c = f.cat && catOf(cats, f.cat);
+      u.$('.lib-catdesc', el).textContent = c ? c[3] : '';
+    };
+    u.$$('.lib-chip', el).forEach((b) => b.addEventListener('click', () => { f.cat = b.dataset.cat; u.$$('.lib-chip', el).forEach((x) => x.classList.toggle('on', x === b)); draw(); }));
+    u.$('#libQ', el).addEventListener('input', (e) => { f.q = e.target.value; draw(); });
+    draw();
+    return el;
+  }
+  function H_seg(opts, cur, onPick) {
+    const box = u.el(`<div class="seg" role="group">${opts.map((o, i) => `<button class="${i === Math.max(0, cur) ? 'on' : ''}" data-i="${i}">${o}</button>`).join('')}</div>`);
+    box.addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; u.$$('button', box).forEach((x) => x.classList.toggle('on', x === b)); onPick(+b.dataset.i); });
+    return box;
+  }
+  const dailyView = () => libraryShell('daily');
+  const smartView = () => libraryShell('smart');
+
+  function situationView(id) {
+    const d = PSY.situations.find((x) => x.id === id);
+    if (!d) return u.el(`<div class="wrap view"><div class="card empty">Ye situation nahi mili. <a href="#daily">Roz ki Psychology</a> par jao.</div></div>`);
+    const c = catOf(PSY.dailyCats, d.cat);
+    const done = !!S().daily[d.id];
+    const ser = d.series ? seriesOf(d.series[0]) : null;
+    const list = ser || sortedSits().filter((x) => x.cat === d.cat);
+    const i = list.indexOf(d);
+    const prev = list[i - 1], next = list[i + 1] || sortedSits()[sortedSits().indexOf(d) + 1];
+    let n = 0;
+    const sec = (title, body) => `<section><h2><span class="sn">${++n}</span>${title}</h2>${body}</section>`;
+    const hideAnalysis = d.guess && !done;
+    const el = u.el(`<div class="wrap view lib-detail" style="${catLc(PSY.dailyCats, d.cat)}">
+      <nav class="crumb"><a href="#daily">Roz ki Psychology</a><span>/</span><a href="#daily" class="to-cat">${c[1]}</a></nav>
+      ${ser ? `<div class="series-bar">${icon('book')}Kahani: ${d.series[0]} <span class="ep-dots">${ser.map((x) => `<a href="#d-${x.id}" class="${x === d ? 'on' : ''}" aria-label="Episode ${x.series[1]}">${x.series[1]}</a>`).join('')}</span></div>` : ''}
+      <h1>${d.title}</h1>
+      <div class="row"><span class="tag lvl">${icon(c[2])}${c[1]}</span>${lvTag(d.level)}${kindTag(d.kind)}</div>
+      ${teach(d.teacher, 'intro')}
+      <section class="card story"><div class="blk-label">${icon('book')}Kahani</div>${libParas(d.story)}</section>
+      ${d.guess ? `<section class="card guess"><div class="blk-label">${icon('bulb')}Pehle tum socho</div><p class="q-text">${d.guess[0]}</p><div class="opts">${d.guess[1].map((o, j) => `<button class="opt" data-j="${j}"><span class="k">${'ABCD'[j]}</span><span>${o}</span></button>`).join('')}</div><div class="guess-after"></div>${hideAnalysis ? '<button class="btn ghost small skip-guess">Bina andaze ke aage padho</button>' : ''}</section>` : ''}
+      <div class="analysis" ${hideAnalysis ? 'hidden' : ''}>
+        ${sec('Log kya karte hain', `<p>${d.kya}</p>`)}
+        ${sec('Kyun karte hain', `<div class="concepts">${d.kyun.map(([k, v]) => `<div class="concept"><b>${k}</b><p>${v}</p></div>`).join('')}</div>`)}
+        ${sec('Kaise hota hai', `<ol class="flow">${d.kaise.map((x) => `<li>${x}</li>`).join('')}</ol>`)}
+        ${sec('Jaanbujh kar ya anjaane me?', `<div class="kind-box">${kindTag(d.kind)}<p>${d.irada}</p></div>`)}
+        ${d.gap ? sec('Jaante huye bhi galti kyun?', `<div class="blk note"><div class="blk-label">${icon('alert')}Knowing-doing gap</div><p>${d.gap}</p></div>`) : ''}
+        ${d.real ? sec('Real life me', `<div class="blk case"><div class="blk-label">${icon('lab')}Real incident ya study</div><h4>${d.real[0]}</h4>${libParas(d.real[1])}</div>`) : ''}
+        ${sec('Ab kya karein', `<ul class="fix-list">${d.fix.map((x) => `<li>${icon('check')}<span>${x}</span></li>`).join('')}</ul>`)}
+        ${relLinks(d.chapters)}
+        <div class="lib-done">${done ? `${icon('check')}<b>Ye situation tumne samajh li hai.</b>` : `<span>Pattern samajh aa gaya? Ise apni life me dhoondo.</span><button class="btn lc mark-done">${icon('check')}Samajh aa gaya (+8 XP)</button>`}</div>
+      </div>
+      <nav class="ch-nav">
+        ${prev ? `<a href="#d-${prev.id}"><small>${ser ? 'Pichhla episode' : 'Pichhli situation'}</small><b>${prev.title}</b></a>` : '<span></span>'}
+        ${next ? `<a class="next" href="#d-${next.id}"><small>${ser && list[i + 1] ? 'Agla episode' : 'Agli situation'}</small><b>${next.title}</b></a>` : `<a class="next" href="#daily"><small>Library</small><b>Saari situations</b></a>`}
+      </nav>
+    </div>`);
+    u.$('.to-cat', el).addEventListener('click', () => { libState.daily.cat = d.cat; });
+    const analysis = u.$('.analysis', el);
+    const show = () => { if (analysis.hidden) { analysis.hidden = false; analysis.classList.add('fade-in'); } const sk = u.$('.skip-guess', el); if (sk) sk.remove(); };
+    if (d.guess) {
+      u.$$('.guess .opt', el).forEach((b) => b.addEventListener('click', () => {
+        const box = u.$('.guess .opts', el);
+        if (box.classList.contains('locked')) return;
+        box.classList.add('locked');
+        const j = +b.dataset.j, ok = j === d.guess[2];
+        u.$$('.guess .opt', el).forEach((x) => { if (+x.dataset.j === d.guess[2]) x.classList.add('ok'); else if (x === b) x.classList.add('no'); });
+        u.$('.guess-after', el).innerHTML = `<div class="explain"><b class="${ok ? 'ok' : 'no'}">${ok ? 'Sahi socha!' : 'Asli wajah kuch aur hai.'}</b> ${d.guess[3]} Neeche poori psychology dekho.</div>`;
+        show();
+      }));
+      const sk = u.$('.skip-guess', el);
+      if (sk) sk.addEventListener('click', show);
+    }
+    const md = u.$('.mark-done', el);
+    if (md) md.addEventListener('click', () => { store.dailyDone(d.id); md.parentElement.innerHTML = `${icon('check')}<b>Shabaash! Ab ye pattern apni life me dhoondo.</b>`; renderShell(); });
+    return el;
+  }
+
+  function skillView(id) {
+    const k = PSY.skills.find((x) => x.id === id);
+    if (!k) return u.el(`<div class="wrap view"><div class="card empty">Ye card nahi mila. <a href="#smart">Smart Dimaag</a> par jao.</div></div>`);
+    const c = catOf(PSY.skillCats, k.cat);
+    const rec = S().smart[k.id];
+    const list = sortedSkills().filter((x) => x.cat === k.cat);
+    const i = list.indexOf(k);
+    const prev = list[i - 1], next = list[i + 1] || sortedSkills()[sortedSkills().indexOf(k) + 1];
+    let n = 0;
+    const sec = (title, body) => `<section><h2><span class="sn">${++n}</span>${title}</h2>${body}</section>`;
+    const today = rec && rec.last === u.today();
+    const el = u.el(`<div class="wrap view lib-detail" style="${catLc(PSY.skillCats, k.cat)}">
+      <nav class="crumb"><a href="#smart">Smart Dimaag</a><span>/</span><a href="#smart" class="to-cat">${c[1]}</a></nav>
+      <h1>${k.q}</h1>
+      <div class="row"><span class="tag lvl">${icon(c[2])}${c[1]}</span>${lvTag(k.level)}</div>
+      ${teach(k.short, 'intro', 'Seedha jawab')}
+      ${sec('Ye kaam kyun karta hai', libParas(k.why))}
+      ${sec('Kaise karein: step by step', `<div class="steps">${k.steps.map(([a, b]) => `<div class="st"><div><b>${a}</b><span>${b}</span></div></div>`).join('')}</div>`)}
+      ${sec('Real life me aise', `<div class="card story">${libParas(k.example)}</div>`)}
+      ${k.script ? sec('Baatcheet me aise bolo', `<div class="table-wrap"><table><thead><tr><th>Situation</th><th>Bolo</th></tr></thead><tbody>${k.script.map(([a, b]) => `<tr><td>${a}</td><td>${b}</td></tr>`).join('')}</tbody></table></div>`) : ''}
+      ${k.mistakes ? sec('Common galtiyan', `<ul class="fix-list bad">${k.mistakes.map((x) => `<li>${icon('x')}<span>${x}</span></li>`).join('')}</ul>`) : ''}
+      <section class="drill"><div class="blk-label">${icon('bolt')}Aaj ka brain workout</div><p>${k.drill}</p><div class="row drill-row">${today ? `<span class="tag done">${icon('check')}Aaj ho gaya</span>` : `<button class="btn lc do-drill">${icon('check')}Workout ho gaya (+${rec ? 4 : 10} XP)</button>`}${rec ? `<span class="muted">${rec.n} baar kiya</span>` : ''}</div></section>
+      ${teach(k.teacher, 'outro')}
+      ${relLinks(k.chapters)}
+      <nav class="ch-nav">
+        ${prev ? `<a href="#s-${prev.id}"><small>Pichhla card</small><b>${prev.q}</b></a>` : '<span></span>'}
+        ${next ? `<a class="next" href="#s-${next.id}"><small>Agla card</small><b>${next.q}</b></a>` : `<a class="next" href="#smart"><small>Library</small><b>Saare cards</b></a>`}
+      </nav>
+    </div>`);
+    u.$('.to-cat', el).addEventListener('click', () => { libState.smart.cat = k.cat; });
+    const b = u.$('.do-drill', el);
+    if (b) b.addEventListener('click', () => { store.smartDone(k.id); const r = S().smart[k.id]; u.$('.drill-row', el).innerHTML = `<span class="tag done">${icon('check')}Aaj ho gaya</span><span class="muted">${r.n} baar kiya</span>`; renderShell(); });
+    return el;
+  }
+
   /* ---------- PROFILE ---------- */
   function profileView() {
     const st = S();
@@ -690,7 +873,7 @@
         <div style="display:flex;flex-direction:column;gap:8px">
           <div class="eyebrow">Rank: ${PSY.rank()}</div>
           <div class="row"><input type="text" id="nameInput" placeholder="Apna naam likho (certificate ke liye)" value="${esc(st.name)}" style="flex:1;min-width:200px;font-size:1.1rem" aria-label="Tumhara naam"><button class="btn small" id="saveName">Save</button></div>
-          <div class="row"><span class="tag">${icon('bolt')}${st.xp} XP</span><span class="tag">${icon('check')}${done}/${PSY.chapters.length} chapters</span><span class="tag">${icon('trophy')}${passedLevels}/${PSY.levels.length} levels</span><span class="tag">${icon('flame')}Best streak ${st.streak.best || 0}</span><span class="tag">${icon('lab')}${Object.keys(st.labs).length} labs</span><span class="tag">${icon('cards')}${st.reviews || 0} reviews</span></div>
+          <div class="row"><span class="tag">${icon('bolt')}${st.xp} XP</span><span class="tag">${icon('check')}${done}/${PSY.chapters.length} chapters</span><span class="tag">${icon('trophy')}${passedLevels}/${PSY.levels.length} levels</span><span class="tag">${icon('flame')}Best streak ${st.streak.best || 0}</span><span class="tag">${icon('lab')}${Object.keys(st.labs).length} labs</span><span class="tag">${icon('cards')}${st.reviews || 0} reviews</span><span class="tag">${icon('eye')}${Object.keys(st.daily || {}).length} situations</span><span class="tag">${icon('bulb')}${Object.keys(st.smart || {}).length} workouts</span></div>
         </div>
       </div>
       <section class="section"><div class="section-head"><h2>Level medals</h2>${passedLevels === PSY.levels.length ? `<a class="btn small" href="#certificate">${icon('award')}Certificate</a>` : ''}</div>
@@ -796,6 +979,20 @@
       if (words.every((w) => t.includes(w))) {
         const sc = words.some((w) => g.term.toLowerCase().includes(w)) ? 8 : 2;
         res.push({ score: sc, html: `<a class="card sr" href="${g.ch ? '#c-' + g.ch : '#glossary'}" style="${lc(g.level)}"><small style="color:var(--lc)">Glossary term</small><b>${g.term}</b><p>${g.def}</p></a>` });
+      }
+    });
+    PSY.situations.forEach((d) => {
+      const t = libText(d);
+      if (words.every((w) => t.includes(w))) {
+        const sc = words.filter((w) => (d.title + ' ' + d.tags.join(' ')).toLowerCase().includes(w)).length * 6 + 3;
+        res.push({ score: sc, html: `<a class="card sr" href="#d-${d.id}" style="${catLc(PSY.dailyCats, d.cat)}"><small style="color:var(--lc)">Roz ki Psychology · ${catOf(PSY.dailyCats, d.cat)[1]}</small><b>${d.title}</b><p>${d.hook}</p></a>` });
+      }
+    });
+    PSY.skills.forEach((k) => {
+      const t = libText(k);
+      if (words.every((w) => t.includes(w))) {
+        const sc = words.filter((w) => (k.q + ' ' + k.tags.join(' ')).toLowerCase().includes(w)).length * 6 + 3;
+        res.push({ score: sc, html: `<a class="card sr" href="#s-${k.id}" style="${catLc(PSY.skillCats, k.cat)}"><small style="color:var(--lc)">Smart Dimaag · ${catOf(PSY.skillCats, k.cat)[1]}</small><b>${k.q}</b><p>${k.short}</p></a>` });
       }
     });
     Object.keys(PSY.labs).forEach((k) => {

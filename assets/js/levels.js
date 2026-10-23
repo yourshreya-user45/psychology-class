@@ -50,6 +50,8 @@
     { id: 'streak7', name: 'Hafta Pakka', desc: '7 din ki streak', icon: 'flame', test: (S) => (S.streak.best || 0) >= 7 },
     { id: 'cards50', name: 'Word Collector', desc: '50 flashcards review', icon: 'cards', test: (S) => (S.reviews || 0) >= 50 },
     { id: 'xp1000', name: '1K Club', desc: '1000 XP kamaye', icon: 'award', test: (S) => S.xp >= 1000 },
+    { id: 'daily10', name: 'Pattern Spotter', desc: '10 roz ki situations samjhi', icon: 'eye', test: (S) => Object.keys(S.daily || {}).length >= 10 },
+    { id: 'smart10', name: 'Brain Gym', desc: '10 alag brain workouts kiye', icon: 'bulb', test: (S) => Object.keys(S.smart || {}).length >= 10 },
     { id: 'lvl1', name: 'Foundation Pakki', desc: 'Level 1 exam pass', icon: 'leaf', test: (S) => S.exams[1] && S.exams[1].passed },
     { id: 'halfway', name: 'Aadha Safar', desc: 'Level 4 exam pass', icon: 'heart', test: (S) => S.exams[4] && S.exams[4].passed },
     { id: 'master', name: 'Psychology Master', desc: 'Level 7 exam pass', icon: 'trophy', test: (S) => S.exams[7] && S.exams[7].passed },
