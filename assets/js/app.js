@@ -725,11 +725,15 @@
     return `<a class="card lib-card" href="#s-${k.id}" style="${catLc(PSY.skillCats, k.cat)}"><div class="top">${icon(c[2])}<span>${c[1]}</span>${S().smart[k.id] ? `<span class="done">${icon('check')}</span>` : ''}</div><h3>${k.q}</h3><p>${k.short}</p><div class="row">${lvTag(k.level)}</div></a>`;
   };
 
+  const KINDS = ['', 'anjaane', 'jaanbujh', 'dono'];
   function libraryShell(kind) {
     const daily = kind === 'daily';
     const f = libState[kind];
     const cats = daily ? PSY.dailyCats : PSY.skillCats;
     const all = daily ? PSY.situations : PSY.skills;
+    const sorted = daily ? sortedSits() : sortedSkills();
+    const card = daily ? situationCard : skillCard;
+    const noun = daily ? 'situations' : 'cards';
     const doneMap = daily ? S().daily : S().smart;
     const done = all.filter((x) => doneMap[x.id]).length;
     const el = u.el(`<div class="wrap view lib">
@@ -740,31 +744,59 @@
       <div class="lib-controls">
         <input type="search" id="libQ" placeholder="${daily ? 'Dhoondo: exam, sale, gussa, reels...' : 'Dhoondo: focus, interview, gussa, idea...'}" value="${esc(f.q)}" aria-label="Library me dhoondo">
       </div>
-      <div class="lib-filters"></div>
-      <div class="lib-cats" role="group" aria-label="Category">${[['', 'Sab', 'grid']].concat(cats).map(([k, n, ic]) => `<button class="lib-chip ${f.cat === k ? 'on' : ''}" data-cat="${k}">${icon(ic)}${n}<small>${k ? all.filter((x) => x.cat === k).length : all.length}</small></button>`).join('')}</div>
+      <div class="lib-filters">
+        <div class="seg" role="group" aria-label="Level" data-f="level">${['Sab level', 'Basic', 'Gehra', 'Expert'].map((o, i) => `<button data-v="${i}">${o} <small class="cnt"></small></button>`).join('')}</div>
+        ${daily ? `<div class="seg" role="group" aria-label="Jaanbujh kar ya anjaane me" data-f="kind">${['Sab', 'Anjaane me', 'Jaanbujh kar', 'Dono'].map((o, i) => `<button data-v="${KINDS[i]}">${o} <small class="cnt"></small></button>`).join('')}</div>` : ''}
+      </div>
+      <div class="lib-cats" role="group" aria-label="Category">${[['', 'Sab', 'grid']].concat(cats).map(([k, n, ic]) => `<button class="lib-chip" data-cat="${k}">${icon(ic)}${n}<small class="cnt"></small></button>`).join('')}</div>
       <p class="muted lib-catdesc"></p>
+      <div class="lib-result" aria-live="polite"></div>
       <div class="lib-grid"></div>
     </div>`);
-    const filters = u.$('.lib-filters', el);
-    filters.appendChild(H_seg(['Sab level', 'Basic', 'Gehra', 'Expert'], f.level, (i) => { f.level = i; draw(); }));
-    if (daily) filters.appendChild(H_seg(['Sab', 'Anjaane me', 'Jaanbujh kar', 'Dono'], ['', 'anjaane', 'jaanbujh', 'dono'].indexOf(f.kind), (i) => { f.kind = ['', 'anjaane', 'jaanbujh', 'dono'][i]; draw(); }));
     const grid = u.$('.lib-grid', el);
+    const words = () => f.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    // pass(x, skip): does x match every active filter except the ones listed in skip?
+    const pass = (x, skip, w) => (skip.includes('cat') || !f.cat || x.cat === f.cat) && (skip.includes('level') || !f.level || x.level === f.level) && (!daily || skip.includes('kind') || !f.kind || x.kind === f.kind) && (skip.includes('q') || w.every((t) => libText(x).includes(t)));
+    const label = { q: () => `"${esc(f.q.trim())}"`, cat: () => catOf(cats, f.cat)[1], level: () => PSY.libLevels[f.level].name, kind: () => PSY.dailyKinds[f.kind].name };
+    const active = () => ['q', 'cat', 'level', 'kind'].filter((k) => (k === 'q' ? f.q.trim() : k === 'kind' ? daily && f.kind : f[k]));
+    const clear = (k) => { if (k === 'q') { f.q = ''; u.$('#libQ', el).value = ''; } else if (k === 'level') f.level = 0; else f[k] = ''; };
+    const setCount = (b, n, on) => { b.classList.toggle('on', on); u.$('.cnt', b).textContent = n; b.classList.toggle('zero', !n); b.disabled = !n && !on; };
     const draw = () => {
-      const words = f.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
-      const list = (daily ? sortedSits() : sortedSkills()).filter((x) => (!f.cat || x.cat === f.cat) && (!f.level || x.level === f.level) && (!daily || !f.kind || x.kind === f.kind) && words.every((w) => libText(x).includes(w)));
-      grid.innerHTML = list.length ? list.map(daily ? situationCard : skillCard).join('') : `<div class="card empty">${all.length ? 'Is filter me kuch nahi mila. Filter badal kar dekho.' : 'Content jaldi aa raha hai.'}</div>`;
+      const w = words();
+      u.$$('.lib-chip', el).forEach((b) => { const k = b.dataset.cat; setCount(b, sorted.filter((x) => pass(x, ['cat'], w) && (!k || x.cat === k)).length, f.cat === k); });
+      u.$$('[data-f="level"] button', el).forEach((b) => { const v = +b.dataset.v; setCount(b, sorted.filter((x) => pass(x, ['level'], w) && (!v || x.level === v)).length, f.level === v); });
+      u.$$('[data-f="kind"] button', el).forEach((b) => { const v = b.dataset.v; setCount(b, sorted.filter((x) => pass(x, ['kind'], w) && (!v || x.kind === v)).length, f.kind === v); });
+      const list = sorted.filter((x) => pass(x, [], w));
+      const act = active();
+      u.$('.lib-result', el).innerHTML = `<span>${list.length} ${noun}</span>${act.map((k) => `<button class="lib-pill" data-clear="${k}" aria-label="${label[k]()} filter hatao">${label[k]()}${icon('x')}</button>`).join('')}${act.length > 1 ? '<button class="lib-clear" data-clear="all">Saare filter hatao</button>' : ''}`;
+      if (list.length) grid.innerHTML = list.map(card).join('');
+      else if (!all.length) grid.innerHTML = '<div class="card empty lib-empty">Content jaldi aa raha hai.</div>';
+      else {
+        // Relax filters one by one (kind, level, search, category) until something matches
+        const dropped = [];
+        let near = [];
+        for (const k of ['kind', 'level', 'q', 'cat']) {
+          if (!act.includes(k)) continue;
+          dropped.push(k);
+          near = sorted.filter((x) => pass(x, dropped, w));
+          if (near.length) break;
+        }
+        grid.innerHTML = `<div class="card empty lib-empty"><b>Is combination me abhi koi ${daily ? 'situation' : 'card'} nahi hai.</b><span>${dropped.length ? `Neeche wo ${noun} hain jo <b>${dropped.map((k) => label[k]()).join(' + ')}</b> filter hata kar milti hain.` : ''}</span><div class="row">${dropped.map((k) => `<button class="btn ghost small" data-clear="${k}">${label[k]()} hatao</button>`).join('')}<button class="btn small" data-clear="all">Saare filter hatao</button></div></div>${near.length ? `<div class="lib-near-head">Milti-julti ${noun}</div>${near.slice(0, 12).map(card).join('')}` : ''}`;
+      }
       const c = f.cat && catOf(cats, f.cat);
       u.$('.lib-catdesc', el).textContent = c ? c[3] : '';
     };
-    u.$$('.lib-chip', el).forEach((b) => b.addEventListener('click', () => { f.cat = b.dataset.cat; u.$$('.lib-chip', el).forEach((x) => x.classList.toggle('on', x === b)); draw(); }));
+    el.addEventListener('click', (e) => {
+      const b = e.target.closest('button');
+      if (!b || b.disabled) return;
+      if (b.dataset.clear) { (b.dataset.clear === 'all' ? ['q', 'cat', 'level', 'kind'] : [b.dataset.clear]).forEach(clear); draw(); return; }
+      if (b.classList.contains('lib-chip')) { f.cat = b.dataset.cat; draw(); return; }
+      const seg = b.closest('[data-f]');
+      if (seg) { if (seg.dataset.f === 'level') f.level = +b.dataset.v; else f.kind = b.dataset.v; draw(); }
+    });
     u.$('#libQ', el).addEventListener('input', (e) => { f.q = e.target.value; draw(); });
     draw();
     return el;
-  }
-  function H_seg(opts, cur, onPick) {
-    const box = u.el(`<div class="seg" role="group">${opts.map((o, i) => `<button class="${i === Math.max(0, cur) ? 'on' : ''}" data-i="${i}">${o}</button>`).join('')}</div>`);
-    box.addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; u.$$('button', box).forEach((x) => x.classList.toggle('on', x === b)); onPick(+b.dataset.i); });
-    return box;
   }
   const dailyView = () => libraryShell('daily');
   const smartView = () => libraryShell('smart');
