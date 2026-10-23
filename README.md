@@ -6,6 +6,8 @@ Psychology zero se advanced tak seekhne ke liye ek free, interactive website, Hi
 - **Teacher voice**: har chapter ki shuruaat aur ant me teacher ka message, beech me teacher ke tips, teacher jaisa quiz feedback, aur home par "Aaj ki class"
 - **66 motion graphics**: animated, kai interactive (neuron firing, brain map, Pavlov, forgetting curve, Asch experiment, stress bucket, CBT triangle, hot state meter, scam funnel, dark-pattern checkout…)
 - **17 interactive labs**: Stroop test, reaction time, digit span, Müller-Lyer illusion, visual search, serial position, conditioning simulator, Cognitive Reflection Test, Wason task, mini Big Five, guided breathing, anchoring, framing, CBT thought record, manipulation radar, scam ya asli, na kehne ka gym
+- **Roz ki Psychology (library)**: roz ki real situations, har ek me kahani, "pehle tum socho" wala andaza, aur phir: log kya karte hain, kyun, kaise, jaanbujh kar ya anjaane me, jaante huye bhi galti kyun, real incident aur kya karein. Saath me judi hui manipulation kahaniyan (series). Basic, Gehra aur Expert levels
+- **Smart Dimaag (library)**: dimaag ko active, critical, creative aur "smart in every room" banane ke "kaise karein?" cards: science, steps, example, baatcheet ki lines, common galtiyan aur roz ka brain workout
 - **Har chapter me**: real examples, famous studies, myth vs fact, key terms, "Socho" sawaal, takeaways, quiz (instant explanation ke saath), aur aage padhne ke links
 - **Levels achieve karo**: chapter quiz 60%+ = chapter complete; level exam (12 random sawaal) 70%+ = agla level unlock. XP, daily streak, 15 badges, level medals aur final certificate
 - **Glossary A to Z** (800+ terms, apne aap har chapter se banta hai), **flashcards** (Leitner spaced repetition), **search**
@@ -45,11 +47,14 @@ assets/js/visuals1-8.js    # motion graphics (SVG/canvas), level ke hisaab se
 assets/js/labs.js          # 14 interactive labs
 assets/js/labs8.js         # Level 8 ke 3 labs
 assets/js/resources.js     # resource library aur helplines
+assets/js/libmeta.js       # dono libraries ki categories aur levels
+assets/js/daily/*.js       # Roz ki Psychology ki situations
+assets/js/smart/*.js       # Smart Dimaag ke skill cards
 assets/js/app.js           # router aur saare views (home, path, chapter, quiz, exam, glossary, flashcards, profile, certificate, search)
 tools/check-content.js     # content checker: node tools/check-content.js [--voice]
 ```
 
-Routes plain hash tokens hain: `#home`, `#path`, `#c-<chapter-id>`, `#exam-<n>`, `#labs`, `#lab-<id>`, `#glossary`, `#cards`, `#resources`, `#profile`, `#certificate`.
+Routes plain hash tokens hain: `#home`, `#path`, `#c-<chapter-id>`, `#exam-<n>`, `#labs`, `#lab-<id>`, `#daily`, `#d-<situation-id>`, `#smart`, `#s-<skill-id>`, `#glossary`, `#cards`, `#resources`, `#profile`, `#certificate`.
 
 ## Naya chapter kaise jodein
 
